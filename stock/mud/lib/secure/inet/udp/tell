@@ -1,0 +1,29 @@
+#include <udp.h>
+
+
+void udp_tell(mapping data) {
+    object ob;
+
+    if (data[RECIPIENT] && (ob = find_player(data[RECIPIENT])) &&
+    interactive(ob) && !ob->query_invis()) {
+	tell_object(ob, "\n" + sprintf("%-80=s",
+	capitalize(data[SENDER]) + "@" + data[NAME] + " tells you: " +
+	data[DATA]) + "\n");
+	INETD->send_udp(data[NAME], ([
+	    REQUEST: REPLY,
+	    RECIPIENT: data[SENDER],
+	    ID: data[ID],
+	    DATA: sprintf("%-80=s", "You tell " +
+	    capitalize(data[RECIPIENT]) + "@" + LOCAL_NAME + ": " +
+	    data[DATA]) + "\n"
+	]) );
+    }
+    else
+	INETD->send_udp(data[NAME], ([
+	    REQUEST: REPLY,
+	    RECIPIENT: data[SENDER],
+	    ID: data[ID],
+	    DATA: sprintf("%-80=s", "Root@" + LOCAL_NAME +
+	    ": No such player: " + capitalize(data[RECIPIENT])) + "\n"
+	]) );
+}

@@ -1,0 +1,15 @@
+
+  -Arena deaths don't cost experience, levels, or gear.
+  -Arena battles are started and listed on the [info] channel.
+  -You get full hps when it's started and when it's ended.
+  -You don't lose levels when you die in the arena.
+  -To participate in the next arena battle 'set ARENA 1'. (free)
+  -To view the arena log type 'arena -h'.
+  -To challenge a player in the arena 'challenge <player>' (fee 100 gold)
+  -To accept a challenge from a player type 'set ACCEPT 1'. (free)
+  -To view current arena status type 'arena'.
+
+
+
+
+

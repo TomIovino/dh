@@ -1,0 +1,52 @@
+#include <soul.h>
+#define  COLOR ({ B_BLUE_F "blue", B_GREEN_F "green", YELLOW_F "yellow", BROWN_F "orange",\
+                  MAGENTA_F "purple", B_MAGENTA_F "pink", B_RED_F "red", B_WHITE_F "white",\
+                  B_BLACK_F "black" })
+ 
+string *colors = COLOR;
+int numcolors = sizeof(colors);
+ 
+status emote(string str) {
+   object who;
+   string color;
+ 
+   color = colors[random(numcolors)] + " balloon";
+ 
+   if (!str) {
+      write("You dance about wildly with a " + color + NORM CYAN_F " while shouting 'Bop! Bop! Bop!'.\n");
+      say(TPNAME + " dances about wildly with a " + color + NORM CYAN_F " while shouting 'Bop! Bop! Bop!'.\n");
+      return 1;
+   }
+   who = present(lower_case(str), environment(TP));
+ 
+   if(who == TP) {
+      write("You bop yourself in the nose with a " + color + NORM CYAN_F " and shout 'Bop!'.\n");
+      say(TPNAME + " bops " + OBJSELF + " in the nose with a " + color + NORM CYAN_F " and shouts 'Bop!'.\n");
+      return 1;
+   }
+   str = capitalize(str);
+   tell_object(who, TPNAME + " bops you in the nose with a " + color + B_CYAN_F " and shouts 'Bop!'.\n");
+   write("You bop " + str + " in the nose with a " + color + NORM CYAN_F " and shout 'Bop!'.\n");
+   say(TPNAME + " bops " + str + " in the nose with a " + color + NORM CYAN_F " and shouts 'Bop!'.\n", who);
+   return 1;
+}
+
+string channel_msg(string str) {
+   object who;
+   string color;
+ 
+   color = colors[random(numcolors)] + " balloon";
+ 
+   if (!str) {
+      return (TPNAME + " dances about wildly with a " + color + NORM CYAN_F " while shouting 'Bop! Bop! Bop!'");
+   }
+   who = find_player(lower_case(str));
+ 
+   if(who == TP) {
+      return (TPNAME + " bops " + OBJSELF + " in the nose with a " + color + NORM CYAN_F " and shouts 'Bop!'");
+   }
+   str = capitalize(str);
+   return (TPNAME + " bops " + str + " in the nose with a " + color + NORM CYAN_F " and shouts 'Bop!'");
+}
+
+/* EOF */

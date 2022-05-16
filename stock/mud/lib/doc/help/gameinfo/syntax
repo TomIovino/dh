@@ -1,0 +1,14 @@
+Examples:
+ look at sword                OR   l sword
+ look at corpse 2             OR   look corpse 2
+ get beer from chest          OR   get beer chest
+ get axe from corpse 2        OR   get axe corpse 2
+ get all from corpse          OR   get all corpse
+
+Also try commands like:
+ wear all       (wears and wields all gear in inventory possible)
+ remove all     (removes gear that is worn)
+ drop extra     (drops all items NOT worn)
+ sell extra     (sells all items NOT worn) [when in a shop :p]
+
+

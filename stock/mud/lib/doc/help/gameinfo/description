@@ -1,0 +1,46 @@
+
+Player Description ----- Syntax : describe 
+
+This command allows you to describe yourself to other users
+who look at you in a room. Commands are listed when you
+type describe. If you decide you don't like your description
+you may type 'clear' at the normal prompt.
+
+Some example descriptions:
+
+Bad: You tremble in fear at his mighty stature.
+
+This is bad because you're assuming the person looking at you can't
+kick your... butt. Which may in fact not be true. For example, if an
+immortal was the one looking at you, his/her reaction would most
+likely be "I think not."
+
+Bad: He is much taller than you.
+
+This is bad because you're assuming things once again, I need not
+explain why it should be obvious.
+
+Bad: She is a member of the Clan Kordine and a cunning warrior.
+
+This is bad because unless there is some reason that the looker would
+know your clan affiliation just by looking at you, they wouldn't. Also
+no one can tell how good a warrior you are unless they see you in
+battle (and if the person looking at you is kicking your butt, the
+description will be amusingly untrue).
+
+Good: He is tall with broad shoulders, his dark eyes look warily about,
+      noticing everything. On his cloak he bears the colours and
+      heraldry of House Kordine, and his armour bears the marks of
+      many a hard fought battle.
+
+This is good because it makes no assumptions about how the person
+looking feels looking at him. The words speak for themselves, and
+the person looking decides what it means for him/herself.
+
+In other words, the best description is one that gets across the ideas
+you want to say without making any assumptions about who is looking at
+you. Be it a god or a newbie who is looking at you, your description
+will always ring true.
+
+Using the describe command for anything other than a description of
+your player will cost at least one level if seen by an admin. 

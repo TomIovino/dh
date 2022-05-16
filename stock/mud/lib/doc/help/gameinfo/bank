@@ -1,0 +1,7 @@
+
+The following options are available at the bank:
+
+deposit <coins>
+withdraw <coins>
+balance <coins>
+

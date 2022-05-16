@@ -1,0 +1,7 @@
+Spell     : drain
+Type      : int
+Mana      : 25
+
+Drain will reduce the victims hp and mp and give them to the caster.
+
+

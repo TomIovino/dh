@@ -1,0 +1,11 @@
+
+
+     patch me::query_alt_id::dragon   patch me::query_alt_id::warrior
+     patch me::query_alt_id::aihar    path  me::query_alt_id::male
+     patch me::query_alt_id::wizard   patch me::query_alt_id::player
+
+
+// code example in npc
+
+set_hatred("male","human","wizard");
+

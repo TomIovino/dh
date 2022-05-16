@@ -1,0 +1,11 @@
+Skill: Dual Wield
+Type : Combat Skill
+
+Dual wield skill allows you to hit with a weapon with your offhand.
+The higher your dual wield the more often you hit with your offhand.
+The actual ability to wield two weapons is based on your dexterity
+as compared to the length of the two weapons combined. 
+
+Syntax: wield <weapon 1> - automatically wields weapon in right hand
+        wield <weapon 2> - automatically wields weapon in left hand
+

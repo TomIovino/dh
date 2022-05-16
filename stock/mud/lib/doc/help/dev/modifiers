@@ -1,0 +1,15 @@
+Balance Modifiers for Equipment Npcs.
+
+First step is to figure out the wc and weight and length of an item,
+then modify them accordingly according to the following standards.
+
+Every 2 units of weight below average -1 (maximum -3)
+Every 5" below average (35") length -1 (maximum -3)
+Every 2 units above normal weight +1 (maximum +3)
+Every 5" above average (35") length +1 (maximum +3)
+Items with ego get a bonus:  * ego 100 = +1, 125 = +2, 150 = +3.
+Npcs over level 100 recieve a +1/20 levels.
+
+see also 'balance','guidelines'
+
+

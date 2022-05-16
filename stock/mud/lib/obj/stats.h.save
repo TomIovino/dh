@@ -1,0 +1,406 @@
+//:::::::::::::::::::::::::::::::::::::::::::::::::::::
+//:: stats.h    ::  DRAGONHEART ::     ASH.11.15.96  ::
+//:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+#include <ansi.h>
+ 
+#define wizardp(WHO)                ( ( (WHO) -> query_security() ) >= 10 )
+
+string  last = "none"; 
+        mapping stats = ([ ]);
+static  mapping bonus_stats = ([ ]);      
+        mapping extra_stats = ([ ]);     
+        mapping maxstats = ([ ]);
+ 
+        status  set_bonus_stat(string var, mixed setting);
+        status  unset_bonus_stat(string var);
+        status  set_stat(string var, mixed setting);
+        status  set_max_stat(string var, mixed setting);
+        status  unset_stat(string var);
+        status  unset_extra_stat(string var);
+varargs mixed   query_stat(string var);
+varargs mixed   query_max_stat(string var);
+varargs mixed   query_bonus_stat(string var);
+varargs mixed   query_extra_stat(string var);
+varargs mixed   query_true_stat(string var);
+
+int shouldpray(){
+       int should,current,bonus;
+       current = this_object()->query_stats_total();
+       should  = 200 + ((this_object()->query_level()) *4);
+       if(this_object()->query_security_level()) should = 600;
+       if( (should - current) < 0){
+       this_object()->reduce_stats_by_one();
+       last = "reset";
+       return 0;
+       }
+       return should - current; /** +# == should pray **/
+}
+
+status set_bonus_stat(string var, mixed setting){
+   bonus_stats[var] = setting;
+   return 1;
+}
+
+status unset_all_extrastats(){ extra_stats = ([]); }
+status unset_all_stats(){ stats = ([]); }
+
+status unset_bonus_stat(string var) { 
+       bonus_stats = m_delete(bonus_stats,var);
+       return 1; }
+status unset_extra_stat(string var){
+       extra_stats = m_delete(extra_stats,var);
+       return 1; }
+status adj_stat(string var, mixed setting){
+       stats[var] += setting;       last = var;
+       if(stats[var] > maxstats[var]) stats[var] = maxstats[var];
+       return 1; }
+status adj_extra_stat(string var, mixed setting){
+       extra_stats[var] += setting;
+       return 1; }
+status adj_bonus_stat(string var, mixed setting){
+       bonus_stats[var] += setting;
+       return 1; }
+
+
+void check_extra_stats(){
+      write("\n");
+      write("Dexterity       "+query_extra_stat("dexterity")+"\t\t");
+      write("Wisdom          "+query_extra_stat("wisdom")+"\n");
+      write("Intellect       "+query_extra_stat("intellect")+"\t\t");
+      write("Focus           "+query_extra_stat("focus")+"\n");
+      write("Primal          "+query_extra_stat("primal")+"\t\t");
+      write("Agility         "+query_extra_stat("agility")+"\n");
+      write("Strength        "+query_extra_stat("strength")+"\t\t");
+      write("Stamina         "+query_extra_stat("stamina")+"\n");
+}
+
+
+
+
+status adj_max_stat(string var, mixed setting){
+       maxstats[var] += setting;
+       return 1;
+}
+int  set_stat(string var, mixed setting) {
+     stats[var] = setting;
+     if(this_object()->is_npc()) return setting;
+     if(stats[var] > maxstats[var]) stats[var] = maxstats[var];
+     return setting;
+}
+int  set_max_stat(string var, mixed setting) {
+     maxstats[var] = setting;
+     return setting;
+}
+
+
+int  set_all_stats(int setting){
+       set_stat("strength",setting);     
+       set_stat("dexterity",setting);     
+       set_stat("stamina",setting);     
+       set_stat("wisdom",setting);     
+       set_stat("intellect",setting);     
+       set_stat("agility",setting);     
+       set_stat("dexterity",setting);
+       set_stat("focus",setting);
+       set_stat("primal",setting);
+}
+int  set_all_minstats(int set){
+     if(query_stat("strength") < set) set_stat("strength",set);     
+     if(query_stat("dexterity") < set) set_stat("dexterity",set);     
+     if(query_stat("agility") < set) set_stat("agility",set);     
+     if(query_stat("stamina") < set) set_stat("stamina",set);     
+     if(query_stat("intellect") < set) set_stat("intellect",set);     
+     if(query_stat("wisdom") < set) set_stat("wisdom",set);     
+     if(query_stat("primal") < set) set_stat("primal",set);     
+     if(query_stat("focus") < set) set_stat("focus",set);     
+      
+}
+int  set_all_maxstats(int setting){
+       set_max_stat("strength",setting);     
+       set_max_stat("dexterity",setting);     
+       set_max_stat("stamina",setting);     
+       set_max_stat("wisdom",setting);     
+       set_max_stat("intellect",setting);     
+       set_max_stat("agility",setting);     
+       set_max_stat("dexterity",setting);
+       set_max_stat("focus",setting);
+       set_max_stat("primal",setting);
+}
+
+string query_last(){ 
+  return "";
+} 
+
+status unset_stat(string var) {
+    stats = m_delete(stats,var);
+    return 1;
+}
+ 
+status clear_stat(string var){
+    if(!member(bonus_stats,var))
+        unset_stat(var);
+    else
+        unset_bonus_stat(var);
+    return 1;
+}
+ 
+int query_maxstats_total(){
+  int total;
+    total =  query_max_stat("strength");
+    total += query_max_stat("stamina");
+    total += query_max_stat("focus");
+    total += query_max_stat("primal");
+    total += query_max_stat("dexterity");
+    total += query_max_stat("agility");
+    total += query_max_stat("intellect");
+    total += query_max_stat("wisdom");
+  return total;
+}
+
+int query_stats_total(){
+  int total;
+    total  =  stats["strength"];
+    total +=  stats["dexterity"];
+    total +=  stats["stamina"];
+    total +=  stats["agility"];
+    total +=  stats["wisdom"];
+    total +=  stats["intellect"];
+    total +=  stats["focus"];
+    total +=  stats["primal"];
+  return total;
+}
+
+int query_extrastats_total(){
+  int total;
+    total =  query_extra_stat("strength");
+    total += query_extra_stat("stamina");
+    total += query_extra_stat("focus");
+    total += query_extra_stat("dexterity");
+    total += query_extra_stat("agility");
+    total += query_extra_stat("primal");
+    total += query_extra_stat("intellect");
+    total += query_extra_stat("wisdom");
+  return total;
+}
+int query_bonusstats_total(){
+  int total;
+    total =  query_bonus_stat("strength");
+    total += query_bonus_stat("stamina");
+    total += query_bonus_stat("focus");
+    total += query_bonus_stat("dexterity");
+    total += query_bonus_stat("agility");
+    total += query_bonus_stat("primal");
+    total += query_bonus_stat("intellect");
+    total += query_bonus_stat("wisdom");
+  return total;
+}
+
+varargs mixed query_stat(string var) {
+    mixed ret;
+    ret = stats[var];                               
+    ret += this_object()->query_magic_stat(var); // items, spells, wishes
+    if(this_object()->is_npc()) return ret; 
+    if(stats[var] > maxstats[var]) stats[var] = maxstats[var];
+    if(stats[var] < 25) stats[var] = 25;
+    if(ret > 100) ret = 100;
+    return ret;
+}
+varargs mixed query_magic_stat(string var){ // "TEMP" +ITEMS +SPELLS +WISHES
+    mixed ret;
+    ret = 0;
+    ret += this_object()->query_temp_stat(var);
+    ret += this_object()->query_bonus_stat(var);
+    ret += this_object()->query_extra_stat(var);
+    if(ret > 30) ret = 30;
+    return ret;
+}
+
+varargs mixed query_temp_stat(string var){ // FOR SPELLS/POTION AFFECTS
+    mixed ret;
+    ret = this_object()->query_var(var);
+    if(ret > 10) ret = 10;
+    return ret;
+}
+varargs mixed query_bonus_stat(string var){ // FOR ITEM AFFECTS
+    mixed ret;
+    if(!var) return copy_mapping(bonus_stats);
+    ret = bonus_stats[var];
+    if(ret > 10) ret = 10;
+    return ret;
+}
+varargs mixed query_extra_stat(string var){ // FOR WISHES
+    mixed ret;
+    if(!var) return copy_mapping(extra_stats);
+    ret = extra_stats[var];
+    if(ret > 10) ret = 10; 
+    return ret;
+}
+varargs mixed query_true_stat(string var){ // ACTUAL STAT
+    mixed ret;
+    ret = stats[var];
+    return ret;
+}
+
+varargs mixed query_max_stat(string var){ // MAX STAT
+    mixed ret;
+    ret = maxstats[var];
+    ret += this_object()->query_magic_stat(var); // items, spells, wishes
+    if(this_object()->is_npc()) return 255;
+    if( ret > 100) return 100;
+    return ret;
+}
+
+private protected static
+void reduce_a_stat(string stat, int value) {
+    if(value > 30)
+	value--;
+}
+
+void reduce_stats_by_one() {
+    walk_mapping(stats, #'reduce_a_stat);
+}
+
+void init_stat(string stat, int min, int max){
+       set_max_stat(stat, max);
+       if(query_stat(stat) < min) set_stat(stat,min);
+       if(query_stat(stat) > max) set_stat(stat,max);
+     }
+
+
+int init_stats(string rstr,string pstr){
+
+   set_all_minstats(25);
+   set_all_maxstats(75);
+
+   if(rstr == "dragonkin"){
+   set_alignment("cosmos");
+   set_magic("elemental");
+   set_faith("divinity");
+   set_all_maxstats(80);
+   }
+   if(rstr == "gremlin"){
+   set_alignment("gehen");
+   set_magic("air");
+   set_faith("chaos");
+   adj_max_stat("intellect",5); 
+   adj_max_stat("strength",5); 
+   }
+   if(rstr == "greyelf"){
+   set_alignment("jahh");
+   set_magic("earth");
+   set_faith("life");
+   adj_max_stat("intellect",5); 
+   adj_max_stat("dexterity",5); 
+   }
+   if(rstr == "drake"){
+   set_alignment("aihar");
+   set_magic("order");
+   set_faith("air");
+   adj_max_stat("intellect",5); 
+   adj_max_stat("agility",5); 
+   }
+   if(rstr == "lich"){
+   set_alignment("misten");
+   set_magic("air");
+   set_faith("death");
+   adj_max_stat("intellect",5); 
+   adj_max_stat("stamina",5); 
+   }
+   if(rstr == "angel"){
+   set_alignment("iaelen");
+   set_magic("water");
+   set_faith("life");
+   adj_max_stat("wisdom",5); 
+   adj_max_stat("dexterity",5); 
+   }
+   if(rstr == "dwarf"){
+   set_alignment("oren");
+   set_magic("earth");
+   set_faith("order");
+   adj_max_stat("wisdom",5); 
+   adj_max_stat("stamina",5); 
+   }
+   if(rstr == "titan"){
+   set_alignment("dihgar");
+   set_magic("life");
+   set_faith("fire");
+   adj_max_stat("wisdom",5); 
+   adj_max_stat("strength",5); 
+   }
+   if(rstr == "icewolf"){
+   set_alignment("prosti");
+   set_magic("water");
+   set_faith("chaos");
+   adj_max_stat("wisdom",5); 
+   adj_max_stat("agility",5); 
+   }
+   if(rstr == "ogre"){
+   set_alignment("nomen");
+   set_magic("earth");
+   set_faith("chaos");
+   adj_max_stat("focus",5); 
+   adj_max_stat("stamina",5); 
+   }
+   if(rstr == "minotaur"){
+   set_alignment("kagen");
+   set_magic("fire");
+   set_faith("chaos");
+   adj_max_stat("focus",5); 
+   adj_max_stat("dexterity",5); 
+   }
+   if(rstr == "giant"){
+   set_alignment("fthen");
+   set_magic("water");
+   set_faith("order");
+   adj_max_stat("focus",5); 
+   adj_max_stat("agility",5); 
+   }
+   if(rstr == "suntiger"){
+   set_alignment("beila");
+   set_magic("fire");
+   set_faith("order");
+   adj_max_stat("focus",5); 
+   adj_max_stat("strength",5); 
+   }
+   if(rstr == "troll"){
+   set_alignment("lather");
+   set_magic("water");
+   set_faith("death");
+   adj_max_stat("primal",5); 
+   adj_max_stat("strength",5); 
+   }
+   if(rstr == "hawkling"){
+   set_alignment("ceyera");
+   set_magic("air");
+   set_faith("life");
+   adj_max_stat("primal",5); 
+   adj_max_stat("agility",5); 
+   }
+   if(rstr == "vampire"){
+   set_alignment("earia");
+   set_magic("earth");
+   set_faith("death");
+   adj_max_stat("primal",5); 
+   adj_max_stat("stamina",5); 
+   }
+   if(rstr == "darkelf"){
+   set_alignment("hiera");
+   set_magic("fire");
+   set_faith("death");
+   adj_max_stat("primal",5);
+   adj_max_stat("dexterity",5); 
+   }
+   if(pstr == "warrior") { adj_max_stat("strength",10); }
+   if(pstr == "warrior") { adj_max_stat("stamina",5); }
+   if(pstr == "rogue")   { adj_max_stat("agility",5); }
+   if(pstr == "rogue")   { adj_max_stat("dexterity",10); }
+   if(pstr == "cleric")  { adj_max_stat("wisdom",10); }
+   if(pstr == "rogue")   { adj_max_stat("agility",5); }
+   if(pstr == "f"){ adj_max_stat("focus",10);  }
+   if(pstr == "rogue")   { adj_max_stat("focus",5); }
+
+   return 0;
+}
+
+

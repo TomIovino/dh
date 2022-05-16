@@ -1,0 +1,11 @@
+
+Spell    : enchant <weapon>
+Type     : int
+Mana     : 50
+
+Enchant focuses the power of magic directly into a weapon
+causing it to hit harder and more often. Enchant has the
+affect of making items glow enough to see in a room, and
+also makes weapons lighter. 
+
+

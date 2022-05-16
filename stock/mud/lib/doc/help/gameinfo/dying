@@ -1,0 +1,11 @@
+
+  Death happens when you reach 0 hit points, at which time you are
+  sent to your church. When you die you have 1% lost in all skills 
+  and spells and 1 level is lost. All items that you had on you 
+  when you died will remain with your corpse, and will probably be
+  looted if you were killed by another player.
+
+  It is IMPOSSIBLE to have less total stats then anyone with the same
+  number of levels and wishes at your level, because of the way the
+  mud has been coded to reconfigure total stats every log in.
+

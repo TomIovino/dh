@@ -1,0 +1,52 @@
+
+#include <mudlib.h>
+#include <ansi.h>
+#include <bar.h>
+#include <house.h>
+
+
+status main(string str) {
+    object who;
+    string house, name;
+
+    house = (string) this_player()->query_kingdom();
+    fix_house(&house,this_player());
+
+    if(!house || !stringp(house)) {
+        this_player()->set_kingdom(0);
+        notify_fail("You do not belong to a kingdom.\n");
+        return 0;
+    }
+
+    name = (string) this_player()->query_real_name();
+    if(!name || !stringp(name)) {
+        notify_fail("You have no name.  *boggle*\n");
+        return 0;
+    }
+    
+
+    if(!str || !stringp(str)) {
+        command("*"+house,this_player());
+        return 1;
+    }
+
+    if(str == "-h") {
+        command("*"+house+" -h",this_player());
+        return 1;
+    }
+    command(sprintf("*%s %s",house,str),this_player());
+    return 1;
+}
+
+status help() {
+    printf("Command:  hchat [ -h | <chat> | :<emotechat> | ;<feeling ]         Party\n"
+           "\n"
+           "The Party chat line is heard by all active members of your kingdom.\n"
+           "   kchat -h   will show the kchat history\n"
+           "   The other ones are just like the regular channels\n"
+           "       kchat blah   ->  [kingdom] Name : blah\n"
+           "       kchat :blah  ->  [kingdom] Name blah\n"
+           "       kchat ;smile ->  [kingdom] Name smiles happily.\n");
+    return 1;
+}
+

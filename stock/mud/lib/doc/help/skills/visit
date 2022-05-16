@@ -1,0 +1,10 @@
+
+Spell    : visit
+Type     : int
+Mana     : 75
+
+Visit allows you to move to another being in the world. 
+In order for this spell to work the person you would visit 
+must have configured "visit on".
+
+

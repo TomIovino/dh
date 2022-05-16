@@ -1,0 +1,7 @@
+
+Spell    : jolt
+Type     : int
+Mana     : 30
+
+Jolt is a single attack combat spell.
+

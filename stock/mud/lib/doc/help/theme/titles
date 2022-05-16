@@ -1,0 +1,14 @@
+
+
+     Lad / Lass              All players under level 20.
+     Serf / Maiden           All players under level 40.
+     Barbarian / Amazon      All players 40+ not in a house.
+     Nobleman / Noblewoman   All players in a house that dont a wp.
+     Lord / Lady             All players in a house that have a wp. 
+     - Baron / Baroness        +Players with 2 or more wps.
+     - Duke / Duchess          +Players with 4 or more wps.
+     - Count / Countess        +Players with 6 or more wps.
+     - Prince / Princess       +Players with 8 or more wps..
+
+     See "help pk", "help warpoints"
+

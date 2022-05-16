@@ -1,0 +1,56 @@
+#include <ansi.h>
+
+string who, msg;
+
+status main(string targ) {
+    int i;
+    string file;
+    object ob;
+    who = targ;
+
+    if(!this_player()->query_skill("visible")){
+       write("You don't know this incantation.\n");
+       return 1;
+    }
+    if(!targ) {
+	notify_fail("make who visible??\n");
+	return 0;
+    }
+    if(this_player()->query_sp() < 50){
+           write("You can't seem to gather the energy.\n");
+         return 1;
+     }
+    this_player()->adj_sp(-50);
+    this_player()->checkskill("visible","intellect",1);
+    if(this_player()->query_skill("visible")+10 > random(30)){
+        write("Your incantation fails!\n");
+        return 1;
+    }
+    ob=find_player(who);
+    
+    if(!ob) {
+	write("You cannot locate that.\n");
+	return 1;
+    }
+    if(ob->query_security_level() > 0) {
+	write("You cannot locate that.\n");  
+	return 1;
+    }
+    if(this_player()->query_current_room() != 
+        ob->query_current_room()){
+	write("You cannot locate that.\n");  
+	return 1;
+    }
+
+    if(ob->query_invis()){
+        write("You make "+ob->query_name()+" visible!.\n");
+         ob->set_hiding(0);
+         ob->toggle_invis(1);
+         return 1;
+    }    
+   return 1;
+}
+
+status id(string str) { return str == "spell"; }
+query_no_save(){ return 1; }
+

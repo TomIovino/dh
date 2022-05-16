@@ -1,0 +1,14 @@
+This is how you calculate the MINIMUM weight for objects.
+
+WC + AC * 0.5 = MINIMUM
+WC + AC * 1.0 = AVERAGE 
+WC + AC * 1.5 = MAXIMUM
+
+Realize that with a 100 strength you can carry 500 units of weight.
+
+See help file on encumberance.
+
+You must have a strength > weight * 3 to wear/wield.
+
+Round up on all items.
+

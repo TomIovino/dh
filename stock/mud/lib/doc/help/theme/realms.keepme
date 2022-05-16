@@ -1,0 +1,15 @@
+life      |death   |order     |chaos    |air      |earth    |fire    |water
+----------|--------|----------|---------|---------|---------|--------|---------
+death     |life    |chaos     |order    |earth    |air      |water   |fire
+----------|--------|----------|---------|---------|---------|--------|---------
+angel     |undead  |giant     |sprite   |hawkling |greyelf  |suntiger|icewolf
+----------|--------|----------|---------|---------|---------|--------|---------
+acolyte   |zombie  |apprentice|trickster|scout    |warden   |ronin   |nomad
+paladin   |vampire |enforcer  |berserker|sentry   |ranger   |samuari |hunter
+highpriest|lich    |arcane    |seeker   |sorcerer |druid    |monk    |mystic
+----------|--------|----------|---------|---------|---------|--------|---------
+spectral  |doom    |aura      |phase    |wind     |stone    |flame   |ice
+silver    |onyx    |platinum  |alloy    |meteoric |admantite|gold    |mythril
+diamond   |pearls  |amethyst  |amber    |topaz    |emerald  |ruby    |sapphire
+----------|--------|----------|---------|---------|---------|--------|---------
+

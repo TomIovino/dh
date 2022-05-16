@@ -1,0 +1,20 @@
+ category____ _accessible topics_________________________________
+ basics      | newbie, mud, rules, credits, syntax, theme, who, 
+             | colors, commands, helpers, races, introduction,
+             | config, set, setable
+ communicate | boards, say, tell, tell block, chat, channels, news, 
+             | information, playerinfo, BTI reports, feelings, 
+             | emote, pmote, session, mail
+ fighting    | pk, dying, party, encumbrance, equipment, warpoints
+             | armour types, weapon types, tactics
+ playing     | newbie, score, skills, spells, status, lore, arena, 
+             | experience, affects, levels, eq, classes, rankings,
+             | scan, description, prompt, church, wish, position,  
+             | spell list, skill list, rating, houses, house list,  
+             | consider, weddings, lastname, advancement, stats,
+             | magic types, casting, usage, invasion, titles  
+ other       | holidays, innrooms, sacrifice, junk, reimbursement,
+             | spam, namechange, twilite, time, pub, shop, bank, 
+             | loss, whiner, cheating, harassment, changeme, suicide
+ ____________|___________________________________________________ 
+ for each topic listed you can type 'help <topic>' for a helpfile

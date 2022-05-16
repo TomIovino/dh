@@ -1,0 +1,9 @@
+
+Spell    : magic seal
+Type     : int
+Mana     : 75
+
+Magic Seal protects the area where it is cast from magical
+influences. No other spells can be cast in a room protected
+by this seal.
+

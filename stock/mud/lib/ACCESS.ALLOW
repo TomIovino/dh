@@ -1,0 +1,3 @@
+# ACCESS.ALLOW
+# This file is maintained by the 'siteban' command.  DO NOT MODIFY BY HAND.
+*.*.*.*:0:-1:0:0:No message should ever be printed here.

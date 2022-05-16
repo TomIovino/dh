@@ -1,0 +1,10 @@
+
+   house list                 (A listing of all active houses in the realm)
+   house <house>              (A listing of all members in the house)
+   house <house> add <who>
+   house <house> remove <who>
+   house <house> quit <yourname>
+   house <house> promote <who> <1-3>
+   house <house> demote <who> <1-3>
+   house <house> ally <yourname>  (Activate another houses channel/keep)
+   house <house> ally <name>  (Allow acccess to your channel/keep)

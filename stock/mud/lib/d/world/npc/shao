@@ -1,0 +1,34 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    set_name("shao");
+    set_alt_name("male");
+    set_short(BROWN_F+"red robed suntiger"+NORM);
+    set_long(
+     "Shao is the foremost teacher of the divine fire magics.\n"+
+     "He wears a dark brown robe around his youthful figure.\n"+
+     NORM);
+    set_race("suntiger");
+    set_gender(1);
+    load_chat(2,({
+	"Shao chants in an unknown tongue.\n",
+      }));
+    load_spells(10,({
+     "heal","blast",
+      }));
+    set_train_level(9); 
+    set_stat_int(35); 
+    set_stat_str("wisdom"); 
+    set_class_list(({
+	"skills", ({ }),
+	"spells", ({
+    "blind","sight",
+	}),
+      }));
+    set_level(100);
+    set_magic_resist(50);
+}

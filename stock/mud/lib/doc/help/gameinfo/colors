@@ -1,0 +1,9 @@
+
+To turn colors on simply type 'set ANSI 1'. OR 'config ansi'
+
+Set your telnet program to BLACK BACKGROUND!
+
+If you have trouble seeing grey (black) type: set NO_BLACK 1
+
+'help colorme' for setting your personal colors.
+

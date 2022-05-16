@@ -1,0 +1,7 @@
+
+Spell    : lance
+Type     : int
+Mana     : 55
+
+Lance is a single attack combat spell.
+

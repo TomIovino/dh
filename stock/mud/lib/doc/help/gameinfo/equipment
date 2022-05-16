@@ -1,0 +1,16 @@
+'Equipment' in this world is a reference that describes 'armour' and
+'weapons' that players use to adventure. Armour is 'worn' and weapons
+are 'wielded' in hands. Players may see all items they are using with
+the 'equipment' command. All gear not worn or wielded that you are
+carrying can be seen with the 'inventory' command.
+
+Players may use the 'lore' command to get a general idea of how good
+an item rates. Eventually you may use the 'identify' spell to get exact
+specifications on gear.
+
+Because adventuring is dangerous work not only for the adventurer but
+for the equipment being used, items have a chance of being damaged. 
+Normally this type of damage consists of 'scratches' and 'nicks' and
+requires no repair. It is however quite possible for items to take 
+damage and break making the item useless forever.
+

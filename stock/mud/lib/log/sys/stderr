@@ -1,0 +1,543 @@
+Starting select...
+ compiling secure/sim_ef_1.c ... done
+ compiling secure/bin_d.c ... done
+ compiling cmds/admin/wa.c ... done
+ compiling cmds/admin/uu.c ... done
+ compiling cmds/admin/tr.c ... done
+ compiling cmds/admin/telnet.c ... done
+ compiling cmds/admin/snoopers.c ... done
+ compiling cmds/admin/slay.c ... done
+ compiling inherit/tell_all.c ... done
+ compiling cmds/admin/slay.c ... done
+ compiling cmds/admin/siteban.c ... done
+ compiling cmds/admin/saveall.c ... done
+ compiling cmds/admin/reward.c ... done
+ compiling cmds/admin/reginfo.c ... done
+ compiling cmds/admin/purge.c ... done
+ compiling cmds/admin/pp.c ... done
+ compiling cmds/admin/oldname.c ... done
+ compiling cmds/admin/nameban.c ... done
+ compiling cmds/admin/freeze.c ... done
+ compiling cmds/admin/favour.c ... done
+ compiling cmds/admin/execute.c ... done
+ compiling cmds/admin/endow.c ... done
+ compiling cmds/admin/die.c ... done
+ compiling cmds/admin/cmds.c ... done
+ compiling cmds/wiz/wizworld.c ... done
+ compiling cmds/wiz/whocoded.c ... done
+Could not load descr for cmds/wiz/where.c.save.c
+ compiling cmds/wiz/where.c ...cmds/wiz/where.c: syntax error line 32 before 
+ done
+ compiling cmds/wiz/userexp.c ... done
+ compiling cmds/wiz/ud.c ... done
+ compiling cmds/wiz/trans.c ... done
+ compiling cmds/wiz/trace.c ... done
+ compiling cmds/wiz/tlook.c ... done
+ compiling cmds/wiz/template.c ... done
+ compiling cmds/wiz/startarena.c ... done
+ compiling cmds/wiz/slam.c ... done
+ compiling cmds/wiz/setstats.c ... done
+ compiling cmds/wiz/setlevel.c ... done
+ compiling cmds/wiz/send.c ... done
+ compiling cmds/wiz/sdt.c ... done
+ compiling cmds/wiz/sd.c ... done
+ compiling secure/channeld/channeld.c ... done
+ compiling cmds/wiz/schat.c ... done
+ compiling cmds/wiz/rusage.c ... done
+ compiling cmds/wiz/rmdir.c ... done
+ compiling cmds/wiz/rmain.c ... done
+ compiling cmds/wiz/rm.c ... done
+ compiling cmds/wiz/rlog.c ... done
+ compiling cmds/wiz/rep.c ... done
+ compiling cmds/wiz/recompile.c ... done
+ compiling cmds/wiz/rankings.c ... done
+ compiling cmds/wiz/pstats.c ... done
+ compiling cmds/wiz/ppl.c ... done
+ compiling cmds/wiz/players.c ... done
+ compiling cmds/wiz/plan.c ... done
+ compiling cmds/wiz/people.c ... done
+ compiling cmds/wiz/pechoall.c ... done
+ compiling cmds/wiz/peace.c ... done
+ compiling cmds/wiz/pdest.c ... done
+ compiling cmds/wiz/newhouse.c ... done
+ compiling cmds/wiz/mudstat.c ... done
+ compiling cmds/wiz/muds.c ... done
+ compiling cmds/wiz/more.c ... done
+ compiling cmds/wiz/mf.c ... done
+ compiling cmds/wiz/man.c ... done
+ compiling cmds/wiz/main.c ... done
+ compiling cmds/wiz/ls.c ... done
+ compiling cmds/wiz/lpc.c ... done
+ compiling secure/bim/simuls.c ... done
+ compiling cmds/wiz/lpc.c ... done
+ compiling cmds/wiz/log.c ... done
+ compiling cmds/wiz/levexp.c ... done
+ compiling cmds/wiz/lc.c ... done
+ compiling cmds/wiz/kin.c ... done
+ compiling cmds/wiz/kills.c ... done
+ compiling cmds/wiz/invis.c ... done
+ compiling cmds/wiz/inhs.c ... done
+ compiling cmds/wiz/idle.c ... done
+ compiling cmds/wiz/healall.c ... done
+ compiling cmds/wiz/hb.c ... done
+ compiling cmds/wiz/grep.c ... done
+ compiling cmds/wiz/goto.c ... done
+ compiling cmds/wiz/godsmack.c ... done
+ compiling cmds/wiz/fullheal.c ... done
+ compiling cmds/wiz/frm.c ... done
+ compiling cmds/wiz/fixmem.c ... done
+ compiling cmds/wiz/farget.c ... done
+ compiling cmds/wiz/exex.c ... done
+ compiling cmds/wiz/emailinfo.c ... done
+ compiling cmds/wiz/edusers.c ... done
+ compiling cmds/wiz/echo.c ... done
+ compiling cmds/wiz/dos2unix.c ... done
+ compiling cmds/wiz/dir.c ... done
+ compiling cmds/wiz/destruct.c ... done
+ compiling cmds/wiz/debug.c ... done
+ compiling cmds/wiz/curseall.c ... done
+ compiling cmds/wiz/colors.c ... done
+ compiling cmds/wiz/color.c ... done
+ compiling cmds/wiz/cmdtime.c ... done
+ compiling cmds/wiz/clone.c ... done
+ compiling cmds/wiz/cat.c ... done
+ compiling cmds/wiz/calls.c ... done
+ compiling cmds/wiz/call.c ... done
+ compiling cmds/wiz/buffall.c ... done
+ compiling cmds/wiz/blessall.c ... done
+ compiling cmds/wiz/bit.c ... done
+ compiling cmds/wiz/at.c ... done
+ compiling cmds/wiz/ansi.c ... done
+ compiling cmds/wiz/addresses.c ... done
+ compiling cmds/party/_recruit.c ... done
+ compiling cmds/party/_pwho.c ... done
+ compiling cmds/party/_pchat.c ... done
+ compiling cmds/party/_leave.c ... done
+ compiling cmds/party/_join.c ... done
+ compiling cmds/party/_form.c ... done
+ compiling cmds/party/_follow.c ... done
+ compiling cmds/party/_dismiss.c ... done
+ compiling cmds/party/_disband.c ... done
+ compiling cmds/party/_delegate.c ... done
+ compiling cmds/party/_assist.c ... done
+ compiling cmds/skills/wisdom.c ... done
+ compiling cmds/skills/wings.c ... done
+ compiling cmds/skills/weaken.c ... done
+ compiling cmds/skills/visit.c ... done
+ compiling cmds/skills/turn.c ... done
+ compiling cmds/skills/track.c ... done
+ compiling cmds/skills/tq.c ... done
+ compiling cmds/skills/teleport.c ... done
+ compiling cmds/skills/taunt.c ... done
+ compiling cmds/skills/tame.c ... done
+ compiling cmds/skills/tactics.c ... done
+ compiling cmds/skills/summon.c ... done
+ compiling cmds/skills/stun.c ... done
+ compiling cmds/skills/strike.c ... done
+ compiling cmds/skills/strength.c ... done
+ compiling cmds/skills/storm.c ... done
+ compiling cmds/skills/steal.c ... done
+ compiling cmds/skills/stamina.c ... done
+ compiling cmds/skills/spike.c ... done
+ compiling cmds/skills/sneak.c ... done
+ compiling cmds/skills/slow.c ... done
+ compiling cmds/skills/sight.c ... done
+ compiling cmds/skills/scry.c ... done
+ compiling cmds/skills/scales.c ... done
+ compiling cmds/skills/return.c ... done
+ compiling cmds/skills/regenerate.c ... done
+ compiling cmds/skills/refresh.c ... done
+ compiling cmds/skills/reflect.c ... done
+ compiling cmds/skills/purify.c ... done
+ compiling cmds/skills/psychic.c ... done
+ compiling inherit/timer.c ... done
+ compiling cmds/skills/psychic.c ... done
+ compiling cmds/skills/privacy.c ... done
+ compiling cmds/skills/primal.c ... done
+ compiling cmds/skills/prayer.c ... done
+ compiling cmds/skills/poison.c ... done
+ compiling cmds/skills/peek.c ... done
+ compiling cmds/skills/movement.c ... done
+ compiling cmds/skills/mend.c ... done
+ compiling cmds/skills/manafuse.c ... done
+ compiling cmds/skills/mana.c ... done
+ compiling cmds/skills/magic.c ... done
+ compiling cmds/skills/lance.c ... done
+ compiling cmds/skills/jolt.c ... done
+ compiling cmds/skills/invisibility.c ... done
+ compiling cmds/skills/invigor.c ... done
+ compiling cmds/skills/intellect.c ... done
+ compiling cmds/skills/identify.c ... done
+ compiling cmds/skills/hide.c ... done
+ compiling cmds/skills/heroism.c ... done
+ compiling cmds/skills/health.c ... done
+ compiling cmds/skills/heal.c ... done
+ compiling cmds/skills/grasp.c ... done
+ compiling cmds/skills/frenzy.c ... done
+ compiling cmds/skills/fortitude.c ... done
+ compiling cmds/skills/focus.c ... done
+ compiling cmds/skills/flurry.c ... done
+ compiling cmds/skills/flash.c ... done
+ compiling cmds/skills/feedback.c ... done
+ compiling cmds/skills/feeble.c ... done
+ compiling cmds/skills/fear.c ... done
+ compiling cmds/skills/fangs.c ... done
+ compiling cmds/skills/expose.c ... done
+ compiling cmds/skills/explorer.c ... done
+ compiling cmds/skills/enchant.c ... done
+ compiling cmds/skills/drain.c ... done
+ compiling cmds/skills/dispel.c ... done
+ compiling cmds/skills/disease.c ... done
+ compiling cmds/skills/diminish.c ... done
+ compiling cmds/skills/dexterity.c ... done
+ compiling cmds/skills/deflect.c ... done
+ compiling cmds/skills/defender.c ... done
+ compiling cmds/skills/curse.c ... done
+ compiling cmds/skills/cure.c ... done
+ compiling cmds/skills/cripple.c ... done
+ compiling cmds/skills/claws.c ... done
+ compiling cmds/skills/circle.c ... done
+ compiling cmds/skills/castle.c ... done
+ compiling cmds/skills/cast.c ... done
+ compiling cmds/skills/cancel.c ... done
+ compiling cmds/skills/calm.c ... done
+ compiling cmds/skills/burst.c ... done
+ compiling cmds/skills/bolt.c ... done
+ compiling cmds/skills/blind.c ... done
+ compiling cmds/skills/bless.c ... done
+ compiling cmds/skills/blast.c ... done
+ compiling cmds/skills/barrier.c ... done
+ compiling cmds/skills/bane.c ... done
+ compiling cmds/skills/awareness.c ... done
+ compiling cmds/skills/avenger.c ... done
+ compiling cmds/skills/agility.c ... done
+ compiling cmds/skills/absorb.c ... done
+ compiling cmds/std/wizards.c ... done
+ compiling cmds/std/wish.c ... done
+ compiling cmds/std/wield.c ... done
+ compiling cmds/std/who.c ... done
+ compiling cmds/std/welcome.c ... done
+ compiling cmds/std/wear.c ... done
+ compiling cmds/std/vote.c ... done
+ compiling cmds/std/vis.c ... done
+ compiling cmds/std/version.c ... done
+ compiling cmds/std/usage.c ... done
+ compiling cmds/std/uptime.c ... done
+ compiling cmds/std/unset.c ... done
+ compiling cmds/std/unalias.c ... done
+ compiling cmds/std/typo.c ... done
+ compiling cmds/std/train.c ... done
+ compiling cmds/std/total.c ... done
+ compiling cmds/std/top.c ...cmds/std/top.c: syntax error line 7 before ));
+cmds/std/top.c: Illegal LHS line 9 before  i < sizeof(
+ done
+ compiling cmds/std/timeleft.c ... done
+ compiling cmds/std/time.c ... done
+ compiling cmds/std/tell.c ... done
+ compiling cmds/std/suicide.c ... done
+ compiling cmds/std/stats.c ... done
+ compiling cmds/std/spells.c ... done
+ compiling cmds/std/skills.c ... done
+ compiling cmds/std/silence.c ... done
+ compiling cmds/std/set.c ... done
+ compiling cmds/std/score.c ... done
+ compiling cmds/std/say.c ... done
+ compiling cmds/std/sac.c ... done
+ compiling cmds/std/report.c ... done
+ compiling cmds/std/reply.c ... done
+ compiling cmds/std/remove.c ... done
+ compiling cmds/std/quest.c ... done
+ compiling cmds/std/prompt.c ... done
+ compiling cmds/std/profession.c ... done
+ compiling cmds/std/prac.c ... done
+ compiling cmds/std/position.c ... done
+ compiling cmds/std/pmote.c ... done
+ compiling cmds/std/norm.c ... done
+ compiling cmds/std/news.c ... done
+ compiling cmds/std/mknames.c ... done
+ compiling cmds/std/marry.c ... done
+ compiling cmds/std/mail.c ... done
+ compiling cmds/std/lore.c ... done
+ compiling cmds/std/link.c ... done
+ compiling cmds/std/lastname.c ... done
+ compiling cmds/std/junk.c ... done
+ compiling cmds/std/inv.c ... done
+ compiling cmds/std/ignore.c ... done
+ compiling cmds/std/idea.c ... done
+ compiling cmds/std/hp.c ... done
+ compiling cmds/std/house.c ... done
+ compiling secure/house_d.c ... done
+ compiling cmds/std/house.c ... done
+ compiling cmds/std/history.c ... done
+ compiling cmds/std/helper.c ... done
+ compiling cmds/std/help.c ... done
+ compiling cmds/std/founder.c ... done
+ compiling cmds/std/flee.c ... done
+ compiling cmds/std/fix.c ... done
+ compiling cmds/std/finger.c ... done
+ compiling cmds/std/ff.c ...obj/stats.h: Redeclaration of function query_stat. line 22 near ;
+obj/stats.h: Redeclaration of function query_max_stat. line 23 near ;
+obj/stats.h: Redeclaration of function query_bonus_stat. line 24 near ;
+obj/stats.h: Redeclaration of function query_extra_stat. line 25 near ;
+obj/stats.h: Redeclaration of function query_true_stat. line 26 near ;
+obj/stats.h: Redeclaration of function check_extra_stats. line 75 near {
+ done
+ compiling cmds/std/experience.c ... done
+ compiling cmds/std/exits.c ... done
+ compiling cmds/std/eq.c ... done
+ compiling cmds/std/emote.c ... done
+ compiling cmds/std/divorce.c ... done
+ compiling cmds/std/disable.c ... done
+ compiling cmds/std/dice.c ... done
+ compiling cmds/std/describe.c ... done
+ compiling cmds/std/deaths.c ... done
+ compiling cmds/std/consider.c ... done
+ compiling cmds/std/config.c ... done
+ compiling cmds/std/colorme.c ... done
+ compiling cmds/std/cls.c ... done
+ compiling cmds/std/clear.c ... done
+ compiling cmds/std/chat.c ... done
+ compiling cmds/std/channels.c ... done
+ compiling secure/channeld/misc_simul.c ... done
+ compiling cmds/std/channels.c ... done
+ compiling cmds/std/changeme.c ... done
+ compiling cmds/std/challenge.c ... done
+ compiling cmds/std/bug.c ... done
+ compiling cmds/std/arena.c ... done
+ compiling cmds/std/alias.c ... done
+ compiling cmds/std/affects.c ... done
+ compiling cmds/std/address.c ... done
+ compiling obj/wizard.c ... done
+ compiling obj/player.c ... done
+ compiling obj/living.c ... done
+ compiling obj/base_obj.c ... done
+ compiling obj/living.c ... done
+ compiling obj/env_vars.c ... done
+ compiling obj/living.c ... done
+ compiling obj/player.c ... done
+ compiling obj/actions.c ... done
+ compiling obj/player.c ... done
+ compiling obj/typer.c ... done
+ compiling obj/player.c ... done
+ compiling obj/banish.c ... done
+ compiling obj/player.c ... done
+ compiling obj/rankings.c ... done
+ compiling obj/player.c ... done
+ compiling obj/eqstate.c ... done
+ compiling obj/player.c ... done
+ compiling obj/channel.c ... done
+ compiling obj/player.c ... done
+ compiling obj/wizard.c ... done
+ compiling inherit/room.c ... done
+ compiling inherit/monster.c ... done
+ compiling inherit/npcsoul.c ... done
+ compiling inherit/monster.c ... done
+ compiling inherit/weapon.c ... done
+ compiling inherit/magicstuff.c ... done
+ compiling inherit/weapon.c ... done
+ compiling inherit/armour.c ... done
+ compiling secure/inet/inetd.c ... done
+ compiling secure/loadlogger.c ... done
+ compiling secure/usage_d.c ... done
+ compiling obj/mudtime.c ... done
+Could not load descr for cmds/wiz/_sd.c
+Could not load descr for cmds/wiz/where.c.save.c
+ compiling cmds/wiz/where.c ...cmds/wiz/where.c: syntax error line 32 before 
+ done
+ compiling cmds/std/top.c ...cmds/std/top.c: syntax error line 7 before ));
+cmds/std/top.c: Illegal LHS line 9 before  i < sizeof(
+ done
+ compiling cmds/std/ff.c ...obj/stats.h: Redeclaration of function query_stat. line 22 near ;
+obj/stats.h: Redeclaration of function query_max_stat. line 23 near ;
+obj/stats.h: Redeclaration of function query_bonus_stat. line 24 near ;
+obj/stats.h: Redeclaration of function query_extra_stat. line 25 near ;
+obj/stats.h: Redeclaration of function query_true_stat. line 26 near ;
+obj/stats.h: Redeclaration of function check_extra_stats. line 75 near {
+ done
+Select returns 1
+command: rlookup
+Starting select...
+ compiling secure/valid_d.c ... done
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Could not load descr for cmds/wiz/where.c.save.c
+ compiling cmds/wiz/where.c ...cmds/wiz/where.c: syntax error line 32 before 
+ done
+ compiling cmds/std/top.c ...cmds/std/top.c: syntax error line 7 before ));
+cmds/std/top.c: Illegal LHS line 9 before  i < sizeof(
+ done
+ compiling cmds/std/ff.c ...obj/stats.h: Redeclaration of function query_stat. line 22 near ;
+obj/stats.h: Redeclaration of function query_max_stat. line 23 near ;
+obj/stats.h: Redeclaration of function query_bonus_stat. line 24 near ;
+obj/stats.h: Redeclaration of function query_extra_stat. line 25 near ;
+obj/stats.h: Redeclaration of function query_true_stat. line 26 near ;
+obj/stats.h: Redeclaration of function check_extra_stats. line 75 near {
+ done
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+ compiling secure/banish_d.c ... done
+ compiling secure/rank_d.c ... done
+ compiling w/ash/workroom.c ... done
+ compiling inherit/room.c ... done
+ compiling w/ash/workroom.c ... done
+ compiling w/ash/private/ying.c ... done
+ compiling w/ash/private/yang.c ... done
+ compiling w/ash/private/myring.c ... done
+ compiling w/ash/private/myboots.c ... done
+ compiling w/ash/private/mycloak.c ... done
+ compiling inherit/contain.c ... done
+ compiling w/ash/private/mycloak.c ... done
+ compiling w/ash/private/mysleeves.c ... done
+ compiling w/ash/private/mycirclet.c ... done
+ compiling w/ash/private/mypants.c ... done
+ compiling w/ash/private/mymask.c ... done
+ compiling w/ash/private/myankles.c ... done
+ compiling w/ash/private/mypendant.c ... done
+ compiling w/ash/private/mybelt.c ... done
+ compiling w/ash/private/mydragon.c ... done
+ compiling w/ash/private/mygloves.c ... done
+ compiling w/ash/private/myrobe.c ... done
+ compiling w/ash/private/mywrists.c ... done
+ compiling objs/potions/grey.c ... done
+ compiling secure/bim/bimd.c ... done
+ compiling secure/bim/user_exists.c ... done
+ compiling secure/soul/emote_d.c ... done
+ compiling cmds/std/mail.c ... done
+ compiling secure/bim/bimr.c ... done
+Select returns 1
+command: rlookup
+Starting select...
+Could not load descr for cmds/wiz/where.c.save.c
+ compiling cmds/wiz/where.c ...cmds/wiz/where.c: syntax error line 32 before 
+ done
+ compiling cmds/wiz/ud.c ... done
+ compiling cmds/wiz/ls.c ... done
+ compiling cmds/wiz/frm.c ... done
+ compiling cmds/wiz/dir.c ... done
+ compiling cmds/std/unalias.c ... done
+ compiling cmds/std/top.c ...cmds/std/top.c: syntax error line 7 before ));
+cmds/std/top.c: Illegal LHS line 9 before  i < sizeof(
+ done
+ compiling cmds/std/history.c ... done
+ compiling cmds/std/ff.c ...obj/stats.h: Redeclaration of function query_stat. line 22 near ;
+obj/stats.h: Redeclaration of function query_max_stat. line 23 near ;
+obj/stats.h: Redeclaration of function query_bonus_stat. line 24 near ;
+obj/stats.h: Redeclaration of function query_extra_stat. line 25 near ;
+obj/stats.h: Redeclaration of function query_true_stat. line 26 near ;
+obj/stats.h: Redeclaration of function check_extra_stats. line 75 near {
+ done
+ compiling cmds/std/alias.c ... done
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+comm1: write EPIPE detected
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...
+Select returns 1
+command: rlookup
+Starting select...

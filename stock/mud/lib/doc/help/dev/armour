@@ -1,0 +1,27 @@
+ARMOUR.ASH.1.12.98
+
+This file has two parts:
+  1: QC
+  2: functions
+
+PART 1: QC
+
+Armours must meet all qc comments listed in 'help items'.
+
+PART 2: functions
+
+Armours  have all functions listed in 'help base' /doc/mudlib/base
+Armours have all functions listed in 'help bonus' /doc/mudlib/bonus
+
+* set_type(x); 
+  see 'help types' for a list of possible settings.
+* set_ac(x);
+  this defines the strength of an armour it can be from 1-25 be 
+  sure to read /doc/help/balance for correct ac.
+ 
+d. set_wear_string(string);
+   This will replace the normal "You wear item about your body" message.
+d. set_room_wear_string(string);
+   This will replace the normal "wears item about body" message.
+
+more functions listed in "/doc/mudlib/bonus"

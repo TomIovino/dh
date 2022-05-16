@@ -1,0 +1,9 @@
+
+Spell    : defender
+Type     : int
+Mana     : 50
+
+The Defender spell summons a magical shield that aids in
+blocking your opponent's attacks.
+
+

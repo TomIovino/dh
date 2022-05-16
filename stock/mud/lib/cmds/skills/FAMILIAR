@@ -1,0 +1,25 @@
+
+
+status main(string targ, mixed alt_type) {
+   int level, spell_level,i;
+   string type;
+   string check;
+   object summoned,caster;
+   type = this_player()->query_alignment();
+  this_player()->load_spell(({
+   "target",            environment(this_player()),
+   "name",              "defender",
+   "type",              "intelligence",
+   "cost",              50,
+   "damage",            level,
+   "level",             25,
+   "cast time",         2,
+   "casting msg",       "You call forth the powers of "+type+".\n",
+   "spell object",      "inherit/objs/defender",
+   "passive",
+  }));
+  return 1;
+}
+
+
+

@@ -1,0 +1,1 @@
+void set_tp(object o) { set_this_player(o); }

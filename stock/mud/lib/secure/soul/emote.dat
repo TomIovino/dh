@@ -1,0 +1,3726 @@
+##############################################################################
+## I M P O R T A N T    N O T I C E  ! ! !  I M P O R T A N T   N O T I C E ##
+##############################################################################
+## ACCEPTANCE ################################################################
+##############################################################################
+## Installation and use of this file indicates your acceptance of the
+## following terms.  The emotes ("Emotes") covered by this agreement are those
+## that lie between this notice and the line 'END OF EMOTES COVERED BY LEGAL
+## NOTICE AT TOP OF FILE' which is currently line 2564.  If you do not agree
+## with the following terms and conditions you MUST delete all Emotes covered
+## by this agreement.
+##
+##############################################################################
+## INTELECTUAL PROPERTY ######################################################
+##############################################################################
+## These emotes remain at all times the Intelectual property of Stephen J.
+## Gadsby ("Sparrowhawk") and are protected under Copyright laws.  Title of
+## these Emotes, or any copy, modification, or merged portion shall at all
+## times remain with Sparrowhawk.
+##
+##############################################################################
+## PERMITTED USES ############################################################
+##############################################################################
+## You may install and use the Emotes ONLY on muds which have been granted
+## licenses to install and use the Emote_D written by Andrew T. Graham or
+## on any mud with express consent and 
+## the period in which this agreement remains in force (see TERMS below)
+## You may make a copy for backup puposes, provided you reproduce and place
+## this entire notice on the backup copy.
+## You may modify the Emotes in order to add features, or correct grammar &
+## spelling ONLY if such changes are sent to Sparrowhawk for possible
+## inclusion in future versions of the Emotes.
+## 
+##
+##############################################################################
+## NONPERMITTED USES #########################################################
+##############################################################################
+## Without the express permission of Sparrowhawk, you MAY NOT:
+##     1.  Sublicense, or lease the Emotes to a third party.
+##     2.  Copy, modify, alter or tranfer the Emotes (or any portion thereof)
+##         except as expressly allowed by this agreement.
+##
+##############################################################################
+## TERMS #####################################################################
+##############################################################################
+## This license is effective from the date of installation and shall remain
+## in force until terminated.  This license and agreement can be be terminated
+## by you at any time by destroying the Emotes together with all copies.
+## Additionally, if use of the Emote Daemon by Andrew T. Graham is contengent
+## upon this license then the license for the Emote Daemon is also terminated
+## pursuant to the Terms contained therein.  This license will terminate
+## automatically upon failure to comply with any part of this agreement.
+##
+##############################################################################
+## COPYRIGHT #################################################################
+##############################################################################
+## Emotes Copyright (c) 1995,1996 Stephen J. Gadsby -- All Rights Reserved ###
+##############################################################################
+## $Id: emote.dat,v 1.2 1998/05/28 08:08:41 atgraham Exp atgraham $
+########
+## $Log: emote.dat,v $
+## Revision 1.2  1998/05/28 08:08:41  atgraham
+## o Fixed typo in 'tap'
+## o Added 'emoteid'
+##
+## Revision 1.1  1998/03/03 19:49:35  atgraham
+## Initial revision
+##
+##############################################################################
+## START OF EMOTES COVERED BY LEGAL NOTICE ABOVE #############################
+##############################################################################
+ack
+You go 'ack phhfffttttt!'
+@@name@@ goes 'ack phhfffttttt!'
+You go 'ack phhfffttttt!' at @@other@@.
+@@name@@ goes 'ack phhfffttttt!' at @@other@@.
+@@name@@ goes 'act phhfffttttt!' at you.
+You ack @@extra@@
+@@name@@ acks @@extra@@
+You go 'ack phhfffttttt!' at yourself.
+@@name@@ goes 'ack phhfffttttt!' at @@tpobjself@@.
+#
+admire
+You are filled with admiration.
+@@name@@ is filled with admiration.
+You greatly admire @@other@@.
+@@name@@ greatly admires @@other@@.
+@@name@@ greatly admires you.
+You admire @@extra@@
+@@name@@ admires @@extra@@
+You greatly admire yourself.
+@@name@@ greatly admires @@tpobjself@@.
+#
+afk
+You say that you will be away from your keyboard for a moment.
+@@name@@ says that @@tppro@@ will be away from @@tpposs@@ keyboard.
+You say that @@other@@ is away from @@otposs@@ keyboard at the moment.
+@@name@@ says that @@other@@ is away from @@otposs@@ keyboard.
+@@name@@ says that you are away from your keyboard.
+You say that you will be away from your keyboard for @@extra@@.
+@@name@@ says that @@tppro@@ will be away from @@tpposs@@ keyboard for @@extra@@.
+*This emote does not support self-direction.
+*
+#
+afr
+You say that you will be away from reality for a moment.
+@@name@@ says that @@tppro@@ will be away from reality for a moment.
+You say that @@other@@ is away from reality at the moment.
+@@name@@ says that @@other@@ is away from reality at the moment.
+@@name@@ says that you are away from reality at the moment.
+You say that you will be away from reality for @@extra|a_moment@@
+@@name@@ says that @@tppro@@ will be away from reality for @@extra|a_moment@@
+*This emote does not support self-direction.
+*
+#
+agree
+You agree.
+@@name@@ agrees.
+You agree with @@other@@ @@dem|completely@@
+@@name@@ agrees with @@other@@ @@dem|completely@@
+@@name@@ agrees with you @@dem|completely@@
+You agree @@extra@@
+@@name@@ agrees @@extra@@
+You agree with yourself @@dem|completely@@
+@@name@@ agrees with @@tpobjself@@ @@dem|completely@@
+#
+apologize
+You apologize profusely.
+@@name@@ apologizes profusely.
+You apologize to @@other@@.
+@@name@@ apologizes to @@other@@.
+@@name@@ apologizes to you.
+You apologize @@extra@@
+@@name@@ apologizes @@extra@@
+You apologize to yourself.
+@@name@@ apologizes to @@tpobjself@@.
+#
+applaud
+You applaud wholeheartedly.
+@@name@@ applauds wholeheartedly.
+You applaud @@other@@.
+@@name@@ applauds @@other@@.
+@@name@@ applauds you.
+You applaud @@extra@@
+@@name@@ applauds @@extra@@
+You immodestly applaud yourself.
+@@name@@ immodestly applauds @@tpobjself@@.
+#
+arg
+You shout, "ARG!"
+@@name@@ shouts, "ARG!"
+You shout "ARG!" at @@other@@.
+@@name@@ shouts "ARG!" at @@other@@.
+@@name@@ shouts "ARG!" at you.
+*This emote does not support customization.
+*
+You shout "ARG!" at yourself.
+@@name@@ shouts "ARG!" at @@tpobjself@@.
+#
+ascared
+You say, "I'm ascared!"
+@@name@@ says, "I'm ascared!"
+You tell @@other@@ that you're ascared.
+@@name@@ tells @@other@@ that @@tppro@@'s ascared.
+@@name@@ tells you that @@tppro@@ ascared.
+*This emote does not support customization.
+*
+You tell yourself that you're ascared.
+@@name@@ tells @@tpobjself@@ that @@tppro@@'s ascared.
+#
+backpat
+*This emote requires direction.
+*
+You give @@other@@ a big pat on the back.
+@@name@@ gives @@other@@ a big pat on the back.
+@@name@@ gives you a big pat on the back.
+*This emote does not support customization.
+*
+You give yourself a big pat on the back.
+@@name@@ gives @@tpobjself@@ a big pat on the back.
+#
+backrub
+You need a backrub.
+@@name@@ needs a backrub.
+You give @@other@@ a backrub.
+@@name@@ gives @@other@@ a backrub.
+@@name@@ gives you a backrub.
+*This emote does not support customization.
+*
+You contort your body in an attempt to give yourself a backrub.
+@@name@@ contorts @@tpposs@@ body in an attempt to give @@tpobjself@@ a backrub.
+#
+baffle
+You appear to be utterly baffled.
+@@name@@ appears to be utterly baffled.
+You appear to be utterly baffled by @@other@@.
+@@name@@ appears to be utterly baffled by @@other@@.
+@@name@@ appears to be utterly baffled by you.
+You baffle @@extra@@
+@@name@@ baffles @@extra@@
+You appear to be utterly baffled by yourself.
+As so often is the case, @@name@@ is baffled by @@tpobjself@@.
+#
+bah
+You say, "Bah!"
+@@name@@ says, "Bah!"
+You look at @@other@@ sourly and say, "Bah!"
+@@name@@ looks at @@other@@ sourly and says, "Bah!"
+@@name@@ looks at you sourly and says, "Bah!"
+*This emote does not support customization.
+*
+You look at yourself and say, "Bah!"
+@@name@@ looks at @@tpobjself@@ and says, "Bah!"
+#
+bat%ash (requested by kaija)
+You bat your eyelashes seductively.
+@@name@@ bats @@tpposs@@ eyelashes seductively.
+You bats your eyelashes at @@other@@ seductively.
+@@name@@ bats @@tpposs@@ eyelashes at @@other@@ seductively.
+@@name@@ bats @@tpposs@@ eyelashes at you seductively.
+You bat your eyelashes at @@extra@@ seductively.
+@@name@@ bats @@tpposs@@ eyelashes @@extra@@
+You bat your eyelashes at yourself seductively.
+@@name@@ bats @@tpposs@@  eyelashes at @@tpobjself@@ seductively.
+#
+be
+You are.
+@@name@@ is.
+You are @@other@@.
+@@name@@ is @@other@@.
+@@name@@ is you.
+You are @@extra@@
+@@name@@ is @@extra@@
+You claim to be yourself.
+@@name@@ claims to be @@tpobjself@@.
+#
+beg
+You beg.
+@@name@@ begs.
+You beg @@other@@.
+@@name@@ begs @@other@@.
+@@name@@ begs you.
+You beg @@extra@@
+@@name@@ begs @@extra@@
+You beg yourself.
+@@name@@ begs @@tpobjself@@.
+#
+belong
+You feel you belong here.
+@@name@@ feels @@tppro@@ belongs here.
+You belong to @@other@@.
+@@name@@ belongs to @@other@@.
+@@name@@ belongs to you.
+You belong @@extra@@
+@@name@@ belongs @@extra@@
+You belong to to yourself.
+@@name@@ belongs to @@tpobjself@@.
+#
+big
+You say, "Better make myself look big!"
+@@name@@ says, "Better make myself look big!"
+You stand on tiptoes and wave your arms wildly in an attempt to intimidate @@other@@.
+@@name@@ stands on tiptoes and waves @@tpposs@@ arms wildly in an attempt to intimidate @@other@@.
+@@name@@ stands on tiptoes and waves @@tpposs@@ arms wildly in an attempt to intimidate you.
+*This emote does not support customization.
+*
+You try to look big in pathetic attempt to intimidate yourself.
+@@name@@ tries to look big in a pathetic attempt to intimidate @@tpobjself@@.
+#
+bite
+You gnash your teeth.
+@@name@@ gnashes @@tpposs@@ teeth.
+You bite @@other@@'s @@extra|leg@@.
+@@name@@ bites @@other@@'s @@extra|leg@@.
+@@name@@ bites your @@extra|leg@@.
+You bite @@extra@@
+@@name@@ bites @@extra@@
+You bite your own @@extra|leg@@.
+@@name@@ bites @@tpposs@@ own @@extra|leg@@.
+#
+blame
+You look for someone to blame.
+@@name@@ looks for someone to blame.
+You blame @@other@@.
+@@name@@ blames @@other@@.
+@@name@@ blames you.
+You blame @@extra@@
+@@name@@ blames @@extra@@
+You blame only yourself.
+@@name@@ blames only @@tpobjself@@.
+#
+blaugh%sparrowhawk (tweaked by Geewhiz at the suggestion of Myria)
+You boldly laugh in the face of petty danger.
+@@name@@ boldly laughs in the face of petty danger.
+You boldly laugh at such a poor weakling as @@other@@
+@@name@@ boldly laughs at such a poor weakling as @@other@@
+@@name@@ boldly laughs at such a poor weakling as you
+You boldly laugh @@extra@@
+@@name@@ boldly laughs @@extra@@
+*This emote does not support self-direction.
+*
+#
+nlaugh%geewhiz (suggested by Myria)
+You laugh nervously
+@@name@@ laughs nervously
+You laugh nervously at @@other@@.
+@@name@@ laughs at @@other@@ nervously.
+@@name@@ laughs at you nervously.
+*This emote does not support customization.
+*
+*This emote does not support self-direction.
+*
+#
+bleed
+You bleed profusely.
+@@name@@ bleeds profusely.
+You bleed on @@other@@.
+@@name@@ bleeds on @@other@@.
+@@name@@ bleeds on you.
+You bleed @@extra@@
+@@name@@ bleeds @@extra@@
+You bleed on yourself.
+@@name@@ bleeds on @@tpobjself@@.
+#
+blink
+You blink.
+@@name@@ blinks.
+You blink at @@other@@.
+@@name@@ blinks at @@other@@.
+@@name@@ blinks at you.
+You blink @@extra@@
+@@name@@ blinks @@extra@@
+You blink at yourself.
+@@name@@ blinks at @@tpobjself@@.
+#
+blither
+You blither on pointlessly.
+@@name@@ blithers on pointlessly.
+You blither on pointlessly to @@other@@.
+@@name@@ blithers on pointlessly to @@other@@.
+@@name@@ blithers on pointlessly to you.
+You blither @@extra@@
+@@name@@ blithers @@extra@@
+You on pointlessly to yourself.
+@@name@@ blithers on pointlessly to @@tpobjself@@.
+#
+blush
+Your cheeks are burning.
+@@name@@ blushes.
+You shyly look at @@other@@ and blush.
+@@name@@ shyly looks at @@other@@ and blushes.
+@@name@@ shyly looks at you and blushes.
+You blush @@extra@@
+@@name@@ blushes @@extra@@
+You blush at yourself.
+@@name@@ blushes at @@tpobjself@@.
+#
+boggle
+You boggle at the concept.
+@@name@@ boggles at the concept.
+You boggle at the very concept of @@other@@.
+@@name@@ boggles at the very concept of @@other@@.
+@@name@@ boggles at the very concept of you.
+You boggle @@extra@@
+@@name@@ boggles @@extra@@
+You boggle at the very concept of your own being.
+@@name@@ boggles at the very concept of @@tpposs@@ own being.
+#
+bop
++bop
++
++bop
++
++
+You bop @@extra@@
+@@name@@ bops @@extra@@
++bop
++
+#
+bored
+You whine, "I'm bored."
+@@name@@ whines, "I'm bored."
+You poke @@other@@ in the side and whine, "I'm bored."
+@@name@@ pokes @@other@@ in the side and whines, I'm bored."
+@@name@@ pokes you in the side and whines, "I'm bored."
+*This emote does not support customization.
+*
+You complain to yourself in a pitiful whine, "I'm bored."
+@@name@@ complains to @@tpobjself@@ in a pitiful whine, "I'm bored."
+#
+bounce
+You bounce around uncontrollably.
+@@name@@ bounces around uncontrollably.
+You bounce up and down on @@other@@.
+@@name@@ bounces up and down on @@other@@.
+@@name@@ bounces up and down on you.
+You bounce @@extra@@
+@@name@@ bounces @@extra@@
+You bounce up and down on yourself.
+@@name@@ bounces up and down on @@other@@.
+#
+bow
+You bow to your audience.
+@@name@@ bows gracefully.
+You bow to @@other@@.
+@@name@@ bows to @@other@@.
+@@name@@ bows to you.
+You bow @@extra@@.
+@@name@@ bows @@extra@@.
+You begin to bow to yourself but quickly realize the foolishness of it.
+@@name@@ foolishly tries to bow to @@tpobjself@@.
+#
+brave
+You claim to be very brave.
+@@name@@ claims to be very brave.
+You declair that @@other@@ is very brave.
+@@name@@ declairs @@other@@ is very brave.
+@@name@@ declairs that you are very brave.
+You brave @@extra@@
+@@name@@ braves @@extra@@
+You declair that you are very brave.
+@@name@@ declairs that @@tppro@@ is very brave.
+#
+brb
+You will be right back.
+@@name@@ will be right back.
+You tell @@other@@ that you will be right back.
+@@name@@ tells @@other@@ that @@tppro@@ will be right back.
+@@name@@ tells you that @@tppro@@ will be right back.
+*This emote does not support customization.
+*
+You tell your other personality that you will be right back.
+@@name@@ tells @@tpposs@@ other personality that @@tppro@@ will be right back.
+#
+buff
+You do your best to look very buff.
+@@name@@ does @@tpposs@@ best to look very buff.
+You claim to be more buff than @@other@@.
+@@name@@ claims to be more buff than @@other@@.
+@@name@@ claims to be more buff than you.
+You buff @@extra@@
+@@name@@ buffs @@extra@@
+You claim to be more buff than anyone, even yourself.
+@@name@@ claims to be more buff than anyone, even @@tpobjself@@.
+#
+burp
+You burp rudely.
+@@name@@ burps rudely.
+You rudely burp at @@other@@.
+@@name@@ rudely burps at @@other@@.
+@@name@@ rudely burps at you.
+You burp @@extra@@
+@@name@@ burps @@extra@@
+You rudely burp at yourself.
+@@name@@ rudely burps at @@tpobjself@@.
+#
+buzz
+You buzz loudly.
+@@name@@ buzzes loudly.
+You buzz loudly at @@other@@.
+@@name@@ buzzes loudly at @@other@@.
+@@name@@ buzzes loudly at you.
+You buzz @@extra@@
+@@name@@ buzzes @@extra@@
+You buzz loudly at yourself.
+@@name@@ buzzes loudly at @@tpobjself@@.
+#
+cackle
+You throw your head back and cackle with glee.
+@@name@@ throws @@tpposs@@ head back and cackles with glee.
+You cackle at @@other@@ gleefully.
+@@name@@ cackles at @@other@@ gleefully.
+@@name@@ cackles at you gleefully.
+You cackle @@extra@@
+@@name@@ cackles @@extra@@
+You cackle gleefully at yourself.
+@@name@@ cackles gleefully at @@tpobjself@@.
+#
+cadet
+You salute and say, "Cadet First Class reporting for duty, SIR!"
+@@name@@ salutes and says, "Cadet First Class reporting for duty, SIR!"
+You salute @@other@@ and says, "Cadet First Class reporting for duty, SIR!"
+@@name@@ salutes @@other@@ and says, "Cadet First Class reporting for duty, SIR!"
+@@name@@ salutes you and says, "Cadet First Class reporting for duty, SIR!"
+*This emote does not support customization.
+*
+*This emote does not support self-direction.
+*
+# 'charm' renamed to 'charms' to avoid spell / emote conflict.
+charms
+You turn on your charm.
+@@name@@ turns on @@tpposs@@ charm.
+You attempt win @@other@@ over with your charm.
+@@name@@ attempts to win @@other@@ over with @@tpposs@@ charm.
+@@name@@ attempts to win you over with @@tpposs@@ charm.
+You charm @@extra@@
+@@name@@ charms @@extra@@
+You attempt to use your charm on yourself.
+Oddly, @@name@@ attempts to use @@tpposs@@ charm on @@tpobjself@@.
+#
+cheekkiss
+*This emote requires a receiver.
+*
+You kiss @@other@@ gently on @@otposs@@ cheek.
+@@name@@ kisses @@other@@ gently on @@otposs@@ cheek.
+@@name@@ kisses you gently on your cheek.
+*This emote does not support customization.
+*
+*This emote does not support self-direction.
+*
+#
+chicken
+You flap your arms and go 'BWAWK! Bwawk, bwawk, BWAWK!'
+@@name@@ flaps @@tpposs@@ arms and goes 'BWAWK! Bwawk, bwawk, BWAWK!'
+You say that @@other@@ is nothing but a big chicken.
+@@name@@ says that @@other@@ is nothing but a big chicken.
+@@name@@ says that you're nothing but a big chicken.
+*It makes no sense to chicken @@extra@@
+*
+You call yourself a chicken.
+@@name@@ calls @@tpobjself@@ a chicken.
+#
+chuckle
+You chuckle politely.
+@@name@@ chuckles politely.
+You chuckle at @@other@@.
+@@name@@ chuckles at @@other@@.
+@@name@@ chuckles at you.
+You chuckle @@extra@@
+@@name@@ chuckles @@extra@@
+You chuckle at yourself.
+@@name@@ chuckles at @@tpobjself@@.
+#
+caress
+You caress yourself.
+@@name@@ caresses @@tpobjself@@.
+You caress @@other@@ tenderly.
+@@name@@ caresses @@other@@'s tenderly.
+@@name@@ caresses you tenderly.
+You caress @@extra@@
+@@name@@ caressess @@extra@@
+You caress yourself tenderly.
+@@name@@ caress @@tpobjself@@.
+#
+clap
+You clap briefly.
+@@name@@ claps briefly.
+You clap for @@other@@ briefly.
+@@name@@ claps for @@other@@ briefly.
+@@name@@ claps for you briefly.
+You clap @@extra@@
+@@name@@ claps @@extra@@
+You shamelessly clap for yourself.
+@@name@@ shamelessly claps for @@tpobjself@@.
+#
+collapse
+You collapse.
+@@name@@ collapses.
+You collapse into @@other@@'s waiting arms.
+@@name@@ collapses into @@other@@'s waiting arms.
+@@name@@ collapses into your waiting arms.
+You collapse @@extra@@
+@@name@@ collapses @@extra@@
+You attempt to collapse into your own arms, miss, and tumble to the ground.
+@@name@@ attempts to collapse into @@tpposs@@ own arms, misses, and tumbles to the ground.
+#
+comfort
+You are a comfort in times of need.
+@@name@@ is a comfort in times of need.
+You comfort @@other@@.
+@@name@@ comforts @@other@@.
+@@name@@ comforts you.
+You comfort @@extra@@
+@@name@@ comforts @@extra@@
+You comfort yourself.
+@@name@@ comforts @@tpobjself@@.
+#
+cough
+You cough noisily.
+@@name@@ coughs noisily.
+You cough at @@other@@.
+@@name@@ coughs at @@other@@.
+@@name@@ coughs at you.
+You cough @@extra@@
+@@name@@ cough @@extra@@
+You cough at yourself.
+@@name@@ coughs at @@tpobjself@@.
+#
+cower
+You cower in fear.
+@@name@@ cowers in fear.
+You cower in fear from @@other@@.
+@@name@@ cowers in fear from @@other@@.
+@@name@@ cowers in fear from you.
+You cower @@extra@@
+@@name@@ cowers @@extra@@
+You cower in fear from yourself.
+@@name@@ cowers in fear from @@tpobjself@@.
+#
+crazy
+You say, "That's crazy!"
+@@name@@ says, "That's crazy!"
+You think that @@other@@ is crazy.
+@@name@@ thinks that @@other@@ is crazy.
+@@name@@ thinks that you are crazy.
+*This emote does not support customization.
+*
+You think that you are crazy.
+@@name@@ thinks that @@tppro@@ is crazy.
+#
+cringe
+You cringe.
+@@name@@ cringes.
+You cringe away from @@other@@.
+@@name@@ cringes away from @@other@@.
+@@name@@ cringes away from you.
+You cringe @@extra@@
+@@name@@ cringes @@extra@@
+You cause yourself to cringe.
+@@name@@ causes @@tpobjself@@ to cringe.
+#
+cry
+You burst into tears.
+@@name@@ bursts into tears.
+You cry on @@other@@'s shoulder.
+@@name@@ cries on @@other@@'s shoulder.
+@@name@@ cries on your shoulder.
+You cry @@extra@@
+@@name@@ cries @@extra@@
+You cry quietly to yourself.
+@@name@@ cries quietly to @@tpobjself@@.
+#
+cuddle
+You do your best to appear very cuddly.
+@@name@@ does @@tpposs@@ best to appear very cuddly.
+You cuddle @@other@@ in your arms.
+@@name@@ cuddles @@other@@ in @@tpposs@@ arms.
+@@name@@ cuddles you in @@tpposs@@ arms.
+You cuddle @@extra@@
+@@name@@ cuddles @@extra@@
+You cuddle yourself in your arms.
+@@name@@ cuddles @@tpobjself@@ in @@tpposs@@ arms.
+#
+# 'curse' renamed to 'curses' to avoid spell / emote conflict
+curses
+You curse.
+@@name@@ curses.
+You curse @@other@@.
+@@name@@ curses @@other@@.
+@@name@@ curses you.
+You curse @@extra@@
+@@name@@ curses @@extra@@
+You curse yourself.
+@@name@@ curses @@tpobjself@@.
+#
+curtsey
+You curtsey gracefully.
+@@name@@ curtseys gracefully.
+You curtsey to @@other@@.
+@@name@@ curtseys to @@other@@.
+@@name@@ curtseys to you.
+You curtsey @@extra@@
+@@name@@ curtseys @@extra@@
+You begin to curtsey to yourself, but realize the foolishness of it.
+@@name@@ begins to curtsey to @@tpobjself@@, but realizes the foolishness of it.
+#
+dance
+You dance about the room.
+@@name@@ dances about the room.
+You sweep @@other@@ across the dance floor.
+@@name@@ sweeps @@other@@ across the dance floor.
+@@name@@ sweeps you across the dance floor.
+You dance @@extra@@
+@@name@@ dances @@extra@@
+You attempt to dance with yourself, but wind up stepping on your own feet.
+@@name@@ attempts to dance with @@tpobjself@@, but winds up stepping on @@tpposs@@ own feet.
+dc%Ash
+You tell everyone you were disconnected.
+@@name@@ was disconnected.
+You tell everyone @@other@@ was disconnected.
+@@name@@ thinks @@other@@ was disconnected.
+@@name@@ says you were disconnected.
+You tell everyone @@extra@@ was disconnected.
+@@name@@ tells everyone @@extra@@ was disconnected.
+You tell everyone you were disconnected.
+@@name@@ was disconnected.
+#
+die
+You died.
+@@name@@ died.
+You inform @@other@@ that you died.
+@@name@@ informs @@other@@ that @@tppro@@ died.
+@@name@@ informs you that @@tppro@@ died.
+You died @@extra@@
+@@name@@ died @@extra@@
+You remind yourself that you have died already.
+@@name@@ reminds @@tpobjself@@ that @@tppro@@ has died already.
+#
+dknow
+You deny knowing anything.
+@@name@@ denies knowing anything.
+You deny knowing @@other@@.
+@@name@@ denies knowing @@other@@.
+@@name@@ denies knowing you.
+You deny know @@extra@@
+@@name@@ denies knowing @@extra@@
+You adamantly deny knowing yourself.
+@@name@@ adamantly denies knowing @@tpobjself@@.
+#
+dream
+You day dream happily of a better time and place.
+@@name@@'s mind wanders and a smile appears on @@tpposs@@ face.
+You think that @@other@@ is dreamy.
+@@name@@ thinks that @@other@@ is dreamy.
+@@name@@ thinks that you are dreamy.
+You dream @@extra@@
+@@name@@ dreams @@extra@@
+You think that you are pretty dreamy.
+@@name@@ thinks that @@tppro@@ is pretty dreamy.
+#
+dry
+You are nice and dry.
+@@name@@ is nice and dry.
+You try to help @@other@@ to dry off.
+@@name@@ tries to help @@other@@ to dry off.
+@@name@@ tries to help you to dry off.
+You dry @@extra@@
+@@name@@ dries @@extra@@
+You shake yourself dry.
+@@name@@ shakes @@tpobjself@@ dry.
+#
+duck
+You duck.
+@@name@@ ducks.
+You warn @@other@@ to duck.
+@@name@@ warns @@other@@ to duck.
+@@name@@ warns you to duck.
+*This emote does not support customization.
+*
+You warn yourself to duck.
+@@name@@ warns @@tpobjself@@ to duck.
+#
+embrace
+You embrace life and all it has to offer.
+@@name@@ embraces life and all it has to offer.
+You dramatically pull @@other@@ into a long embrace.
+@@name@@ dramatically pulls @@other@@ into a long embrace.
+@@name@@ dramatically pulls you into a long embrace.
+You embrace @@extra@@
+@@name@@ embraces @@extra@@
+You dramatically embrace yourself.
+@@name@@ dramatically embraces @@tpobjself@@.
+#
+# 'evil' renamed to 'rumor' to remove channel / emote conflict
+rumor
+You whisper urgently that there is much evil about.
+@@name@@ whispers urgently that there is much evil about.
+You insist that @@other@@ is evil.
+@@name@@ insists that @@other@@ is evil.
+@@name@@ insists that you are evil.
+*It makes no sense to evil @@extra@@
+*
+You insist that you are evil.
+@@name@@ insists that @@tppro@@ is evil.
+#
+faint
+You faint.
+@@name@@ faints.
+You faint into @@other@@'s arms.
+@@name@@ faints into @@other@@'s arms.
+@@name@@ faints into your arms.
+You faint @@extra@@
+@@name@@ faints @@extra@@
+You try to faint into your own arms but miss and crash to the ground.
+@@name@@ tries to faint into @@tpposs@@ own arms but misses and crashes to the ground.
+#
+fart
+You fart.
+@@name@@ farts.
+You fart in @@other@@'s general direction.
+@@name@@ farts in @@other@@'s general direction.
+@@name@@ farts in your general direction.
+You fart @@extra@@
+@@name@@ farts @@extra@@
+You fart in your own general direction.
+@@name@@ farts in @@tpposs@@ general direction.
+#
+scared
+You live in fear.
+@@name@@ lives in fear.
+You fear @@other@@.
+@@name@@ fears @@other@@.
+@@name@@ fears you.
+You fear @@extra@@
+@@name@@ fears @@extra@@
+You fear yourself.
+@@name@@ fears @@tpobjself@@.
+#
+fishfear
+You live in fear of the fish.
+@@name@@ lives in fear of the fish.
+You confide in @@other@@ that you fear the fish.
+@@name@@ confides in @@other@@ that @@tppro@@ fears the fish.
+@@name@@ confides in you that @@tppro@@ fears the fish.
+*It makes no sense to ffear @@extra@@
+*
+You remind yourself to beware of the fish.
+@@name@@ reminds @@tpobjself@@ to beware of the fish.
+#
+flutter%ash
+You flutter @@tpposs@@ eyelashes.
+@@name@@ flutters @@tpposs@@ eyelashes.
+You flutter your eyelashes at @@other@@.
+@@name@@ flutters @@tpposs@@ eyelashes at @@other@@.
+@@name@@ flutters @@tpposs@@ eyelashes at you.
+You flutter your eyelashes @@extra@@
+@@name@@ flutters @@tpposs@@ eyelashes @@extra@@
+You flutter your eyelashes at yourself.
+@@name@@ flutters @@tpposs@@ eyelashes at @@tpobjself@@.
+#
+forbid
+You absolutely forbid it.
+@@name@@ absolutely forbids it.
+You forbid @@other@@ to do anything of the sort.
+@@name@@ forbids @@other@@ to do anything of the sort.
+@@name@@ forbids you to do anything of the sort.
+You forbid @@extra@@
+@@name@@ forbids @@extra@@
+You forbid yourself to do anything of the sort.
+@@name@@ forbids @@tpobjself@@ to do anything of the sort.
+#
+fret
+You fret nervously.
+@@name@@ frets nervously.
+You fret nervously about @@other@@.
+@@name@@ frets nervously about @@other@@.
+@@name@@ frets nervously about you.
+You fret @@extra@@
+@@name@@ frets @@extra@@
+You fret nervously about yourself.
+@@name@@ frets nervously about @@tpobjself@@.
+#
+froth
+You froth at the mouth.
+@@name@@ froths at the mouth.
+You froth at @@other@@.
+@@name@@ froths at @@other@@.
+@@name@@ froths at you.
+You froth @@extra@@
+@@name@@ froths @@extra@@
+You froth at yourself.
+@@name@@ froths at @@tpobjself@@.
+#
+frown
+You frown.
+@@name@@ frowns.
+You frown at @@other@@.
+@@name@@ frowns at @@other@@.
+@@name@@ frowns at you.
+You frown @@extra@@
+@@name@@ frowns @@extra@@
+You frown to yourself.
+@@name@@ frowns to @@tpobjself@@.
+#
+gag
+You gag.
+@@name@@ gags.
+You gag at @@other@@.
+@@name@@ gags at @@other@@.
+@@name@@ gags at you.
+You gag @@extra@@
+@@name@@ gags @@extra@@
+You gag at yourself.
+@@name@@ gags at @@tpobjself@@.
+#
+geek
+You are a geek.
+@@name@@ is a geek.
+You call @@other@@ a geek.
+@@name@@ calls @@other@@ a geek.
+@@name@@ calls you a geek.
+*This emote does not support customization.
+*
+You call yourself a geek.
+@@name@@ calls @@tpobjself@@ a geek.
+#
+gibber
+You gibber senselessly.
+@@name@@ gibbers senselessly.
+You gibber at @@other@@.
+@@name@@ gibbers at @@other@@.
+@@name@@ gibbers at you.
+You gibber @@extra@@
+@@name@@ gibbers @@extra@@
+You gibber at yourself.
+@@name@@ gibbers at @@tpobjself@@.
+#
+giggle
+You giggle.
+@@name@@ giggles.
+You giggle at @@other@@.
+@@name@@ giggles at @@other@@.
+@@name@@ giggles at you.
+You giggle @@extra@@
+@@name@@ giggles @@extra@@
+You giggle at yourself.
+@@name@@ giggles at @@tpobjself@@.
+#
+goober
+You are a goober.
+@@name@@ is a goober.
+You call @@other@@ a goober.
+@@name@@ calls @@other@@ a goober.
+@@name@@ calls you a goober.
+*This emote does not support customization.
+*
+You call yourself a goober.
+@@name@@ calls @@tpobjself@@ a goober.
+#
+goody
+You are kind, sweet, and nice.
+@@name@@ is kind, sweet, and nice.
+You think that @@other@@ is a no good goody two shoes.
+@@name@@ thinks that @@other@@ is a no good goody two shoes.
+@@name@@ thinks you are a no good goody two shoes.
+*This emote does not support customization.
+*
+You think you are a goody two shoes.
+@@name@@ thinks @@tppro@@ is a goody two shoes.
+#
+goose
+You flap your arms and makes loud honking noises.
+@@name@@ flaps @@tpposs@@ arms and makes loud honking noises.
+You goose @@other@@.
+@@name@@ gooses @@other@@.
+@@name@@ gooses @@other@@!
+You goose @@extra@@
+@@name@@ gooses @@extra@@
+You goose yourself.
+@@name@@ gooses @@tpobjself@@.
+#
+handle
+You finally grasp the concept.
+@@name@@ finally grasps the concept.
+You suddenly grasp @@other@@ tightly by the wrist.
+@@name@@ suddenly grasps @@other@@ tightly by the wrist.
+@@name@@ suddenly grasps you tightly by the wrist.
+You grasp @@extra@@
+@@name@@ grasps @@extra@@
+Your right hand suddenly rebels, locking your left wrist in a death grip.
+@@name@@, with a wild look in @@tpposs@@ eyes, grabs @@tpposs@@ wrist and growls strangely.
+#
+greet
+You call out a greeting to all those assembled.
+@@name@@ calls out a greeting to all those assembled.
++greet
++
++
+You greet @@extra@@
+@@name@@ greets @@extra@@
+You greet yourself.
+@@name@@ greets @@tpobjself@@.
+#
+grieve
+You grieve bitterly.
+@@name@@ grieves bitterly.
+You grieve for @@other@@.
+@@name@@ grieves for @@other@@.
+@@name@@ grieves for you.
+You grieve @@extra@@
+@@name@@ grieves @@extra@@
+You grieve bitterly for yourself.
+@@name@@ grieves bitterly for @@tpobjself@@.
+#
+grimace
+You grimace.
+@@name@@ grimaces.
+You grimace at @@other@@.
+@@name@@ grimaces at @@other@@.
+@@name@@ grimaces at you.
+You grimace @@extra@@
+@@name@@ grimaces @@extra@@
+You grimace at yourself.
+@@name@@ grimaces at @@tpobjself@@.
+#
+grin
+You grin.
+@@name@@ grins.
+You grin at @@other@@.
+@@name@@ grins at @@other@@.
+@@name@@ grins at you.
+You grin @@extra@@
+@@name@@ grins @@extra@@
+You grin at yourself.
+@@name@@ grins at @@tpobjself@@.
+#
+groan
+You groan.
+@@name@@ groans.
+You groan at @@other@@.
+@@name@@ groans at @@other@@.
+@@name@@ groans at you.
+You groan @@extra@@
+@@name@@ groans @@extra@@
+You groan to yourself.
+@@name@@ groans to @@tpobjself@@.
+#
+grock
+You excitedly yell, "That grocks!"
+@@name@@ excitedly yells, "That grocks!"
+You excitedly yell that @@other@@ grocks.
+@@name@@ excitedly yells that @@other@@ grocks.
+@@name@@ excitedly yells that you grock.
+You grock @@extra@@
+@@name@@ grocks @@extra@@
+You excitedly yell, "I grock!"
+@@name@@ excitedly yells, "I grock!"
+#
+growl
+You growl threateningly.
+@@name@@ growls threateningly.
+You growl at @@other@@.
+@@name@@ growls at @@other@@.
+@@name@@ growls at you.
+You growl @@extra@@
+@@name@@ growls @@extra@@
+You growl at yourself.
+@@name@@ growls at @@tpobjself@@.
+#
+grumble
+You grumble.
+@@name@@ grumbles.
+You grumble at @@other@@.
+@@name@@ grumbles at @@other@@.
+@@name@@ grumbles at you.
+You grumble @@extra@@
+@@name@@ grumbles @@extra@@
+You grumble to yourself.
+@@name@@ grumbles to @@tpobjself@@.
+#
+grump
+You grump.
+@@name@@ grumps.
+You grump at @@other@@.
+@@name@@ grumps at @@other@@.
+@@name@@ grumps at you.
+You grump @@extra@@
+@@name@@ grumps @@extra@@
+You grump to yourself.
+@@name@@ grumps to @@tpobjself@@.
+#
+grunt
+You grunt something unintelligible.
+@@name@@ grunts something unintelligible.
+You grunt something unintelligible at @@other@@.
+@@name@@ grunts something unintelligible at @@other@@.
+@@name@@ grunts something unintelligible at you.
+You grunt @@extra@@
+@@name@@ grunts @@extra@@
+You grunt something unintelligible to yourself.
+@@name@@ grunts something unintelligible to @@tpobjself@@.
+#
+guffaw
+You guffaw loudly.
+@@name@@ guffaws loudly.
+You guffaw at @@other@@.
+@@name@@ guffaws at @@other@@.
+@@name@@ guffaws as you.
+You guffaw @@extra@@
+@@name@@ guffaws @@extra@@
+You guffaw at yourself.
+@@name@@ guffaws at @@tpobjself@@.
+#
+gurgle
+You make a gurgling noise deep in your throat.
+@@name@@ makes a gurgling noise deep in @@tpposs@@ throat.
+You make a gurgling noise at @@other@@.
+@@name@@ makes a gurgling noise at @@other@@.
+@@name@@ makes a gurgling noise at you.
+You gurgle @@extra@@
+@@name@@ gurgles @@extra@@
+You make a gurgling noise at yourself.
+@@name@@ makes a gurgling noise at @@tpobjself@@.
+#
+hail
+You sing, "Hail the conquering hero!"
+@@name@@ sings, "Hail the conquering hero!"
+You say, "All hail @@other@@ the brave!"
+@@name@@ says, "All hail @@other@@, the Brave!"
+@@name@@ says, "All hail @@other@@, the Brave!"
+You hail @@extra@@
+@@name@@ hails @@extra@@
+You command everyone to hail you as "@@name@@, the Brave".
+@@name@@ commands everyone to hail @@tpobj@@ as "@@name@@, the Brave".
+#
+handkiss
+*This emote requires a receiver.
+*
+You gently kiss @@other@@'s hand.
+@@name@@ gently kisses @@other@@'s hand.
+@@name@@ gently kisses your hand.
+*This emote does not support customization.
+*
+You kiss your own hand.
+@@name@@ kisses @@tpposs@@ own hand.
+#
+handshake
+You hold forth your hand to check your nerves.
+@@name@@ holds forth @@tpposs@@ hand to check @@tpposs@@ nerves.
+You shake @@other@@'s hand.
+@@name@@ shakes @@other@@'s hand.
+@@name@@ shakes your hand.
+*This emote does not support customization.
+*
+You shake your own hand.
+@@name@@ shakes @@tpposs@@ own hand.
+#
+speed
+You exclaim, "I must make haste!"
+@@name@@ exclaims, "I must make haste!"
+You hasten to @@other@@'s side.
+@@name@@ hastens to @@other@@'s side.
+@@name@@ hastens to your side.
+*This emote does not support customization.
+*
+You hasten to your own side.
+@@name@@ hastens to @@tpposs@@ own side.
+#
+have
+*This emote requires direction or customization.
+*
+You have @@other@@ right where you want @@otobj@@.
+@@name@@ has @@other@@ right where @@tppro@@ wants @@otobj@@.
+@@name@@ has you right where @@tppro@@ wants you.
+You have @@extra@@
+@@name@@ has @@extra@@
+You have yourself backed into a corner.
+@@name@@ has @@tpobjself@@ backed into a corner.
+#
+headshake
+You shake your head.
+@@name@@ shakes @@tpposs@@ head.
+You shake your head at @@other@@.
+@@name@@ shakes @@tpposs@@ head at @@other@@.
+@@name@@ shakes @@tpposs@@ head at you.
+*This emote does support customization.
+*
+You shake your head at yourself.
+@@name@@ shakes @@tpposs@@ head at @@tpobjself@@.
+#
+heh
+You go, "Heh"
+@@name@@ goes, "Heh"
+You look at @@other@@ and go, "Heh"
+@@name@@ looks at @@other@@ and goes, "Heh"
+@@name@@ looks at you and goes, "Heh"
+*This emote does not support customization.
+*
+You look at yourself and go, "Heh."
+@@name@@ looks at @@tpobjself@@ and goes, "Heh."
+#
+# 'hero' renamed to 'spose' to remove channel / emote conflict 
+spose
+You strike a super-hero pose.
+@@name@@ strikes a super-hero pose.
+You say that @@other@@ is @@tpposs@@ hero.
+@@name@@ says that @@other@@ is @@tpposs@@ hero.
+@@name@@ says that you are @@tpposs@@ hero.
+*This emote does not support customization.
+*
+You say that you are your own hero.
+@@name@@ says that @@tppro@@ is @@tpposs@@ own hero.
+#
+hint
+You say, "Hint, hint!"
+@@name@@ says, "Hint, hint!"
+You nudge @@other@@ and say, "Hint, hint!"
+@@name@@ nudges @@other@@ and says, "Hint, hint!"
+@@name@@ nudges you and says, "Hint, hint!"
+You hint @@extra@@
+@@name@@ hints @@extra@@
+You say "Hint, hint!" to yourself.
+@@name@@ says "Hint, hint!" to @@tpobjself@@.
+#
+hmm
+You rub your chin and go 'Hmmmmmmmmm'.
+@@name@@ rubs @@tpposs@@ chin and goes 'Hmmmmmmmmm'.
+You rub @@other@@'s chin and go 'Hmmmmmmmmm'.
+@@name@@ rubs @@other@@'s chin and goes 'Hmmmmmmmmm'.
+@@name@@ rubs your chin and goes 'Hmmmmmmmmm'.
+*It makes no sense to hmm @@extra@@
+*
+*This emote does not support self-direction.
+*
+#
+hold
+You are not letting go.
+@@name@@ is not letting go.
+You hold @@other@@ tight.
+@@name@@ holds @@other@@ tight.
+@@name@@ holds you tight.
+You hold @@extra@@
+@@name@@ holds @@extra@@
+You hold yourself tight.
+@@name@@ holds @@tpobjself@@ tight.
+#
+honk
+You yell a loud 'Honk!'
+@@name@@ yells a loud 'Honk!'
+You press @@other@@'s nose and go 'Honk!'
+@@name@@ presses @@other@@'s nose and goes 'Honk!'
+@@name@@ presses your nose and goes 'Honk!'
+You honk @@extra@@
+@@name@@ honks @@extra@@
+You press your nose and go 'Honk!'
+@@name@@ presses @@tppro@@ nose and goes 'Honk!'
+#
+hop
+You hop on one foot.
+@@name@@ hops on one foot.
+You hop on @@other@@.
+@@name@@ hops on @@other@@.
+@@name@@ hops on you.
+You hop @@extra@@
+@@name@@ hops @@extra@@
+You hop on yourself.
+@@name@@ hops on @@tpobjself@@.
+#
+hrm
+You hrm.
+@@name@@ hrms.
+You hrm at @@other@@.
+@@name@@ hrms at @@other@@.
+@@name@@ hrms at you.
+*This emote does not support customization.
+*
+You hrm at yourself.
+@@name@@ hrms at @@tpobjself@@.
+#
+hug
+You say, "Group hug!"
+@@name@@ says, "Group hug!"
+You hug @@other@@.
+@@name@@ hugs @@other@@.
+@@name@@ hugs you.
+You hug @@extra@@
+@@name@@ hugs @@extra@@
+You hug yourself.
+@@name@@ hugs @@tpobjself@@.
+#
+huge
+You say, "That hill is huge!"
+@@name@@ says, "That hill is huge!"
+You say, "That @@other@@ is huge!"
+@@name@@ says, "That @@other@@ is huge!"
+@@name@@ says, "That @@other@@ is huge!"
+You say, "That @@extra@@ is huge!"
+@@name@@ says, "That @@extra@@ is huge!"
+*This emote does not support self-direction.
+*
+#
+hummingbird
+You flutter about the room under the delusion that you are a hummingbird.
+@@name@@ flutters about the room under the delusion that @@tppro@@ is a hummingbird.
+You flutter ceaselessly around @@other@@.
+@@name@@ flutters ceaselessly around @@other@@.
+@@name@@ flutters ceaselessly around you.
+You flutter @@extra@@
+@@name@@ flutters @@extra@@
+Overcome by delusions of hummingbirdness, you attempt to flutter around yourself.
+Overcome by delusions of hummingbirdness, @@name@@ attempts to flutter around @@tpobjself@@.
+#
+humor
+You smile and nod.
+@@name@@ smiles and nods.
+You smile and nod at @@other@@.
+@@name@@ smiles and nods at @@other@@.
+@@name@@ smiles and nods at you.
+You humor @@extra@@
+@@name@@ humors @@extra@@
+You smile and nod at yourself.
+@@name@@ smiles and nods at @@tpobjself@@.
+#
+hum
+You hum.
+@@name@@ hums.
+You hum to @@other@@.
+@@name@@ hums to @@other@@.
+@@name@@ hums to you.
+You hum @@extra@@
+@@name@@ hums @@extra@@
+You hum to yourself.
+@@name@@ hums to @@tpobjself@@.
+#
+ick
+You make a face and go, "Ick!"
+@@name@@ makes a face and goes, "Ick!"
+You make a face at @@other@@ and go, "Ick!"
+@@name@@ makes a face at @@other@@ and goes, "Ick!"
+@@name@@ makes a face at you and goes, "Ick!"
+*This emote does not support customization.
+*
+You make a face at yourself and go, "Ick!"
+@@name@@ makes a face at @@tpobjself@@ and goes, "Ick!"
+#
+jander
+You arrogantly strut about the room.
+@@name@@ arrogantly struts about the room.
+You arrogantly strut up to @@other@@.
+@@name@@ arrogantly struts up to @@other@@.
+@@name@@ arrogantly struts up to you.
+You jander @@extra@@
+@@name@@ janders @@extra@@
+You arrogantly strut in small circles around yourself.
+@@name@@ arrogantly struts in small circles around @@tpobjself@@.
+#
+jinx
+You shout, 'Jinx!'
+@@name@@ shouts, 'Jinx!'
+You declare @@other@@ to be a jinx.
+@@name@@ declares @@other@@ to be a jinx.
+@@name@@ declares you to be a jinx.
+You jinx @@extra@@
+@@name@@ jinxes @@extra@@
+You declare yourself to be a jinx.
+@@name@@ declares @@tpobjself@@ to be a jinx.
+#
+kiss
+You pucker up.
+@@name@@ puckers up.
+You kiss @@other@@ tenderly.
+@@name@@ kisses @@other@@ tenderly.
+@@name@@ kisses you tenderly.
+You kiss @@extra@@
+@@name@@ kisses @@extra@@
+You make a fist with your hand and practice kissing it.
+@@name@@ makes a fist with @@tpposs@@ hand a practices kissing it.
+#
+kneel
+You kneel.
+@@name@@ kneels.
+You kneel before @@other@@.
+@@name@@ kneels before @@other@@.
+@@name@@ kneels before you.
+You kneel @@extra@@.
+@@name@@ kneels @@extra@@
+You work hard at kneeling before yourself, but fail miserably.
+@@name@@ works hard at kneeling before @@tpobjself@@, but fails miserably.
+#
+knock
+You say, "Knock, knock!"
+@@name@@ says, "Knock, knock!"
+You rap your knuckles against @@other@@'s forehead and say, "Knock on wood!"
+@@name@@ raps @@tpposs@@ knuckles against @@other@@'s forehead and says, "Knock on wood!"
+@@name@@ raps @@tpposs@@ knuckles against your forehead and says, "Knock on wood!"
+You knock @@extra@@
+@@name@@ knocks @@extra@@
+You rap your knuckles against your own forehead and say, "Knock on wood!"
+@@name@@ raps @@tpposs@@ knuckles against @@tpposs@@ own forehead and says, "Knock on wood!"
+#
+know
+You know lots of nifty things.
+@@name@@ knows lots of nifty things.
+You admit to knowing @@other@@.
+@@name@@ admits to knowing @@other@@.
+@@name@@ admits to knowing you.
+You know @@extra@@
+@@name@@ knows @@extra@@
+You admit to knowing yourself.
+@@name@@ admits to knowing @@tpobjself@@.
+#
+laugh
+You laugh.
+@@name@@ laughs.
+You laugh at @@other@@.
+@@name@@ laughs at @@other@@.
+@@name@@ laughs at you.
+You laugh @@extra@@
+@@name@@ laughs @@extra@@
+You laugh at yourself.
+@@name@@ laughs at @@tpobjself@@.
+#
+lag
+You are caught in bad lag.
+@@name@@ is caught in bad lag.
+You claims that your lag is worse than @@other@@'s lag.
+@@name@@ claims that @@tpposs@@ lag is worse than @@other@@'s lag.
+@@name@@ claims that @@tpposs@@ lag is worse than your lag.
+You lag @@extra@@
+@@name@@ lags @@extra@@
+*This emote does not support self-direction.
+*
+#
+leap
+You leap into the air.
+@@name@@ leaps into the air.
+You leap onto @@other@@ knocking @@otobj@@ to the floor.
+@@name@@ leaps onto @@other@@ knocking @@otobj@@ to the floor.
+@@name@@ leaps onto you knocking you to the floor.
+You leap @@extra@@
+@@name@@ leaps @@extra@@
+You attempt to leap onto yourself, but you move before you get there.
+@@name@@ attempts to leap onto @@tpobjself@@, but @@tppro@@ moves before @@tppro@@ gets there.
+#
+leer
+You leer.
+@@name@@ leers.
+You leer at @@other@@.
+@@name@@ leers at @@other@@.
+@@name@@ leers at you.
+You leer @@extra@@
+@@name@@ leers @@extra@@
+You leer at yourself.
+@@name@@ leers at @@tpobjself@@.
+#
+lick
+You lick your lips.
+@@name@@ licks @@tpposs@@ lips.
+You give @@other@@ a big wet lick across the face.
+@@name@@ gives @@other@@ a big wet lick across the face.
+@@name@@ gives you a big wet lick across the face.
+You lick @@extra@@
+@@name@@ licks @@extra@@
+You give yourself a big wet lick across the face.
+@@name@@ gives @@tpobjself@@ a big wet lick across the face.
+#
+listen
+You listen carefully.
+@@name@@ listens carefully.
+You listen to @@other@@ carefully.
+@@name@@ listens to @@other@@ carefully.
+@@name@@ listens to you carefully.
+You listen @@extra@@
+@@name@@ listens @@extra@@
+You listen to yourself.
+@@name@@ listens to @@tpobjself@@.
+#
+loath
+You loath reality.
+@@name@@ loathes reality.
+You loath @@other@@.
+@@name@@ loathes @@other@@.
+@@name@@ loathes you.
+You loath @@extra@@
+@@name@@ loath @@extra@@
+You loath yourself.
+@@name@@ loath @@tpobjself@@.
+#
+long
+A look of longing fills your eyes.
+A look of longing fills @@name@@'s eyes.
+You long for @@other@@'s company.
+@@name@@ longs for @@other@@'s company.
+@@name@@ longs for your company.
+You long for @@extra@@
+@@name@@ longs for @@extra@@
+You long for your own company.
+@@name@@ longs for @@tpposs@@ own company.
+#
+looney
+You worry everyone with your shifty eyes.
+@@name@@ worries everyone with @@tpposs@@ shifty eyes.
+You call @@other@@ a looney.
+@@name@@ calls @@other@@ a looney.
+@@name@@ calls you a looney.
+*This emote does not support customization.
+*
+You call yourself a looney.
+@@name@@ calls @@tpobjself@@ a looney.
+#
+marvel
+You marvel at your good fortune.
+@@name@@ marvels at @@tpposs@@ good fortune.
+You marvel at @@other@@.
+@@name@@ marvels at @@other@@.
+@@name@@ marvels at you.
+You marvel @@extra@@
+@@name@@ marvels @@extra@@
+You marvel at yourself.
+@@name@@ marvels at @@tpobjself@@.
+#
+massage
+You need a good massage.
+@@name@@ needs a good massage.
+You massage the ache from @@other@@'s sore muscles.
+@@name@@ massages the ache from @@other@@'s sore muscles.
+@@name@@ massages the ache from your sore muscles.
+You massage @@extra@@
+@@name@@ massages @@extra@@
+You massage your sore muscles.
+@@name@@ massages @@tpposs@@ sore muscles.
+#
+meanie
+You say that there are too many meanies around here.
+@@name@@ says that there are too many meanies around here.
+You say that @@other@@ is a meanie.
+@@name@@ says that @@other@@ is a meanie.
+@@name@@ says that you are a meanie.
+*This emote does not support customization.
+*
+You say that you are a meanie.
+@@name@@ says that @@tppro@@ is a meanie.
+#
+miss
+You missed this place.
+@@name@@ missed this place.
+You missed @@other@@ very, very much.
+@@name@@ missed @@other@@ very, very much.
+@@name@@ missed you very, very much.
+You miss @@extra@@
+@@name@@ misses @@extra@@
+You will miss yourself very much.
+@@name@@ will miss @@tpobjself@@ very, very much.
+#
+mumble
+You mumble something.
+@@name@@ mumbles something.
+You mumble something unintelligible to @@other@@.
+@@name@@ mumbles something unintelligible to @@other@@.
+@@name@@ mumbles something unintelligible to you.
+You mumble @@extra@@
+@@name@@ mumbles @@extra@@
+You mumble something unintelligible to yourself.
+@@name@@ mumbles something unintelligible to @@tpobjself@@.
+#
+mutter
+You mutter something under your breath.
+@@name@@ mutters something under @@tpposs@@ breath.
+You mutter something to @@other@@.
+@@name@@ mutters something to @@other@@.
+@@name@@ mutters something to you.
+You mutter @@extra@@
+@@name@@ mutters @@extra@@
+You mutter something to yourself.
+@@name@@ mutters something to @@tpobjself@@.
+#
+need
+You are in great need.
+@@name@@ is in great need.
+You poke @@other@@ in the side and say, "Help me!"
+@@name@@ pokes @@other@@ in the side and says, "Help me!"
+@@name@@ pokes you in the side and says, "Help me!"
+You need @@extra@@
+@@name@@ needs @@extra@@
+You poke yourself in the side and say, "Help me!"
+@@name@@ pokes @@tpobjself@@ in the side and says, "Help me!"
+#
+np%Ash (sug. Lefend)
+You say 'No problem'.
+@@name@@ says 'No problem'.
+You tell @@other@@ 'No problem'.
+@@name@@ tells @@other@@ 'No problem'.
+@@name@@ tells You 'No problem'.
+You say @@extra@@ is 'No problem'.
+@@name@@ says @@extra@@ is 'No problem'.
+You say that you really are 'No problem'.
+@@name@@ says that they are 'No problem'.
+#
+ni
+You say 'Ni!'
+@@name@@ says 'Ni!'
++ni
++
++
+*This emote does not support customization
+*
++ni
++
+#
+nibble
+You nibble at your lower lip.
+@@name@@ nibbles at @@tpposs@@ lower lip.
+You nibble on @@other@@'s ear.
+@@name@@ nibbles on @@other@@'s ear.
+@@name@@ nibbles on your ear.
+You nibble @@extra@@
+@@name@@ nibble @@extra@@
+You try to nibble on your own ear but discover that you earlobes are not quite long enough.
+@@name@@ tries to nibble on @@tpposs@@ own ear but discovers that @@tpposs@@ earlobes are not quite long enough.
+nm%Ash
+You say 'Never mind'.
+@@name@@ says 'Never mind'.
+You tell @@other@@ 'Never mind'.
+@@name@@ tells @@other@@ 'Never mind'.
+@@name@@ tells You 'Never mind'.
+You say @@extra@@ to 'Never mind'.
+@@name@@ says @@extra@@ to 'Never mind'.
+You say that you will 'Never mind'.
+@@name@@ says that they will 'Never mind'.
+#
+nod
+You nod solemnly.
+@@name@@ nods solemnly.
+You nod at @@other@@.
+@@name@@ nods at @@other@@.
+@@name@@ nods at you.
+You nod @@extra@@
+@@name@@ nods @@extra@@
+You nod to yourself.
+@@name@@ nods to @@tpobjself@@.
+#
+nofear
+You claim to have no fear.
+@@name@@ claims to have no fear.
+You claim not to fear @@other@@.
+@@name@@ claims not to fear @@other@@.
+@@name@@ claims not to fear you.
+*This emote does not support customization.
+*
+You claim not to fear yourself.
+@@name@@ claims not to fear @@tpobjself@@.
+#
+nog
+You nog.
+@@name@@ nog.
+You nog at @@other@@.
+@@name@@ nogs at @@other@@.
+@@name@@ nogs at you.
+You nog @@extra@@
+@@name@@ nogs @@extra@@
+You nog to yourself.
+@@name@@ nogs to @@tpobjself@@.
+#
+noggle
+You noggle.
+@@name@@ noggles.
+You noggle at @@other@@.
+@@name@@ noggles at @@other@@.
+@@name@@ noggles at you.
+You noggle @@extra@@
+@@name@@ noggles @@extra@@
+You noggle at yourself.
+@@name@@ noggles at @@tpobjself@@.
+#
+nothere
+You explain to everyone that you are not here.
+@@name@@ explains to everyone that @@tppro@@ is not here.
+You tell @@other@@ that @@otpro@@ shouldn't be here.
+@@name@@ tells @@other@@ that @@otpro@@ shouldn't be here.
+@@name@@ tells you that you shouldn't be here.
+*This emote does not support customization.
+*
+You remind yourself that you really shouldn't be here.
+@@name@@ reminds @@tpobjself@@ that @@tppro@@ really shouldn't be here.
+#
+nurse
+You say, "Helloooooo, Nurse!"
+@@name@@ says, "Helloooooo, Nurse!"
+You say "Helloooooo, Nurse!" and jump into @@other@@'s arms.
+@@name@@ says, "Helloooooo, Nurse!" and jumps into @@other@@'s arms.
+@@name@@ says, "Helloooooo, Nurse!" and jumps into your arms.
+*This emote does not support customization.
+*
+You say "Helloooooo, Nurse!" to yourself.
+@@name@@ says "Helloooooo, Nurse!" to yourself.
+#
+nudge
+You say, "Nudge, nudge!"
+@@name@@ says, "Nudge, nudge!"
+You nudge @@other@@ with your elbow.
+@@name@@ nudges @@other@@ with @@tpposs@@ elbow.
+@@name@@ nudges you with @@tpposs@@ elbow.
+You nudge @@extra@@
+@@name@@ nudges @@extra@@
+You nudge yourself with your elbow.
+@@name@@ nudges @@tpobjself@@ with @@tpposs@@ elbow.
+#
+nyah
+You go 'Nyah-nyah-nyah-nyah-nyah-nyah!'
+@@name@@ goes 'Nyah-nyah-nyah-nyah-nyah-nyah!'
+You go 'Nyah-nyah-nyah-nyah-nyah-nyah!' at @@other@@.
+@@name@@ goes 'Nyah-nyah-nyah-nyah-nyah-nyah!' at @@other@@.
+@@name@@ goes 'Nyah-nyah-nyah-nyah-nyah-nyah!' at you.
+*This emote does not support customization.
+*
+You go 'Nyah-nyah-nyah-nyah-nyah-nyah!' at yourself.
+@@name@@ goes 'Nyah-nyah-nyah-nyah-nyah-nyah!' at @@tpobjself@@.
+#
+obey
+You say, "Ever as you wish."
+@@name@@ say, "Ever as you wish."
+You tell @@other@@, "Ever as you wish."
+@@name@@ tells @@other@@, "Ever as you wish."
+@@name@@ tells you, "Ever as you wish."
+You obey @@extra@@
+@@name@@ obeys @@extra@@
+You agree to obey yourself.
+@@name@@ agrees to obey @@tpobjself@@.
+#
+offer
+You say, 'Want @@an_extra|brownie@@? Here, have a @@an_extra|brownie@@!'
+@@name@@ says, 'Want @@an_extra|brownie@@? Here, @@an_extra|brownie@@!'
+You offer @@other@@ @@an_extra||brownie@@.
+@@name@@ offers @@other@@ @@an_extra|brownie@@.
+@@name@@ offers you @@an_extra|brownie@@.
+You say, 'Want @@an_extra|brownie@@? Here, have @@an_extra|brownie@@!'
+@@name@@ says, 'Want @@an_extra|brownie@@? Here, have @@an_extra|brownie@@!'
+You offer yourself @@an_extra||brownie@@.
+@@name@@ offers @@tpobjself@@ a @@an_extra||brownie@@.
+#
+own
+*This emote requires direction or customization.
+*
+You own @@other@@.
+@@name@@ owns @@other@@.
+@@name@@ owns you.
+You own @@extra@@
+@@name@@ owns @@extra@@
+You own yourself.
+@@name@@ owns @@tpobjself@@.
+#
+pace
+You pace back and forth nervously.
+@@name@@ paces back and forth nervously.
+You pace relentlessly around @@other@@.
+@@name@@ paces relentlessly around @@other@@.
+@@name@@ paces relentlessly around you.
+You pace @@extra@@
+@@name@@ paces @@extra@@
+Surprisingly, you pace in circles around yourself.
+Surprisingly, @@name@@ paces in circles around @@tpobjself@@.
+#
+panic
+You panic.
+@@name@@ panics.
+You panic at the sight of @@other@@.
+@@name@@ panics at the sight of @@other@@.
+@@name@@ panics at the sight of you.
+You panic @@extra@@
+@@name@@ panics @@extra@@
+You panic at the sight of yourself.
+@@name@@ panics at the sight of @@tpobjself@@.
+#
+pat
+You pat your stomach.
+@@name@@ pats @@tpposs@@ stomach.
+You pat @@other@@ on the head.
+@@name@@ pats @@other@@ on the head.
+@@name@@ pats you on the head.
+You pat @@extra@@
+@@name@@ pats @@extra@@
+You pat yourself on the head.
+@@name@@ pats @@tpobjself@@ on the head.
+#
+plead
+You plead plaintively.
+@@name@@ pleads plaintively.
+You plead with @@other@@.
+@@name@@ pleads with @@other@@.
+@@name@@ pleads with you.
+You plead @@extra@@
+@@name@@ pleads @@extra@@
+You plead with yourself plaintively.
+@@name@@ pleads with @@tpobjself@@ plaintively.
+#
+ponder%Sparrowhawk (Directed message fixed by Geewhiz)
+You ponder the situation.
+@@name@@ ponders the situation.
+You ponder @@other@@
+@@name@@ ponders @@other@@
+@@name@@ ponders you.
+You ponder @@extra@@
+@@name@@ ponders @@extra@@
+You say, "@@name@@, are you pondering what I'm pondering?"
+@@name@@ says, "@@name@@, are you pondering what I'm pondering?"
+#
+pose
+You strike a pose.
+@@name@@ strikes a pose.
+You strike a pose for @@other@@.
+@@name@@ strikes a pose for @@other@@.
+@@name@@ strikes a pose for you.
+You pose @@extra@@
+@@name@@ poses @@extra@@
+You strike a pose solely for your own entertainment.
+@@name@@ strikes a pose solely for @@tpposs@@ own entertainment.
+#
+pounce
+You playfully pounce on a small speck of dust on the floor.
+@@name@@ playfully pounces on some small speck on the floor.
+You playfully pounce upon @@other@@.
+@@name@@ playfully pounces upon @@other@@.
+@@name@@ playfully pounces upon you.
+You pounce @@extra@@
+@@name@@ pounces @@extra@@
+You twist about suddenly and attempt to pounce upon yourself.
+@@name@@ twists about suddenly and attempts to pounce upon @@tpobjself@@.
+#
+prolove
+You loudly proclaim your love of life.
+@@name@@ loudly proclaims @@tpposs@@ love of life.
+You loudly proclaim your love for @@other@@.
+@@name@@ loudly proclaims @@tpposs@@ love for @@other@@.
+@@name@@ loudly proclaims @@tpposs@@ love for you.
+You proclaim your love of @@extra@@
+@@name@@ proclaims @@tpposs@@ of @@extra@@
+You loudly proclaim you love for yourself.
+@@name@@ loudly proclaims @@tpposs@@ love for @@tpobjself@@.
+#
+protect
+*This emote requires customization or direction.
+*
+You vow to protect @@other@@.
+@@name@@ vows to protect @@other@@.
+@@name@@ vows to protect you.
+You protect @@extra@@
+@@name@@ protect @@extra@@
+You can protect yourself.
+@@name@@ can protect @@tpobjself@@.
+#
+box
+You shadow box.
+@@name@@ shadow boxes.
+You shadow box @@other@@.
+@@name@@ shadow boxes @@other@@.
+@@name@@ shadow boxes you.
+You shadow box @@extra@@
+@@name@@ shadow boxes @@extra@@
+You shadow box with yourself.
+@@name@@ shadow boxes @@tpobjself@@.
+#
+puppy
+You make puppy-dog eyes.
+@@name@@ makes puppy-dog eyes.
+You make puppy-dog eyes at @@other@@.
+@@name@@ makes puppy-dog eyes at @@other@@.
+@@name@@ makes puppy-dog eyes at you.
+*This emote does not support customization.
+*
+You make puppy-dog eyes at yourself.
+@@name@@ makes puppy-dog eyes at @@tpobjself@@.
+#
+purr
+You purr like a cat.
+@@name@@ purrs like a cat.
+You purr at @@other@@.
+@@name@@ purrs at @@other@@.
+@@name@@ purrs at you.
+You purr @@extra@@
+@@name@@ purr @@extra@@
+You purr to yourself.
+@@name@@ purrs to @@tpobjself@@.
+#
+qlook
+You look around questioningly.
+@@name@@ looks around questioningly.
+You look at @@other@@ questioningly.
+@@name@@ looks at @@other@@ questioningly.
+@@name@@ looks at you questioningly.
+*This emote does not support customization.
+*
+You look at yourself questioningly.
+@@name@@ looks at @@tpobjself@@ questioningly.
+#
+quake
+You quake with fear.
+@@name@@ quakes with fear.
+You quake with fear of @@other@@.
+@@name@@ quakes with fear of @@other@@.
+@@name@@ quakes with fear of you.
+You quake @@extra@@
+@@name@@ quakes @@extra@@
+You quake with fear of yourself.
+@@name@@ quakes with fear of @@tpobjself@@.
+#
+question
+You have a questioning look on your face.
+@@name@@ has a questioning look on @@tpposs@@ face.
+You look at @@other@@ questioningly.
+@@name@@ looks at @@other@@ questioningly.
+@@name@@ looks at you questioningly.
+You question @@extra@@
+@@name@@ questions @@extra@@
+You look at yourself questioningly.
+@@name@@ looks at @@tpobjself@@ questioningly.
+#
+quiet
+You aren't making a sound.
+@@name@@ isn't making a sound.
+You show @@other@@ how quiet you can be.
+@@name@@ shows @@other@@ how quiet @@tppro@@ can be.
+@@name@@ shows you how quiet @@tppro@@ can be.
+*This emote does not support customization.
+*
+You show yourself how quiet you can be.
+@@name@@ shows @@tpobjself@@ how quiet @@tppro@@ can be.
+#
+quiet!
+You shout, "BE QUIET!"
+@@name@@ shouts, "BE QUIET!"
+You shout at @@other@@, "BE QUIET!"
+@@name@@ shouts at @@other@@, "BE QUIET!"
+@@name@@ shouts at you, "BE QUIET!"
+*This emote does not support customization.
+*
+You shout at yourself, "BE QUIET!"
+@@name@@ shouts at @@tpobjself@@, "BE QUIET!"
+#
+quirk
+You quirk an eyebrow.
+@@name@@ quirks an eyebrow.
+You quirk an eyebrow at @@other@@.
+@@name@@ quirks an eyebrow at @@other@@.
+@@name@@ quirks an eyebrow at you.
+You quirk @@extra@@
+@@name@@ quirks @@extra@@
+You quirk an eyebrow at yourself.
+@@name@@ quirks an eyebrow at @@tpobjself@@.
+#
+quiver
+You quiver with excitement.
+@@name@@ quivers with excitement.
+*This emote does not support direction.
+*
+*
+You quiver @@extra@@
+@@name@@ quivers @@extra@@
+*This emote does not support self-direction.
+*
+#
+raise%ash
+You raise an eyebrow.
+@@name@@ raises an eyebrow.
+You raise an eyebrow at @@other@@.
+@@name@@ raises an eyebrow at @@other@@.
+@@name@@ raises an eyebrow at you.
+You raise and eyebrow  @@extra@@
+@@name@@ raises an eyebrow @@extra@@
+You raises an eyebrow at yourself.
+@@name@@ raises an eyebrow at @@tpobjself@@.
+#
+ralph
+You ralph up your last meal.
+@@name@@ ralphs up @@tpposs@@ last meal.
+You ralph on @@other@@.
+@@name@@ ralphs on @@other@@.
+@@name@@ ralphs on you.
+You ralph @@extra@@
+@@name@@ ralphs @@extra@@
+You ralph on yourself.
+@@name@@ ralphs on @@tpobjself@@.
+#
+rejoice
+You rejoice.
+@@name@@ rejoices.
+You rejoice in @@other@@'s good fortune.
+@@name@@ rejoices in @@other@@'s good fortune.
+@@name@@ rejoices in your good fortune.
+You rejoice @@extra@@
+@@name@@ rejoices @@extra@@
+You rejoice in your good fortune.
+@@name@@ rejoices in @@tpposs@@ good fortune.
+#
+remember
+You try to remember.
+@@name@@ tries to remember.
+You remember @@other@@.
+@@name@@ remembers @@other@@.
+@@name@@ remembers you.
+You remember @@extra@@
+@@name@@ remembers @@extra@@
+You remember yourself.
+@@name@@ remembers @@tpobjself@@.
+#
+rest
+You pause for a rest.
+@@name@@ pauses for a rest.
+You ask @@other@@ to pause so you might rest.
+@@name@@ asks @@other@@ to pause so @@tppro@@ might rest.
+@@name@@ asks you to pause so @@tppro@@ might rest.
+You rest @@extra@@
+@@name@@ rests @@extra@@
+You ask yourself to pause so that you might rest.
+@@name@@ asks @@tpobjself@@ to pause so that @@tppro@@ might rest.
+#
+ring
+You emit a telephone-like ringing noise.
+@@name@@ emits a telephone-like ringing noise.
+You ring persistantly at @@other@@.
+@@name@@ rings persistantly at @@other@@.
+@@name@@ rings persistantly at you.
+You ring @@extra@@
+@@name@@ rings @@extra@@
+You ring persistantly at yourself.
+@@name@@ rings persistantly at @@tpobjself@@.
+#
+rock
+You excitedly yell, "That rocks!"
+@@name@@ excitedly yells, "That rocks!"
+You excitedly yell that @@other@@ rocks.
+@@name@@ excitedly yells that @@other@@ rocks.
+@@name@@ excitedly yells that you rock.
+You rock @@extra@@
+@@name@@ rocks @@extra@@
+You excitedly yell, "I rock!"
+@@name@@ excitedly yells, "I rock!"
+#
+roll
+You roll on the floor convulsing with laughter.
+@@name@@ rolls on the floor convulsing with laughter.
+You roll on the floor laughing at @@other@@.
+@@name@@ rolls on the floor laughing at @@other@@.
+@@name@@ rolls on the floor laughing at you.
+You roll @@extra@@
+@@name@@ rolls @@extra@@
+You roll on the floor laughing at yourself.
+@@name@@ rolls on the floor laughing at @@tpobjself@@.
+#
+rude
+You say, "How rude!"
+@@name@@ says, "How rude!"
+You tell @@other@@ that @@otpro@@ is very rude.
+@@name@@ tells @@other@@ that @@otpro@@ is very rude.
+@@name@@ tells you that you are very rude.
+*This emote does not support customization.
+*
+You tell yourself that you are very rude.
+@@name@@ tells @@tpobjself@@ that @@tppro@@ is very rude.
+#
+ruffle
+*This emote requires direction or customization.
+*
+You ruffle @@other@@'s hair playfully.
+@@name@@ ruffles @@other@@'s hair playfully.
+@@name@@ ruffles your hair playfully.
+You ruffle @@extra@@
+@@name@@ ruffles @@extra@@
+You ruffle your own hair.
+@@name@@ ruffles @@tpposs@@ own hair.
+#
+ruggle
+You smile foolishly and say, "Ruggle, ruggle!"
+@@name@@ smiles foolishly and says, "Ruggle, ruggle!"
+You smile at @@other@@ foolishly and say, "Ruggle, ruggle!"
+@@name@@ smiles at @@other@@ foolishly and says, "Ruggle, ruggle!"
+@@name@@ smiles at you foolishly and says, "Ruggle, ruggle!"
+*This emote does not support customization.
+*
+You smile at yourself foolishly and say, "Ruggle, ruggle!"
+@@name@@ smiles at @@tpobjself@@ foolishly and says, "Ruggle, ruggle!"
+#
+salute%ash
+You salute.
+@@name@@ salutes.
+You salute @@other@@.
+@@name@@ salutes @@other@@.
+@@name@@ salutes you.
+You salute @@extra@@
+@@name@@ salutes @@extra@@
+For reasons never properly explained, you salute yourself.
+For reasons never properly explained, @@name@@ salutes @@tpobjself@@.
+#
+scold
+You waggle your finger.
+@@name@@ waggles @@tpposs@@ finger.
+You waggle your finger at @@other@@.
+@@name@@ waggles @@tpposs@@ finger at @@other@@.
+@@name@@ waggles @@tpposs@@ finger at you.
+You scold @@extra@@
+@@name@@ scolds @@extra@@
+You waggle your finger at yourself.
+@@name@@ waggles @@tpposs@@ finger at @@tpobjself@@.
+#
+shatner
+You begin overacting for no apparent reason.
+@@name@@ begins overacting for no apparent reason.
++shatner
++
++
+*This emote does not support customization.
+*
+*This emote does not support self-direction.
+*
+#
+shiver
+You shiver.
+@@name@@ shivers.
+*This emote does not support direction.
+*
+*
+You shiver @@extra@@
+@@name@@ shivers @@extra@@
+*This emote does not support self-direction.
+*
+#
+shrug
+You shrug.
+@@name@@ shrugs.
+You shrug at @@other@@.
+@@name@@ shrugs at @@other@@.
+@@name@@ shrugs at you.
+You shrug @@extra@@
+@@name@@ shrugs @@extra@@
+You shrug to yourself.
+@@name@@ shrugs to @@tpobjself@@.
+#
+sigh
+You sigh.
+@@name@@ sighs.
+You sigh at @@other@@.
+@@name@@ sighs at @@other@@.
+@@name@@ sighs at you.
+You sigh @@extra@@
+@@name@@ sighs @@extra@@
+You sigh to yourself.
+@@name@@ sighs to @@tpobjself@@.
+#
+sleep
+You lie down and go to sleep.
+@@name@@ lies down and goes to sleep.
+You lie down and go to sleep at @@other@@'s feet.
+@@name@@ lies down and goes to sleep at @@other@@'s feet.
+@@name@@ lies down and goes to sleep at your feet.
+You sleep @@extra@@
+@@name@@ sleeps @@extra@@
+Shockingly, you find a way of lying down and going to sleep at your own feet.
+Shockingly, @@name@@ finds a way of lying down and going to sleep at @@tpposs@@ own feet.
+#
+smeg
+You curse, "Oh, smeg!"
+@@name@@ curses, "Oh, smeg!"
+You call @@other@@ a smeghead.
+@@name@@ calls @@other@@ a smeghead.
+@@name@@ calls you a smeghead.
+*This emote does not support customization.
+*
+You tell yourself not to be such a smeghead.
+@@name@@ tells @@tpobjself@@ not to be such a smeghead.
+#
+smile
+You smile.
+@@name@@ smiles.
+You smile at @@other@@
+@@name@@ smiles at @@other@@
+@@name@@ smiles at you
+#You smile at @@other@@.
+#@@name@@ smiles at @@other@@.
+#@@name@@ smiles at you.
+You smile @@extra@@
+@@name@@ smiles @@extra@@
+You attempt to smile at yourself but realize the foolishness of it.
+@@name@@ foolishly tries to smile at @@tpobjself@@.
+#
+smirk
+You smirk.
+@@name@@ smirks.
+You smirk at @@other@@.
+@@name@@ smirks at @@other@@.
+@@name@@ smirks at you.
+You smirk @@extra@@
+@@name@@ smirks @@extra@@
+You smirk at yourself.
+@@name@@ smirks at @@tpobjself@@.
+#
+smug
+You look smug.
+@@name@@ looks smug.
+You look at @@other@@ smugly.
+@@name@@ looks at @@other@@ smugly.
+@@name@@ looks at you smugly.
+*This emote does not support customization.
+*
+You look at yourself smugly.
+@@name@@ looks at @@tpobjself@@ smugly.
+#
+# 'smack' was lacking... Added by Geewhiz 960704.
+#
+smack
+You smack yourself on the forehead for being stupid.
+@@name@@ smacks @@tpobjself@@ on the forehead for being stupid.
+You smack @@other@@ on the forehead for being stupid.
+@@name@@ smacks @@other@@ on the forehead for being stupid.
+@@name@@ smacks you on the forehead for being stupid.
+You smack @@extra@@
+@@name@@ smacks @@extra@@
+You smack yourself on the forehead for being stupid.
+@@name@@ smacks @@tpobjself@@ on the forehead for being stupid.
+#
+snore
+You snore loudly.
+@@name@@ snores loudly.
+You snore loudly at @@other@@.
+@@name@@ snores loudly at @@other@@.
+@@name@@ snores loudly at you.
+You snore @@extra@@
+@@name@@ snores @@extra@@
+You snore loudly at yourself.
+@@name@@ snores loudly at @@tpobjself@@.
+#
+snort
+You snort derisively.
+@@name@@ snorts derisively.
+You snort at @@other@@.
+@@name@@ snorts at @@other@@.
+@@name@@ snorts at you.
+You snort @@extra@@
+@@name@@ snorts @@extra@@
+You snort at yourself.
+@@name@@ snorts at @@tpobjself@@.
+#
+snuggle
+You feel warm and snugglely.
+@@name@@ feels warm and snugglely.
+You snuggle up to @@other@@.
+@@name@@ snuggles up to @@other@@.
+@@name@@ snuggles up to you.
+You snuggle @@extra@@
+@@name@@ snuggles @@extra@@
+You snuggle with yourself.
+@@name@@ snuggles with @@tpobjself@@.
+#
+sob
+You sob.
+@@name@@ sobs.
+You sob that @@other@@ made you cry.
+@@name@@ sobs that @@other@@ made @@tpobj@@ cry.
+@@name@@ sobs that you made @@tpobj@@ cry.
+You sob @@extra@@
+@@name@@ sobs @@extra@@
+You sob that you made yourself cry.
+@@name@@ sobs that @@tppro@@ made @@tpobjself@@ cry.
+#
+spam
++spam
++
+You sing the Spam Song to @@other@@.
+@@name@@ sings the Spam Song to @@other@@.
+@@name@@ sings the Spam Song to you.
+*This emote does not support customization.
+*
+You sing the Spam Song to yourself.
+@@name@@ sings the Spam Song to @@tpobjself@@.
+#
+spooky
+You whisper that this is spooky.
+@@name@@ whispers that this is spooky.
+You whisper to @@other@@ that this is spooky.
+@@name@@ whispers to @@other@@ that this is spooky.
+@@name@@ whispers to you that this is spooky.
+*This emote does not support customization.
+*
+You whisper to yourself that this is spooky.
+@@name@@ whispers to @@tpobjself@@ that this is spooky.
+#
+spring
+You spring into action.
+@@name@@ springs into action.
+You suddenly spring at @@other@@.
+@@name@@ suddenly springs at @@other@@.
+@@name@@ suddenly springs at you.
+You spring @@extra@@
+@@name@@ springs @@extra@@
+You suddenly spring at yourself and completely catch yourself off guard.
+@@name@@ suddenly springs at @@tpobjself@@ and completely catches @@tpobjself@@ off guard.
+#
+stifle
+You fail to stifle a giggle.
+@@name@@ fails to stifle a giggle.
+You try, but fail, to stifle a giggle directed at @@other@@.
+@@name@@ tries, but fails, to stifle a giggle directed at @@other@@.
+@@name@@ tries, but fails, to stifle a giggle directed at you.
+You stifle @@extra@@
+@@name@@ stifles @@extra@@
+You fail to stifle a giggle at yourself.
+@@name@@ fails to stifle a giggle at @@tpobjself@@.
+#
+stop
+You yell, "No! Stop it!"
+@@name@@ yells, "No! Stop it!"
+You desperately try to stop @@other@@.
+@@name@@ desperately tries to stop @@other@@.
+@@name@@ desperately tries to stop you.
+You stop @@extra@@
+@@name@@ stops @@extra@@
+You try to stop yourself.
+@@name@@ tries to stop @@tpobjself@@.
+#
+stretch
+You stretch.
+@@name@@ stretches.
+You stretch before @@other@@.
+@@name@@ stretches before @@other@@.
+@@name@@ stretches before you.
+You stretch @@extra@@
+@@name@@ stretches @@extra@@
+You attempt to stretch before yourself, but fail miserably.
+@@name@@ attempts to stretch before @@tpobjself@@, but fails miserably.
+#
+strut
+You strut your stuff.
+@@name@@ struts @@tpposs@@ stuff.
+You strut your stuff for @@other@@.
+@@name@@ struts @@tpposs@@ stuff for @@other@@.
+@@name@@ struts @@tpposs@@ stuff for you.
+You strut @@extra@@
+@@name@@ struts @@extra@@
+*This emote does not support self-direction.
+*
+#
+stuffed
+You say, "Get stuffed!"
+@@name@@ says, "Get stuffed!"
+You tell @@other@@ to get stuffed.
+@@name@@ tells @@other@@ to get stuffed.
+@@name@@ tells you to get stuffed.
+*This emote does not support customization.
+*
+You tell yourself to get stuffed.
+@@name@@ tells @@tpobjself@@ to get stuffed.
+#
+straighten
+You stand at attention.
+@@name@@ stands at attention.
+You straighten @@other@@'s hair carefully.
+@@name@@ straightens @@other@@'s hair carefully.
+@@name@@ straightens your hair carefully.
+You straighten @@extra@@
+@@name@@ straightens @@extra@@
+You straighten your hair carefully.
+@@name@@ straightens @@tpposs@@ hair carefully.
+#
+surrender
+You surrender.
+@@name@@ surrenders.
+You surrender to @@other@@.
+@@name@@ surrenders to @@other@@.
+@@name@@ surrenders to you.
+You surrender @@extra@@
+@@name@@ surrenders @@extra@@
+You surrender to yourself.
+@@name@@ surrenders to @@tpobjself@@.
+#
+suspect
+You suspect that something is up.
+@@name@@ suspects that something is up.
+You suspect that @@other@@ is up to no good.
+@@name@@ suspects that @@other@@ is up to no good.
+@@name@@ suspects that you are up to no good.
+You suspect @@extra@@
+@@name@@ suspects @@extra@@
+You suspect that you yourself are up to something.
+@@name@@ suspects that @@tppro@@ @@tpobjself@@ is up to something.
+#
+sweetie
+You work your hardest to look as cute as possible.
+@@name@@ works @@tpposs@@ hardest to look as cute as possible.
+You think that @@other@@ is a sweetie.
+@@name@@ thinks that @@other@@ is a sweetie.
+@@name@@ thinks that you are a sweetie.
+*This emote does not support customization.
+*
+You think that you are a sweetie.
+@@name@@ thinks that @@tppro@@ is a sweetie.
+#
+tackle
+You execute a flying tackle at...nothing. Your nose may never be the same.
+@@name@@ tackles thin air and crashes to the ground.
+You tackle @@other@@.
+@@name@@ tackles @@other@@.
+@@name@@ tackles you.
+You tackle @@extra@@
+@@name@@ tackles @@extra@@
+You roughly tackle yourself.
+@@name@@ roughly tackles @@tpobjself@@.
+#
+taco
+You shout 'Eat a taco!'
+@@name@@ shouts 'Eat a taco!'
+You shout 'Eat a taco!' to @@other@@.
+@@name@@ shouts 'Eat a taco!' to @@other@@.
+@@name@@ shouts 'Eat a taco!' to you.
+*This emote does not support customization.
+*
+You shout 'Eat a taco!' to yourself.
+@@name@@ shouts 'Eat a taco!' to @@tpobjself@@.
+#
+think
+You think carefully.
+@@name@@ thinks carefully.
+You think about @@other@@.
+@@name@@ thinks about @@other@@.
+@@name@@ thinks about you.
+You think @@extra@@
+@@name@@ thinks @@extra@@
+You think about yourself.
+@@name@@ thinks about @@tpobjself@@.
+#
+threaten
+You say, "Don't make me hurt you!"
+@@name@@ says, "Don't make me hurt you!"
+You threaten to rip @@other@@'s arms off and beat @@otobj@@ about the head with them.
+@@name@@ threatens to rip @@other@@'s arms off and beat @@otobj@@ about the head with them.
+@@name@@ threatens to rip your arms off and beat you about the head with them.
+You threaten @@extra@@
+@@name@@ threatens @@extra@@
+*This emote does not support self-direction.
+*
+#
+# 'tickle' was lacking... Added By Geewhiz 960704.
+tickle
+You are NOT ticklish!
+@@name@@ is NOT ticklish!
+You tickle @@other@@ @@dem|mercilessly@@
+@@name@@ tickles @@other@@ @@dem|mercilessly@@
+@@name@@ tickles you @@dem|mercilessly@@
+You tickle @@extra@@
+@@name@@ tickles @@extra@@
+You tickle yourself @@dem|mercilessly@@
+@@name@@ tickles @@tpobjself@@ @@dem|mercilessly@@
+#
+tip
+You tip your hat.
+@@name@@ tips @@tpposs@@ hat.
+You tip your hat to @@other@@.
+@@name@@ tips @@tpposs@@ hat to @@other@@.
+@@name@@ tips @@tpposs@@ hat to you.
+You tip @@extra@@
+@@name@@ tips @@extra@@
+You tip your hat to yourself.
+@@name@@ tips @@tpposs@@ hat to @@tpobjself@@.
+#
+tiptoe
+You tiptoe through the tulips.
+@@name@@ tiptoes through the tulips.
+You tiptoe quietly up behind @@other@@.
+@@name@@ tiptoes quietly up behind @@other@@.
+@@name@@ tiptoes quietly up behind you.
+You tiptoe @@extra@@
+@@name@@ tiptoes @@extra@@
+You work hard at tiptoeing quietly up behind yourself.
+@@name@@ works hard at tiptoeing quietly up behind @@tpobjself@@.
+#
+tirade
+You go into a tirade.
+@@name@@ goes into a tirade.
+You go into a tirade directed at @@other@@.
+@@name@@ goes into a tirade directed at @@other@@.
+@@name@@ goes into a tirade directed at you.
+*It makes no sense to tirade @@extra@@
+*
+You go into a tirade directed at yourself.
+@@name@@ goes into a tirade directed at @@tpobjself@@.
+#
+titter
+You titter nervously.
+@@name@@ titters nervously.
+You titters nervously at @@other@@.
+@@name@@ titters nervously at @@other@@.
+@@name@@ titters nervously at you.
+You titter @@extra@@
+@@name@@ titters @@extra@@
+You titter nervously at yourself.
+@@name@@ titters nervously at @@tpobjself@@.
+#
+tittup
+You tittup giddily about the room.
+@@name@@ tittups giddily about the room.
+You tittup in a circle around @@other@@.
+@@name@@ tittups in a circle around @@other@@.
+@@name@@ tittups in a circle around you.
+You tittup @@extra@@
+@@name@@ tittups @@extra@@
+Blatantly ignoring the laws of physics, you tittup in a circle around yourself.
+Ignoring the laws of physics, @@name@@ tittups in a circle around @@tpobjself@@.
+#
+tremble
+You tremble with fear.
+@@name@@ trembles with fear.
+You tremble with fear of @@other@@.
+@@name@@ trembles with fear of @@other@@.
+@@name@@ trembles with fear of you.
+You tremble @@extra@@
+@@name@@ tremble @@extra@@
+You tremble with fear of yourself.
+@@name@@ trembles with fear of @@tpobjself@@.
+#
+twitch
+You twitch.
+@@name@@ twitches.
+You twitch at @@other@@.
+@@name@@ twitches at @@other@@.
+@@name@@ twitches at you.
+You twitch @@extra@@
+@@name@@ twitches @@extra@@
+You twitch at yourself.
+@@name@@ twitches at @@tpobjself@@.
+#
+type
+You explain that you are unable to type.
+@@name@@ explains that @@tppro@@ is unable to type.
+You explain to @@other@@ that you are unable to type.
+@@name@@ explains to @@other@@ that @@tppro@@ is unable to type.
+@@name@@ explains to you that @@tppro@@ is unable to type.
+*This emote does not support customization.
+*
+You explain to yourself that you are unable to type.
+@@name@@ explains to @@tpobjself@@ that @@tppro@@ is unable to type.
+#
+waffle
+You waffle.
+@@name@@ waffles.
+You waffle at @@other@@.
+@@name@@ waffles at @@other@@.
+@@name@@ waffles at you.
+You waffle @@extra@@
+@@name@@ waffles @@extra@@
+You waffle at yourself.
+@@name@@ waffles at @@tpobjself@@.
+#
+warble
+You warble happily.
+@@name@@ warbles happily.
+You warble at @@other@@.
+@@name@@ warbles at @@other@@.
+@@name@@ warbles at you.
+You warble @@extra@@
+@@name@@ warbles @@extra@@
+You warble at yourself.
+@@name@@ warbles at @@tpobjself@@.
+#
+wave
+You wave.
+@@name@@ waves.
+You wave to @@other@@.
+@@name@@ waves to @@other@@.
+@@name@@ waves to you.
+You wave @@extra@@
+@@name@@ waves @@extra@@
+You wave to yourself.
+@@name@@ waves to @@tpobjself@@.
+#
+weep
+You weep bitterly.
+@@name@@ weeps bitterly.
+You weep for @@other@@.
+@@name@@ weeps for @@other@@.
+@@name@@ weeps for you.
+You weep @@extra@@
+@@name@@ weeps @@extra@@
+You weep for yourself.
+@@name@@ weeps for @@tpobjself@@.
+#
+whimper
+You whimper.
+@@name@@ whimpers.
+You whimper at @@other@@.
+@@name@@ whimpers at @@other@@.
+@@name@@ whimpers at you.
+You whimper @@extra@@
+@@name@@ whimpers @@extra@@
+You whimper to yourself.
+@@name@@ whimpers to @@tpobjself@@
+#
+whine
+You whine.
+@@name@@ whines.
+You whine at @@other@@.
+@@name@@ whines at @@other@@.
+@@name@@ whines at you.
+You whine @@extra@@
+@@name@@ whines @@extra@@
+You whine at yourself.
+@@name@@ whines at @@tpobjself@@.
+#
+wince
+You wince
+@@name@@ winces.
+You wince at @@other@@.
+@@name@@ winces at @@other@@.
+@@name@@ winces at you.
+You wince @@extra@@
+@@name@@ winces @@extra@@
+You wince at yourself.
+@@name@@ winces at @@tpobjself@@.
+#
+wink
+You wink.
+@@name@@ winks.
+You wink at @@other@@.
+@@name@@ winks at @@other@@.
+@@name@@ winks at you.
+You wink @@extra@@
+@@name@@ winks @@extra@@
+You wink to yourself.
+@@name@@ winks to @@tpobjself@@.
+#
+worship
+You fall to your knees and cry, "I'm not worthy! I'm not worthy!"
+@@name@@ falls to @@tpposs@@ knees and cries, "I'm not worthy! I'm not worthy!"
+You worship at @@other@@'s feet.
+@@name@@ worships at @@other@@'s feet.
+@@name@@ worships at your feet.
+You worship @@extra@@
+@@name@@ worships @@extra@@
+You make a good attempt at worshipping at your own feet, but the fizzix involved is simply too complex.
+@@name@@ tries, and fails, to worship at @@tpposs@@ own feet.
+#
+yawn
+You yawn.
+@@name@@ yawns.
+You yawn at @@other@@.
+@@name@@ yawns at @@other@@.
+@@name@@ yawns at you.
+You yawn @@extra@@
+@@name@@ yawns @@extra@@
+You yawn at yourself.
+@@name@@ yawns at @@tpobjself@@.
+#
+zark
+You angrily cry "Zark!".
+@@name@@ angrily cries "Zark!".
+You glare at @@other@@ and shout "Zark you!".
+@@name@@ glares at @@other@@ and shouts "Zark you!".
+@@name@@ glares at you and shouts "Zark you!".
+*This emote does not support customization.
+*
+You glare at yourself and shout "Zark you!".
+@@name@@ glares at @@tpobjself@@ and shouts "Zark you!".
+#
+zib
+You happily shout, "Zib, zib!"
+@@name@@ happily shouts, "Zib, zib!"
+You happily shout "Zib, zib!" to @@other@@.
+@@name@@ happily shouts "Zib, zib!" to @@other@@.
+@@name@@ happily shouts "Zib, zib!" to you.
+*This emote does not support customization.
+*
+You happily shouts "Zib, zib!" to yourself.
+@@name@@ happily shouts "Zib, zib!" to @@tpobjself@@.
+#
+zone
+You zone out completely.
+@@name@@ zones out completely.
+You attempt to bring @@other@@ back to reality.
+@@name@@ attempts to bring @@other@@ back to reality.
+@@name@@ attempts to bring you back to reality.
+*This emote does not support customization.
+*
+You shake yourself and refocus on your surroundings.
+@@name@@ shakes @@tpobjself@@ and refocuses on @@tpposs@@ surroundings.
+#
+zurbert
+*You must specify a receiver for this emote.
+*
+You zurbert @@other@@'s belly!
+@@name@@ zurberts @@other@@'s belly!
+@@name@@ zurberts your belly!
+You zurbert @@extra@@
+@@name@@ zurberts @@extra@@
+You attempt to zurbert your own belly but are unable to accomplish the contortion.
+@@name@@ attempts to zurbert @@tpposs@@ own belly but is unable to accomplish the contortion.
+###############################
+scream%geewhiz
+You scream loudly!
+@@name@@ screams loudly!
+You scream loudly at @@other@@!
+@@name@@ screams loudly at @@other@@!
+@@name@@ screams loudly at you!
+You scream @@extra@@
+@@name@@ screams @@extra@@
+You scream, "AAAAAAAAAAAAAAAAAARRRRRRRRRRRRRrrrrrrrrrRRRRrrrrrGGGGGGG!"
+@@name@@ screams "AAAAAAAAAAAAARRRRRRRRRRrrrrrrrrrRRRRRRrrrrrrGGGGGGgggg!"
+#
+grope%geewhiz
+*This emote requires a target.
+*
+You grope @@other@@.
+@@name@@ gropes @@other@@.
+@@name@@ gropes you.
+You grope @@extra@@
+@@name@@ gropes @@extra@@.
+You grope yourself for a cheap thrill.
+@@name@@ gropes @@tpobjself@@ for a cheap thrill.
+#
+pout%geewhiz
+You pout.
+@@name@@ pouts.
+You pout at @@other@@.
+@@name@@ pouts at @@other@@.
+@@name@@ pouts at you.
+You pout @@extra@@
+@@name@@ pouts @@extra@@
+You pout at yourself.
+@@name@@ pouts at @@tpobjself@@.
+#shake%
+#
+moan%geewhiz
+You moan.
+@@name@@ moans.
+You moan at @@other@@.
+@@name@@ moans at @@other@@.
+@@name@@ moans at you.
+You moan @@extra@@
+@@name@@ moans @@extra@@
+You moan at yourself... how odd.
+@@name@@ moans at @@tpobjself@@... how odd.
+#
+##############################################################################
+## END OF EMOTES COVERED BY LEGAL NOTICE AT TOP OF FILE ######################
+##############################################################################
+## PLACE NEW / CONTRIBUTED EMOTES BELOW THIS LINE ############################
+##############################################################################
+########################################
+## THESE ARE NEEDED AND WILL BE ADDED ##
+########################################
+ah%geewhiz
+You give an "Ahh" of comprehension.
+@@name@@ gives an "Ahh" of comprehension.
+You finally understand what @@other@@ is saying.
+@@name@@ finally understands what @@other@@ is saying.
+@@name@@ finally understands what you are saying.
+*It makes no sense to 'ah @@extra@@'
+*
+You finally understand what you are saying.
+@@name@@ finally understands what @@tppro@@ is saying.
+#
+arch%geewhiz
+You arch your eyebrow
+@@name@@ arches @@tpposs@@ eyebrow
+You arch your eyebrow at @@other@@
+@@name@@ arches @@tpposs@@ eyebrow at @@other@@
+@@name@@ arches @@tpposs@@ eyebrow at you
+You arch @@extra@@
+@@name@@ arches @@extra@@
+*It makes no sense to arch at yourself
+*
+#
+cheer%geewhiz
+You cheer wholeheartedly.
+@@name@@ cheers wholeheartedly.
+You cheer @@other@@ on!
+@@name@@ cheers @@other@@ on!
+@@name@@ cheers you on!
+You cheer @@extra@@
+@@name@@ cheers @@extra@@
+You cheer yourself on!
+@@name@@ cheers @@tpobjself@@ on!
+#
+duh%geewhiz
+You go, 'Duh!'
+@@name@@ goes, 'Duh!'
+You look at @@other@@ and go, 'Duh!'
+@@name@@ looks at @@other@@ and goes, 'Duh!'
+@@name@@ looks at you and goes, 'Duh!'
+*It makes no sense to 'duh @@extra@@'
+*
+You look at yourself and go, 'Duh!'
+@@name@@ looks at @@tpobjself@@ and goes, 'Duh!'
+#
+flex%geewhiz
++flex
++
++flex
++
++
+You flex @@extra@@
+@@name@@ flexes @@extra@@
++flex
++
+#
+fondle%geewhiz
+*This emote requires a target or a modifier.
+*
+You fondle @@other@@.
+@@name@@ fondles @@other@@.
+@@name@@ fondles you.
+You fondle @@extra@@
+@@name@@ fondles @@extra@@
+You get a cheap thrill by fondling yourself.
+@@name@@ gets a cheap thrill by fondling @@tpobjself@@.
+#
+french%ash
+*This emote requires a target or a modifier.
+*
+You embrace @@other@@ giving @@otobj@@ a real kiss, it seems to last forever.
+@@name@@ embraces @@other@@ giving @@otobj@@ a real kiss.
+@@name@@ embraces you giving you a real kiss, it seems to last forever.
+*It makes no sense to 'french @@extra@@'.
+*
+You try to french kiss yourself but fail.
+@@name@@ attempts to french kiss @@tpobjself@@.
+#
+gasp%geewhiz
+You gasp.
+@@name@@ gasps.
+You gasp at @@other@@.
+@@name@@ gasps at @@other@@.
+@@name@@ gasps at you.
+You gasp @@extra@@
+@@name@@ gasps @@extra@@
+You gasp in sheer horror at yourself.
+@@name@@ gasps in sheer horror at @@tpobjself@@.
+#
+glare%geewhiz
+You glare around the room icily.
+@@name@@ glares around the room icily.
+You glare at @@other@@.
+@@name@@ glares at @@other@@.
+@@name@@ glares at you.
+You glare @@extra@@
+@@name@@ glares @@extra@@
+You try to glare at yourself but end up crossing your eyes instead.
+@@name@@ try to glare at yourself but end up crossing your eyes instead.
+#
+hiccup%geewhiz
+You hiccup.
+@@name@@ hiccups.
+You hiccup at @@other@@.
+@@name@@ hiccups at @@other.
+@@name@@ hiccups at you.
+*It makes no sense to 'hiccup @@extra@@'.
+*
+*It makes no sense to hiccup at yourself.
+*
+#
+hkiss%geewhiz
+*This emote requires a target or modifier.
+*
+You take @@other@@'s @@dem|hand@@ and kiss it gently
+@@name@@ takes @@other@@'s @@dem|hand@@ and kisses it gently
+@@name@@ takes your @@dem|hand@@ and kisses it gently
+*Why would you 'hkiss @@extra@@' ?
+*
+You take your @@dem|hand@@ and kiss it gently.
+@@name@@ takes @@tpposs@@ @@dem|hand@@ and kisses it gently.
+#
+knee%geewhiz
+*This emote requires a target or modifier.
+*
+You knee @@other@@ hard in @@otposs@@ groin.
+@@name@@ knees @@other@@ hard in @@otposs@@ groin!
+@@name@@ knees you hard in your groin!
+You knee @@extra@@
+@@name@@ knees @@extra@@
+*You can't do that!
+*
+#
+love%geewhiz
+You are dying to tell someone how much you love them.
+@@name@@ is dying to tell someone how much @@tppro@@ loves them.
+You declare your undying love for @@other@@.
+@@name@@ declares @@tpposs@@ undying love for @@other@@.
+@@name@@ declares @@tpposs@@ undying love for you.
+You love @@extra@@
+@@name@@ loves @@extra@@
+You love yourself very much.
+@@name@@ loves @@tpobjself@@ very much.
+#
+oh%geewhiz
+You say, 'Oh... I get it'
+@@name@@ says, 'Oh... I get it'
+You look at @@other@@ and say, 'Oh... I get it'
+@@name@@ looks at @@other@@ and says, 'Oh... I get it'
+@@name@@ looks at you and says, 'Oh... I get it'
+*It makes no sense to 'oh @@extra@@'
+*
+*Do you finally understand what you were trying to say?
+*
+#
+pinch%geewhiz
+*This emote requires a target or modifier.
+*
+You pinch @@other@@.
+@@name@@ pinches @@other@@.
+@@name@@ pinches you.
+You pinch @@extra@@
+@@name@@ pinches @@extra@@
+You pinch yourself to make sure this isn't a dream.
+@@name@@ pinches @@tpobjself@@ to make sure this isn't all a dream.
+#
+point%geewhiz
+You get confused and start pointing at everything.
+@@name@@ gets confused and starts pointing at everything.
+You point at @@other@@.
+@@name@@ points at @@other@@.
+@@name@@ points at you.
+You point @@extra@@
+@@name@@ points @@extra@@
+You point at yourself.
+@@name@@ points at @@tpobjself@@.
+#
+poke%geewhiz
+*This emote requires a target or modifier.
+*
+You poke @@other@@ in @@otposs@@ @@dem|ribs@@
+@@name@@ pokes @@other@@ in @@otposs@@ @@dem|ribs@@
+@@name@@ pokes you in your @@dem|ribs@@
+You poke @@extra@@
+@@name@@ pokes @@extra@@
+You poke yourself in your @@dem|ribs@@
+@@name@@ pokes @@tpobjself@@ in @@tpposs@@ @@dem|ribs@@
+#
+praise%geewhiz
+You praise everyone in the room
+@@name@@ praises everyone in the room
+You praise @@other@@
+@@name@@ praises @@other@@
+@@name@@ praises you.
+You praise @@extra@@
+@@name@@ praises @@extra@@
+You praise yourself
+@@name@@ praises @@tpobjself@@
+#
+puke%geewhiz
+You puke.
+@@name@@ pukes.
+You puke on @@other@@
+@@name@@ pukes on @@other@@
+@@name@@ pukes on you
+You puke @@extra@@
+@@name@@ pukes @@extra@@
+You puke all over yourself
+@@name@@ pukes all over @@tpobjself@@
+#
+scratch%geewhiz
+You scratch your chin in confusion.
+@@name@@ scratches @@tpposs@@ chin in confusion.
+You scratch @@other@@'s @@dem|chin@@.
+@@name@@ scratches @@other@@'s @@dem|chin@@.
+@@name@@ scratches your @@dem|chin@@.
+You scratch @@extra@@
+@@name@@ scratches @@extra@@
+You scratch yourself.
+@@name@@ scratches @@tpobjself@@.
+#
+wiggle%geewhiz
+You wiggle your bottom.
+@@name@@ wiggles @@tpposs@@ bottom.
+You wiggle your @@dem|bottom@@ at @@other@@.
+@@name@@ wiggles @@tpposs@@ @@dem|bottom@@ at @@other@@.
+@@name@@ wiggles @@tpposs@@ @@dem|bottom@@ at you.
+You wiggle @@extra@@
+@@name@@ wiggles @@extra@@
+*Why would you want to do that?
+*
+#
+sing%geewhiz
+You sing, "do re me fa so la ti do".
+@@name@@ sings, "do re me fa so la ti do".
+You sing @@dem|a_sweet_lullaby@@ to @@other@@.
+@@name@@ sings @@dem|a_sweet_lullaby@@ to @@other@@.
+@@name@@ sings @@dem|a_sweet_lullaby@@ to you.
+You sing @@extra@@
+@@name@@ sings @@extra@@
+You sing softly to yourself.
+@@name@@ sings softly to @@tpobjself@@.
+#
+slap%geewhiz
+*This emote requires a target or modifier.
+*
+You slap @@other@@ across @@otposs@@ @@dem|face@@!
+@@name@@ slaps @@other@@ across @@otposs@@ @@dem|face@@!
+@@name@@ slaps you across your @@dem|face@@!
+You slap @@extra@@
+@@name@@ slaps @@extra@@
+You slap yourself across the @@dem|face@@!
+@@name@@ slaps @@tpobjself@@ across @@otposs@@ @@dem|face@@!
+#
+snap%geewhiz
+You snap your fingers.
+@@name@@ snaps @@tpposs@@ fingers.
+You snap your fingers at @@other@@.
+@@name@@ snaps @@tpposs@@ fingers at @@other@@.
+@@name@@ snaps @@tpposs@@ fingers at you.
+You snap @@extra@@
+@@name@@ snaps @@extra@@
+You snap your fingers to a snazzy tune.
+@@name@@ snaps @@tpposs@@ fingers to a snazzy tune.
+#
+sneer%geewhiz
+You sneer
+@@name@@ sneers
+You sneer at @@other@@
+@@name@@ sneers at @@other@@
+@@name@@ sneers at you
+You sneer @@extra@@
+@@name@@ sneers @@extra@@
+*You can't sneer at yourself!
+*
+#
+sneeze%geewhiz
+You sneeze
+@@name@@ sneezes
+You sneeze in @@other@@'s general direction
+@@name@@ sneezes in @@other@@'s general direction
+@@name@@ sneezes in your general direction
+You sneeze @@extra@@
+@@name@@ sneezes @@extra@@
+You sneeze all over yourself
+@@name@@ sneezes all over @@tpobjself@@
+#
+snicker%geewhiz
+You snicker.
+@@name@@ snickers.
+You snicker at @@other@@.
+@@name@@ snickers at @@other@@.
+@@name@@ snickers at you.
+You snicker @@extra@@
+@@name@@ snickers @@extra@@
+You snicker to yourself.
+@@name@@ snickers to @@tpobjself@@.
+#
+sniff%geewhiz
+You sniff sadly.
+@@name@@ sniffs sadly.
+You sniff sadly at @@other@@.
+@@name@@ sniffs sadly at @@other@@.
+@@name@@ sniffs sadly at you.
+You sniff @@extra@@
+@@name@@ sniffs @@extra@@
+You sniff sadly to yourself.
+@@name@@ sniffs sadly to @@tpobjself@@.
+#
+spit%geewhiz
+You spit.
+@@name@@ spits.
+You spit at @@other@@.
+@@name@@ spits at @@other@@.
+@@name@@ spits at you!
+You spit @@extra@@
+@@name@@ spits @@extra@@
+You spit on yourself.
+@@name@@ spits on @@tpobjself@@.
+#
+squeeze%geewhiz
+*This works best if you do it to something =)
+*
+You squeeze @@other@@ @@dem|tightly@@
+@@name@@ squeezes @@other@@ @@dem|tightly@@
+@@name@@ squeezes you @@dem|tightly@@
+You squeeze @@extra@@
+@@name@@ squeezes @@extra@@
+You squeeze yourself @@dem|tightly@@
+@@name@@ squeezes @@tpobjself@@ @@dem|tightly@@
+#
+stare%geewhiz
+You stare off into space.
+@@name@@ stares off into space.
+You stare deeply into @@other@@'s eyes.
+@@name@@ stares deeply into @@other@@'s eyes.
+@@name@@ stares deeply into your eyes.
+You stare @@extra@@
+@@name@@ stares @@extra@@
+*You can't do that.
+*
+#
+sulk%geewhiz
+You sulk in the corner.
+@@name@@ sulks in the corner.
+You sulk @@dem|in_the_corner@@ at @@other@@
+@@name@@ sulks @@dem|in_the_corner@@ at @@other@@
+@@name@@ sulks @@dem|in_the_corner@@ at you
+You sulk @@extra@@
+@@name@@ sulks @@extra@@
+You sulk in the corner at yourself
+@@name@@ sulks in the corner at @@tpobjself@@
+#
+thank%geewhiz
+You are thankful.
+@@name@@ is thankful.
+You thank @@other@@
+@@name@@ thanks @@other@@
+@@name@@ thanks you
+You thank @@extra@@
+@@name@@ thanks @@extra@@
+You say, Thank you thank you thank you.
+@@name@@ says, Thank you thank you thank you.
+#
+twiddle%geewhiz
+You twiddle your thumbs.
+@@name@@ twiddles @@tpposs@@ @@extra|thumbs@@
+You twiddle @@other@@'s @@extra|thumbs@@
+@@name@@ twiddles @@other@@'s @@extra|thumbs@@
+@@name@@ twiddles your @@extra|thumbs@@
+You twiddle @@extra@@
+@@name@@ twiddles @@extra@@
+You twiddle your @@extra|thumbs@@
+@@name@@ twiddles @@tpposs@@ @@extra|thumbs@@
+#
+wait%geewhiz
+You wait
+@@name@@ waits
+You wait for @@other@@ @@extra|patiently@@
+@@name@@ waits for @@other@@ @@extra|patiently@@
+@@name@@ waits for you @@extra|patiently@@
+You wait @@extra@@
+@@name@@ waits @@extra@@
+*Why do you need to wait on yourself?
+*
+whistle%geewhiz
+You whistle
+@@name@@ whistles
+You whistle at @@other@@
+@@name@@ whistles at @@other@@
+@@name@@ whistles at you
+You whistle @@extra@@
+@@name@@ whistles @@extra@@
+You whistle at yourself
+@@name@@ whistles at @@tpobjself@@
+#
+wiggle%geewhiz
+You wiggle your bottom
+@@name@@ wiggles @@tpposs@@ bottom
+You wiggle your bottom at @@other@@
+@@name@@ wiggle @@tpposs@@ bottom at @@other@@ 
+@@name@@ wiggle @@tpposs@@ bottom at you
+You wiggle @@extra@@
+@@name@@ wiggles @@extra@@
+*Wiggle what at yourself? why?
+*
+#
+beam%kethry (tweaked by Geewhiz for Kepli)
+You beam.
+@@name@@ beams.
+You beam at @@other@@ @@dem|brightly@@
+@@name@@ beams at @@other@@ @@dem|brightly@@
+@@name@@ beams at you @@dem|brightly@@
+You beam @@extra@@
+@@name@@ beams @@extra@@
+You beam at yourself.
+@@name@@ beams at @@tpobjself@@.
+#
+spell%geewhiz
+You wish you could spell.
+@@name@@ wishes @@tppro@@ could spell.
+You explain to @@other@@ that you wish you could spell.
+@@name@@ explains to @@other@@ that @@tppro@@ wishes @@tppro@@ could spell.
+@@name@@ explains to you that @@tppro@@ wishes @@tppro@@ could spell.
+You wish you could spell @@extra@@
+@@name@@ wishes @@tppro@@ could spell @@extra@@
+*You can't do that
+*
+#
+could%geewhiz
+You could
+@@name@@ could
+You could @@dem|helped@@ @@other@@
+@@name@@ could @@dem|helped@@ @@other@@
+@@name@@ could @@dem|helped@@ you
+You could @@extra@@
+@@name@@ could @@extra@@
+*Can't could yourself
+*
+#
+should%geewhiz
+You should
+@@name@@ should
+You should @@dem|help@@ @@other@@
+@@name@@ should @@dem|help@@ @@other@@
+@@name@@ should @@dem|help@@ you
+You should @@extra@@
+@@name@@ should @@extra@@
+*Can't should yourself
+*
+#
+would%geewhiz
+You would
+@@name@@ would
+You would @@dem|help@@ @@other@@
+@@name@@ would @@dem|help@@ @@other@@
+@@name@@ would @@dem|help@@ you
+You would @@extra@@
+@@name@@ would @@extra@@
+*Can't would yourself
+*
+#
+can%geewhiz
+You can
+@@name@@ can
+You can @@dem|help@@ @@other@@
+@@name@@ can @@dem|help@@ @@other@@
+@@name@@ can @@dem|help@@ you
+You can @@extra@@
+@@name@@ can @@extra@@
+*Can't can yourself
+*
+#
+will%geewhiz
+You will
+@@name@@ will
+You will @@dem|help@@ @@other@@
+@@name@@ will @@dem|help@@ @@other@@
+@@name@@ will @@dem|help@@ you
+You will @@extra@@
+@@name@@ will @@extra@@
+*Can't will yourself
+*
+#
+whistle%geewhiz
+You whistle.
+@@name@@ whistles.
+You whistle at @@other@@ @@dem|appreciatively@@
+@@name@@ whistles at @@other@@ @@dem|appreciatively@@
+@@name@@ whistles at you @@dem|appreciatively@@
+You whistle @@extra@@
+@@name@@ whistles @@extra@@
+You whistle at yourself @@dem|appreciatively@@
+@@name@@ whistle at @@tpobjself@@ @@dem|appreciatively@@
+#
+jk%geewhiz
+You explain that you are Just Kidding
+@@name@@ explains that @@tppro@@ is Just Kidding
+You explain to @@other@@ that you are Just Kidding.
+@@name@@ explains to @@other@@ that @@tppro@@ is Just Kidding.
+@@name@@ explains to you that @@tppro@@ is Just Kidding.
+*You cannot customize this emote.
+*
+You explain to yourself that you are Just Kidding.
+@@name@@ explains to @@tpobjself@@ that @@tppro@@ are Just Kidding.
+#
+peer%geewhiz
+You peer about quizzically
+@@name@@ peers about quizzically
+You peer at @@other@@
+@@name@@ peers at @@other@@
+@@name@@ peers at you
+You peer @@extra@@
+@@name@@ peers @@extra@@
+You peer at yourself in a crosseyed fashion
+@@name@@ peers at @@tpobjself@@ in a crosseyed fashion
+#
+smoke%ash
+You let everyone know your going to have a smoke
+@@name@@ is going to have a smoke
+You let @@other@@ know that you are going to have a smoke
+@@name@@ lets @@other@@ know that @@tppro@@ is going to have a smoke
+@@name@@ lets you know that @@tppro@@ is going to have a smoke
+You smoke @@extra@@
+@@name@@ smokes @@extra@@
+*It makes no sense to do that
+*
+#
+no%ash
+You shake your head no
+@@name@@ shakes @@tpposs@@ head no
+You shake your head no at @@other@@
+@@name@@ shakes @@tpposs@@ head no at @@other@@
+@@name@@ shakes @@tpposs@@ head no at you
+*You cannot modify this emote.
+*
+*You cannot direct this emote at yourself.
+*
+#
+yes%ash
+You shake your head yes
+@@name@@ shakes @@tpposs@@ head yes
+You shake your head yes at @@other@@
+@@name@@ shakes @@tpposs@@ head yes at @@other@@
+@@name@@ shakes @@tpposs@@ head yes at you
+*You cannot modify this emote.
+*
+*You cannot direct this emote at yourself.
+*
+#
+marley%ash
+You tell everyone in the room you like to smoke like the Prophets
+@@name@@ likes to smoke like the Prophets
+You tell @@other@@ that you like to smoke like the Prophets
+@@name@@ tells @@other@@ that @@tppro@@ like to smoke like the Prophets
+@@name@@ tells you that @@tppro@@ likes to smoke like the Prophets
+*You cannot modify this emote.
+*
+You try to convince yourself that you smoke like the Prophets
+@@name@@ tries to convince @@tpobjself@@ that @@tppro@@ smokes like the Prophets
+#
+swear%geewhiz
+You curse fluently and rapidly in many different languages
+@@name@@ curses fluently and rapidly in many different languages
+You curse fluently and rapidly in many different languages at @@other@@
+@@name@@ curse fluently and rapidly in many different languages at @@other@@
+@@name@@ curse fluently and rapidly in many different languages at you
+You curse @@extra@@
+@@name@@ curse @@extra@@
+You curse fluently and rapidly in many different languages at yourself
+@@name@@ curses fluently and rapidly in many different languages at @@tpobjself@@
+#
+random%geewhiz
+*Handled internally
+*
+*Handled internally
+*
+*
+*Handled internally
+*
+*Handled internally
+*
+#
+was%geewhiz
+You were
+@@name@@ was
+You say that @@other@@ was
+@@name@@ says that @@other@@ was
+@@name@@ says that you were
+You were @@extra@@
+@@name@@ was @@extra@@
+*That makes no sense
+*
+#
+flip%ash
++flip
++
++flip
++
++
+You flip @@extra@@
+@@name@@ flips @@extra@@
++flip
++
+doh%geewhiz (suggested by Syd)
+You exclaim, "Doh!".
+@@name@@ exclaims, "Doh!".
+You look at @@other@@ and exclaim, "Doh!".
+@@name@@ looks at you and exclaims, "Doh!".
+@@name@@ looks at @@other@@ and exclaims, "Doh!".
+*That makes no sense.
+*
+You exclaim, "Doh!" at yourself.
+@@name@@ exclaims, "Doh!" at @@tpobjself@@.
+#
+hand%geewhiz (suggested by Syd)
+You think things have gotten way out of hand!
+@@name@@ thinks things have gotten way out of hand!
+You think @@other@@ is way out of hand!
+@@name@@ thinks you are way out of hand!
+@@name@@ thinks @@other@@ are way out of hand!
+*That makes no sense
+*
+You think you have gotten way out of hand!
+@@name@@ thinks @@tppro@@ has gotten way out of hand!
+#
+wibble%geewhiz (suggested by Tarl)
+You wibble violently.
+@@name@@ wibbles violently.
+You wibble at @@other@@ @@dem|threateningly@@
+@@name@@ wibbles at @@other@@ @@dem|threateningly@@
+@@name@@ wibbles at you @@dem|threateningly@@
+You wibble @@extra@@.
+@@name@@ wibbles @@extra@@.
+You wibble @@dem|uncontrollably@@ at yourself.
+@@name@@ wibbles at @@tpobjself@@ @@dem|uncontrollably@@.
+#
+pond%geewhiz (suggested by Tarl)
+You look around for a convenient pond.
+@@name@@ looks around for a convenient pond.
+You heave @@other@@ @@dem|into_a_nearby_pond@@.
+@@name@@ heaves @@other@@ @@dem|into_a_nearby_pond@@!
+@@name@@ heaves you @@dem|into_a_nearby_pond@@!
+You look around for @@extra@@
+@@name@@ looks around for @@extra@@
+You heave yourself @@dem|into_a_nearby_pond@@!
+@@name@@ heaves @@tpobjself@@ @@dem|into_a_nearby_pond@@
+#
+tap%geewhiz (suggested by Tarl)
+You tap your foot impatiently.
+@@name@@ taps @@tpposs@@ foot impatiently.
+You tap your foot @@dem|impatiently@@ at @@other@@.
+@@name@@ taps @@tpposs@@ foot @@dem|impatiently@@ at @@other@@.
+@@name@@ taps @@tpposs@@ foot @@dem|impatiently@@ at you.
+You tap @@extra@@
+@@name@@ taps @@extra@@
+You tap your foot to the beat.
+@@name@@ taps his foot to the beat.
+#
+chill%geewhiz (suggested by Tarl)
+You lay back and just chill.
+@@name@@ lays back and just chills.
+You tell @@other@@ to chill out.
+@@name@@ tells @@other@@ to chill out.
+@@name@@ tells you to chill out.
+*Chill does not support this usage.
+*
+You feel a chill run up your spine.
+@@name@@ shivers as a chill runs up @@tpposs@@ spine.
+#
+drool%geewhiz (suggested by Amel)
+You drool on the floor uncontrollably
+@@name@@ drools on the floor uncontrollably
+You drool on @@other@@ @@dem|uncontrollably@@
+@@name@@ drools on @@other@@ @@dem|uncontrollably@@
+@@name@@ drools on you @@dem|uncontrollably@@
+You drool @@extra@@
+@@name@@ drools @@extra@@
+You drool on yourself @@dem|uncontrollably@@
+@@name@@ drools on @@tpobjself@@ @@dem|uncontrollably@@
+#
+kenny%geewhiz (with apologies to South Park)
+You scream, "Oh my God! They killed Kenny! You bastards!"
+@@name@@ screams, "Oh my God! They killed Kenny! You bastards!"
+You scream, "Oh my God! They killed @@other@@! You bastards!"
+@@name@@ screams, "Oh my God! They killed @@other@@! You bastards!"
+@@name@@ screams, "Oh my God! They killed you! Those bastards!"
+*It kinda makes no sense to 'kenny @@extra@@'
+*
+You scream, "Oh my God! They killed me! You bastards!"
+@@name@@ screams, "Oh my God! They killed me! You bastards!"
+#
+ikilled%geewhiz (suggested by Duncan (made in protest))
+You do a little dance singing, "I killed someone, I killed someone"
+@@name@@ does a little dance singing, "I killed someone, I killed someone"
+You do a little dance singing, "I killed @@other@@, I killed @@other@@"
+@@name@@ does a little dance singing, "I killed @@other@@, I killed @@other@@"
+@@name@@ does a little dance singing, "I killed you, I killed you"
+You do a little dance singing, "I killed @@dem|someone@@, I killed @@dem|someone@@"
+@@name@@ does a little dance singing, "I killed @@dem|someone@@, I killed @@dem|someone@@"
+You do a little dance singing, "I killed myself, I killed myself"
+@@name@@ does a little dance singing, "I killed myself, I killed myself"
+#
+holdhand%geewhiz (suggested by Diabla)
+*This emote requires a target.
+*
+You hold hands with @@other@@
+@@name@@ holds hands with @@other
+@@name@@ holds hands with you
+*It makes no sense to 'holdhand @@extra@@'
+*
+You hold your own hand
+@@name@@ holds @@tpposs@ own hand
+#
+melt%geewhiz (suggested by Kepli)
+You melt away
+@@name@@ melts away
+You melt into @@other@@'s @@dem|arms@@
+@@name@@ melts into @@other@@'s @@dem|arms@@
+@@name@@ melts into your @@dem|arms@@
+You melt @@extra@@
+@@name@@ melts @@extra@@
+*Does it make sense to melt into yourself? Mail Geewhiz with suggestion.
+*
+#
+want%geewhiz (suggested by Billy)
+You want it!
+@@name@@ wants it!
+You want to have @@other@@ for your own
+@@name@@ wants to have @@other@@ for @@tpposs@@ own
+@@name@@ wants to have you for @@tpposs@@ own
+You want to have @@extra@@ for your own
+@@name@@ wants to have @@extra@@ for @@tpposs@@ own
+You want yourself badly!
+@@name@@ wants @@tpobjself@@ badly!
+#
+puny%geewhiz (suggested by Grong)
+*You need to direct this at someone
+*
+You think that @@other@@ has a puny pathetic body
+@@name@@ thinks that @@other@@ has a puny pathetic body
+@@name@@ thinks that you have a puny pathetic body
+*'puny @@extra@@' huh? Mail Geewhiz and tell him what that should say.
+*
+You think that you have a puny pathetic body
+@@name@@ thinks that @@tppro@@ has a puny pathetic body
+#
+hot%geewhiz (suggested by Billy)
+You are hot!
+@@name@@ is hot!
+You think @@other@@ is hot!
+@@name@@ thinks @@other@@ is hot!
+@@name@@ thinks you are hot!
+You think @@extra@@ is hot!
+@@name@@ thinks that @@extra@@ is hot!
+You think you are hot!
+@@name@@ thinks that @@tppro@@ is hot!
+#
+cold%geewhiz (companion to 'hot')
+You are cold!
+@@name@@ is cold!
+You think @@other@@ is cold!
+@@name@@ thinks @@other@@ is cold!
+@@name@@ thinks you are cold!
+You think @@extra@@ is cold!
+@@name@@ thinks that @@extra@@ is cold!
+You think you are cold!
+@@name@@ thinks that @@tppro@@ is cold!
+#
+mgrin%geewhiz (suggested by Kepli)
+You grin mischieviously
+@@name@@ grins mischieviously
+You grin mischieviously at @@other@@
+@@name@@ grins mischieviously at @@other@@
+@@name@@ grins mischieviously at you
+You grin mischieviously @@extra@@
+@@name@@ grins mischieviously @@extra@@
+You grin mischieviously at yourself
+@@name@@ grins mischieviously at @@tpobjself@@
+#
+gaze%geewhiz (suggested by Kepli)
+You gaze about the room
+@@name@@ gazes about the room
+You gaze at @@other@@ @@dem|with_wide,_innocent_eyes@@
+@@name@@ gazes at @@other@@ @@dem|with_wide,_innocent_eyes@@
+@@name@@ gazes at you @@dem|with_wide,_innocent_eyes@@
+You gaze @@extra@@
+@@name@@ gaze @@extra@@
+*You can't do that can you? Mail geewhiz suggestion for this usage.
+*
+#
+shudder%geewhiz (suggested by Kepli)
+You shudder
+@@name@@ shudders
+You shudder at @@other@@
+@@name@@ shudders at @@other@@
+@@name@@ shudders at you
+You shudder @@extra@@
+@@name@@ shudders @@extra@@
+You shudder at yourself
+@@name@@ shudders at @@tpobjself@@
+#
+kewl%geewhiz
+You exclaim, 'That's kewl!'
+@@name@@ exclaims, 'That's kewl!'
+You exclaim, '@@other@@ is kewl!'
+@@name@@ exclaims, '@@other@@ is kewl!'
+@@name@@ exclaims, 'You are kewl!'
+You exclaim, '@@extra@@ is kewl!'
+@@name@@ exclaims, '@@extra@@ is kewl!'
+You exclaim, 'I'm kewl!'
+@@name@@ exclaims, 'I'm kewl!'
+#
+wonder%geewhiz
+You can only hope to wonder...
+@@name@@ can only hope to wonder...
+You wonder about @@other@@ @@dem|sometimes@@
+@@name@@ wonders about @@other@@ @@dem|sometimes@@
+@@name@@ wonders about you @@dem|sometimes@@
+You wonder @@extra@@
+@@name@@ wonders @@extra@@
+You wonder about yourself @@dem|sometimes@@
+@@name@@ wonders about @@tpobjself@@ @@dem|sometimes@@
+#
+jump%geewhiz (suggested by Shaidar)
+You jump for joy
+@@name@@ jumps for joy
+You jump around in a circle around @@other@@
+@@name@@ jumps around in a circle around @@other@@
+@@name@@ jumps around in a circle around you
+You jump @@extra@@
+@@name@@ jumps @@extra@@
+*Can't.. or can you? mail geewhiz what it should say
+*
+#
+quack%geewhiz (suggested by Sunmoonstar)
+You quack like a duck
+@@name@@ quacks like a duck
+You quack like a duck at @@other@@
+@@name@@ quacks like a duck at @@other@@
+@@name@@ quack like a duck at you
+You quack @@extra@@
+@@name@@ quacks @@extra@@
+*Cant.. Mail Geewhiz with what it shoudl do
+*
+#
+highfive%geewhiz (suggested by Jada)
+You give a highfive to... no one! You fall flat on your face. Ouch!
+@@name@@ gives a highfive to... no one! @@tpPro@@ falls flat on @@tpposs@@ face.  Ouch! That hadda hurt.
+You give @@other@@ a highfive!
+@@name@@ gives @@other@@ a highfive!
+@@name@@ gives you a highfive!
+*Hrm... 'highfive @@extra@@'... What should that print? Mail Geewhiz
+*
+You give yourself a highfive!
+@@name@@ gives @@tpobjself@@ a highfive!
+#
+tongue%geewhiz (suggested by Shaidar)
+You stick out your tongue
+@@name@@ sticks out @@tpposs@@ tongue
+You stick out your tongue at @@other@@
+@@name@@ sticks out @@tpposs@@ tongue at @@other@@
+@@name@@ sticks out @@tpposs@@ tongue at you
+*'tongue @@extra@@' ? What should that say? Mail Geewhiz.
+*
+You stick out your tongue at yourself
+@@name@@ sticks out @@tpposs@@ tongue at @@tpobjself@@
+#
+foot%geewhiz (suggested by Shaidar; All questions to him please:)
+You stick out your tongue
+@@name@@ sticks out @@tpposs@@ tongue
+You stick out your tongue at @@other@@
+@@name@@ sticks out @@tpposs@@ tongue at @@other@@
+@@name@@ sticks out @@tpposs@@ tongue at you
+*'tongue @@extra@@' ? What should that say? Mail Geewhiz.
+*
+You stick out your tongue at yourself
+@@name@@ sticks out @@tpposs@@ tongue at @@tpobjself@@
+#
+zipper%geewhiz (with apologies to Shaidar)
+You stand sideways and stick out your tongue.  You look remarkably like a zipper.
+@@name@@ stands sideways and sticks out @@tpposs@@ tongue.  @@tpPro@@ looks remarkably like a zipper.
+You stand sideways and stick out your tongue.  @@other@@ exclaims, 'Oh my gosh, you look remarkably like a zipper!'
+@@name@@ stands sideways and sticks out @@tpposs@@ tongue.  @@other@@ exclaims, 'Oh my gosh, @@name@@ looks remarkably like a zipper!'
+@@name@@ stands sideways and sticks out @@tpposs@@ tongue.  You exclaim, 'Oh my gosh, @@name@@ looks remarkably like a zipper!'
+You zipper @@extra@@
+@@name@@ zippers @@extra@@
+You stand sideways and stick out your tongue.  You exclaim, 'Oh my gosh, I look remarkably like a zipper!'
+@@name@@ stands sideways and sticks out @@tpposs@@ tongue.  @@name@@ exclaims, 'Oh my gosh, I look remarkably like a zipper!'
+#
+bare%geewhiz (suggested by Jada)
+You bare your neck
+@@name@@ bares @@tpposs@@ neck
+You bare your @@dem|neck@@ for @@other@@
+@@name@@ bares @@tpposs@@ @@dem|neck@@ for @@other@@
+@@name@@ bares @@tpposs@@ @@dem|neck@@ for you
+You bare @@extra@@
+You bares @@extra@@
+*'bare @@name@@' ? Mail Geewhiz what that should say.
+*
+#
+my%geewhiz (stolen shamelessly from Shadow's Edge)
+Your
+@@name@@'s
+Your @@other@@
+@@name@@'s @@other@@
+@@name@@'s you
+Your @@extra@@
+@@name@@'s @@extra@@
+Your yourself
+@@name@@'s @@tpobjself@@
+#
+possess%geewhiz (stolen shamelessly from Shadow's Edge)
+You possess
+@@name@@ possesses
+You possess @@other@@
+@@name@@ possesses @@other@@
+@@name@@ possesses you
+You possess @@extra@@
+@@name@@ possesses @@extra@@
+You possess yourself
+@@name@@ possesses @@tpobjself@@
+#
+show%ash
+You show everyone everything you have
+@@name@@ shows everyone everything @@tppro@@ has
+*Currently unsupported... Thinking about it (980120)
+*
+*
++show
++
+You show yourself everything you have
+@@name@@ shows @@tpobjself@@e everything @@tppro@@ has
+#
+smooch%geewhiz (suggested by Diabla)
+You pucker your lips together as if you want to smooch someone.
+@@name@@ puckers @@tpposs@@ lips together as if @@tppro@@ wants to smooch someone.
+You give @@other@@ a big, sloppy smooch on the lips and say, "Gotta love me!"
+@@name@@ gives @@other@@ a big, sloppy smooch on the lips and says, "Gotta love me!"
+@@name@@ gives you a big, sloppy smooch on the lips and says, "Gotta love me!"
+You smooch @@extra@@
+@@name@@ smooches @@extra@@
+*You cant do that! or can you? Mail Geewhiz.
+*
+#
+bkiss%geewhiz (suggested by Diabla)
+You blow a kiss to no one in particular.
+@@name@@ blows a kiss to no one in particular.
+You blow a kiss to @@other@@
+@@name@@ blows a kiss to @@other@@
+@@name@@ blows a kiss to you
+*You cant 'bkiss @@extra@@' or can you? mail geewhiz
+*
+You blow a kiss to yourself.
+@@name@@ blows a kiss to @@tpobjself@@
+#
+nuzzle%geewhiz (suggested by Diabla)
+*Nuzzle who?
+*
+You nuzzle your face into @@other@@'s neck and purr.
+@@name@@ nuzzles @@tpposs@@ face in @@other@@'s neck and purrs.
+@@name@@ nuzzles @@tpposs@@ face in your neck and purrs.
+You nuzzle @@extra@@
+@@name@@ nuzzles @@extra@@
+*You cant do that! or can you? Mail Geewhiz.
+*
+#
+tacklehug%geewhiz (suggested by Rodo)
+*You must direct this emote at someone.
+*
+You take a running start, dart towards @@other@@, and tacklehug @@otobj@@
+@@name@@ takes a running start, darts towards @@other@@, and tacklehugs @@otobj@@
+@@name@@ takes a running start, darts towards you, and tacklehugs you
+*Huh? what should 'tacklehug @@extra@@' say? Mail geewhiz
+*
+*Huh? what should 'tacklehug @@extra@@' say? Mail geewhiz
+*
+#
+kodak%geewhiz (suggested by Diabla)
+You say, "Awweee, it's a Kodak moment!"
+@@name@@ says, "Awweee, it's a Kodak moment!"
+You look at @@other@@, smile, and say, "Awweee it's a Kodak moment."
+@@name@@ looks at @@other@@, smiles, and says, "Awweee it's a Kodak moment."
+@@name@@ looks at you, smiles, and says, "Awweee it's a Kodak moment."
+*It makes no sense to 'kodak @@extra@@'
+*
+You say, "I just made a Kodak moment!"
+@@name@@ says, "I just made a Kodak moment!"
+#
+wtf%geewhiz (suggested by Diabla)
+You say, "What the *&#@!" 
+@@name@@ says, "What the *&#@!" 
+You look at @@other@@ and say, "What the *&#@!"
+@@name@@ looks at @@other@@ and says, "What the *&#@!"
+@@name@@ looks at you and says, "What the *&#@!"
+*Huh? Mail geewhiz what 'wtf @@extra@@' should say
+*
+*Huh? Mail geewhiz what 'wtf @@extra@@' should say
+*
+luck%geewhiz (suggested by Diabla)
+You look around trying to get lucky.
+@@name@@ looks around trying to get lucky.
+You give @@other@@ a sexy look hoping to get lucky!
+@@name@@ gives @@other@@ a sexy look hoping to get lucky!
+@@name@@ gives you a sexy look hoping to get lucky!
+*Huh? Mail geewhiz what 'luck @@extra@@' should say
+*
+*Huh? Mail geewhiz what 'luck @@extra@@' should say
+*
+#
+emoteid%geewhiz
+Emote ID = $Id: emote.dat,v 1.2 1998/05/28 08:08:41 atgraham Exp atgraham $
+@@name@@ checked the emoteid
+*Not supported
+*
+*
+*Not supported
+*
+*Not supported
+*
+#
+

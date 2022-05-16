@@ -1,0 +1,14 @@
+
+
+ command: link <who> 
+ command: link <off>
+ command: link <message>
+
+ A player may establish a direct communication link with another player
+ via the link command. To do this a player must first: link <name> and 
+ the other person must accept the link. A link is then established until
+ it is removed by either player or a player logs off. To remove a link
+ you simply type "link off" or "link remove". Once the link has been
+ establed simply "link <your message>" to talk. 
+
+ 

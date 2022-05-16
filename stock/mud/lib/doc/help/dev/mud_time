@@ -1,0 +1,53 @@
+Message  : 318
+Recipient: Ash
+From     : Ash
+Subject  : Board->Mail: New Stuff: Mud Time
+Date sent: Sat Oct 24 02:17:13
+Copied to: 
+
+   27 : New Stuff: Mud Time                 Geewhiz      Wed Mar 11 02:47 1998
+New Stuff Regarding Mud Time:
+    o Two new room functions for adding objects:
+        o add_night_object("name","/w/wizard/path/object");
+        o add_day_object("name","/w/wizard/path/object");
+      Night objects vanish in the daytime, Day objects vanish at nighttime
+      
+    o New functions available everywhere:
+        o mud_quarter() 
+            Returns 0, 1, 2, or 3 representing which quarter
+            of the hour it is
+
+        o mud_daynight()
+            Returns 0, 1, 2, or 3 representing Dawn, Day, Dusk, or Night
+            
+        o mud_hour()
+            Returns 0 - 23 representing the mud hour
+
+        o mud_minute()
+            Returns 0 - 59 representing the mud minute
+
+        o mud_day()
+            Returns 0 - 6 representing the day of the week
+            
+        o mud_time()
+            Returns number of seconds since the Beginning of DH
+            
+        o mud_ctime()
+            Returns the mud date in ctime() format
+            (e.g. Wed Fth 21 06:15:00   10)
+
+        o query_mud_time() 
+            Returns a long string for the time in the following format:
+            the 53rd minute after the 6th hour, during Dawn's reign, on
+            the 21st day of Fth, a Wednesday in the 10th year after the
+            Creation
+        
+        o Two Functions that allows rooms/monsters to be notified of:
+            o Quarter hour changes (every 15 minutes mud time)
+            o Hour changes (every hour of mud time)
+            o DayNight cycle changes (at start of Dawn, Day, Dusk, and Night)
+          Those wanting to know how to use this feature please contact me
+          
+Geewhiz Iidamm the Midami
+
+

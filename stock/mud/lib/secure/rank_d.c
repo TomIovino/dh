@@ -1,0 +1,247 @@
+#define RUNNING
+///////////////////////////////////
+////////////// Rank_D /////////////
+///////////////////////////////////
+/////////// Version 1.00 //////////
+///////////////////////////////////
+
+#include <rank_d.h>
+
+#define DEBUG_WIZARD_NAME "ash"
+#define NO_PRINTD
+#define NO_ASSERT
+#include <debug_utils.h>
+
+#define PLAYER_D "/secure/player_d"
+
+#include <valid.cfg>
+
+private nomask mixed *info;
+
+
+static int disabled = 0;
+
+void disable() {
+    disabled = 1;
+}
+
+void enable(int type) {
+    disabled = 0;
+    if(type == R_PLAYER) {
+        map_objects(users(),"clear_rank_cache");
+        map_objects(users(),"delay_update_pre_title");
+    }
+}
+
+
+void remove(string name) {
+    int k;
+    mixed *data;
+    k = sizeof(data = info[A_DATA]);
+    while (k--) {
+        if (data[k][I_NAME] == name) {
+            info[A_KEYS] = info[A_KEYS][0..k-1] + info[A_KEYS][k+1..];
+            info[A_DATA] = info[A_DATA][0..k-1] + info[A_DATA][k+1..];
+        }
+    }
+}
+
+void insert(int rating, mixed *data) {
+    int j, succ;
+    mixed *keys;
+    if (sizeof(keys = info[A_KEYS]) < 25) {
+        j = insert_alist(rating, keys);
+        info[A_KEYS][j..j-1] = ({ rating });
+        info[A_DATA][j..j-1] = ({ data });
+    } else {
+        if (j = insert_alist(rating, keys)){
+            info[A_KEYS] = info[A_KEYS][1..j-1] + ({ rating }) + info[A_KEYS][j..];
+            info[A_DATA] = info[A_DATA][1..j-1] + ({ data }) + info[A_DATA][j..];
+        }
+    }
+}
+
+
+void swap(mixed a, mixed b) {
+    mixed tmp;
+    tmp = b;
+    b = a;
+    a = tmp;
+}
+
+
+string *ranking_files(int type, string race, mixed alignment, mixed level, mixed house, mixed profession) {
+    string *file;
+    switch(type) {
+        case R_PARTY:
+            file = ({ 
+                       RANK_DATA "party_main",
+                       RANK_DATA "party_kills",
+                   });
+            break;
+        case R_PLAYER:
+            if(!stringp(house) || house == "")
+                house = level > 49 ? "noble" : "commoner";
+    if(!stringp(alignment) || alignment == "" || strlen(alignment) >7)
+                alignment = "       ";
+            file = ({ 
+                       RANK_DATA "player_main",
+                       RANK_DATA "player_race_" + race,
+                       RANK_DATA "player_level_" + level,
+                       RANK_DATA "player_alignment_" + alignment,
+                       RANK_DATA "player_house_" + house,
+                       RANK_DATA "player_profession_" + profession,
+                   });
+            break;        
+/*
+        case R_WIZARD:
+            file = ({ 
+                       RANK_DATA "wizard_main",
+                       RANK_DATA "wizard_kills",
+                   });
+            break;        
+*/
+        default:
+            raise_error("rank_d::update_ranking() :  Unsupported ranking type\n");
+            break;
+    }
+    return file;
+}
+
+int player_ranking(string name, int type, mixed extra) {
+    int k, rank;
+    mixed *data;
+    string file;
+
+    if(disabled) 
+        return 999;
+
+    switch(type) {
+        case P_RACE:
+            file = RANK_DATA "player_race_" + extra;
+            break;
+        case P_HOUSE:
+            if(!stringp(extra) || extra == "")
+                extra = (int) PLAYER_D->query_level(name) > 49 ? "noble" : "commoner";
+            file = RANK_DATA "player_house_" + extra;
+            break;
+        case P_PROFESSION:
+            file = RANK_DATA "player_profession_" + extra;
+            break;
+        case P_ALIGNMENT:
+            if(name == "darkmoor") return 5; /* grin */
+            file = RANK_DATA "player_alignment_" + extra;
+            break;
+        case P_MAIN:
+            file = RANK_DATA "player_main";
+            break;
+        default:
+            raise_error("rank_d::player_ranking():  Bad type.\n");
+            break;
+    }
+PRINTD(file);
+    if(!restore_object(file)) return 999;
+    k = sizeof(data = info[A_DATA]);
+PRINTD(k);
+    while (k--) {
+        ++rank;
+PRINTD(rank);
+PRINTD(data[k][I_NAME]);
+        if (data[k][I_NAME] == name) {
+            return rank;
+        }
+    }
+    return 999;
+}
+
+int valid_house(string house) {
+    return "/secure/house_d"->restore_house(house)
+        || house == "commoner"
+        || house == "noble";
+}
+
+int valid_level(string lev) {
+    int ret;
+    ret = to_int(lev);
+    return ret > 0 && ret < 101;
+}
+
+varargs
+string query_top(string arg, int rnk) {
+    string file;
+    if(!arg || arg == "main") file = "main";
+    else if(valid_race[arg]) file = "race_" + arg;
+    else if(valid_alignment[arg]) file = "alignment_" + arg;
+    else if(valid_profession[arg]) file = "profession_" + arg;
+    else if(valid_level(arg)) file = "level_" + arg;
+    else if(valid_house(arg)) file = "house_" + arg;
+    else return 0;
+    if(!restore_object(RANK_DATA "player_" + file))
+        return 0;
+    if(!rnk || rnk < 1)
+        rnk = 1;
+    if(rnk > sizeof(info[A_DATA]))
+        return 0;
+    return info[A_DATA][<rnk][I_NAME];
+}
+
+
+int calc_rating(int lev, int a, int b) {
+    return ((a * 1000) + (b / 1000)) * lev / 100;
+}
+
+#define MASTER_EXP_VALUE 1000000
+
+void fix_exps(int m_exp, int t_exp) {
+    m_exp += t_exp / MASTER_EXP_VALUE;
+    t_exp %= MASTER_EXP_VALUE;
+}
+
+
+varargs
+void update_ranking(int type, string name, int m_exp, mixed level,
+                              mixed race, mixed alignment, mixed house, mixed sl, int t_exp,
+                              mixed profession) {
+    string *file;
+    mixed *data;
+    int i;
+    int remove_only;
+    int rating;
+    
+    fix_exps(&m_exp, &t_exp);
+    
+    if(type == R_PLAYER)
+        rating = calc_rating(level,m_exp,t_exp);
+    else
+        rating = m_exp;
+
+    if(remove_only = (type < 0))
+        type = negate(type);
+PRINTD(name);
+    file = ranking_files(type,race,&alignment,level,&house,profession);
+PRINTD(file);
+    
+    i = sizeof(file);
+    if(i) while(i--) {
+            if(type == R_PARTY)
+                swap(&rating,&level);
+
+            data = ({ name, rating, level, race, alignment, house, profession });
+            if(!restore_object(file[i])
+            || !info)
+                info = ({ ({ }), ({ }) });
+            else
+                remove(name);
+            if(!remove_only && !sl) insert(rating,data);
+            save_object(file[i]);
+            info = 0;  // De-alloc memory
+        }
+}
+
+varargs
+void remove_ranking(int type, string name, int m_exp, mixed level,
+                              mixed race, mixed alignment, mixed house, mixed sl, int t_exp,
+                              mixed profession) {
+    update_ranking(-type,name,m_exp,level,race,alignment,house,sl,t_exp, profession);
+}
+

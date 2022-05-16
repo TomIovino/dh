@@ -1,0 +1,22 @@
+
+Most of the value on NPC's should come from the items they carry,
+not the coins. With this in mind the max amount of COINS a npc
+can carry is level * level. In other words a level 1 NPC can
+have 1 copper and a level 100 NPC can have 10000 copper, actual
+coins should be roughly half of the maximum allowed.
+
+Actual value should be roughly half of the maximum value, unless it
+makes sense for the item to be of higher than normal value (made of
+precious metals, encrusted with jewels, or just really cool, as in
+"magical"). Naturally, an item described as tarnished, rusty, old,
+and the like should be of even lower value. 
+
+Note: Items with gems and such are usually heavier =)
+
+
+This is how you calculate the value of items:
+    (WC + AC + BONUSES * WC + AC + BONUSES) * 10  = VALUE 
+example:
+     25 +  0 +    5    * 25 + 0  +    5     * 10  = 9000 (maximum value)
+     25 +  0 +    5    * 25 + 0  +    5     * 10  = 4500 (average value)
+     

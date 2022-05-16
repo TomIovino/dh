@@ -1,0 +1,8 @@
+    realm <realm>
+    realm <realm> rankings
+    realm <realm> add <who>
+    realm <realm> remove <who>
+    realm <realm> promote <who>
+    realm <realm> demote <who>
+
+

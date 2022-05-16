@@ -1,0 +1,47 @@
+
+#include <mudlib.h>
+#include <ansi.h>
+
+
+int main(string arg) {
+   if(arg == "race"){
+      arg = this_player()->query_race();
+      "/cmds/wiz/_rankings"->main(arg);
+     return 1;
+   }
+   if(arg == "class" || arg == "profession"){
+      arg = this_player()->query_profession();
+      "/cmds/wiz/_rankings"->main(arg);
+     return 1;
+   }
+     "/cmds/wiz/_rankings"->main("main");
+     return 1;
+
+
+/* CODE BELOW NOT ACTIVE
+  printf("*Top 5 Good Mortals: %s, %s, %s, %s, %s.\n",
+   capitalize("/secure/rank_d"->query_top("good",1)),
+   capitalize("/secure/rank_d"->query_top("good",2)),
+   capitalize("/secure/rank_d"->query_top("good",3)),
+   capitalize("/secure/rank_d"->query_top("good",4)),
+   capitalize("/secure/rank_d"->query_top("good",5)));
+  printf("*Top 5 Evil Mortals: %s, %s, %s, %s, %s.\n",
+   capitalize("/secure/rank_d"->query_top("evil",1)),
+   capitalize("/secure/rank_d"->query_top("evil",2)),
+   capitalize("/secure/rank_d"->query_top("evil",3)),
+   capitalize("/secure/rank_d"->query_top("evil",4)),
+   capitalize("/secure/rank_d"->query_top("evil",5)));
+  if(this_player()->player_main_ranking() != 999)
+  write("Your main ranking is "+this_player()->player_main_ranking()+"!\n");
+  if(this_player()->player_main_ranking() == 999)
+  write("You are not ranked in the top 25 overall players.\n");
+  if(this_player()->player_alignment_ranking() != 999)
+  write("Your alignment ranking is "
+        +this_player()->player_alignment_ranking()+"!\n");
+  if(this_player()->player_alignment_ranking() == 999)
+  write("You are not ranked in the top 25 of your alignment.\n");
+*/
+
+  return 1;
+}
+

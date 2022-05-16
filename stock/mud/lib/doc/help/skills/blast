@@ -1,0 +1,7 @@
+
+Spell    : blast
+Type     : int
+Mana     : 50
+
+Blast is an area combat spell.
+

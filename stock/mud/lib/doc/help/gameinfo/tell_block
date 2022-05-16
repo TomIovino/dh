@@ -1,0 +1,18 @@
+==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==
+                          TELL BLOCK:  A Short Intro
+==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==
+Tell blocking allows you to... block tells.  Tell block is enabled by typing:
+    set tell_block X  (valid X's are listed below)
+You may enable tells again with:
+    unset tell_block
+ 
+Valid tell_blocks:
+   all    :  Blocks tells from all players except those that are older than
+             you are.
+   name   :  Blocks tells from player named <name>
+ 
+You can block tells from Bob, Joe, and Mary with: set tell_block bob joe mary
+You can add Billy to that list with:  set -a tell_block billy
+'reply' can be used to reply to a tell sent by a player with tells blocked.
+You can never block tells from wizards.
+==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==

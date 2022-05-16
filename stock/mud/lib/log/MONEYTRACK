@@ -1,0 +1,705 @@
+[020622 013315]
+	Object Stack:
+		obj/player#47860 ("matthew")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#49043 ("[1;33m2124 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m coins")
+
+
+  obj/player#47860 ("matthew") recieved [1;33m2124 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m (212432)
+
+[020622 013417]
+	Object Stack:
+		obj/player#46593 ("morgoth")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#49479 ("[1;33m2124 gold[0;40;37m coins")
+
+
+  obj/player#46593 ("morgoth") recieved [1;33m2124 gold[0;40;37m (212400)
+
+[020622 024259]
+	Object Stack:
+		obj/player#52681 ("xet")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#55204 ("[1;33m330 gold[0;40;37m [1;37m4 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m coins")
+
+
+  obj/player#52681 ("xet") recieved [1;33m330 gold[0;40;37m [1;37m4 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m (33041)
+
+[020622 083736]
+	Object Stack:
+		obj/player#17181 ("tassadar")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#19865 ("[1;33m651 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m coins")
+
+
+  obj/player#17181 ("tassadar") recieved [1;33m651 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m (65121)
+
+[020622 145831]
+	Object Stack:
+		obj/player#14467 ("derek")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#15726 ("[1;33m493 gold[0;40;37m [1;37m9 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m coins")
+
+
+  obj/player#14467 ("derek") recieved [1;33m493 gold[0;40;37m [1;37m9 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m (49392)
+
+[020622 145837]
+	Object Stack:
+		obj/player#14467 ("derek")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#15730 ("[1;33m982 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m coins")
+
+
+  obj/player#14467 ("derek") recieved [1;33m982 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m (98287)
+
+[020622 155758]
+	Object Stack:
+		obj/player#16306 ("tritian")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#20620 ("[1;33m1393 gold[0;40;37m [1;37m9 silver[0;40;37m [0;40;37m[33m3 copper[0;40;37m coins")
+
+
+  obj/player#16306 ("tritian") recieved [1;33m1393 gold[0;40;37m [1;37m9 silver[0;40;37m [0;40;37m[33m3 copper[0;40;37m (139393)
+
+[020622 155919]
+	Object Stack:
+		obj/player#16875 ("haities")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#20747 ("[1;33m1400 gold[0;40;37m coins")
+
+
+  obj/player#16875 ("haities") recieved [1;33m1400 gold[0;40;37m (140000)
+
+[020622 181549]
+	Object Stack:
+		obj/player#31924 ("bocho")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#33386 ("[1;33m205 gold[0;40;37m [1;37m7 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m coins")
+
+
+  obj/player#31924 ("bocho") recieved [1;33m205 gold[0;40;37m [1;37m7 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m (20572)
+
+[020622 204403]
+	Object Stack:
+		obj/player#36356 ("piccolo")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#25206 ("[1;33m140 gold[0;40;37m [1;37m5 silver[0;40;37m [0;40;37m[33m8 copper[0;40;37m coins")
+
+
+  obj/player#36356 ("piccolo") recieved [1;33m140 gold[0;40;37m [1;37m5 silver[0;40;37m [0;40;37m[33m8 copper[0;40;37m (14058)
+
+[020622 204427]
+	Object Stack:
+		obj/player#42402 ("vangelis")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#44117 ("[1;33m4529 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m coins")
+
+
+  obj/player#42402 ("vangelis") recieved [1;33m4529 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m (452989)
+
+[020622 220002]
+	Object Stack:
+		obj/player#47902 ("chad")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#49858 ("[1;33m9199 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m coins")
+
+
+  obj/player#47902 ("chad") recieved [1;33m9199 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m (919989)
+
+[020623 004100]
+	Object Stack:
+		obj/player#7907 ("octavian")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#12902 ("[1;33m509 gold[0;40;37m [0;40;37m[33m1 copper[0;40;37m coins")
+
+
+  obj/player#7907 ("octavian") recieved [1;33m509 gold[0;40;37m [0;40;37m[33m1 copper[0;40;37m (50901)
+
+[020623 005459]
+	Object Stack:
+		obj/player#7907 ("octavian")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#14448 ("[1;33m175 gold[0;40;37m [1;37m5 silver[0;40;37m [0;40;37m[33m4 copper[0;40;37m coins")
+
+
+  obj/player#7907 ("octavian") recieved [1;33m175 gold[0;40;37m [1;37m5 silver[0;40;37m [0;40;37m[33m4 copper[0;40;37m (17554)
+
+[020623 075900]
+	Object Stack:
+		obj/player#26337 ("arein")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#43558 ("[1;33m5776 gold[0;40;37m [1;37m5 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m coins")
+
+
+  obj/player#26337 ("arein") recieved [1;33m5776 gold[0;40;37m [1;37m5 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m (577655)
+
+[020623 095929]
+	Object Stack:
+		obj/player#34 ("arein")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#6028 ("[1;33m432 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m coins")
+
+
+  obj/player#34 ("arein") recieved [1;33m432 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m (43282)
+
+[020623 105327]
+	Object Stack:
+		obj/player#34 ("arein")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#10451 ("[1;33m2490 gold[0;40;37m [1;37m6 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m coins")
+
+
+  obj/player#34 ("arein") recieved [1;33m2490 gold[0;40;37m [1;37m6 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m (249067)
+
+[020623 125131]
+	Object Stack:
+		obj/player#1743 ("silvex")
+		w/jada/lair/mon/master#20846 ("malagorn")
+		secure/sim_ef_1
+		obj/player#1743 ("silvex")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#21080 ("[1;33m120 gold[0;40;37m coins")
+
+
+  obj/player#1743 ("silvex") recieved [1;33m120 gold[0;40;37m (12000)
+
+[020623 162427]
+	Object Stack:
+		obj/player#34881 ("roger")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#42107 ("[1;33m5000 gold[0;40;37m coins")
+
+
+  obj/player#34881 ("roger") recieved [1;33m5000 gold[0;40;37m (500000)
+
+[020623 164616]
+	Object Stack:
+		obj/player#43577 ("merwin")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#44451 ("[1;33m841 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m3 copper[0;40;37m coins")
+
+
+  obj/player#43577 ("merwin") recieved [1;33m841 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m3 copper[0;40;37m (84133)
+
+[020623 211717]
+	Object Stack:
+		obj/player#14774 ("vangelis")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#19169 ("[1;33m1112 gold[0;40;37m [1;37m4 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m coins")
+
+
+  obj/player#14774 ("vangelis") recieved [1;33m1112 gold[0;40;37m [1;37m4 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m (111245)
+
+[020623 211749]
+	Object Stack:
+		obj/player#17577 ("kilimar")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#19364 ("[1;33m1000 gold[0;40;37m coins")
+
+
+  obj/player#17577 ("kilimar") recieved [1;33m1000 gold[0;40;37m (100000)
+
+[020623 211803]
+	Object Stack:
+		obj/player#17577 ("kilimar")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#19376 ("[1;33m112 gold[0;40;37m coins")
+
+
+  obj/player#17577 ("kilimar") recieved [1;33m112 gold[0;40;37m (11200)
+
+[020623 221252]
+	Object Stack:
+		obj/player#3633 ("roger")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#24791 ("[1;33m5000 gold[0;40;37m coins")
+
+
+  obj/player#3633 ("roger") recieved [1;33m5000 gold[0;40;37m (500000)
+
+[020623 230500]
+	Object Stack:
+		obj/player#21343 ("nechochwyn")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#30097 ("[1;33m1084 gold[0;40;37m [1;37m4 silver[0;40;37m [0;40;37m[33m3 copper[0;40;37m coins")
+
+
+  obj/player#21343 ("nechochwyn") recieved [1;33m1084 gold[0;40;37m [1;37m4 silver[0;40;37m [0;40;37m[33m3 copper[0;40;37m (108443)
+
+[020623 230502]
+	Object Stack:
+		obj/player#21343 ("nechochwyn")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#30085 ("[1;33m376 gold[0;40;37m coins")
+
+
+  obj/player#21343 ("nechochwyn") recieved [1;33m376 gold[0;40;37m (37600)
+
+[020624 005851]
+	Object Stack:
+		obj/player#34820 ("driox")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#44462 ("[1;33m510 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m4 copper[0;40;37m coins")
+
+
+  obj/player#34820 ("driox") recieved [1;33m510 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m4 copper[0;40;37m (51034)
+
+[020624 023115]
+	Object Stack:
+		obj/player#36012 ("glareck")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#53502 ("[1;33m287 gold[0;40;37m [1;37m2 silver[0;40;37m coins")
+
+
+  obj/player#36012 ("glareck") recieved [1;33m287 gold[0;40;37m [1;37m2 silver[0;40;37m (28720)
+
+[020624 114110]
+	Object Stack:
+		obj/player#21060 ("sinjon")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#28644 ("[1;33m2816 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m6 copper[0;40;37m coins")
+
+
+  obj/player#21060 ("sinjon") recieved [1;33m2816 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m6 copper[0;40;37m (281686)
+
+[020624 133045]
+	Object Stack:
+		cmds/skills/flurry
+		obj/player#0 ("nechochwyn")
+		w/zklomen/area51/mobs/war#2207 ("war")
+		secure/sim_ef_1
+		obj/player#0 ("nechochwyn")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#2484 ("[1;33m114 gold[0;40;37m [1;37m6 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m coins")
+
+
+  obj/player#0 ("nechochwyn") recieved [1;33m114 gold[0;40;37m [1;37m6 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m (11465)
+
+[020624 134111]
+	Object Stack:
+		obj/player#2 ("devus")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#3302 ("[1;33m11402 gold[0;40;37m [0;40;37m[33m1 copper[0;40;37m coins")
+
+
+  obj/player#2 ("devus") recieved [1;33m11402 gold[0;40;37m [0;40;37m[33m1 copper[0;40;37m (1140201)
+
+[020624 134516]
+	Object Stack:
+		obj/player#0 ("nechochwyn")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#4249 ("[1;33m1100 gold[0;40;37m coins")
+
+
+  obj/player#0 ("nechochwyn") recieved [1;33m1100 gold[0;40;37m (110000)
+
+[020624 134544]
+	Object Stack:
+		obj/player#0 ("nechochwyn")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#4284 ("[1;33m10000 gold[0;40;37m coins")
+
+
+  obj/player#0 ("nechochwyn") recieved [1;33m10000 gold[0;40;37m (1000000)
+
+[020624 141700]
+	Object Stack:
+		obj/player#8 ("hover")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#7313 ("[1;33m607 gold[0;40;37m [1;37m1 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m coins")
+
+
+  obj/player#8 ("hover") recieved [1;33m607 gold[0;40;37m [1;37m1 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m (60712)
+
+[020624 174507]
+	Object Stack:
+		obj/player#10810 ("esuom")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#31733 ("[1;33m212 gold[0;40;37m [1;37m1 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m coins")
+
+
+  obj/player#10810 ("esuom") recieved [1;33m212 gold[0;40;37m [1;37m1 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m (21215)
+
+[020624 181731]
+	Object Stack:
+		obj/player#30811 ("kaija")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#35859 ("[1;33m196 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m coins")
+
+
+  obj/player#30811 ("kaija") recieved [1;33m196 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m (19627)
+
+[020624 202720]
+	Object Stack:
+		obj/player#26972 ("derek")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#49613 ("[1;33m583 gold[0;40;37m [1;37m7 silver[0;40;37m [0;40;37m[33m3 copper[0;40;37m coins")
+
+
+  obj/player#26972 ("derek") recieved [1;33m583 gold[0;40;37m [1;37m7 silver[0;40;37m [0;40;37m[33m3 copper[0;40;37m (58373)
+
+[020624 221147]
+	Object Stack:
+		obj/player#2 ("roger")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#1275 ("[1;33m220 gold[0;40;37m coins")
+
+
+  obj/player#2 ("roger") recieved [1;33m220 gold[0;40;37m (22000)
+
+[020624 221147]
+	Object Stack:
+		obj/player#1066 ("vangelis")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#1251 ("[1;33m2500 gold[0;40;37m coins")
+
+
+  obj/player#1066 ("vangelis") recieved [1;33m2500 gold[0;40;37m (250000)
+
+[020624 221155]
+	Object Stack:
+		obj/player#2 ("roger")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#1278 ("[1;33m200 gold[0;40;37m coins")
+
+
+  obj/player#2 ("roger") recieved [1;33m200 gold[0;40;37m (20000)
+
+[020624 221203]
+	Object Stack:
+		obj/player#2 ("roger")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#1290 ("[1;33m2000 gold[0;40;37m coins")
+
+
+  obj/player#2 ("roger") recieved [1;33m2000 gold[0;40;37m (200000)
+
+[020624 222208]
+	Object Stack:
+		obj/player#519 ("vino")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#1940 ("[1;33m1304 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m coins")
+
+
+  obj/player#519 ("vino") recieved [1;33m1304 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m (130435)
+
+[020624 222947]
+	Object Stack:
+		obj/player#1298 ("kenshiro")
+		obj/player#428 ("shaax")
+		secure/sim_ef_1
+		obj/player#1298 ("kenshiro")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#2337 ("[1;33m863 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m coins")
+
+
+  obj/player#1298 ("kenshiro") recieved [1;33m863 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m (86329)
+
+[020625 011030]
+	Object Stack:
+		obj/player#4 ("nechochwyn")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#12252 ("[1;33m237 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m coins")
+
+
+  obj/player#4 ("nechochwyn") recieved [1;33m237 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m (23789)
+
+[020625 031654]
+	Object Stack:
+		obj/player#16344 ("driox")
+		obj/player#16772 ("lilandra")
+		secure/sim_ef_1
+		obj/player#16344 ("driox")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#16818 ("[1;33m388 gold[0;40;37m [1;37m1 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m coins")
+
+
+  obj/player#16344 ("driox") recieved [1;33m388 gold[0;40;37m [1;37m1 silver[0;40;37m [0;40;37m[33m2 copper[0;40;37m (38812)
+
+[020625 070356]
+	Object Stack:
+		obj/player#20506 ("nilgo")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#22397 ("[1;33m406 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m coins")
+
+
+  obj/player#20506 ("nilgo") recieved [1;33m406 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m (40621)
+
+[020625 070434]
+	Object Stack:
+		obj/player#19728 ("arein")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#22428 ("[1;33m400 gold[0;40;37m coins")
+
+
+  obj/player#19728 ("arein") recieved [1;33m400 gold[0;40;37m (40000)
+
+[020625 071138]
+	Object Stack:
+		obj/player#19728 ("arein")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#22570 ("[1;33m400 gold[0;40;37m coins")
+
+
+  obj/player#19728 ("arein") recieved [1;33m400 gold[0;40;37m (40000)
+
+[020625 102157]
+	Object Stack:
+		obj/player#4308 ("nebacanezer")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#4635 ("[1;33m3312 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m coins")
+
+
+  obj/player#4308 ("nebacanezer") recieved [1;33m3312 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m (331227)
+
+[020625 140453]
+	Object Stack:
+		obj/player#12519 ("esuom")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#15525 ("[1;33m500 gold[0;40;37m coins")
+
+
+  obj/player#12519 ("esuom") recieved [1;33m500 gold[0;40;37m (50000)
+
+[020625 151807]
+	Object Stack:
+		obj/player#17955 ("felyne")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#19431 ("[1;33m112 gold[0;40;37m [1;37m7 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m coins")
+
+
+  obj/player#17955 ("felyne") recieved [1;33m112 gold[0;40;37m [1;37m7 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m (11275)
+
+[020625 163721]
+	Object Stack:
+		obj/player#22783 ("omdula")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#23128 ("[1;33m388 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m coins")
+
+
+  obj/player#22783 ("omdula") recieved [1;33m388 gold[0;40;37m [1;37m2 silver[0;40;37m [0;40;37m[33m5 copper[0;40;37m (38825)
+
+[020625 222440]
+	Object Stack:
+		obj/player#12300 ("roger")
+		obj/player#17549 ("derek")
+		secure/sim_ef_1
+		obj/player#12300 ("roger")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#17686 ("[1;33m5977 gold[0;40;37m [1;37m9 silver[0;40;37m [0;40;37m[33m4 copper[0;40;37m coins")
+
+
+  obj/player#12300 ("roger") recieved [1;33m5977 gold[0;40;37m [1;37m9 silver[0;40;37m [0;40;37m[33m4 copper[0;40;37m (597794)
+
+[020625 222723]
+	Object Stack:
+		obj/player#17549 ("derek")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#17743 ("[1;33m4000 gold[0;40;37m coins")
+
+
+  obj/player#17549 ("derek") recieved [1;33m4000 gold[0;40;37m (400000)
+
+[020625 222737]
+	Object Stack:
+		obj/player#12300 ("roger")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#17860 ("[1;33m200 gold[0;40;37m coins")
+
+
+  obj/player#12300 ("roger") recieved [1;33m200 gold[0;40;37m (20000)
+
+[020625 222757]
+	Object Stack:
+		obj/player#17549 ("derek")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#17866 ("[1;33m2000 gold[0;40;37m coins")
+
+
+  obj/player#17549 ("derek") recieved [1;33m2000 gold[0;40;37m (200000)
+
+[020626 004138]
+	Object Stack:
+		obj/player#24649 ("johni")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#24898 ("[1;33m783 gold[0;40;37m [1;37m1 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m coins")
+
+
+  obj/player#24649 ("johni") recieved [1;33m783 gold[0;40;37m [1;37m1 silver[0;40;37m [0;40;37m[33m9 copper[0;40;37m (78319)
+
+[020626 005301]
+	Object Stack:
+		cmds/skills/flurry
+		obj/player#25124 ("khaos")
+		obj/player#21607 ("boromir")
+		secure/sim_ef_1
+		obj/player#25124 ("khaos")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#26581 ("[1;33m128 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m6 copper[0;40;37m coins")
+
+
+  obj/player#25124 ("khaos") recieved [1;33m128 gold[0;40;37m [1;37m8 silver[0;40;37m [0;40;37m[33m6 copper[0;40;37m (12886)
+
+[020626 013105]
+	Object Stack:
+		cmds/skills/flurry
+		obj/player#28868 ("fearin")
+		obj/player#25124 ("khaos")
+		secure/sim_ef_1
+		obj/player#28868 ("fearin")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#29938 ("[1;33m222 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m coins")
+
+
+  obj/player#28868 ("fearin") recieved [1;33m222 gold[0;40;37m [1;37m3 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m (22231)
+
+[020626 035856]
+	Object Stack:
+		obj/player#606 ("hover")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#1825 ("[1;33m3105 gold[0;40;37m [1;37m4 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m coins")
+
+
+  obj/player#606 ("hover") recieved [1;33m3105 gold[0;40;37m [1;37m4 silver[0;40;37m [0;40;37m[33m7 copper[0;40;37m (310547)
+
+[020626 040004]
+	Object Stack:
+		obj/player#0 ("lefend")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#1855 ("[1;33m3000 gold[0;40;37m coins")
+
+
+  obj/player#0 ("lefend") recieved [1;33m3000 gold[0;40;37m (300000)
+
+[020626 062227]
+	Object Stack:
+		obj/player#3625 ("nilgo")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#5013 ("[1;33m635 gold[0;40;37m [1;37m7 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m coins")
+
+
+  obj/player#3625 ("nilgo") recieved [1;33m635 gold[0;40;37m [1;37m7 silver[0;40;37m [0;40;37m[33m1 copper[0;40;37m (63571)
+
+[020626 074027]
+	Object Stack:
+		obj/player#3625 ("nilgo")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#6932 ("[1;33m120 gold[0;40;37m coins")
+
+
+  obj/player#3625 ("nilgo") recieved [1;33m120 gold[0;40;37m (12000)
+
+[020626 090440]
+	Object Stack:
+		obj/player#8483 ("kenshiro")
+		obj/player#2933 ("morgoth")
+		secure/sim_ef_1
+		obj/player#8483 ("kenshiro")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#9019 ("[1;33m212 gold[0;40;37m [1;37m3 silver[0;40;37m coins")
+
+
+  obj/player#8483 ("kenshiro") recieved [1;33m212 gold[0;40;37m [1;37m3 silver[0;40;37m (21230)
+
+[020626 111523]
+	Object Stack:
+		cmds/skills/flurry
+		obj/player#9984 ("traj")
+		obj/player#11558 ("parabola")
+		secure/sim_ef_1
+		obj/player#9984 ("traj")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#13060 ("[1;33m218 gold[0;40;37m [1;37m8 silver[0;40;37m coins")
+
+
+  obj/player#9984 ("traj") recieved [1;33m218 gold[0;40;37m [1;37m8 silver[0;40;37m (21880)
+
+[020626 134313]
+	Object Stack:
+		cmds/skills/flurry
+		obj/player#139 ("silvex")
+		obj/player#6 ("haities")
+		secure/sim_ef_1
+		obj/player#139 ("silvex")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#3238 ("[1;33m142 gold[0;40;37m [1;37m9 silver[0;40;37m [0;40;37m[33m8 copper[0;40;37m coins")
+
+
+  obj/player#139 ("silvex") recieved [1;33m142 gold[0;40;37m [1;37m9 silver[0;40;37m [0;40;37m[33m8 copper[0;40;37m (14298)
+
+[020626 195640]
+	Object Stack:
+		obj/player#16857 ("nilgo")
+		secure/sim_ef_1
+		secure/sim_ef_1
+		obj/money#19568 ("[1;33m120 gold[0;40;37m coins")
+
+
+  obj/player#16857 ("nilgo") recieved [1;33m120 gold[0;40;37m (12000)
+

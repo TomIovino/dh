@@ -1,0 +1,60 @@
+Report Type: BUG  Room: w/ash/base/alliance/w_chamber
+Time: Sat Aug 26 22:59:59 2000
+Player: Kilian
+REPORT: You can still order and get items from the cook when you're fighting him...he shouldn't serve when fighting you.
+Report Type: IDEA  Room: w/ash/workroom
+Time: Sun Aug 27 01:54:51 2000
+Player: Ash
+REPORT: Free Movement -- aka protects from Stun, Block
+Report Type: IDEA  Room: w/ash/shadow/pit
+Time: Tue Mar 27 21:14:30 2001
+Player: Xaitialyn
+REPORT: Newbie helpers shouldn't be able to have tellblock on :(
+Report Type: IDEA  Room: w/ash/shadow/ai_s
+Time: Tue May  8 17:56:39 2001
+Player: Tskrang
+REPORT: guard:  uses 100 move in defense tac...  reduces damage for one round... amount reduced depends on level...
+Report Type: BUG  Room: w/ash/shadow/enter
+Time: Thu Sep  6 15:43:43 2001
+Player: Laeklin
+REPORT: alias does'nt keep trck of the right number of aliases, when you have max, you can't type "alias [existing]" to see what it says
+Report Type: IDEA  Room: w/ash/base/horde/e_chamber
+Time: Mon Feb 11 09:42:42 2002
+Player: Stilgar
+REPORT: more +cpb eq
+Report Type: IDEA  Room: w/ash/base/dutchy/2a
+Time: Mon Mar  4 00:14:12 2002
+Player: Ahau
+REPORT: bitchslap emote
+Report Type: IDEA  Room: w/ash/base/dutchy/2c
+Time: Mon Mar  4 01:57:30 2002
+Player: Ahau
+REPORT: rimshot emote
+Report Type: IDEA  Room: w/ash/base/alliance/enter
+Time: Mon Mar  4 01:58:28 2002
+Player: Ahau
+REPORT: rimshot emote (forgot to...) "You go, "Badum Pshh!"
+Report Type: IDEA  Room: w/ash/shadow/ea_n
+Time: Mon Apr  1 21:49:01 2002
+Player: Aeacus
+REPORT: a spell that ups circle or strike
+Report Type: BUG  Room: w/ash/shadow/fi_e
+Time: Tue Apr  9 10:21:04 2002
+Player: Endymion
+REPORT: Backstab at east ruby golem doesn't go off, but allows notch.
+Report Type: BUG  Room: w/ash/shadow/fi_e
+Time: Mon May  6 17:27:56 2002
+Player: Hobbes
+REPORT: i cant strike the golem here
+Report Type: BUG  Room: w/ash/shadow/fi_w
+Time: Mon May  6 17:28:12 2002
+Player: Hobbes
+REPORT: same thing here too, unable to strike golem
+Report Type: BUG  Room: w/ash/shadow/fi_e
+Time: Wed May 22 16:16:50 2002
+Player: Sakura
+REPORT: every time I try to strike a ruby golem, it tells me i begin to sneak up and never goes through. it works on all of the other golems fine, so that's a bit strange.
+Report Type: IDEA  Room: w/ash/base/desert/1c
+Time: Sun Jun 23 05:35:39 2002
+Player: Arein
+REPORT: dragonkin spell, bring that back, it was pimpy

@@ -1,0 +1,7 @@
+
+command: say <message>
+command: say <what>
+
+This will make your player 'say' to everyone in the room.
+You may also use an apostrophe (') in place of the word say
+as an abbreviation.

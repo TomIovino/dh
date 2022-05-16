@@ -1,0 +1,45 @@
+#include "row.h"
+#include "../opts.h"
+#include <mudlib.h>
+#include <ansi.h>
+
+inherit ENV;
+inherit OPTS;
+
+#define NORTH "12"
+#define THIS_NUMBER "13"
+#define SOUTH "14"
+
+void reset(status arg) {
+  if(arg) return;
+  set_type(THIS_ENV);
+  set_light(2);
+  add_object("torch","inherit/objs/torch");
+  set_short(CTE+" Capital");
+  add_object("tree","inherit/objs/tree");
+  if(WEST)   add_exit(PATH+THIS_ENV+"/"+WEST+"/"+THIS_NUMBER, "west");
+  if(EAST)   add_exit(PATH+THIS_ENV+"/"+EAST+"/"+THIS_NUMBER, "east");
+  if(NORTH)  add_exit(PATH+THIS_ENV+"/"+THIS_ROW+"/"+NORTH,   "north");
+  if(SOUTH)  add_exit(PATH+THIS_ENV+"/"+THIS_ROW+"/"+SOUTH,   "south");
+ if(THIS_ENV == "twilite"){
+  set_short(GREY_F+
+  "The walled Capital of the dragonkin empire sits here along a circular\n"+
+  "platue. Ahead is a gate from which you may try to enter the city.\n"+
+  "A sign written in common is posted to a nearby tree."+
+   NORM);
+  add_item("sign",
+    "Twilite, city of noblility does not tolerate foreign commoners\n");
+  add_exit("d/town/road/sgates","gates");
+ }
+ if(THIS_ENV != "twilite"){
+  set_short(GREY_F+
+  "The walled castle of the "+RACE+" people sits here protected among\n"+
+  "the natural defenses of the area. You see a well foritied gate ahead.\n"+
+  "A sign written in common is posted to a nearby tree."+
+  NORM);
+  add_item("sign","All forieners will die.\n");
+  add_exit("g/env/"+THIS_ENV+"castle/entrance","castle");
+ }
+}
+
+

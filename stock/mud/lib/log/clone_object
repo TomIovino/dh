@@ -1,0 +1,1991 @@
+	Object Stack:
+		obj/player#7348 ("ludie")
+		secure/banish_d
+		obj/player#7348 ("ludie")
+		secure/sim_ef_1
+		d/castle/avalon/b ("d/castle/avalon/b")
+
+[020415 083114]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 083124]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#7400 ("odysseus")
+		obj/player#7400 ("odysseus")
+		cmds/skills/castle#7426
+		obj/player#7400 ("odysseus")
+		secure/sim_ef_1
+		d/castle/dejavu/b ("d/castle/dejavu/b")
+
+[020415 083124]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#7400 ("odysseus")
+		obj/player#7400 ("odysseus")
+		cmds/skills/castle#7426
+		obj/player#7400 ("odysseus")
+		secure/sim_ef_1
+		d/castle/dejavu/b ("d/castle/dejavu/b")
+
+[020415 083124]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#7400 ("odysseus")
+		obj/player#7400 ("odysseus")
+		cmds/skills/castle#7426
+		obj/player#7400 ("odysseus")
+		secure/sim_ef_1
+		d/castle/dejavu/b ("d/castle/dejavu/b")
+
+[020415 083844]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 083918]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/diesirae/e ("d/castle/diesirae/e")
+		obj/player#7400 ("odysseus")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 083918]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/diesirae/e ("d/castle/diesirae/e")
+		obj/player#7400 ("odysseus")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 083918]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/diesirae/e ("d/castle/diesirae/e")
+		obj/player#7400 ("odysseus")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 084213]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave2 ("d/town/market/ave2")
+		obj/player#7292 ("aramis")
+		secure/sim_ef_1
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 084339]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/auragamii/e ("d/castle/auragamii/e")
+		obj/player#7234 ("lachdanan")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 084339]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/auragamii/e ("d/castle/auragamii/e")
+		obj/player#7234 ("lachdanan")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 084339]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/auragamii/e ("d/castle/auragamii/e")
+		obj/player#7234 ("lachdanan")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 084615]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 090115]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 090115]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 090115]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 090845]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 091743]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8129 ("silvex")
+		secure/banish_d
+		obj/player#8129 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 091743]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8129 ("silvex")
+		secure/banish_d
+		obj/player#8129 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 091743]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8129 ("silvex")
+		secure/banish_d
+		obj/player#8129 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 092345]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 092345]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/sheol/e ("d/castle/sheol/e")
+		obj/player#7234 ("lachdanan")
+		secure/sim_ef_1
+		d/castle/sheol/b ("d/castle/sheol/b")
+
+[020415 092345]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/sheol/e ("d/castle/sheol/e")
+		obj/player#7234 ("lachdanan")
+		secure/sim_ef_1
+		d/castle/sheol/b ("d/castle/sheol/b")
+
+[020415 092345]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/sheol/e ("d/castle/sheol/e")
+		obj/player#7234 ("lachdanan")
+		secure/sim_ef_1
+		d/castle/sheol/b ("d/castle/sheol/b")
+
+[020415 092413]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8403 ("kayla")
+		secure/banish_d
+		obj/player#8403 ("kayla")
+		secure/sim_ef_1
+		d/castle/alderon/b ("d/castle/alderon/b")
+
+[020415 092413]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8403 ("kayla")
+		secure/banish_d
+		obj/player#8403 ("kayla")
+		secure/sim_ef_1
+		d/castle/alderon/b ("d/castle/alderon/b")
+
+[020415 092413]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8403 ("kayla")
+		secure/banish_d
+		obj/player#8403 ("kayla")
+		secure/sim_ef_1
+		d/castle/alderon/b ("d/castle/alderon/b")
+
+[020415 092616]
+	File: cmds/skills/_summon
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8451 ("melbu")
+		secure/banish_d
+		obj/player#8451 ("melbu")
+
+[020415 093116]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 093116]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 093846]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 095019]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w4 ("d/town/road/w4")
+		obj/player#8783 ("quittilin")
+		secure/sim_ef_1
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 095347]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 095347]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 100117]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 100847]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 101839]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/moonstone/e ("d/castle/moonstone/e")
+		obj/player#8129 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 101839]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/moonstone/e ("d/castle/moonstone/e")
+		obj/player#8129 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 101839]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/moonstone/e ("d/castle/moonstone/e")
+		obj/player#8129 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 102348]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 102348]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 103119]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 103119]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 104611]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1 ("octavian")
+		secure/banish_d
+		obj/player#1 ("octavian")
+		secure/sim_ef_1
+		inherit/church ("inherit/church")
+
+[020415 104611]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1 ("octavian")
+		secure/banish_d
+		obj/player#1 ("octavian")
+		secure/sim_ef_1
+		inherit/church ("inherit/church")
+
+[020415 104611]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1 ("octavian")
+		secure/banish_d
+		obj/player#1 ("octavian")
+		secure/sim_ef_1
+		inherit/church ("inherit/church")
+
+[020415 104611]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1 ("octavian")
+		secure/banish_d
+		obj/player#1 ("octavian")
+		secure/sim_ef_1
+		d/town/church/church ("d/town/church/church")
+
+[020415 104611]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1 ("octavian")
+		secure/banish_d
+		obj/player#1 ("octavian")
+		secure/sim_ef_1
+		d/town/church/church ("d/town/church/church")
+
+[020415 104611]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1 ("octavian")
+		secure/banish_d
+		obj/player#1 ("octavian")
+		secure/sim_ef_1
+		d/town/church/church ("d/town/church/church")
+
+[020415 104642]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/diesirae/i ("d/castle/diesirae/i")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 104642]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/diesirae/i ("d/castle/diesirae/i")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 104642]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/diesirae/i ("d/castle/diesirae/i")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 104711]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#104 ("nof")
+		secure/banish_d
+		obj/player#104 ("nof")
+		secure/sim_ef_1
+		d/castle/alderon/b ("d/castle/alderon/b")
+
+[020415 104711]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#104 ("nof")
+		secure/banish_d
+		obj/player#104 ("nof")
+		secure/sim_ef_1
+		d/castle/alderon/b ("d/castle/alderon/b")
+
+[020415 104711]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#104 ("nof")
+		secure/banish_d
+		obj/player#104 ("nof")
+		secure/sim_ef_1
+		d/castle/alderon/b ("d/castle/alderon/b")
+
+[020415 104713]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/church/church ("d/town/church/church")
+		obj/player#1 ("octavian")
+		secure/sim_ef_1
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 104801]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#147 ("silvex")
+		secure/banish_d
+		obj/player#147 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 104801]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#147 ("silvex")
+		secure/banish_d
+		obj/player#147 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 104801]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#147 ("silvex")
+		secure/banish_d
+		obj/player#147 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 104813]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#181 ("lia")
+		secure/banish_d
+		obj/player#181 ("lia")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 104813]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#181 ("lia")
+		secure/banish_d
+		obj/player#181 ("lia")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 104813]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#181 ("lia")
+		secure/banish_d
+		obj/player#181 ("lia")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 104921]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#222 ("vino")
+		secure/banish_d
+		obj/player#222 ("vino")
+		secure/sim_ef_1
+		d/town/church/donation ("d/town/church/donation")
+
+[020415 104921]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#222 ("vino")
+		secure/banish_d
+		obj/player#222 ("vino")
+		secure/sim_ef_1
+		d/town/church/donation ("d/town/church/donation")
+
+[020415 104921]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#222 ("vino")
+		secure/banish_d
+		obj/player#222 ("vino")
+		secure/sim_ef_1
+		d/town/church/donation ("d/town/church/donation")
+
+[020415 105100]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#305 ("xaltar")
+		secure/banish_d
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/inn/code/INNROOM ("d/inn/code/INNROOM")
+
+[020415 105100]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#305 ("xaltar")
+		secure/banish_d
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/inn/code/INNROOM ("d/inn/code/INNROOM")
+
+[020415 105100]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#305 ("xaltar")
+		secure/banish_d
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/inn/code/INNROOM ("d/inn/code/INNROOM")
+
+[020415 105100]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#305 ("xaltar")
+		secure/banish_d
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/inn/xaltar ("d/inn/xaltar")
+
+[020415 105100]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#305 ("xaltar")
+		secure/banish_d
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/inn/xaltar ("d/inn/xaltar")
+
+[020415 105100]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#305 ("xaltar")
+		secure/banish_d
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/inn/xaltar ("d/inn/xaltar")
+
+[020415 105224]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave2 ("d/town/market/ave2")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 105224]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 105228]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n2 ("d/town/road/n2")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 105232]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w2 ("d/town/road/w2")
+		obj/player#269 ("vino")
+		secure/sim_ef_1
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 105236]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/deathscythe/e ("d/castle/deathscythe/e")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/castle/deathscythe/b ("d/castle/deathscythe/b")
+
+[020415 105236]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/deathscythe/e ("d/castle/deathscythe/e")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/castle/deathscythe/b ("d/castle/deathscythe/b")
+
+[020415 105236]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/deathscythe/e ("d/castle/deathscythe/e")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/castle/deathscythe/b ("d/castle/deathscythe/b")
+
+[020415 105730]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/town/church/wchurch ("d/town/church/wchurch")
+
+[020415 105730]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/town/church/wchurch ("d/town/church/wchurch")
+
+[020415 105730]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+		obj/player#305 ("xaltar")
+		secure/sim_ef_1
+		d/town/church/wchurch ("d/town/church/wchurch")
+
+[020415 110833]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 111603]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 111603]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 111603]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 111603]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 112317]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1268 ("ludie")
+		secure/banish_d
+		obj/player#1268 ("ludie")
+		secure/sim_ef_1
+		d/castle/avalon/b ("d/castle/avalon/b")
+
+[020415 112317]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1268 ("ludie")
+		secure/banish_d
+		obj/player#1268 ("ludie")
+		secure/sim_ef_1
+		d/castle/avalon/b ("d/castle/avalon/b")
+
+[020415 112317]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1268 ("ludie")
+		secure/banish_d
+		obj/player#1268 ("ludie")
+		secure/sim_ef_1
+		d/castle/avalon/b ("d/castle/avalon/b")
+
+[020415 112756]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/dolomite/i ("d/castle/dolomite/i")
+		obj/player#1412 ("yeu")
+		secure/sim_ef_1
+		d/castle/dolomite/b ("d/castle/dolomite/b")
+
+[020415 112756]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/dolomite/i ("d/castle/dolomite/i")
+		obj/player#1412 ("yeu")
+		secure/sim_ef_1
+		d/castle/dolomite/b ("d/castle/dolomite/b")
+
+[020415 112756]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/dolomite/i ("d/castle/dolomite/i")
+		obj/player#1412 ("yeu")
+		secure/sim_ef_1
+		d/castle/dolomite/b ("d/castle/dolomite/b")
+
+[020415 113044]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#1463 ("marian")
+		secure/sim_ef_1
+		d/inn/marian ("d/inn/marian")
+
+[020415 113044]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#1463 ("marian")
+		secure/sim_ef_1
+		d/inn/marian ("d/inn/marian")
+
+[020415 113044]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#1463 ("marian")
+		secure/sim_ef_1
+		d/inn/marian ("d/inn/marian")
+
+[020415 113834]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 113834]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 113834]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 114329]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#717 ("kenshiro")
+		obj/player#717 ("kenshiro")
+		cmds/skills/castle#2019
+		obj/player#717 ("kenshiro")
+		secure/sim_ef_1
+		d/castle/nelgetha/b ("d/castle/nelgetha/b")
+
+[020415 114329]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#717 ("kenshiro")
+		obj/player#717 ("kenshiro")
+		cmds/skills/castle#2019
+		obj/player#717 ("kenshiro")
+		secure/sim_ef_1
+		d/castle/nelgetha/b ("d/castle/nelgetha/b")
+
+[020415 114329]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#717 ("kenshiro")
+		obj/player#717 ("kenshiro")
+		cmds/skills/castle#2019
+		obj/player#717 ("kenshiro")
+		secure/sim_ef_1
+		d/castle/nelgetha/b ("d/castle/nelgetha/b")
+
+[020415 114349]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#2036 ("inasad")
+		secure/banish_d
+		obj/player#2036 ("inasad")
+		secure/sim_ef_1
+		d/castle/adredus/b ("d/castle/adredus/b")
+
+[020415 114349]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#2036 ("inasad")
+		secure/banish_d
+		obj/player#2036 ("inasad")
+		secure/sim_ef_1
+		d/castle/adredus/b ("d/castle/adredus/b")
+
+[020415 114349]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#2036 ("inasad")
+		secure/banish_d
+		obj/player#2036 ("inasad")
+		secure/sim_ef_1
+		d/castle/adredus/b ("d/castle/adredus/b")
+
+[020415 114605]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 120105]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 120105]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 120836]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 121326]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#3577 ("tassadar")
+		secure/banish_d
+		obj/player#3577 ("tassadar")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 121326]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#3577 ("tassadar")
+		secure/banish_d
+		obj/player#3577 ("tassadar")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 121326]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#3577 ("tassadar")
+		secure/banish_d
+		obj/player#3577 ("tassadar")
+		secure/sim_ef_1
+		d/castle/diesirae/b ("d/castle/diesirae/b")
+
+[020415 121455]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#3681 ("lia")
+		secure/banish_d
+		obj/player#3681 ("lia")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 121455]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#3681 ("lia")
+		secure/banish_d
+		obj/player#3681 ("lia")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 121455]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#3681 ("lia")
+		secure/banish_d
+		obj/player#3681 ("lia")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 121606]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 123106]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 123106]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 123106]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 123132]
+	File: /w/myria/lands/mon/oldman
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/ruins/r01 ("w/myria/lands/ruins/r01")
+		obj/player#717 ("kenshiro")
+		secure/sim_ef_1
+		w/myria/lands/ruins/r02 ("w/myria/lands/ruins/r02")
+
+[020415 123140]
+	File: cmds/skills/_steal
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#4472 ("brak")
+		secure/banish_d
+		obj/player#4472 ("brak")
+
+[020415 123142]
+	File: /w/myria/lands/mon/angel
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/hway/hw26 ("w/myria/lands/hway/hw26")
+		obj/player#717 ("kenshiro")
+		secure/sim_ef_1
+		w/myria/lands/hway/hw32 ("w/myria/lands/hway/hw32")
+
+[020415 123144]
+	File: /w/myria/lands/mon/brach
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/hway/hw33 ("w/myria/lands/hway/hw33")
+		obj/player#717 ("kenshiro")
+		secure/sim_ef_1
+		w/myria/lands/hway/hw34 ("w/myria/lands/hway/hw34")
+
+[020415 123539]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#3577 ("tassadar")
+		secure/sim_ef_1
+		d/inn/tassadar ("d/inn/tassadar")
+
+[020415 123539]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#3577 ("tassadar")
+		secure/sim_ef_1
+		d/inn/tassadar ("d/inn/tassadar")
+
+[020415 123539]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#3577 ("tassadar")
+		secure/sim_ef_1
+		d/inn/tassadar ("d/inn/tassadar")
+
+[020415 123757]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w2 ("d/town/road/w2")
+		obj/player#2984 ("zenich")
+		secure/sim_ef_1
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 124553]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#5423 ("nathaniel")
+		secure/banish_d
+		obj/player#5423 ("nathaniel")
+		secure/sim_ef_1
+		d/castle/dolomite/b ("d/castle/dolomite/b")
+
+[020415 124553]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#5423 ("nathaniel")
+		secure/banish_d
+		obj/player#5423 ("nathaniel")
+		secure/sim_ef_1
+		d/castle/dolomite/b ("d/castle/dolomite/b")
+
+[020415 124553]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#5423 ("nathaniel")
+		secure/banish_d
+		obj/player#5423 ("nathaniel")
+		secure/sim_ef_1
+		d/castle/dolomite/b ("d/castle/dolomite/b")
+
+[020415 124553]
+	File: cmds/skills/_summon
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#5423 ("nathaniel")
+		secure/banish_d
+		obj/player#5423 ("nathaniel")
+
+[020415 124607]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 124808]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#5579 ("vanbastian")
+		secure/banish_d
+		obj/player#5579 ("vanbastian")
+		secure/sim_ef_1
+		d/inn/vanbastian ("d/inn/vanbastian")
+
+[020415 124808]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#5579 ("vanbastian")
+		secure/banish_d
+		obj/player#5579 ("vanbastian")
+		secure/sim_ef_1
+		d/inn/vanbastian ("d/inn/vanbastian")
+
+[020415 124808]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#5579 ("vanbastian")
+		secure/banish_d
+		obj/player#5579 ("vanbastian")
+		secure/sim_ef_1
+		d/inn/vanbastian ("d/inn/vanbastian")
+
+[020415 125337]
+	File: /w/myria/lands/mon/brach
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/hway/hw34 ("w/myria/lands/hway/hw34")
+
+[020415 125337]
+	File: /w/myria/lands/mon/angel
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/hway/hw32 ("w/myria/lands/hway/hw32")
+
+[020415 130108]
+	File: /w/myria/lands/mon/oldman
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/ruins/r02 ("w/myria/lands/ruins/r02")
+
+[020415 130108]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 130108]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 130108]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 130239]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/adredus/i ("d/castle/adredus/i")
+		obj/player#6222 ("drakmorr")
+		secure/sim_ef_1
+		d/castle/adredus/b ("d/castle/adredus/b")
+
+[020415 130239]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/adredus/i ("d/castle/adredus/i")
+		obj/player#6222 ("drakmorr")
+		secure/sim_ef_1
+		d/castle/adredus/b ("d/castle/adredus/b")
+
+[020415 130239]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/castle/adredus/i ("d/castle/adredus/i")
+		obj/player#6222 ("drakmorr")
+		secure/sim_ef_1
+		d/castle/adredus/b ("d/castle/adredus/b")
+
+[020415 130839]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 130839]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 132340]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 133111]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 133111]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 133111]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 133111]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 133148]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#6885 ("nof")
+		secure/sim_ef_1
+		d/inn/nof ("d/inn/nof")
+
+[020415 133148]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#6885 ("nof")
+		secure/sim_ef_1
+		d/inn/nof ("d/inn/nof")
+
+[020415 133148]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#6885 ("nof")
+		secure/sim_ef_1
+		d/inn/nof ("d/inn/nof")
+
+[020415 133728]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#7679 ("nick")
+		secure/sim_ef_1
+		d/inn/nick ("d/inn/nick")
+
+[020415 133728]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#7679 ("nick")
+		secure/sim_ef_1
+		d/inn/nick ("d/inn/nick")
+
+[020415 133728]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		d/inn/code/COMMON ("d/inn/code/COMMON")
+		obj/player#7679 ("nick")
+		secure/sim_ef_1
+		d/inn/nick ("d/inn/nick")
+
+[020415 134802]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8535 ("silvex")
+		secure/banish_d
+		obj/player#8535 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 134802]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8535 ("silvex")
+		secure/banish_d
+		obj/player#8535 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 134802]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#8535 ("silvex")
+		secure/banish_d
+		obj/player#8535 ("silvex")
+		secure/sim_ef_1
+		d/castle/moonstone/b ("d/castle/moonstone/b")
+
+[020415 135343]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 135343]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 135343]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 135343]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 140057]
+	File: /w/myria/lands/mon/oldman
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/ruins/r01 ("w/myria/lands/ruins/r01")
+		obj/player#8000 ("tritian")
+		secure/sim_ef_1
+		w/myria/lands/ruins/r02 ("w/myria/lands/ruins/r02")
+
+[020415 140111]
+	File: /w/myria/lands/mon/angel
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/hway/hw26 ("w/myria/lands/hway/hw26")
+		obj/player#8000 ("tritian")
+		secure/sim_ef_1
+		w/myria/lands/hway/hw32 ("w/myria/lands/hway/hw32")
+
+[020415 140113]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 140116]
+	File: /w/myria/lands/mon/brach
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/hway/hw33 ("w/myria/lands/hway/hw33")
+		obj/player#8000 ("tritian")
+		secure/sim_ef_1
+		w/myria/lands/hway/hw34 ("w/myria/lands/hway/hw34")
+
+[020415 140820]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#9900 ("ariel")
+		secure/banish_d
+		obj/player#9900 ("ariel")
+		secure/sim_ef_1
+		d/inn/ariel ("d/inn/ariel")
+
+[020415 140820]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#9900 ("ariel")
+		secure/banish_d
+		obj/player#9900 ("ariel")
+		secure/sim_ef_1
+		d/inn/ariel ("d/inn/ariel")
+
+[020415 140820]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#9900 ("ariel")
+		secure/banish_d
+		obj/player#9900 ("ariel")
+		secure/sim_ef_1
+		d/inn/ariel ("d/inn/ariel")
+
+[020415 141246]
+	File: /cmds/skills/_mana
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#10238 ("greenly")
+		secure/banish_d
+		obj/player#10238 ("greenly")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 141246]
+	File: /cmds/skills/_health
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#10238 ("greenly")
+		secure/banish_d
+		obj/player#10238 ("greenly")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 141246]
+	File: /cmds/skills/_movement
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#10238 ("greenly")
+		secure/banish_d
+		obj/player#10238 ("greenly")
+		secure/sim_ef_1
+		d/castle/auragamii/b ("d/castle/auragamii/b")
+
+[020415 141615]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 141615]
+	File: d/town/npc/guard_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/market/ave1 ("d/town/market/ave1")
+
+[020415 141615]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 142345]
+	File: /w/myria/lands/mon/brach
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/hway/hw34 ("w/myria/lands/hway/hw34")
+
+[020415 142345]
+	File: /w/myria/lands/mon/oldman
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/ruins/r02 ("w/myria/lands/ruins/r02")
+
+[020415 142345]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 142345]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 143116]
+	File: /w/myria/lands/mon/angel
+	Error: *Failed to load file.
+	Object Stack:
+		w/myria/lands/hway/hw32 ("w/myria/lands/hway/hw32")
+
+[020415 143846]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 144349]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#12 ("apoc")
+		secure/banish_d
+		obj/player#12 ("apoc")
+		secure/sim_ef_1
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 144411]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/n4 ("d/town/road/n4")
+		obj/player#21 ("shaitan")
+		secure/sim_ef_1
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 144415]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s2 ("d/town/road/s2")
+		obj/player#20 ("olde")
+		secure/sim_ef_1
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 145926]
+	File: cmds/skills/_summon
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#96 ("alpha")
+		secure/banish_d
+		obj/player#96 ("alpha")
+
+[020415 150143]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/e4 ("d/town/road/e4")
+		obj/player#297 ("nof")
+		secure/sim_ef_1
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 150153]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/church/wchurch ("d/town/church/wchurch")
+		obj/player#297 ("nof")
+		secure/sim_ef_1
+		d/town/road/n3 ("d/town/road/n3")
+
+[020415 150234]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/s2 ("d/town/road/s2")
+		obj/player#457 ("olde")
+		secure/sim_ef_1
+		d/town/road/s3 ("d/town/road/s3")
+
+[020415 150238]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/road/w2 ("d/town/road/w2")
+		obj/player#297 ("nof")
+		secure/sim_ef_1
+		d/town/road/w3 ("d/town/road/w3")
+
+[020415 150308]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		obj/wizard#29 ("ash")
+		secure/bin_d
+		secure/bin_d
+		secure/bin_d
+		cmds/wiz/ud
+		cmds/wiz/ud
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 150338]
+	File: d/town/npc/citizen_w
+	Error: *Failed to load file.
+	Object Stack:
+		obj/wizard#29 ("ash")
+		secure/bin_d
+		secure/bin_d
+		secure/bin_d
+		cmds/wiz/ud
+		cmds/wiz/ud
+		d/town/road/e3 ("d/town/road/e3")
+
+[020415 193458]
+	File: cmds/skills/_summon
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#18273 ("xangroth")
+		secure/banish_d
+		obj/player#18273 ("xangroth")
+
+[020416 092437]
+	File: cmds/skills/_summon
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#14646 ("orlandu")
+		secure/banish_d
+		obj/player#14646 ("orlandu")
+
+[020416 092437]
+	File: cmds/skills/_summon
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#14646 ("orlandu")
+		secure/banish_d
+		obj/player#14646 ("orlandu")
+
+[020417 211634]
+	File: objs/donor/nechochwyn_legs
+	Error: *Error in loading object
+	Object Stack:
+		obj/wizard#15430 ("ash")
+
+[020419 223049]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#32035 ("tree")
+
+[020419 223109]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#32035 ("tree")
+
+[020420 103813]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#4540 ("tree")
+
+[020420 103813]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#4540 ("tree")
+
+[020421 113409]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#12702 ("tree")
+
+[020421 113411]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#12702 ("tree")
+
+[020421 144833]
+	File: cmds/skills/_summon
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1109 ("inan")
+		secure/banish_d
+		obj/player#1109 ("inan")
+
+[020422 071628]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#19921 ("tree")
+
+[020422 071628]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#19921 ("tree")
+
+[020426 023731]
+	File: g/obj/rogue/ankles
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/magician/fingers
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/magician/legs
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/magician/held
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/magician/wrists
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/magician/feet
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/magician/waist
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/warrior/hands
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/magician/torso
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 023731]
+	File: g/obj/magician/face
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#1681 ("zarovich")
+
+[020426 211842]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#34108 ("tree")
+
+[020426 211850]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#34108 ("tree")
+
+[020427 031036]
+	File: g/obj/steel/head
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/cleave
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/legs
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/fingers
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/face
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/wrists
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/held
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/floating
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/ankles
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/hands
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/waist
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/arms
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/torso
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/neck
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/back
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/feet
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/face
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/pound
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/steel/legs
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020427 031036]
+	File: g/obj/common/crush
+	Error: *Failed to load file.
+	Object Stack:
+		obj/player#20939 ("zebida")
+
+[020505 212009]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#23954 ("tree")
+
+[020505 212009]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#23954 ("tree")
+
+[020506 200131]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#7052 ("tree")
+
+[020506 200135]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#7052 ("tree")
+
+[020507 143906]
+	File: /d/town/obj/king/quest
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/npc/silanios ("silanios")
+
+[020510 233006]
+	File: skills/obj/branch
+	Error: *Failed to load file.
+	Object Stack:
+		w/eurale/forest/apple_tree#9247 ("tree")
+
+[020524 213114]
+	File: /d/town/obj/king/quest
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/npc/silanios#2301 ("silanios")
+
+[020604 204623]
+	File: /w/jada/lair/obj/boots1
+	Error: *Too long evaluation. Execution aborted.
+	Object Stack:
+		w/jada/lair/mon/ettin#4695 ("ettin")
+
+[020606 110003]
+	File: /d/town/obj/king/quest
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/npc/silanios#588 ("silanios")
+
+[020607 234928]
+	File: d/death/npc
+	Error: *Failed to load file.
+	Object Stack:
+		obj/wizard#9 ("ash")
+		d/over/deathroom ("d/over/deathroom")
+
+[020607 235635]
+	File: d/death/npc
+	Error: *Failed to load file.
+	Object Stack:
+		obj/wizard#1 ("ash")
+		d/over/deathroom ("d/over/deathroom")
+
+[020608 001725]
+	File: d/death/npc
+	Error: *Failed to load file.
+	Object Stack:
+		d/over/deathroom ("d/over/deathroom")
+
+[020608 014004]
+	File: /w/jada/water/obj/shirt2
+	Error: *Too long evaluation. Execution aborted.
+	Object Stack:
+		w/jada/water/mon/guard#3431 ("guard")
+
+[020613 073429]
+	File: /d/town/obj/king/quest
+	Error: *Failed to load file.
+	Object Stack:
+		d/town/npc/silanios#314 ("silanios")
+
+[020619 120223]
+	File: /w/jada/lair/obj/vest1
+	Error: *Too long evaluation. Execution aborted.
+	Object Stack:
+		w/jada/lair/mon/ettin#29368 ("ettin")
+
+[020620 225502]
+	File: /w/jada/htown/obj/tool_belt
+	Error: *Too long evaluation. Execution aborted.
+[020624 041034]
+	File: /w/jada/lair/obj/orb3
+	Error: *Too long evaluation. Execution aborted.

@@ -1,0 +1,80 @@
+/////////////////
+// Party List
+/////////////////
+
+#include <rank_d.h>
+#include <ansi.h>
+#include <bar.h>
+
+private nomask mixed *info;
+
+#define DEBUG_WIZARD_NAME "geewhiz"
+#define NO_PRINTD
+#define NO_ASSERT
+#include <debug_utils.h>
+
+
+varargs string cap_words(string str, int blah) {
+    return implode(map_array(explode(str," "),#'capitalize)," ");
+}    
+
+
+int min(int a, int b) { 
+PRINTD(a);
+PRINTD(b);
+PRINTD((a < b) ? a : b);
+    return (a < b) ? a : b;
+}
+
+int main(string arg) {
+    int j, i, top, diff, rating, exp, kill, top_e, top_k, num_to_do;
+    float prcnt;
+    mixed *data;
+    if(!arg || !stringp(arg) || arg == "") {
+        restore_object("/ob_saves/rank_d/party_main");
+        rating++;
+    } else {
+        restore_object("/ob_saves/rank_d/party_kills");
+    }
+    
+//PRINTD(info);
+
+    printf(NORM PRINTBAR "\n");
+    printf(B_RED_F "     Party Name                    Rating       Kills   Creator\n");
+    printf(        "     ~~~~~ ~~~~                    ~~~~~~       ~~~~~   ~~~~~~~\n" B_CYAN_F);
+//                  123] 123456789012345678901   123456789012   123456789   1234567890123
+
+    if(!info) {
+        printf(YELLOW_F "             <no data available>\n" NORM);
+        return 1;
+    }
+
+//PRINTD(info[A_KEYS]);
+    j = sizeof(info[A_KEYS]);
+    if((num_to_do = (int) this_player()->query_env_var("NUMRANKING"))
+    && intp(num_to_do)
+    && (num_to_do > 0)) 
+        num_to_do = min(j,num_to_do);
+    else
+        num_to_do = j;
+//PRINTD(num_to_do);  
+
+//PRINTD(j);
+    while(j-- && i < num_to_do) {
+          data = info[A_DATA][j];
+          exp = (rating ? info[A_KEYS][j] : data[I_DATA1]) / 1000;
+//PRINTD(exp);
+          kill = (rating ? data[I_DATA1] : info[A_KEYS][j]);
+//PRINTD(kill);
+        printf("%3d] %-=21s   %12d   %9d   %-=13s\n",
+            ++i,
+            cap_words(data[I_NAME]),
+            exp,
+            kill,
+            data[I_CREATORNAME]);
+    }
+    printf(NORM PRINTBAR "\n");
+    info = 0;
+    return 1;
+}
+    

@@ -1,0 +1,136 @@
+
+/*
+mapping hidden = ([ 
+        "b->h" : ([
+            "selia" : ([ "shaidar":1, "darkmoor":1 ]),
+            "jada"  : ([ "shaidar":1, "darkmoor":1 ]), 
+        ]),
+        "h->b" : ([
+            "shaidar"  : ([ "selia":1, "jada":1, ]),
+            "darkmoor" : ([ "selia":1, "jada":1, ]), 
+        ]),
+    ]);
+*/
+
+mapping hidden = ([ ]);
+
+object _find_player(string name);
+
+mapping query_hidden() {
+    return hidden ? copy_mapping(hidden) : 0;
+}
+
+void save() { save_object("/secure/misc/hide_d"); }
+int restore() { return restore_object("/secure/misc/hide_d"); }
+
+string _name(object ob) {
+    return ob && (string) ob->query_real_name();
+}
+
+int hide_from(string b) {
+    string h;
+    h = _name(this_player());
+
+    if(!b
+    || (b = lower_case(b)) == "geewhiz")
+        return 0;
+    if(!mappingp(hidden))
+        hidden = ([ ]);
+
+    if(!mappingp(hidden["b->h"]))
+        hidden["b->h"] = ([ ]);
+    if(!mappingp(hidden["b->h"][b]))
+        hidden["b->h"][b] = ([ ]);
+
+    hidden["b->h"][b] += ([ h:1 ]);
+    
+    if(!mappingp(hidden["h->b"]))
+        hidden["h->b"] = ([ ]);
+    if(!mappingp(hidden["h->b"][h]))
+        hidden["h->b"][h] = ([ ]);
+
+    hidden["h->b"][h] += ([ b:1 ]);
+    return 1;
+}
+
+int unhide_from(string b) {
+    string h;
+    h = _name(this_player());
+
+    if(!mappingp(hidden))
+        hidden = ([ ]);
+    if(!mappingp(hidden["b->h"]))
+        hidden["b->h"] = ([ ]);
+    if(!mappingp(hidden["b->h"][b]))
+        hidden["b->h"][b] = ([ ]);
+
+    hidden["b->h"][b] = m_delete(hidden["b->h"][b],h);
+
+    if(!sizeof(m_indices(hidden["b->h"][b])))
+        hidden["b->h"] = m_delete(hidden["b->h"],b);
+        
+    if(!sizeof(m_indices(hidden["b->h"])))
+        hidden = m_delete(hidden,"b->h");
+        
+    if(!mappingp(hidden["h->b"]))
+        hidden["h->b"] = ([ ]);
+    if(!mappingp(hidden["h->b"][h]))
+        hidden["h->b"][h] = ([ ]);
+
+    hidden["h->b"][h] = m_delete(hidden["h->b"][h],b);
+
+    if(!sizeof(m_indices(hidden["h->b"][h])))
+        hidden["h->b"] = m_delete(hidden["h->b"],h);
+    if(!sizeof(m_indices(hidden["h->b"])))
+        hidden = m_delete(hidden,"h->b");
+
+    return 1;
+}
+
+
+void valid_find_player(object who, string name) {
+    if(!mappingp(hidden["b->h"][_name(who)]))
+        return;
+    if(!hidden["b->h"][_name(who)][name])
+        return;
+    throw("Invalid find_player() call");
+}
+
+void valid_find_living(object who, string name) {
+    if(!mappingp(hidden["b->h"][_name(who)]))
+        return;
+    if(!hidden["b->h"][_name(who)][name])
+        return;
+    throw("Invalid find_living() call");
+}
+
+object *valid_users(object who) {
+    object *obs, u;
+    string *names;
+    int i;
+    
+    if(!mappingp(hidden)
+    || !mappingp(hidden["b->h"])
+    || !mappingp(hidden["b->h"][_name(who)]))
+        return ({ });
+     
+    obs = ({ });
+    if(i = sizeof(names = m_indices(hidden["b->h"][_name(who)])))
+        while(i--)
+            if(u = _find_player(names[i]))
+                obs += ({ u });
+    return obs;
+}
+
+void valid_user_exists(object who, string name) {
+    if(!mappingp(hidden))
+        return;
+    if(!mappingp(hidden["b->h"]))
+        return;
+    if(!mappingp(hidden["b->h"][_name(who)]))
+        return;
+    if(!hidden["b->h"][_name(who)][name])
+        return;
+//    throw("Invalid user_exists() call");
+}
+

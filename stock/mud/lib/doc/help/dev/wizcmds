@@ -1,0 +1,24 @@
+LEVEL 30 WIZ COMMANDS-----------------------------------------Ash
+
+room <func>           allows you to edit, more, stat, cat the room.
+stat <object>         lets you stat an object
+ed <file>             lets you edit a file with the LPC editor
+cat <file>            lets you cat a file     
+clone <object>        create an object clone of a file.
+patch <func>          allows you to make a function call to an object
+destruct <object>     remove an object from memory. (heh)
+setlevel <interger>   set your level to interger
+setstats <interger>   set your stats to interger
+rankings <argument>   shows player rankings 
+wizheal <living>      sets living object to full health 
+log <logfile>         shows you the logfile 
+rlog <logfile>        removes the logfile
+spells <who>          tells you a players spells
+skills <who>          tells you a players skills
+score <who>           tells you a players score
+stats <who>           tells you a players stats
+
+info, people, where   various "who" commands for wizards.
+
+Most of these commands have individual help files as well.
+

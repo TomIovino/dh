@@ -1,0 +1,10 @@
+
+Bags are balanced according to NPC level.
+
+
+the formula is as follows:
+
+         npc level = maximum capacity
+                     maximum capacity = minimum weight/4
+      max value*10 = maximum capacity
+

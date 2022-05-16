@@ -1,0 +1,1726 @@
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 43, in main
+    link, peer = incoming.accept()
+socket.error: (104, 'Connection reset by peer')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 43, in main
+    link, peer = incoming.accept()
+socket.error: (104, 'Connection reset by peer')
+nice: ./rc.lpmud: No such file or directory
+nice: ./rc.lpmud: No such file or directory
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+/home/dh/mud/bin/livemud: Out of virtual memory!
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+nice: ./rc.lpmud: No such file or directory
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')
+Traceback (innermost last):
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 827, in ?
+    main()
+  File "/home/dh/mud/ftpd/live_ftpd.py", line 40, in main
+    incoming.bind('',local.PORT)
+socket.error: (98, 'Address already in use')

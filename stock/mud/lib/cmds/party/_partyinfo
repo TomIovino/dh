@@ -1,0 +1,80 @@
+// Dismiss
+
+#include <mudlib.h>
+#include <ansi.h>
+#include <bar.h>
+#include <party.h>
+
+
+string mark_online(string name,string party) {
+    // removed for security -Ash
+    return name;
+}
+string old_mark_online(string name,string party) {
+    object who;
+    if((who = find_player(name))
+    && (party == (string) who->query_party()))
+        name += "*";
+    return name;
+}
+   
+string print_members(string party) {
+    string *names;
+    names = (string *) PARTY_D->query_party_members(party);
+    names = map_array(names,#'mark_online,party);
+    return implode(sort_array(map_array(names,#'capitalize),#'>),", ");
+}
+
+status main(string party) {
+    int i, exp, rating, alt_rating, kills, total_levels, dob, dbg;
+    float share;
+    object *who;
+    string tmp, pname, leader, creator;
+    status flag;
+    status f;
+
+    if(!party || !stringp(party)) {
+        notify_fail("Which party do you want information on?\n");
+        return 0;
+    }
+    
+    if(!PARTY_D->restore_party(party)) {
+        notify_fail("That party does not exist.\n");
+        return 0;
+    }
+
+    tmp = "";
+
+    pname = (string) PARTY_D->query_party_display_name(party);
+    dob = (int) PARTY_D->query_party_age(party);
+    rating = (int) PARTY_D->query_party_rating(party) / RATING_SCALE;
+    alt_rating = (int) PARTY_D->query_party_alt_rating(party) / ALT_RATING_SCALE;
+    kills = (int) PARTY_D->query_party_kills(party);
+    leader = (string) PARTY_D->query_party_leader(party);
+    creator = (string) PARTY_D->query_party_creator(party);
+
+   
+    printf(NORM PRINTBAR "\n");
+    printf(MAGENTA_F "Party Name:     " B_GREEN_F "%s\n"   ,capitalize(pname));
+    printf(MAGENTA_F "Party Creator:  " B_GREEN_F "%s\n"   ,capitalize(creator));
+    if(creator != leader)
+        printf(MAGENTA_F "Last Leader:    " B_GREEN_F "%s\n"   ,capitalize(leader));
+    printf(MAGENTA_F "Party Rating:   " B_GREEN_F "%9d\n"  ,rating);
+    printf(MAGENTA_F "Alt. Rating:    " B_GREEN_F "%9d\n"  ,alt_rating);
+    printf(MAGENTA_F "Party Kills:    " B_GREEN_F "%9d\n"  ,kills);
+    printf(MAGENTA_F "Party Created:  " B_GREEN_F "%s\n"   ,ctime(dob));
+    printf(NORM PRINTBAR "\n");
+    printf(MAGENTA_F "Members:  " B_GREEN_F "%-=45s\n",print_members(party));
+    printf(NORM PRINTBAR NORM"\n");
+  return 1;
+}
+
+int help() {
+    printf("Command:  partyinfo <party name>                        Party\n"
+           "\n"
+           "Gives information about the given party.\n"
+           "\n"
+           "Members who are currently in the party are marked with a '*'\n");
+    return 1;
+}
+

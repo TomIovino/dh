@@ -1,0 +1,9 @@
+
+Spell    : cripple
+Type     : int
+Mana     : 75
+
+When this spell is successfully cast on its victim it will remove
+spell effects of strength, stamina, dexterity, agility, as well
+as stun the victim for a short time.
+

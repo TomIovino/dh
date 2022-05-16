@@ -1,0 +1,55 @@
+ROOM.ASH.1.12.98
+
+This document has two parts:
+  1: QC
+  2: functions
+
+
+PART: 1 (QC)
+
+This document describes some of the quality control expectations. 
+Note: monsters, npcs, and mobs are all the same thing. =)
+
+Short descriptions: (set_short)
+           a. always use lowercase.
+           b. refrain from using "a" or "an" to start a description.
+           c. always include atleast one adjective.           
+           d. do not use proper names in the short descriptions
+           d. Example: set_short("tall elven sentry");
+
+Long descriptions: (set_long)
+           a. Proper capitalization and punctation required, for muds
+              this means only 1 space after periods.
+           b. the shortest long description should be 2 FULL lines.
+              the average long description for an area will be 3 or
+              more lines, please dont make descriptions longer then
+              6 lines unless it is extremly special.
+           e. avoid ALL use of third person speech when creating a
+              npc/monster description.
+           f. AVOID 'A rAdiCal oRC', etc.
+
+
+PART 2: (functions)
+
+Monsters inherit all functions listed in /doc/mudlib/base.   
+        
+*  set_level (see /doc/mudlib/balance + /doc/mudlib/areas)
+
+*  load_chat(({ "MSG1", "MSG2", "MSG3", }));
+*  load_a_chat(CHANCE, ({ "MSG1", "MSG2", "MSG3", }));
+*  load_spells(CHANCE, ({ "SPELL1", "SPELL2", "SPELL3", }));            
+*  set_race_attack("RACE1","RACE2") 
+*  set_alignment_attack("HATED");
+*  set_steal_chance(X)
+*  set_no_exp(1)   
+*  set_half_exp(1)
+*  set_remort(element,1)         this will make your npcs mean! =)
+*  set_special_chance(int c)     how often does the special happen?
+*  set_special_dam(int d)        how hard does the special attack hit?
+*  set_special_mess1(string m)   what does the target/tank SEE?
+*  set_special_mess2(string m)   what does the room SEE?
+*  set_special_type(string t)    fire,ice,water,earth,unarmed,trust, ETC.
+
+
+Please, if you wish to comment upon any of this, feel VERY free to mail QC.
+

@@ -1,0 +1,127 @@
+#include <mudlib.h>
+#include <ansi.h>
+#define OBJ "/d/town/obj/gift/"
+
+inherit ROOM;
+
+reset (arg) {
+     add_object("zed","/d/town/npc/zed");
+    if (arg) return;
+    set_short("gift shop");
+    set_long(
+      RED_F+
+      "Assorted "+B_RED_F+"f"+YELLOW_F+"l"+B_BLUE_F+"o"B_MAGENTA_F+"w"+B_GREEN_F+"e"+B_RED_F+"r"+NORM+RED_F+" arrangements decorate the otherwise cold grey stone that\n"+
+      "makes up this room. Across the far end of the room is a wide counter upon\n"+
+      "which various trinkets and toys are on display. Propped up on the counter\n"+
+      "is a small elegantly written sign.\n"+
+      NORM);
+    set_items(({
+	"d#down#floor","The floor is made of smooth grey granite.\n",
+	"u#up#ceiling","The ceiling is made of smooth grey granite.\n",
+	"wall#walls","The walls are made of smooth grey granite.\n",
+	"flowers#flower#arrangements#arrangement","A variety of decorative flower arrangements are placed about the room\n"+
+	"adding a little colour to this otherwise dismal place.\n",
+	"trinket#trinkets#toy#toys","Some interesting stuff is available for sale.\n",
+	"counter","A wide counter graces the east end of the room.\n",
+	"sign","An elegantly written sign. You're not sure, but you might be able to\n"+
+	"read the writing if you try very hard.\n"
+      }));
+    set_smell("The light perfume flowers fills the air pleasantly.\n");
+    set_listen("All is very quiet in here.\n");
+    set_light(2);
+    set_exits(({
+        "/d/town/market/ave5","south",
+      }));
+}
+init() {
+    ::init();
+    add_action("read","read");
+    add_action("read","list");
+    add_action("buy","buy");
+    add_action("buy","deliver");
+}
+read(str) {
+    if(!str && query_verb()!="list") return 0;
+    if(str!="sign" && query_verb()!="list") return 0;
+    write(read_file("doc/help/misc/gift_list"));
+    return 1;
+}
+buy(str) {
+    object gift;
+    string deity;
+    int price,haggle;
+    string a,b;
+    if(!str) return 0;
+    write("Sorry, Currently Out of Stock.\n");
+    return 1;
+    if(!present("zed")) {
+	write("The shopkeeper seems to be unavaiable at this time.\n");
+	return 1; }
+    if(query_verb()=="buy") a=str;
+    if(query_verb()=="deliver") {
+	sscanf(str,"%s %s",a,b);
+	if(!find_player(b) || find_player(b)->query_invis()>0) {
+	    write(CYAN_F+"\nZed says: I detect no "+capitalize(b)+" in this world.\n");
+	    return 1; } }
+    if(a=="1")  gift=clone_object(OBJ+"bear");
+    if(a=="2")  gift=clone_object(OBJ+"bunny");
+    if(a=="3")  gift=clone_object(OBJ+"rrose");
+    if(a=="4")  gift=clone_object(OBJ+"brose");
+    if(a=="5")  gift=clone_object(OBJ+"drrose");
+    if(a=="6")  gift=clone_object(OBJ+"dbrose");
+    if(a=="7")  gift=clone_object(OBJ+"box");
+    if(a=="8")  gift=clone_object(OBJ+"ring1");
+    if(a=="9")  gift=clone_object(OBJ+"ring2");
+    if(a=="10") gift=clone_object(OBJ+"ring3");
+    if(a=="11") gift=clone_object(OBJ+"brace");
+    if(a=="12") gift=clone_object(OBJ+"beer");
+    if(a=="666") gift=clone_object(OBJ+"cheese");
+    if(a=="999") gift=clone_object(OBJ+"cookie");
+    if(a=="1111") gift=clone_object(OBJ+"nothing");
+    if(!gift) {
+	write("Buy what?\n");
+	return 1; }
+    price=2*gift->query_value();
+    if(!gift->query_value()) price=10000;
+    haggle=100+(100-this_player()->query_stat("charisma"));
+    price=(price*haggle)/100;
+    if(query_verb()=="buy") {
+	if(this_player()->query_money()<price) {
+	    write("After several minutes of haggling you agree to pay "+price+" but then\n"+
+	      "feel kinda stupid when you realize you don't have that much.\n");
+	    destruct(gift);
+	    return 1; }
+	write("After several minutes of haggling you agree on a price of "+price+" coppers.\n");
+	this_player()->adj_money(-price);
+	move_object(gift,this_player());
+	write("Zed accepts your money and hands you the "+gift->query_short()+".\n");
+	say(this_player()->query_name()+" purchases a "+gift->query_short()+".\n",this_player());
+	this_player()->recalc_weight();
+	return 1; }
+    price=price+gift->query_value();
+    if(this_player()->query_money()<price) {
+	write("After several minutes of haggling you agree to pay "+price+" but then\n"+
+	  "feel kinda stupid when you realize you don't have that much.\n");
+	destruct(gift);
+	return 1; }
+    write("After several minutes of haggling you agree on a price of "+price+" coppers.\n");
+    this_player()->adj_money(-price);
+    deity=this_player()->query_alignment();
+    if(deity=="cey" || deity=="fth" || deity=="hie") {
+	tell_room(this_object(),B_BLUE_F+"\nZed summons a shimmering spirit that takes the "+NORM+gift->query_short()+B_BLUE_F+" and vanishes.\n"+NORM+
+	  CYAN_F+"\nZed says: Your gift has been delivered.\n"+NORM);
+	tell_room(environment(find_player(b)),B_BLUE_F+"A beautiful shimmering spirit appears and gives a "+NORM+gift->query_short()+B_BLUE_F+" to "+capitalize(b)+".\n"+NORM,({find_player(b)}));
+	tell_object(find_player(b),B_BLUE_F+"A beautiful shimmering spirit appears and gives you a "+NORM+gift->query_short()+B_BLUE_F+".\n"+NORM);
+	tell_room(environment(find_player(b)),YELLOW_F+"\nSpirit whispers: With love from "+this_player()->query_name()+".\n"+NORM+
+	  B_BLUE_F+"\nThe spirit vanishes as suddenly as it arrived.\n"+NORM);
+	move_object(gift,find_player(b));
+	return 1; }
+    tell_room(this_object(),GREY_F+"\nZed summons a demon from the shadows that takes the "+NORM+gift->query_short()+GREY_F+" and vanishes.\n"+NORM+
+      CYAN_F+"\nZed says: Your gift has been delivered.\n"+NORM);
+    tell_room(environment(find_player(b)),GREY_F+"A mysterious demon appears and gives a "+NORM+gift->query_short()+GREY_F+" to "+capitalize(b)+".\n"+NORM,({find_player(b)}));
+    tell_object(find_player(b),GREY_F+"A mysterious demon appears and gives you a "+NORM+gift->query_short()+GREY_F+".\n"+NORM);
+    tell_room(environment(find_player(b)),RED_F+"\nDemon growls: With love from "+this_player()->query_name()+", heh.\n"+NORM+
+      GREY_F+"\nThe demon vanishes as suddenly as it arrived.\n"+NORM);
+    move_object(gift,find_player(b));
+    return 1;
+}

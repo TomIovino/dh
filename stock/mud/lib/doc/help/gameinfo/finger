@@ -1,0 +1,10 @@
+
+command: finger <person>
+
+     With this command, you can find out information about a player even
+when that player is not logged in.  Information included is race, alignment,
+creation date, and last log in time.
+
+
+     Allegra, May 1996
+

@@ -1,0 +1,7 @@
+w/ash/base/art/q_ankh.c line 174 before  1;:syntax error
+w/ash/tmp_code0.c line 22 near );:Too many arguments to this_object
+w/ash/tmp_code5.c line 22 before ;:syntax error
+w/ash/tmp_code0.c line 22 before  x = 0;x > 1:syntax error
+w/ash/tmp_code0.c line 22 before x > 10;x++) :Illegal LHS
+w/ash/tmp_code0.c line 22 before  10;x++) wri:Variable x not declared !
+w/ash/tmp_code0.c line 22 before ) write("tes:Variable x not declared !

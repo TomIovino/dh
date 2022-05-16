@@ -1,0 +1,12 @@
+
+ Players can earn warpoints in player killing.
+
+ 1. All PK level players will always have at least one "warpoint".
+ 2. Players who are not PK have [*] warpoints. (ie 0)
+ 3. If you kill a player with more than or equal warpoints, 
+    you gain a point.
+ 4. If you die to a pk you lose a point.
+ 5. If you kill a player with very few points compared to yourself,
+    you have a chance to lose a point yourself. 'help pk'
+ 6. Higher warpoints add to OPB, SPB, DPB, CPB.
+

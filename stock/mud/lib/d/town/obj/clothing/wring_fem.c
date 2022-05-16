@@ -1,0 +1,40 @@
+#define TP this_player()
+#include <ansi.h>
+#include <mudlib.h>
+
+inherit ARMOUR;
+
+reset(arg) {
+  if(arg) return;
+  set_name("ring");
+  set_short(
+  BOLD+WHITE_F+"diamond wedding ring"+NORM);
+  set_long(WHITE_F"\
+A large diamond ring a symbol of love.\n");
+  set_light(1);
+  set_no_steal_flag(1);
+  set_alias("wring");
+  set_type("ring");
+  set_no_save(0);
+  set_ac(5);
+  set_weight(5); 
+  set_value(2000);
+}
+init() {
+  object other;
+        ::init();
+        if(!other) {
+        other = this_player()->query_spouse();
+        }
+        if(!other || other = "") return;
+        if(!find_player(other)) return;
+        else {
+                tell_object(this_player(), YELLOW_F+
+          "Your ring glows briefly!\n"+NORM);
+                tell_object(find_player(other), YELLOW_F+
+          "Your ring glows briefly!\n"+NORM);
+        }
+      }
+
+
+

@@ -1,0 +1,609 @@
+Mon Oct 16 02:14:48 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#3642 ("valrick")
+	Stat = "cleave"  Curr = 42  Value = 5250  Cost = 8400
+Mon Oct 16 02:14:50 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#3642 ("valrick")
+	Stat = "cleave"  Curr = 43  Value = 5375  Cost = 8600
+Mon Oct 16 02:51:07 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 5  Value = 625  Cost = 968
+Mon Oct 16 02:51:09 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 6  Value = 750  Cost = 1162
+Mon Oct 16 02:51:09 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 7  Value = 875  Cost = 1356
+Mon Oct 16 02:51:09 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 8  Value = 1000  Cost = 1550
+Mon Oct 16 02:51:09 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 9  Value = 1125  Cost = 1743
+Mon Oct 16 02:51:09 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 10  Value = 1250  Cost = 1937
+Mon Oct 16 02:51:09 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 11  Value = 1375  Cost = 2131
+Mon Oct 16 02:51:09 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 12  Value = 1500  Cost = 2325
+Mon Oct 16 02:51:09 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 13  Value = 1625  Cost = 2518
+Mon Oct 16 02:51:11 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 14  Value = 1750  Cost = 2712
+Mon Oct 16 02:51:11 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 15  Value = 1875  Cost = 2906
+Mon Oct 16 02:51:11 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 16  Value = 2000  Cost = 3100
+Mon Oct 16 02:51:11 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 17  Value = 2125  Cost = 3293
+Mon Oct 16 02:51:11 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 18  Value = 2250  Cost = 3487
+Mon Oct 16 02:51:19 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 19  Value = 2375  Cost = 3681
+Mon Oct 16 02:51:19 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 20  Value = 2500  Cost = 3875
+Mon Oct 16 02:51:19 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 21  Value = 2625  Cost = 4068
+Mon Oct 16 02:51:19 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 22  Value = 2750  Cost = 4262
+Mon Oct 16 02:51:19 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 23  Value = 2875  Cost = 4456
+Mon Oct 16 02:51:19 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 24  Value = 3000  Cost = 4650
+Mon Oct 16 02:51:21 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 25  Value = 3125  Cost = 4843
+Mon Oct 16 02:51:21 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 26  Value = 3250  Cost = 5037
+Mon Oct 16 02:51:27 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 27  Value = 3375  Cost = 5231
+Mon Oct 16 02:51:29 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 28  Value = 3500  Cost = 5425
+Mon Oct 16 02:51:33 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "identify"  Curr = 29  Value = 3625  Cost = 5618
+Mon Oct 16 02:51:41 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 0  Value = 6750  Cost = 10462
+Mon Oct 16 02:51:43 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 1  Value = 500  Cost = 775
+Mon Oct 16 02:51:43 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 2  Value = 500  Cost = 775
+Mon Oct 16 02:51:43 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 3  Value = 500  Cost = 775
+Mon Oct 16 02:51:43 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 4  Value = 500  Cost = 775
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 5  Value = 625  Cost = 968
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 6  Value = 750  Cost = 1162
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 7  Value = 875  Cost = 1356
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 8  Value = 1000  Cost = 1550
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 9  Value = 1125  Cost = 1743
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 10  Value = 1250  Cost = 1937
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 11  Value = 1375  Cost = 2131
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 12  Value = 1500  Cost = 2325
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 13  Value = 1625  Cost = 2518
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 14  Value = 1750  Cost = 2712
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 15  Value = 1875  Cost = 2906
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 16  Value = 2000  Cost = 3100
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 17  Value = 2125  Cost = 3293
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 18  Value = 2250  Cost = 3487
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 19  Value = 2375  Cost = 3681
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 20  Value = 2500  Cost = 3875
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 21  Value = 2625  Cost = 4068
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 22  Value = 2750  Cost = 4262
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 23  Value = 2875  Cost = 4456
+Mon Oct 16 02:51:45 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 24  Value = 3000  Cost = 4650
+Mon Oct 16 02:51:51 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 25  Value = 3125  Cost = 4843
+Mon Oct 16 02:51:51 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 26  Value = 3250  Cost = 5037
+Mon Oct 16 02:51:51 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 27  Value = 3375  Cost = 5231
+Mon Oct 16 02:51:51 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 28  Value = 3500  Cost = 5425
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 29  Value = 3625  Cost = 5618
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 30  Value = 3750  Cost = 5812
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 31  Value = 3875  Cost = 6006
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 32  Value = 4000  Cost = 6200
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 33  Value = 4125  Cost = 6393
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 34  Value = 4250  Cost = 6587
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 35  Value = 4375  Cost = 6781
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 36  Value = 4500  Cost = 6975
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 37  Value = 4625  Cost = 7168
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 38  Value = 4750  Cost = 7362
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 39  Value = 4875  Cost = 7556
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 40  Value = 5000  Cost = 7750
+Mon Oct 16 02:51:53 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 41  Value = 5125  Cost = 7943
+Mon Oct 16 02:51:57 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 42  Value = 5250  Cost = 8137
+Mon Oct 16 02:51:57 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 43  Value = 5375  Cost = 8331
+Mon Oct 16 02:51:57 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 44  Value = 5500  Cost = 8525
+Mon Oct 16 02:51:57 2000 Trainer = d/town/npc/adv4#9705 ("instructor")
+	Player = obj/player#10841 ("derrick")
+	Stat = "heroism"  Curr = 45  Value = 5625  Cost = 8718
+Mon Oct 16 02:54:17 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#3642 ("valrick")
+	Stat = "cleave"  Curr = 46  Value = 5750  Cost = 9200
+Mon Oct 16 02:54:17 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#3642 ("valrick")
+	Stat = "cleave"  Curr = 47  Value = 5875  Cost = 9400
+Mon Oct 16 03:18:06 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#3642 ("valrick")
+	Stat = "cleave"  Curr = 48  Value = 6000  Cost = 9600
+Mon Oct 16 03:22:50 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#3642 ("valrick")
+	Stat = "cleave"  Curr = 49  Value = 6125  Cost = 9800
+Mon Oct 16 03:36:17 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#3642 ("valrick")
+	Stat = "cleave"  Curr = 51  Value = 6375  Cost = 10200
+Mon Oct 16 03:36:17 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#3642 ("valrick")
+	Stat = "cleave"  Curr = 52  Value = 6500  Cost = 10400
+Mon Oct 16 03:47:32 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#12534 ("tarmion")
+	Stat = "sneak"  Curr = 0  Value = 1375  Cost = 2337
+Mon Oct 16 03:52:17 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#12445 ("valrick")
+	Stat = "cleave"  Curr = 53  Value = 6625  Cost = 10600
+Mon Oct 16 03:52:17 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#12445 ("valrick")
+	Stat = "cleave"  Curr = 54  Value = 6750  Cost = 10800
+Mon Oct 16 04:01:00 2000 Trainer = d/town/npc/adv4#13271 ("instructor")
+	Player = obj/player#13353 ("talac")
+	Stat = "heal"  Curr = 52  Value = 13000  Cost = 20020
+Mon Oct 16 04:01:02 2000 Trainer = d/town/npc/adv4#13271 ("instructor")
+	Player = obj/player#13353 ("talac")
+	Stat = "heal"  Curr = 53  Value = 13250  Cost = 20405
+Mon Oct 16 04:01:04 2000 Trainer = d/town/npc/adv4#13271 ("instructor")
+	Player = obj/player#13353 ("talac")
+	Stat = "heal"  Curr = 54  Value = 13500  Cost = 20790
+Mon Oct 16 04:01:04 2000 Trainer = d/town/npc/adv4#13271 ("instructor")
+	Player = obj/player#13353 ("talac")
+	Stat = "heal"  Curr = 55  Value = 13750  Cost = 21175
+Mon Oct 16 04:01:04 2000 Trainer = d/town/npc/adv4#13271 ("instructor")
+	Player = obj/player#13353 ("talac")
+	Stat = "heal"  Curr = 56  Value = 14000  Cost = 21560
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 53  Value = 6625  Cost = 10732
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 54  Value = 6750  Cost = 10935
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 55  Value = 6875  Cost = 11137
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 56  Value = 7000  Cost = 11340
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 57  Value = 7125  Cost = 11542
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 58  Value = 7250  Cost = 11745
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 59  Value = 7375  Cost = 11947
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 60  Value = 7500  Cost = 12150
+Mon Oct 16 04:16:40 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 61  Value = 7625  Cost = 12352
+Mon Oct 16 04:16:42 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 62  Value = 7750  Cost = 12555
+Mon Oct 16 04:16:46 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#6127 ("arein")
+	Stat = "steal"  Curr = 63  Value = 7875  Cost = 12757
+Mon Oct 16 04:20:14 2000 Trainer = d/town/npc/adv1#10352 ("instructor")
+	Player = obj/player#12534 ("tarmion")
+	Stat = "peek"  Curr = 0  Value = 1500  Cost = 2550
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 1  Value = 500  Cost = 625
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 2  Value = 500  Cost = 625
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 3  Value = 500  Cost = 625
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 4  Value = 500  Cost = 625
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 5  Value = 625  Cost = 781
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 6  Value = 750  Cost = 937
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 7  Value = 875  Cost = 1093
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 8  Value = 1000  Cost = 1250
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 9  Value = 1125  Cost = 1406
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 10  Value = 1250  Cost = 1562
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 11  Value = 1375  Cost = 1718
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 12  Value = 1500  Cost = 1875
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 13  Value = 1625  Cost = 2031
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 14  Value = 1750  Cost = 2187
+Mon Oct 16 06:54:11 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 15  Value = 1875  Cost = 2343
+Mon Oct 16 06:54:13 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 16  Value = 2000  Cost = 2500
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 17  Value = 2125  Cost = 2656
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 18  Value = 2250  Cost = 2812
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 19  Value = 2375  Cost = 2968
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 20  Value = 2500  Cost = 3125
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 21  Value = 2625  Cost = 3281
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 22  Value = 2750  Cost = 3437
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 23  Value = 2875  Cost = 3593
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 24  Value = 3000  Cost = 3750
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 25  Value = 3125  Cost = 3906
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 26  Value = 3250  Cost = 4062
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 27  Value = 3375  Cost = 4218
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 28  Value = 3500  Cost = 4375
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 29  Value = 3625  Cost = 4531
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 30  Value = 3750  Cost = 4687
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 31  Value = 3875  Cost = 4843
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 32  Value = 4000  Cost = 5000
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 33  Value = 4125  Cost = 5156
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 34  Value = 4250  Cost = 5312
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 35  Value = 4375  Cost = 5468
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 36  Value = 4500  Cost = 5625
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 37  Value = 4625  Cost = 5781
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 38  Value = 4750  Cost = 5937
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 39  Value = 4875  Cost = 6093
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 40  Value = 5000  Cost = 6250
+Mon Oct 16 06:54:17 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 41  Value = 5125  Cost = 6406
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 42  Value = 5250  Cost = 6562
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 43  Value = 5375  Cost = 6718
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 44  Value = 5500  Cost = 6875
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 45  Value = 5625  Cost = 7031
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 46  Value = 5750  Cost = 7187
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 47  Value = 5875  Cost = 7343
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 48  Value = 6000  Cost = 7500
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 49  Value = 6125  Cost = 7656
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 50  Value = 6250  Cost = 7812
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 51  Value = 6375  Cost = 7968
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 52  Value = 6500  Cost = 8125
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 53  Value = 6625  Cost = 8281
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 54  Value = 6750  Cost = 8437
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 55  Value = 6875  Cost = 8593
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 56  Value = 7000  Cost = 8750
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 57  Value = 7125  Cost = 8906
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 58  Value = 7250  Cost = 9062
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 59  Value = 7375  Cost = 9218
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 60  Value = 7500  Cost = 9375
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 61  Value = 7625  Cost = 9531
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 62  Value = 7750  Cost = 9687
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 63  Value = 7875  Cost = 9843
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 64  Value = 8000  Cost = 10000
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 65  Value = 8125  Cost = 10156
+Mon Oct 16 06:54:43 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 66  Value = 8250  Cost = 10312
+Mon Oct 16 06:54:53 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 67  Value = 8375  Cost = 10468
+Mon Oct 16 06:54:53 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 68  Value = 8500  Cost = 10625
+Mon Oct 16 06:54:53 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 69  Value = 8625  Cost = 10781
+Mon Oct 16 06:54:53 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 70  Value = 8750  Cost = 10937
+Mon Oct 16 06:54:53 2000 Trainer = d/town/npc/adv4#1310 ("instructor")
+	Player = obj/player#1231 ("arein")
+	Stat = "heroism"  Curr = 71  Value = 8875  Cost = 11093
+Mon Oct 16 08:23:12 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 10  Value = 1250  Cost = 1625
+Mon Oct 16 08:23:12 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 11  Value = 1375  Cost = 1787
+Mon Oct 16 08:23:12 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 12  Value = 1500  Cost = 1950
+Mon Oct 16 08:23:12 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 13  Value = 1625  Cost = 2112
+Mon Oct 16 08:23:12 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 14  Value = 1750  Cost = 2275
+Mon Oct 16 08:23:12 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 15  Value = 1875  Cost = 2437
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 16  Value = 2000  Cost = 2600
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 17  Value = 2125  Cost = 2762
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 18  Value = 2250  Cost = 2925
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 19  Value = 2375  Cost = 3087
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 20  Value = 2500  Cost = 3250
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 21  Value = 2625  Cost = 3412
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 22  Value = 2750  Cost = 3575
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 23  Value = 2875  Cost = 3737
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 24  Value = 3000  Cost = 3900
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 25  Value = 3125  Cost = 4062
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 26  Value = 3250  Cost = 4225
+Mon Oct 16 08:23:14 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 27  Value = 3375  Cost = 4387
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 28  Value = 3500  Cost = 4550
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 29  Value = 3625  Cost = 4712
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 30  Value = 3750  Cost = 4875
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 31  Value = 3875  Cost = 5037
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 32  Value = 4000  Cost = 5200
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 33  Value = 4125  Cost = 5362
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 34  Value = 4250  Cost = 5525
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 35  Value = 4375  Cost = 5687
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 36  Value = 4500  Cost = 5850
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 37  Value = 4625  Cost = 6012
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 38  Value = 4750  Cost = 6175
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 39  Value = 4875  Cost = 6337
+Mon Oct 16 08:23:16 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 40  Value = 5000  Cost = 6500
+Mon Oct 16 08:23:18 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 41  Value = 5125  Cost = 6662
+Mon Oct 16 08:23:18 2000 Trainer = d/town/npc/adv3#3266 ("instructor")
+	Player = obj/player#1263 ("tom")
+	Stat = "grasp"  Curr = 42  Value = 5250  Cost = 6825

@@ -1,0 +1,7 @@
+    
+
+              3            room 1 has a 1:10 chance of climbing
+            /   \          room 2+4 has a 1:5 chance of climbing
+           2  X  4         room 3 has a 4:5 chance of climbing
+            \   /          room X leads to cave, and room 1, down
+              1

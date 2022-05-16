@@ -1,0 +1,840 @@
+// Emote_d.c -- Emote Daemon 
+// 940921, 941130, --, 960629, 960718, 960723, 960823
+// Coded By:  Geewhiz (Andrew T. Graham <atgraham@cs.millersv.edu>)
+// Originally for:  Dreamtime & DoD
+// 
+// Please see the file LICENSE.emote_d before using this code.
+// By using this code you acknowledge and agree to abide the
+// license agreement.
+// 
+// Emote_D Copyright (c) 1994,95,96 Andrew T Graham -- All Rights Reserved ///
+//////////////////////////////////////////////////////////////////////////////
+
+#include <ansi.h>
+ 
+#define EMOTE_DATA_FILE "/secure/soul/emote.dat"
+#define SAVE_FILE "/ob_saves/mudlib/emote_d"
+#define NUMLINES 25
+#define VERSION "Emote Deamon v1.7.1"
+ 
+void tell(string s) {
+//    object me;
+//     if(me = find_player("geewhiz")) tell_object(me,s+"\n");
+//    write_file("/ED",timestamp() + " " + s + "\n");
+}
+ 
+ 
+#define more(X,H) page("\n"+X+"\n",H)
+
+void page(string data, string header);
+string add_period(string s);
+varargs string wrap(string str, int width, int indent);
+ 
+#define TP_MSG 0
+#define RM_MSG 1
+#define PR_MSG 2
+ 
+#define NO_ARG "N"
+#define LI_ARG "L"
+#define NL_ARG "NL"
+#define SE_ARG "S"
+#define CREATOR "C"
+ 
+int emote_data_timestamp = 0;
+mapping emote_data = ([ ]);
+mapping emote_stats = ([ ]);
+mapping emote_stats_by_sex = ([ ]);
+string *all_feelings = ({ });
+ 
+ 
+static string *feelings;
+static mixed c_target;
+static string c_arg;
+static string c_extra;
+static int ok_to_emote = 1;
+static string *data;
+static int usage = 0;
+ 
+string version() { return
+       VERSION":\n"
+       "      Copyright (c) 1994,95,96 Geewhiz -- All Rights Reserved\n"
+       "      Direct questions and problems to atgraham@cs.millersv.edu\n"
+       "Feelings:\n"
+       "      Feelings written as noted by the 'whocoded <feeling>' command\n"
+       "      Feelings written by Sparrowhawk are:\n"
+       "          Copyright (c) 1994,95,96 Sparrowhawk -- All Rights Reserved\n";
+}
+ 
+void notify_destruct() { 
+   printf("Aieeeeeeeee!  Emote_D2 killed.\n");
+   save_object(SAVE_FILE);
+}
+ 
+void add_use(string verb) { 
+    mapping stat;
+    
+    
+    emote_stats[verb] += 1;
+    if(this_player()) {
+        if(!mappingp(stat = emote_stats_by_sex[verb]))
+            emote_stats_by_sex[verb] = ([ ]);
+        switch((string)this_player()->query_gender_string()) {
+            case "male":
+                emote_stats_by_sex[verb]["m"]++;
+                break;
+            case "female":
+                emote_stats_by_sex[verb]["f"]++;
+                break;
+            default:
+                emote_stats_by_sex[verb]["u"]++;
+                break;
+        }
+    }
+    usage++;
+    if(usage % 100 == 0) save_object(SAVE_FILE);
+}
+ 
+int dump_stats(string arg) {
+   string *verbs, *data;
+   int i, total_cmds;
+   data = ({ });
+   verbs = m_indices(emote_stats);
+   i = sizeof(verbs);
+   total_cmds = 0;
+   while(i--) {
+      data += ({ sprintf("%6d %-10s",emote_stats[verbs[i]],verbs[i]) });
+      total_cmds += emote_stats[verbs[i]];
+   }
+   data = sort_array(data,#'>);
+   if(!arg || arg == "") {
+       more(sprintf("%|79s\n%-#79s\n",
+          sprintf("Feelings used a total of %d times.",total_cmds),
+          implode(data,"\n")),sprintf("Crimsonesti Feelings Statistics (%d Emotes)",sizeof(data)));
+   } else {
+      i = 10;
+      printf("Top Ten Feelings On Crimsonesti\n");
+      while(i--)
+          printf("\t%2d) %s\n",10-i,data[<10-i]);
+      printf("\n");
+   }
+    return 1;
+}
+
+int dump_stats_by_sex(string arg) {
+   string *verbs, *data;
+   int i, total_cmds, total_cmds_male, total_cmds_female, total_cmds_unknown;
+   if(!this_player() || this_player()->query_real_name() != "geewhiz")
+       return 0;
+   data = ({ });
+   verbs = m_indices(emote_stats_by_sex);
+   i = sizeof(verbs);
+   total_cmds = 0;
+   while(i--) {
+      data += ({ sprintf("%-10s %d/%d/%d",verbs[i],
+                                          emote_stats_by_sex[verbs[i]]["m"],
+                                          emote_stats_by_sex[verbs[i]]["f"],
+                                          emote_stats_by_sex[verbs[i]]["u"]) });
+                                          
+      
+      total_cmds_male += emote_stats_by_sex[verbs[i]]["m"];
+      total_cmds_female += emote_stats_by_sex[verbs[i]]["f"];
+      total_cmds_unknown += emote_stats_by_sex[verbs[i]]["u"];
+   }  
+   total_cmds = total_cmds_male + total_cmds_female + total_cmds_unknown;
+   
+   data = sort_array(data,#'>);
+   more(sprintf("%|79s\n%|79s\n%-#79s\n",
+         sprintf("Feelings used %d/%d/%d times (%d total)",total_cmds_male,total_cmds_female,total_cmds_unknown,total_cmds),
+        "male/female/unknown",
+        implode(data,"\n")),sprintf("Crimsonesti Feelings Statistics By Sex (%d Emotes)",sizeof(data)));
+    return 1;
+}
+ 
+status filter_comments(string line) { 
+    return (line[0] != '#') && (line[0] && (line[0] != ' '));
+}
+ 
+status is_comment(string line) { 
+    return line && ( line[0] == '#' || line[0] != ' ' );
+}
+ 
+string remove_new_line(string s) { return s = s[<1] == '\n' ? s[0..<2] : s; }
+ 
+status is_not_comment(string line) { 
+    return line && line != "" && line[0] != '#' && line[0] != ' '; 
+}
+ 
+static int LineNum = 0;
+ 
+status get_some_emote_data(string *data, string data_file) {
+    string str, *lines;
+    if(!data || !pointerp(data)) data = ({ });
+    while(sizeof(data) < 10 && str = read_file(data_file,LineNum,NUMLINES)) {
+        LineNum += NUMLINES;
+        lines = filter_array(explode(str, "\n"),#'is_not_comment);
+        if(!lines || !sizeof(lines)) 
+            continue;
+        else 
+            data += lines;
+    }
+    return sizeof(data) >= 10;
+}
+ 
+static string *Data;
+ 
+void load_data() {
+   LineNum = 0;
+   call_out("do_load",0,&Data);
+}
+
+void fix_up_stats() {
+    string *old_feelings;
+    int i;
+    write("Removing old feeling statistics...\n");
+    old_feelings = m_indices(emote_stats) - all_feelings;
+    if(i = sizeof(old_feelings))
+        while(i--) {
+            printf("%O is old... removing... accumulated usage was %O\n",old_feelings[i],emote_stats[old_feelings[i]]);
+            m_delete(emote_stats,old_feelings[i]);
+        }
+    write("Done.\n");
+}
+
+void end_load() {
+    emote_data_timestamp = file_time(EMOTE_DATA_FILE);
+    save_object(SAVE_FILE);
+    printf("\nEmoteD loading complete.\n");
+    feelings = 0;
+    all_feelings = m_indices(emote_data);
+}
+ 
+void install_emote(string *data) {
+    string verb, creator;
+    int pos, sl;
+    if(sizeof(data) < 10) {
+        debug_message("emoted::install_emote() sizeof(data) < 10  !!!\n");
+        printf("!");
+        return;
+    }
+    verb = creator = 0;
+    pos = member_array('%',data[0]);
+    sl = strlen(data[0]);
+    if(pos != -1) {
+        verb = data[0][0..pos-1];
+        if(pos+1 < sl)  creator = data[0][pos+1..];
+    } else verb = data[0];   
+    creator = creator ? capitalize(creator) : "Sparrowhawk";
+    emote_data[verb] = ([ 
+                          NO_ARG  : ({ data[1], data[2] }),
+                          LI_ARG  : ({ data[3], data[4], data[5] }),
+                          NL_ARG  : ({ data[6], data[7] }),
+                          SE_ARG  : ({ data[8], data[9] }),
+                          CREATOR : creator,
+                       ]);
+    data = (sizeof(data) > 10) ? data[10..] : ({ });
+ 
+    printf((sizeof(explode(verb, " ")) > 1) ? "?" : ":");
+    if(sizeof(explode(verb, " ")) > 1) printf("(%d)",LineNum);
+}
+
+
+void pick_random_emote(string verb) {
+    int i;
+    if(all_feelings && pointerp(all_feelings) && i = sizeof(all_feelings))
+         verb = all_feelings[random(i)];
+}
+ 
+void do_load(int cnt, string *Data) {
+    int i, ok;
+ 
+    printf("\n|",cnt);
+ 
+    i = 50;
+    ok = 1;
+    while(i-- && ok = get_some_emote_data(&Data,EMOTE_DATA_FILE)) {
+        install_emote(&Data);
+    }
+    if(ok && i <= 0)
+        call_out("do_load",2,++cnt,Data);
+    else
+        end_load();
+}
+ 
+ 
+void store_data() {
+    feelings = m_indices(emote_data);
+    emote_data = ([ ]);
+    printf("EmoteD is loading emotes.\n");
+    load_data();
+}
+ 
+void load_emotes() {
+    if(!restore_object(SAVE_FILE)
+    || emote_data_timestamp != file_time(EMOTE_DATA_FILE))
+        store_data();
+    else
+        all_feelings = m_indices(emote_data);
+
+}
+ 
+void reset(int count) {
+    if(clonep(this_object())) destruct(this_object());
+    if(count) return;
+    load_emotes();
+}
+ 
+#define TP          this_player()
+#define NAME(XX)    (string)XX->query_alt_name()
+#define GEND(XX)    (string)XX->query_gender_string()
+#define PRO(XX)     (string)XX->query_pronoun()
+#define POSS(XX)    (string)XX->query_possessive()
+#define OBJ(XX)     (string)XX->query_objective()
+#define OBJSELF(XX) sprintf("%sself",(string)OBJ(XX))
+ 
+varargs string parse_string(string str,string c,int chan) {
+    return sprintf("%s%s%s",c?c:"",wrap(add_period(process_string(str)),70,chan ? 0 : 3),c?NORM:"");
+}
+ 
+string articleize(string s);
+ 
+// @@extra|happily@@ 
+string extra(string suggested) { 
+      suggested = subst(suggested,"_"," ");
+                                 return (c_extra && c_extra != "") ? c_extra : 
+                                                ( suggested ? suggested : 
+                                                            ""); }
+string dem(string suggested) { 
+      suggested = subst(suggested,"_"," ");
+                               return (c_extra && c_extra != "") ? c_extra : 
+                                                ( suggested ? suggested : 
+                                                            ""); }
+string opt_dem() {            return (c_extra && c_extra != "") ? c_extra : "\b"; }
+
+string an_extra(string suggested) {
+    return articleize(extra(subst(suggested,"_"," ")));
+}
+
+string otobj()     { string ret; ret = OBJ(c_target);     return ret ? ret : "it"; }
+string otobjself() { string ret; ret = OBJSELF(c_target); return ret ? ret : "itself"; }
+string otgend()    { string ret; ret = GEND(c_target);    return ret ? ret : "neuter"; }
+string otpro()     { string ret; ret = PRO(c_target);     return ret ? ret : "it"; }
+string otposs()    { string ret; ret = POSS(c_target);    return ret ? ret : "its"; }
+string other()     { string ret; ret = NAME(c_target);    return ret ? ret : "Something"; }
+string tpobj()     { string ret; ret = OBJ(TP);           return ret ? ret : "it"; }
+string tpobjself() { string ret; ret = OBJSELF(TP);       return ret ? ret : "itself"; }
+string tpgend()    { string ret; ret = GEND(TP);          return ret ? ret : "neuter"; }
+string tppro()     { string ret; ret = PRO(TP);           return ret ? ret : "it"; }
+string tpposs()    { string ret; ret = POSS(TP);          return ret ? ret : "its"; }
+string name()      { string ret; ret = NAME(TP);          return ret ? ret : "Something"; }
+string tpPro()     { string ret; ret = PRO(TP);           return capitalize(ret ? ret : "it"); }
+string otPro()     { string ret; ret = PRO(c_target);     return capitalize(ret ? ret : "it"); }
+ 
+void set_c_extra(string a) { c_extra = a; }
+void set_c_arg(string a) { c_arg = a; }
+void set_c_target(mixed t) { c_target = t; }
+ 
+status is_special(string data) {
+    return (data[0] == '*') || (data[0] == '+');
+}
+ 
+ 
+varargs
+int handle_special(string data,string arg,string extra,mixed target) {
+    mixed err;
+    int res;
+    res = err = 0;
+    if(data[0] == '+') {
+        err = catch(res = call_other("/cmds/soul/_" + data[1..],"emote",arg));
+//      err =  catch(res = call_other("/cmds/soul/_" + data[1..],"emote",arg,
+//                   target,extra));
+        if(err && stringp(err))
+            notify_fail(sprintf("%semoted:  Error calling external file!\n%s%s",YELLOW_F,err,NORM));
+        return res;
+    }
+    if(data[0] == '*') {
+        notify_fail(sprintf("%s%s%s",YELLOW_F,
+                                     wrap(process_string(data[1..]),70,3),
+                                     NORM));
+        return 0;
+    }
+    return notify_fail("emoted: handle_special:  Unhandled special case.\n"),0;
+}
+
+varargs void parse_emote_args(string arg, object target, string extra, string chan);
+ 
+varargs
+mixed get_feeling(string str, string channel, int give_both, object recipient) {
+    string *args, verb, arg, tmp, arg_type, extra, msg, err;
+    mixed ret;
+    mapping verb_data;
+    object target;
+ 
+    if(!ok_to_emote || !str) return 0;
+
+tell(sprintf("$$:\tstr = %-=40O\n",str));
+
+    arg = 0;
+    if(member_array(' ',str) == -1) str += " ";
+    sscanf(str,"%s %s",verb,arg);
+    if(arg == "") arg = 0;
+    
+tell(sprintf("$$:\tverb = %-=40O\n\targ = %-=40O\n",verb,arg));
+    parse_emote_args(&arg,&target,&extra,channel);
+tell(sprintf("$$:\targ = %-=40O\n\ttarget = %-=40O\n\textra = %-=40O\n",arg,target,extra));
+
+    if(verb == "random") {
+        pick_random_emote(&verb);
+        if(!this_player()->query_env_var("NOECHO"))
+            printf("** %s %s\n",verb,arg && stringp(arg) ? arg : "");
+    }
+
+    if(!mapping_contains(&verb_data,emote_data,verb)) 
+        return notify_fail(sprintf("emoted:  %O isn't a feeling.\n",verb)),0;
+ 
+    add_use(verb);
+ 
+    set_c_arg(arg);
+    set_c_target(target);
+    set_c_extra(extra);
+ 
+    ret = 0;
+    if(!arg) arg_type = NO_ARG;
+    else if(!target) arg_type = NL_ARG;
+    else if(target == this_player()) arg_type = SE_ARG;
+    else arg_type = LI_ARG;
+ 
+    if(is_special(verb_data[arg_type][TP_MSG])) {
+        msg = 0;
+        if(verb_data[arg_type][TP_MSG][0] == '+' && stringp(channel)) {
+            catch(msg = (string) call_other("/cmds/soul/_" + verb_data[arg_type][TP_MSG][1..],"channel_msg",arg,channel));
+        }
+        if(!msg)
+            return notify_fail(
+               sprintf("emoted:  %O can't be used over %s.\n",verb, stringp(channel) ? channel : "tells")),0;
+    } else
+        msg = verb_data[arg_type][RM_MSG];
+
+    if(give_both)
+        ret = ({ parse_string(verb_data[arg_type][TP_MSG],0,1),
+                 parse_string(verb_data[arg_type][recipient == target ? PR_MSG : RM_MSG],0,1) });
+    else {
+        ret = parse_string(msg,0,1);
+        if(ret && !intp(channel)) {
+            ret = subst(ret,"\n"," ");
+            if(ret[0..strlen(name())-1] == name())
+                ret = ret[strlen(name())..];
+            if(ret[0] == ' ') 
+                ret = ret[1..];
+        }
+    }        
+    return ret;
+}
+ 
+varargs int do_emote(mapping verb_data, string arg_type, string arg,
+                                        mixed target, string extra) {
+    string ccc;
+    ccc = this_player()->do_cc("");
+    set_c_extra(extra);
+    set_c_arg(arg);
+    set_c_target(target);
+tell(sprintf("%O",verb_data));
+tell("1");
+    if(is_special(verb_data[arg_type][TP_MSG])) {
+        return handle_special(verb_data[arg_type][TP_MSG],arg,extra,target);
+    }                 
+tell("2");
+    write(parse_string(verb_data[arg_type][TP_MSG],ccc));
+tell("3");
+    say(parse_string(verb_data[arg_type][RM_MSG],ccc),target ?
+                                                            target
+                                                                :
+                                                            this_player());
+tell("4");
+    if(arg_type == LI_ARG)
+        tell_object((object)target,
+                parse_string(verb_data[arg_type][PR_MSG],ccc));
+tell("5");
+    return 1;
+}
+ 
+status match_keyword(string key, string match_str) {
+    return key[0..strlen(match_str)-1] == match_str;
+}
+ 
+status dump_feelings(string arg) {
+    string *tmp;
+    int size, ptr, short;
+    tmp = m_indices(emote_data);
+    if(arg && stringp(arg) && (ptr = strstr(arg,"-s")) != -1) {
+        short = 1;
+        arg = arg[0..ptr-1] + arg[ptr+2..];
+    }
+    if(arg && arg != "") {
+        size = sizeof(tmp = filter_array(tmp,#'match_keyword,arg));
+        if(!size) tmp = ({ "<None Found>" });
+    }
+    tmp = sort_array(tmp,#'>);
+    if(!short)
+        more(sprintf("%-#80s\n",implode(tmp,"\n")),
+            sprintf("Crimsonesti Feelings (%d Emotes)",sizeof(tmp)));
+    else
+        more(sprintf("%-=78s\n",implode(tmp,", ")),
+            sprintf("Crimsonesti Feelings (%d Emotes)",sizeof(tmp)));
+            
+    return 1;
+}
+ 
+status reload(string arg) {
+    if(arg == "emotes") return store_data(),1;
+    return notify_fail("Syntax: reload what ?\n"),0;
+}
+ 
+status dump_emote(string arg) {
+    mapping verb_data;
+    notify_fail("emoted:  Syntax:  dumpemote <feeling>\n");
+    if(!mapping_contains(&verb_data,emote_data,arg)) return 0;
+    printf("Feeling %O\n  Basic emote:\n",arg);
+    if(is_special(verb_data[NO_ARG][TP_MSG])) {
+         if(verb_data[NO_ARG][TP_MSG][0] == '+') {
+             printf("    This emote type is handled by an external file.\n");
+         } else {
+             printf("    This emote type is not supported.\n  %s",verb_data[NO_ARG][TP_MSG][1..]);
+         }
+    } else {                 
+         printf("    You:  %s    Room:  %s",
+              wrap(add_period(verb_data[NO_ARG][TP_MSG]),65,10),
+              wrap(add_period(verb_data[NO_ARG][RM_MSG]),65,10));
+    }
+    printf("  Directed emote:\n");
+    if(is_special(verb_data[LI_ARG][TP_MSG])) {
+         if(verb_data[LI_ARG][TP_MSG][0] == '+') {
+             printf("    This emote type is handled by an external file.\n");
+         } else {
+             printf("    This emote type is not supported.\n  %s",verb_data[LI_ARG][TP_MSG][1..]);
+         }
+    } else {
+         printf("    You:  %s    Room:  %s    Target:  %s",
+                wrap(add_period(verb_data[LI_ARG][TP_MSG]),65,10),
+                wrap(add_period(verb_data[LI_ARG][RM_MSG]),65,10),
+                wrap(add_period(verb_data[LI_ARG][PR_MSG]),65,10));
+    }
+    printf("  Modified emote:\n");
+    if(is_special(verb_data[NL_ARG][TP_MSG])) {
+         if(verb_data[NL_ARG][TP_MSG][0] == '+') {
+             printf("    This emote type is handled by an external file.\n");
+         } else {
+             printf("    This emote type is not supported.\n  %s",verb_data[NL_ARG][TP_MSG][1..]);
+         }
+    } else {
+         printf("    You:  %s    Room:  %s",
+              wrap(add_period(verb_data[NL_ARG][TP_MSG]),65,10),
+              wrap(add_period(verb_data[NL_ARG][RM_MSG]),65,10));
+    }
+    printf("  Self-directed emote:\n");
+    if(is_special(verb_data[SE_ARG][TP_MSG])) {
+         if(verb_data[SE_ARG][TP_MSG][0] == '+') {
+             printf("    This emote type is handled by an external file.\n");
+         } else {
+             printf("    This emote type is not supported.\n  %s",verb_data[SE_ARG][TP_MSG][1..]);
+         }
+    } else {
+         printf("    You:  %s    Room:  %s",
+              wrap(add_period(verb_data[SE_ARG][TP_MSG]),65,10),
+              wrap(add_period(verb_data[SE_ARG][RM_MSG]),65,10));
+    }
+    printf("\n%s",wrap("@@name@@ = Your name | @@other@@ = Target's name | "
+                       "@@xxposs@@ = his or her | @@xxobj@@ = him or her | "
+                       "@@xxobjself@@ = himself or herself | @@xxpro@@ = he"
+                       " or she | @@xxgend@@ = male or female | @@extra@@ ="
+                       " modifier || (xx is: 'tp' referring to you or 'ot' "
+                       "referring to target"));
+    return 1;
+}
+
+
+varargs int do_emote_test(mapping verb_data, string arg_type, string arg,
+                                        mixed target, string extra) {
+    string ccc;
+    ccc = this_player()->do_color("");
+    set_c_extra(extra);
+    set_c_arg(arg);
+    set_c_target(target);
+    if(is_special(verb_data[arg_type][TP_MSG])) {
+        printf("That emote cannot be tested because it is handled externally.\n");
+        return 1;
+    }                 
+    printf("You would see:\n%s\n",parse_string(verb_data[arg_type][TP_MSG],
+    ccc));
+    printf("The room would see:\n%s\n",parse_string(verb_data[arg_type][RM_MSG],
+    ccc));
+    if(arg_type == LI_ARG)
+        printf("The target would see:\n%s\n",parse_string(verb_data[arg_type][PR_MSG],
+    ccc));
+    return 1;
+}
+
+
+int cmd_temote(string arg) {
+    string verb, *args, extra;
+    mapping verb_data;
+    int argc, emote_exists;
+    object target;
+
+    notify_fail("temote: Syntax:  temote <feeling> [ <arguments> ]\n");
+
+    if(!arg) return 0;
+    args = explode(arg, " ");
+    argc = sizeof(args);
+    if(argc < 1) return 0;
+    verb = args[0];
+    args = args[1..];
+    argc--;
+
+    if(argc) {
+        arg = implode(args, " ");
+    } else {
+        arg = 0;
+    }
+
+    if(!mapping_contains(&verb_data,emote_data,verb)) return 0;
+
+    parse_emote_args(&arg,&target,&extra);
+
+    if(!arg) return do_emote_test(verb_data,NO_ARG);
+ 
+    if(!target) {    
+        return do_emote_test(verb_data,NL_ARG,arg,0,extra);
+    }
+    if(target != this_player()) 
+        return do_emote_test(verb_data,LI_ARG,arg,target,extra);
+    else
+        return do_emote_test(verb_data,SE_ARG,arg,target,extra);
+}    
+ 
+status emote_hook(string arg) {
+    string verb, *args, extra;
+    mapping verb_data;
+    int argc, emote_exists;
+    object target;
+ 
+    verb = query_verb();
+ 
+    if(feelings && sizeof(feelings) && member(feelings,verb) != -1) {
+        printf("The feelings are off line for a moment while they are being reloaded.\n");
+        return 1;
+    }
+ 
+    if(verb == "feelings") return dump_feelings(arg);
+    else if(verb == "socials") return dump_feelings(arg);
+    else if(verb == "reload") return reload(arg);
+/*
+    else if(verb == "emotestats") return dump_stats(arg);
+*/
+    else if(verb == "emotestats") return dump_feelings(arg);
+    else if(verb == "emotestatsbysex") return dump_stats_by_sex(arg);
+    else if(verb == "dumpemote") return dump_emote(arg);
+    else if(verb == "emotedversion") return printf(version()),1;
+    else if(verb == "purgeoldemotestats") return fix_up_stats(),1;
+    else if(verb == "temote") return cmd_temote(arg);
+    else if(verb == "whocoded") {
+        notify_fail(sprintf("whocoded:  The entity %O is unknown.\n",arg));
+        if(!arg) return 0;
+        if(!mapping_contains(&verb_data,emote_data,arg)) return 0;
+        printf("%-=75s\n",sprintf("The entity %O is an emote which was written by %s.\n",
+               arg,verb_data[CREATOR]));
+        return 1;
+    } else if(verb == "random") {
+        add_use("random");
+        pick_random_emote(&verb);
+        if(!this_player()->query_env_var("NOECHO"))
+            printf("** %s %s\n",verb,arg && stringp(arg) ? arg : "");
+    }
+
+    if(!mapping_contains(&verb_data,emote_data,verb)) return 0;
+ 
+add_use(verb);
+ 
+    parse_emote_args(&arg,&target,&extra);
+
+    if(!arg) return do_emote(verb_data,NO_ARG);
+ 
+    if(!target) {    
+        return do_emote(verb_data,NL_ARG,arg,0,extra);
+    }
+    if(target != this_player()) 
+        return do_emote(verb_data,LI_ARG,arg,target,extra);
+    else
+        return do_emote(verb_data,SE_ARG,arg,target,extra);
+ 
+    return 0;
+}
+ 
+string add_period(string s) {
+    if(!s || s == "") return "";
+    switch(s[<1]) {
+        case '!':
+        case '?':
+        case '.':
+            break;
+        case '\'':
+        case '"':
+            s = add_period(s[0..<2]) + s[<1..<1];
+            break;
+        default:
+            s += ".";
+            break;
+    }
+    return s;
+}
+ 
+ 
+varargs string format(string str, int indent, int shift, int width) {
+    int extra,pre;
+    if(!str || str == "" || !stringp(str))
+        raise_error("format(): Bad arg 1 (need string)\n");
+    if(!indent || indent < 0)
+        indent = 0;
+    if(!width || width < 0)
+        width = 75;
+    if(shift < 0) {
+        pre = -1 * shift;
+        extra = 0;
+    } else if(shift == 0) {
+        pre = 0;
+        extra = 0;
+    } else { // shift > 0
+        pre = 0;
+        extra = shift;
+    }
+    if(extra) str = sprintf("%*s",extra,"") + str;
+    return sprintf("%*s%-*=s\n",indent,str[0..pre-1],width-indent,str[pre..]);
+}
+ 
+varargs string wrap(string str, int width, int indent) {
+    if(!width) width = 78;
+    if(!indent) indent = 0;
+    return format(str,indent,(-1*indent),width);
+}
+ 
+string articleize(string s) {
+    if(!s || s == "") return s;
+    switch(s[0]) {
+       case 'a': case 'A':
+       case 'e': case 'E':
+       case 'i': case 'I':
+       case 'o': case 'O':
+       case 'u': case 'U':
+           return "an " + s;
+           break;
+       default:
+           return "a " + s;
+           break;
+   }
+   // This shouldn't happen
+   return "a/an" + s;
+}         
+ 
+/////////////////////// From Bubbs' Intermud Mailer //////////////////////////
+// Some defines for the BIM pager.
+#define PG_BUFF           "BFF"         // The edit buffer.
+#define PG_Q_FUNC         "QTF"         // The quit-function.
+#define PG_LENG           "LNG"         // Page length.
+
+#define PAGER "obj/pager"
+
+ 
+void page(string data,string header) {
+    int size;
+    string *d;
+    object pager;
+    
+    d = explode(data,"\n");
+        pager = clone_object(PAGER);
+        (void)pager->set_quit_func(this_object(), "TW_quit_pager");
+        size = to_int((mixed)this_player()->query_env_var("pg_opts"));
+        if (size)
+         (void)pager->set_options(size);
+        if(this_player()->defined_env_var("fl_length")) {
+            size = to_int((mixed)this_player()->query_env_var("fl_length"));
+            (void)pager->set_page_length(size);
+        } else if(this_player()->defined_env_var("pg_length")) {
+            size = to_int((mixed)this_player()->query_env_var("pg_length"));
+            (void)pager->set_page_length(size);
+        } else {
+            (void)pager->set_page_length(20);
+        }
+        (void)pager->more_text(d, header ? header : "Crimsonesti Feelings");
+}
+ 
+void TW_quit_pager(string reason, object pager, mixed extra) {
+  if (!reason) write("Terminated.\n");
+  destruct(pager);
+  return;
+}
+
+/////////////////////// End  Bubbs' Intermud Mailer Code ////////////////////
+
+#define CHANNELD "/secure/channeld/channeld"
+
+object channel_find_player(string name, string chan) {
+    object who, *listeners;
+    who = find_player(name);
+    if(!who || !chan)
+        return who;
+    listeners = (object *) CHANNELD->soul_channel_list(chan);
+    if(!listeners)
+        return 0;
+    return member(listeners,who) == -1 ? 0 : who;
+}
+
+object soul_find_player(string name) {
+    object who, *listeners;
+    who = find_player(name);
+    if(!who)
+        return who;
+    if(who->query_invis() && !who->short())
+        return 0;
+    return who;
+}
+
+varargs void parse_emote_args(string arg, object target, string extra, string chan) {
+    string *args;
+    int argc;
+    int d;
+    string who, rest;
+    
+    if(!arg) {
+        target = 0;
+        extra = 0;
+        return;
+    }
+
+    args = explode(arg, " ");
+    argc = sizeof(args);
+    extra = "";
+    if(argc > 1) {
+        if(sscanf(args[1],"%d",d) == 1) {
+            args[0] = args[0] + " " + args[1];
+            args = args[0..0] + args[2..];
+            argc--;
+        }
+        if(argc > 1) {
+            extra = implode(args[1..], " ");
+        }
+        arg = args[0];
+    }
+    
+    if(!chan)
+        target = present(lower_case(arg),environment(this_player()));
+    else if(chan != "tell")
+        target = channel_find_player(lower_case(arg),chan);
+    else 
+        target = soul_find_player(lower_case(arg));
+
+    if(!target) {    
+        extra = implode(args," ");
+    }
+}
+
+string *query_feelings() { return all_feelings; }
+

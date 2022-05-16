@@ -1,0 +1,16 @@
+If you are reading this *congratulations* you are now a wizard.
+
+This set of documents describe the very basic concepts of LPC 
+programming.  Please read them, even if you are already familiar
+with LPC, especially if you are already familiar so you can 
+point out mistakes. ;)  Once you have completed this you can
+peruse the /doc/intermediate documents.  In any event read
+/doc/intermediate/chapter7 very soon.  It gives tips on
+debugging.
+
+I have converted these documents from being based on a MudOS driver
+and the Nightmare mudlib to what we have here.
+
+I wish to thank Descartes@Nightmare for authoring this document.
+
+Cyberspam

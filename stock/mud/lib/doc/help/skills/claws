@@ -1,0 +1,7 @@
+
+Spell    : claws
+Type     : int
+Mana     : 25
+
+Claws is a spell which will create magical claws to aid the target. 
+Claws are very useful to those who find themselves with no weapons.

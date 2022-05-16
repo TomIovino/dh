@@ -1,0 +1,7 @@
+
+Spell    : spike
+Type     : int
+Mana     : 45
+
+Spike is a single attack combat spell.
+

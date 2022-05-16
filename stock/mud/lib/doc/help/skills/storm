@@ -1,0 +1,7 @@
+
+Spell    : storm
+Type     : int
+Mana     : 60
+
+Storm is an area combat spell.
+

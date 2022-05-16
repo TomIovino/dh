@@ -1,0 +1,19 @@
+
+                               BTI Reports
+
+    BTI = 'bug', 'typo' and 'idea'
+
+    These 3 commands are available to players for reporting errors and
+    making suggestions. Simply type the appropriate word followed by
+    your report, for example:
+
+        typo in the room desc, cieling should be ceiling
+
+        bug I can't read the sign in this room
+
+        idea Neutrals should have their own private board
+
+    All reports are logged from the room in which they are filed, so for
+    specific room/mob errors, please make your report from the room in
+    which the error occurs.
+

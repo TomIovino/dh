@@ -1,0 +1,34 @@
+
+This help file describes QC rules for zones (or areas).
+
+Area Theme:
+ - Areas must have a medieval fantasy theme. There will be NO exceptions
+   to this rule. This not only means area concept, but also all references
+   to modern foods, items, ideas, drinks, etc. will not be acceptible.
+ - No "Heaven" or "Hell" areas will be accepted.
+ - The above is a specific of the more general rule: No areas taken from
+   history, fiction, mythology or legend will be accepted.
+ - No towns. (One shop etc dosnt quantify a town)
+
+Area Format:
+ - ALL area directories  must be in the wizards primary directoy. (/w/ash)
+ - ALL files for an area must be located in that area subdirectoy.
+
+Area Size:
+ - Areas must have a minimum of 15 rooms to be accepted.
+ - Areas in excess of 50 rooms will not be approved unless you can
+   convince Ash that such a thing is needed, and so far it has not
+   happened.
+
+Area NPCs:
+ - Only ONE NPC OVER LEVEL 90 is allowed per area.
+ - Only ONE "fantastic" creature will be allowed per area. Fantastic
+   creatures include: dragons, lichs, combinations of the first two,
+   vampires, devils, demons from the Abyss, angels from Heaven, and so
+   on. If you have any doubt about NPCs you have planned, be sure to
+   ask QC before you begin work on it.
+ - No NPC may have more than 3 items. 
+ - NPCs must NOT have names from fiction or history, including legends and
+   mythology.
+ - NPC/room ratio: roughly 1 NPC for every 2 rooms.
+

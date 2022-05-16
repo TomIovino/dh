@@ -1,0 +1,19 @@
+
+    Professions are chosen from your whatever class you are:
+        Class    = [ Warrior, Magician, Cleric, Rogue ]
+    Then you must either select a profession based on the
+        Elements = [ Fire, Water, Earth, Air ]
+        Faith    = [ Chaos, Order, Life, Death ]
+ 
+    Pick a profession from 'help professions' that is 
+        YOUR [Class AND Element] OR YOUR [Class AND Faith]
+
+    Note: element and faith is derived from your race! 'help races'
+
+    In this unique and brilliant fashion professions are archieved
+    in a balanced fashion creating a mix of valid archtype professions
+    based on hybrid of race, class, element and faith. Oh yah, this
+    whole concept does nothing on this mud at the moment, except 
+    change your score command. :) You may repick as much as ya like.
+   
+    See 'help professions' ---> Command: profession <profession>

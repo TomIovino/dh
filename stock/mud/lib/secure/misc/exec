@@ -1,0 +1,1 @@
+void exec(object a, object b) { efun::exec(a,b); }

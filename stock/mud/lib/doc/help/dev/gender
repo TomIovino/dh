@@ -1,0 +1,9 @@
+
+
+query_gender returns 0,1,2
+query_gender_string returns female, male, neuter
+query_pronoun returns she, he, it
+query_possessive her, he, its
+query_objective her, him, it
+
+

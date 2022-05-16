@@ -1,0 +1,8 @@
+command: who
+
+who key: (NH)   Newbie Helper (see 'help helpers')
+         [PK]   Indicates a player who has PKed in the last 24 hours
+         (HM)   High Mortal (Administrative Assistants)
+         [GOD]  Administrator (Gods)
+
+

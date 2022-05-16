@@ -1,0 +1,10 @@
+
+Spell    : heal
+Type     : wis
+Mana     : 50
+
+Heal is a wisdom based spell which allows you to recover a portion
+of your life energy. The greater your wisdom and skill in this
+spell the greater the amount of life the target will recover.
+
+

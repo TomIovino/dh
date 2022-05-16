@@ -1,0 +1,13 @@
+              
+
+       Lemmy says: With the original, if you set your long to
+       "@@death():$this_player()$@@\n@@die():$this_player()$@@\n@@death
+              :$this_player()$@@\n"
+
+@@death():$this_player()$@@\\n@@die():$this_player()$@@\\n@@death:$
+this_player()\n$@@\\n\
+
+mnard's cheat  // zklomen report
+@@death:$this_player()$@@
+
+

@@ -1,0 +1,13 @@
+
+untar and copy.
+rm driver
+make clean
+./configure
+pico MAKEFILE
+pico config.h
+make install
+make install.utils
+make
+
+should be done =)
+

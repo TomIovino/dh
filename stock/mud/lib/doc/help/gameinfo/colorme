@@ -1,0 +1,8 @@
+
+command: colorme
+
+colorme sets your players main color for :
+
+who, says, tells, emote, channels, short description.
+
+to get a list of possible color codes type: colorme 

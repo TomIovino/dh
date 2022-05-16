@@ -1,0 +1,34 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit WEAPON;
+#define TP this_player()
+#define QN query_name()
+
+reset (status arg){
+    if (arg) return;
+    set_name("shortsword");
+    set_alias("sword");
+    set_short(B_RED_F"rune etched shortsword"+NORM);
+    set_long("This armour is made of the finest metals.\n"+
+             "It also bears obvious magical enhancement.\n");
+    set_type("slash");
+    set_length(15);
+    set_light(1);
+    set_wc(12);
+    set_light(1);
+    set_no_steal_flag(1); // want newbies to be abele to keep.. heh
+    set_weight(8);        // want newbies to be able to wield 
+    set_value(1);        // really desperate do this quest for 1 coin
+    set_sell_destruct(1);
+    set_hit_func(this_object());
+}
+
+int weapon_hit(object attacker) { 
+    int r;
+    r = random(100);
+    if(r < 20){
+	write(RED_F+"You slice "+attacker->QN+" with your sword.\n"+NORM);
+	say(B_WHITE_F+TP->QN+" slices up "+attacker->QN+" with "+this_player()->query_possessive()+" sword.\n"+NORM,this_player());
+	return 5;
+    }
+}

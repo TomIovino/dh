@@ -1,0 +1,19 @@
+ADD_OBJECT.ASH.5.12.97
+
+function: add_object(NAME,PATH,INT1,INT2)
+
+This function is found in both monster and room code for the purpose
+of the of cloning objects to another object:
+
+NAME, this is the name of the object you want checked
+      in the room or the monster
+PATH, this is the file path that is loaded, cloned and moved.
+-------------------------------------------------------------------------
+[in room code:]
+INT1, this MUST be declared only if the object is ONCE per reboot
+INT2, this MUST be declared only the object is a GUARDIAN of some sort.
+--------------------------------------------------------------------------   
+[in monster code:]
+INT1 and INT2 do nothing as of yet so dont use them =)
+NOTE: monster will wear and wield AUTOMATICALLY with add_object
+--------------------------------------------------------------------------

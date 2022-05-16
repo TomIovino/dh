@@ -1,0 +1,33 @@
+#include <mudlib.h>
+inherit TEACHER;
+#include <ansi.h>
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    add_object("NOBLE_OB","d/town/obj/NOBLE_OB");
+    set_name("tomax");
+    set_short(BOLD+"human ambassador"+NORM);
+    set_alias("ambassador");
+    set_long(
+      "As if standing in judgement of you and your every deed, Tomax's dark\n"+
+      "blue eyes seem to look strait into your soul. He is clad in shimmering\n"+
+      "silver chainmail, and stands proud and tall. This must be the last of\n"+
+      "a dying breed, a holy knight, a warrior for justice.\n");
+    set_race("human");
+    load_spells(10, ({ "heal", }));
+    set_gender(1);
+    set_train_level(9);
+    set_stat_int(25);
+    set_stat_str("fight");
+    set_class_list(({
+	"skills", ({
+	  "unarmed","slash","cleave","thrust","crush",
+	}),
+      }));
+    set_level(90);
+    set_half_exp(1);
+    set_magic_resist(50);
+
+}
+

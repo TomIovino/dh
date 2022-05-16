@@ -1,0 +1,36 @@
+#include <mudlib.h>
+#define TPQN this_player()->query_name()
+inherit ROOM;
+#include <ansi.h>
+
+reset (arg) {
+  if (arg) return;
+   add_object("frog","/d/world/npc/frog");
+   set_short("ancient ruins");
+   set_long(GREEN_F+
+  "Standing at the entrance of an ancient tower which has been reduced\n"+
+  "to nothing but a pile of ruins, rock and ruble. The tower has strange\n"+
+  "light near some rubble that served as its entrance.\n"+
+  NORM);
+   set_no_track(1);
+   set_exits (({
+   "d/world/etc/c9_2","door",
+   "d/world/c/9","out",
+              }));
+   set_light(2);
+   set_items(({ 
+   }));
+}
+
+init(){
+  ::init();
+  add_action("tower","door");
+}
+
+tower(){
+  if(present("golem")){
+     write("Giant mithril frog golem blocks your path.\n");
+     return 1;
+  }
+}
+

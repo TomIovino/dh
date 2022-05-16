@@ -1,0 +1,28 @@
+Quest code functions Ash@DH@1996
+
+set_quest(string quest)
+set_quest_hint(string hint)
+finish_quest(string quest,int qp)
+query_quests(string quest)
+query_done_quests()
+query_current_quest()
+
+Players start a quest with 'set_quest'     // will not save! 
+Give players a hint with 'set_quest_hint'  // will not save!
+
+When players finish a quest finish_quest(quest,qp)
+ 1) players cannot finish a quest unless set_quest has been set
+ 2) players cannot finish a quest twice
+
+ QP is as follows (maximum 10 QP points for a quest MAXMAXMAX)
+    how hard are the npcs being killed?   
+    how hard is the puzzle being solved? 
+    how much time does it take to solve? 
+
+ Quests can be up to 5 qp.
+ Quest rewards also need QC approval, they can range from 
+ 15 copper to a wc25 weapon. 
+
+****ALL ITEMS NEEDED TO COMPLETE A QUEST MUST BE NO_SAVE****
+
+

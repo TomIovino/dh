@@ -1,0 +1,16 @@
+List of standard affects of effects. :P
+
+STAT:
+   strength, dexterity, agility, stamina, [cripple]
+   focus, intellect, wisdom, primal       [feeble]
+BEAST:                                    [dragonkin]
+   frenzy, awareness, sight, fangs,     
+   claws, wings, scales, regenerate
+ENHANCEMENT:
+   bless, fortitude, heroism, manafuse
+PROTECTIVE: [cancel]
+   absorb, defender, avenger, 
+   feedback, reflect, deflect
+HARMFUL: [purify]
+   blind, weaken, curse, 
+   slow, stun, disease, poison, bane

@@ -1,0 +1,70 @@
+Ash's Twilite (d/town) /road/eastgates    /n/13    "town"
+                       /road/westgates    /l/13    "town"
+                       /road/northgates   /m/12    "town"
+                       /road/southgates   /m/14    "town"
+Ash's Tundra           /base/tundra/r1    /a/1     "north"
+  Alliance             /base/alliance/enter /x/x   "north"(from tundra/1b)
+  Life Dragon          /base/life/rm1     /x/x     "up"(from tundra/2a)
+  Water Dragon         /base/water/rm1    /x/x     "up"(from tundra/2c)
+Ash's Cliff            /base/cliff/r1     /y/1     "east"
+  Federation           /base/federation/enter /x/x "north"(from cliff/1b)
+  Chaos Dragon         /base/chaos/rm1    /x/x     "up"(from cliff/2a)
+  Air Dragon           /base/air/rm1      /x/x     "up"(from cliff/2c)
+Ash's Swamp            /base/swamp/r1     /a/25    "south"
+  Dutchy               /base/dutchy/enter /x/x     "north"(from swamp/1b)
+  Death Dragon         /base/death/rm1    /x/x     "up"(from swamp/2a)
+  Earth Dragon         /base/earth/rm1    /x/x     "up"(from swamp/2c)
+Ash's Desert           /base/desert/r1    /y/25    "south"
+  Horde                /base/horde/enter  /x/x     "north"(from desert/1b)
+  Order Dragon         /base/order/rm1    /x/x     "up"(from desert/2a)
+  Fire Dragon          /base/fire/rm1     /x/x     "up"(from desert/2c)
+Ash's Shadow/Cloud     /shadow/enter      /n/18    "cave"   
+Carbunkle's Forest     /forest/rooms/rm1  /j/14    "trail"
+Eaton's Forest         /forest/rooms/rm1  /k/12    "trail"
+Eaton's Wetlands       /swamp/rooms/rm1   /a/22    "wetlands"
+Elric's Forest         /forest/rooms/1    /p/14    "trail"
+Eurale's Forest        /forest/c16        /o/14    "trail"
+Eurale's Udark         /udark/u1          /a/10    "cave"
+Eurale's Disir Cave    /cave/c1           /i/21    "cave"
+Eurale's Peninsula     /penn/p1           /a/17    "peninsula"
+Eurale's Dungeon       /dungeon/d2        /k/3     "ruins"
+Eurale's Pyramid       /pyramid/path1     /v/25    "pass"
+Geffen's Forest        /forest/rooms/f1   /k/15    "trail"
+Jada's Forest          /forest/for01      /k/14    "trail" 
+Jada's Fire            /fire/fire1        /y/22    "cave"
+Jada's Belden Village  /htown/cliff       /a/4     "hillside"
+Jada's Glade           /glade/glade2      /f/10    "glade"
+Kelal's Forest         /forest/rooms/center /n/10  "trail"
+Leela's Forest         /forest/rooms/rm1  /j/12    "trail"
+Leela's Web            /web/rooms/rm1     /m/16    "hole"
+Lohk's Forest          /forest/tbr1       /l/15    "trail"
+Lohk's Citadel         /cit/rooms/fort1   /d/1     "keep"
+Milenko's Forest       /forest/entrance   /l/10    "trail"
+Monger's Cave, etc.    /temple/cave/cave  /p/25    "cave"
+Myria's Forest         /forest/fa08       /n/15    "trail"
+Myria's NewbieCave     /newbie/new01      /m/10    "cavern"
+Myria's Forgotten      /ruins/r01         /p/9     "ruins"
+Myria's ElfTown        /lands/elf/elfa    /h/17    "valley"
+Myria's Kumak Keep     /keep/gate         /l/17    "keep"
+Myria's Yumigumo       /yumi/wood/wooda   /w/14    "path"
+Omen's Forest          /forest/for_1      /k/11    "trail"
+Russkie's Fortress     /fortress/rooms/enter /y/6  "fort"
+Russkie's Village      /village/rooms/1   /h/12    "path" 
+Shaidar's Forest       /forest/f1         /n/11    "trail"
+Shaidar's Undead Keep  /undead/u1         /x/x     "dive pool"(from forest/f12)
+Shaidar's Citadel      /licit/p1          /t/1     "citadel"
+Sunmoonstar's Forest   /forest/forest1    /o/15    "trail"
+Sunmoonstar's Tower    /rooms/tow1_1_1    /j/7     "tower"
+Trent's Forest         /forest/f1         /o/12    "trail"
+Trent's Dwarfgrotto    /dwarf/dr01        /t/11    "down"
+Trent's Helen Vale     /town/pass1        /f/1     "pass"
+Vhorilen's Forest      /forest/f1         /j/11    "trail"
+Vhorilen's Plains+Monks /plains/pln47     /b/14    "tunnel" 
+Vhorilen's Skaven      /ska/s1            /q/4     "down"
+Vhorilen's Tyrenport   /port/p1           /f/25    "port"
+Zklomen's Forest       /forest/rooms/fr1  /l/11    "trail"
+Zklomen's Wartower     /area51/ar1        /n/20    "tower"       
+Zort's Forest          /forest/forest     /o/11    "trail"
+
+
+

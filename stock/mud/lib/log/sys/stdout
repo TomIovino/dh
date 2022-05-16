@@ -1,0 +1,72 @@
+]H_LOAD_UIDS called
+Loading init file /secure/init_file
+Preloading: /secure/bin_d.c]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 11:48:27 2002
+
+]Yes! /cmds/wiz/bit.c loaded.
+]S1 = 184
+S2 = 176
+S3 = 176
+ 2.44
+Preloading: /obj/wizard.c 0.89
+Preloading: /inherit/room.c 0.09
+Preloading: /inherit/monster.c 0.07
+Preloading: /inherit/weapon.c 0.05
+Preloading: /inherit/armour.c 0.04
+Preloading: /secure/inet/inetd.c 0.00
+Preloading: /secure/loadlogger 0.01
+Preloading: /secure/usage_d 0.02
+Preloading: /obj/mudtime 0.03 ... FAILED
+	*Failed to load file.
+Setting up ipc.
+]ÿ]ü]ÿ]ü]ÿ]ü]ÿ]ü]ÿ]ü]ÿ]ü]ÿ]ü]ÿ]ü]ÿ]ü]ÿ]ü]ÿ]ü]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 12:11:02 2002
+
+]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 12:33:32 2002
+
+]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 13:03:32 2002
+
+]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 13:33:32 2002
+
+]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 13:56:02 2002
+
+]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 14:18:32 2002
+
+]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 14:48:32 2002
+
+]
+Uptime() = Fri Jun 28 11:48:27 2002
+]Auto     = Fri Jun 28 21:48:27 2002
+]Forced   = Sat Jun 29 01:48:27 2002
+]Current  = Fri Jun 28 15:18:32 2002
+

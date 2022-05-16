@@ -1,0 +1,7 @@
+
+command: reply <message>
+
+This sends a reply to the last player you received a "tell" from.
+
+See also: "tell"
+

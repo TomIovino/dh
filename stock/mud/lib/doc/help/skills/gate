@@ -1,0 +1,10 @@
+
+Spell    : gate
+Type     : int
+Mana     : 80
+
+Gate is a spell which will, if properly cast, produce a
+wyrmhole from one point to another point. To enter a gate
+in an area where you're located, type 'gate'.
+
+

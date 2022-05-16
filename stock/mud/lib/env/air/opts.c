@@ -1,0 +1,135 @@
+// Ash
+
+#include <ansi.h>
+#include <mudlib.h>
+#include "opts.h"
+#include <randomnpc.h>
+// dummy room functions 
+
+int set_light(int x);
+string set_long(string s);
+string set_short(string s);
+string set_items(string *a);
+string set_smell(string s);
+string set_listen(string s);
+void set_up_room();
+
+
+void set_up_room(){
+     int x;
+     x = random(11);
+     set_light(1);
+     randomnpc();
+
+/////// ROOM DEFAULT /////////
+
+   set_short(GREEN_F+"misty green forest"+NORM);
+   set_long(GREEN_F+
+    "A light, refreshing mist fills the air in this lovely region of\n"+
+    "gently rolling hills. The soft ground underfoot is covered with\n"+
+    "lush green grass, and clumps of trees decorate the serene\n"+
+    "landscape.\n"+NORM);
+ set_items(({
+  "up#u#sky",
+  "A hazy sky overhead.\n",
+  "down#d#ground#grass#clover#moss#patches#patch",
+  "The ground is covered with thick green grass and patches of clover.\n"+
+  "Moss grows on the ground beneath the trees.\n",
+  "mist#water#droplets#droplet#drop#drops",
+  "A light mist falls from the sky, coating all the plants with moisture.\n",
+  "hills#hill#hillsides#hillside#landscape#base",
+  "This region is filled with gently rolling, grassy hills.\n",
+  "patterns",
+  "Small bits of sky are framed by overhead branches.\n",
+  "vegetation",
+  "All the plantlife here is strong and healthy.\n",
+  "tree#trees#aspens#aspen#birch#oak#oaks#line#row#bark#trunks#trunk",
+  "A variety of trees grow here, including oak, aspen and birch.\n",
+  "grove#clump#clumps",
+  "A variety of trees grow here, including oak, aspen and birch.\n",
+  "branch#branches#leaves#leaf#canopy",
+  "The branches of the trees are covered with healthy green leaves.\n",
+  }));
+ set_smell("A fresh, clean scent fills the air.\n");
+ set_listen("The gentle rustling of leaves and the singing of birds.\n");
+
+/////// ROOM ONE
+   if(x == 1){
+  set_long(GREEN_F+
+    "A line of delicate aspens stretch their branches high into the\n"+
+    "sky, their heart-shaped leaves trembling in the gentle breeze\n"+
+    "that blows through the region. Some soft green moss mingles with\n"+
+    "the grass under the trees.\n"+NORM);
+              }
+
+/////// ROOM TWO
+   if(x == 2){
+set_long(GREEN_F+
+    "The hillside here is covered with a dense grove of old oak trees,\n"+
+    "their large branches and thick canopy of leaves almost blotting\n"+
+    "out the sky. The moist, shady ground under the trees is carpeted\n"+
+    "with a thick layer of deep green moss.\n"+NORM);
+             }
+/////// ROOM THREE
+   if(x == 3){
+set_long(GREEN_F+
+    "The thick grass is soft underfoot, and the hills rise and fall\n"+
+    "gently, making travel easy through this peaceful area. The leaves\n"+
+    "of the surrounding trees rustle softly in the light, misty breeze\n"+
+    "that blows through their branches.\n"+NORM);
+             }
+/////// ROOM FOUR
+   if(x == 4){
+set_long(GREEN_F+
+    "The misty air here is fresh and cool, and sparkles faintly with\n"+
+    "the tiny droplets of water that nourish this lush green landscape.\n"+
+    "A sudden burst of birdsong comes from a grove of trees that covers\n"+
+    "a nearby hillside.\n"+NORM);
+             }
+/////// ROOM FIVE
+   if(x == 5){
+set_long(GREEN_F+
+    "Clumps of slender birch trees curve along the base of a gently\n"+
+    "sloping hill, their trunks shimmering with the misty droplets that\n"+
+    "cling to their rough, papery bark. Patches of white clover stand out\n"+
+    "brightly against the deep green carpet of grass.\n"+NORM);
+
+             }
+/////// ROOM SIX
+   if(x == 6){
+set_long(GREEN_F+
+    "Low hills covered with soft, thick grass ripple gently across the\n"+
+    "landscape here. Small groves of trees dot the hillsides, their\n"+
+    "deep green leaves dampened by the light mist that falls from the\n"+
+    "hazy sky overhead.\n"+NORM);
+             }
+/////// ROOM SEVEN
+   if(x == 7){
+set_long(GREEN_F+
+    "The fresh, clean scent of healthy vegetation floats on the misty air.\n"+
+    "The steady moisture in this region has nourished the growth of the\n"+
+    "thick, green grass, and the several varieties of trees that are\n"+
+    "scattered over the low hills.\n"+NORM);
+             }
+/////// ROOM EIGHT
+   if(x == 8){
+set_long(GREEN_F+
+    "A grove of oak trees stands on top of a small hill, their deep\n"+
+    "green leaves gathering moisture from the misty air, to fall in\n"+
+    "larger drops to the ground below. The hillside grass thins under\n"+
+    "the trees, replaced by a dense layer of moss.\n"+NORM);
+
+             }
+/////// ROOM NINE
+   if(x == 9){
+set_long(GREEN_F+
+    "A row of swaying aspens winds up the hillside here, their slender\n"+
+    "branches arching high overhead, making lacy patterns against the\n"+
+    "hazy sky. The lush green grass between the trees is dotted with\n"+
+    "small patches of clover.\n"+NORM);
+             }
+/////// ROOM TEN
+   if(x ==10){ // USE DEFAULT
+             }
+
+}

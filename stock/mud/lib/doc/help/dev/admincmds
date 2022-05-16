@@ -1,0 +1,15 @@
+These are the admin commands all wizards have access to. 
+They are logged for security.
+
+zap <player>          Insta Kill
+wizheal <player>      Restore HP, SP, MV, make hungry/thristy
+patch <player><fun>   Somewhat complicated function to object interface.
+silence <player> <d>  Player cant use channels mail for <d> days.
+disable <player> <d>  Player is logged off and cant log in for <d> days.
+stat <player>         stat (lots of info)
+eqstat <player>       show eq command 
+skstat <player>       show skills of player
+scstat <player>       show players score command
+qstat <player>        shows players quest info
+wstat <player>        shows a players wish info
+ststat <player>       shows actual stats for a player

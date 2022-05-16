@@ -1,0 +1,70 @@
+#include <mudlib.h>
+#include <ansi.h>
+#define CL MAGENTA_F
+inherit MONSTER;
+
+reset (arg){
+   ::reset(arg);
+   if(arg) return;
+   set_name("blix");
+   set_dead_ob(this_object());
+   set_short(CL+"Ancient Dragon");
+   set_long(CL+
+   "The words of a poem about death race through your mind.\n"+
+   "A spectrum of scales shine brightly on the ancient\n"+
+   "skin this beast, You feel sick with fear.\n"NORM);
+  set_race("dragon");
+  set_aggressive(1);
+  set_gender(1);
+  load_spells(10, ({
+    "heal","bless","shield","avenger","curse","absorb",
+    "reflect","deflect","storm","jolt","lance","heal",
+    "fear","turn",
+  }));
+   set_special_chance(10);
+   set_special_dam(10);
+   set_special_mess1("Dragon reals back looking for a victim.\n");
+   set_special_mess2("Dragon snaps its jaws looking for a victim.\n");
+   set_level(125);
+   add_money(random(5000)+5000);
+   set_magic_resist(50);
+   add_object("blix_art",PATH+"blix_art");
+   set_special_type("ray");
+   load_a_chat(10, ({ 
+   MAGENTA_F+"Blix whips his tail around nearly hitting you!\n" }));
+}
+
+void attack() {
+    mixed *a;
+    int i,dam;
+    object victim;
+    ::attack();
+    ::attack();
+    if(!(victim = query_primary_attack()) || 
+    !present(victim, environment())) return;
+    if(random(100) <= 10) {
+        a=all_inventory(environment());
+        for(i = 0; i < sizeof(a); i++) {
+            if(living(a[i]) && (!a[i]->query_invis()) &&
+            a[i]!=this_object()) {
+                dam = -50;             // ..between
+                dam += random(25);     // 50-25 damage for breath   
+                a[i]->adj_hp(dam);
+           tell_object(a[i],
+    CL+"Blix breaths a cloud of ray gas all over you!\n"+NORM);
+                if(a[i]->query_hp()==0){
+                   a[i]->death();
+                }
+                 primary_attack = a[i];
+              return;
+            }
+        }
+    }
+}
+
+
+monster_died() {
+  say("The dragon screams a death cry.\n");
+  return 0;
+}
+

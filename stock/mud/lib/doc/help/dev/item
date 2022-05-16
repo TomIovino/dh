@@ -1,0 +1,32 @@
+ITEMS.ASH.5.12.97
+
+This document describes some of the quality control expectations. 
+
+Short descriptions:
+           a. always use lowercase for every word.
+           b. refrain from using "a" or "an" to start a description.
+           c. every short description should have atleast 2 adjectives.   
+           c. Example: set_short("fancy black cape");
+
+Long descriptions:
+           a. Proper capitalization and punctation required, for muds
+              this means only 1 space after periods.
+           b. the shortest long description should be 2 FULL lines.
+              the average long description for an item will be 3 or
+              more lines, please dont make descriptions longer then
+              6 lines unless it is extremly special.
+           e. avoid ALL use of third person speech when creating a
+              item description.
+           f. AVOID 'A SuPeR cOOl Shield', etc.
+          
+The following aditional functions must be defined.
+           a. set_name   (MUST BE ONLY ONE WORD)
+           b. set_weight (see /doc/mudlib/balance + /doc/mudlib/weight)
+           c. set_value  (see /doc/mudlib/balance + /doc/mudlib/value)
+           d. set_ac [armours only] (see /doc/mudlib/balance)
+           e. set_wc [weapons only] (see /doc/mudlib/balance)
+ 
+Please use /doc/mudlib/balance document to balance items.
+
+Please, if you wish to comment upon any of this, feel VERY free to mail Admin.
+

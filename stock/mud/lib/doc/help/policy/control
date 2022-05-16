@@ -1,0 +1,17 @@
+The following file details what is considered acceptable use by the
+administration of the mud in terms of 'active control' of the player.
+
+Aliases are LEGAL : (the ability to set aliases is given by the mud)
+  1. Typing X makes you do, "buy beer".
+  2. Typing X makes you do, "buy beer", "drink beer", "sell beer".
+  3. Mud clients offer the ability to do detailed aliases, and are
+     allowed, as long as YOU manually typed the 'aliases' trigger.
+
+Robots are ILLEGAL : 
+  1. Making your player DO anything that you didnt type with the
+     help of a client program or anything else is illegal.  
+  2. Triggers and scripting are illegal.
+  3. Autologging onto the mud is strictly prohibited.
+   
+Violations of this policy is severe and dealt with under 'help zap'.
+

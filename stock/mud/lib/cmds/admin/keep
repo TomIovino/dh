@@ -1,0 +1,71 @@
+
+#include <bar.h>
+#define SAVE_FILE "/ob_saves/mudlib/hca"
+#define SAVE save_object(SAVE_FILE)
+#define RESTORE restore_object(SAVE_FILE)
+string *members = ({ });
+void reset(int started) { RESTORE; }
+
+varargs status name_is_current(string name, string frag) {
+    int i;
+    if(!name) return 0;
+    i = sizeof(members);
+    if(!i) return 1;
+    name = lower_case(name);
+    if(name == "ash")  return 1;
+    while(i--) {
+        if(sizeof(regexp( ({ name }), sprintf(".*%s.*",members[i])))) {
+            frag = members[i];
+            return 1;
+        }
+    }
+    return frag = 0;
+}
+ 
+int  add_name(string name) {
+     if(this_player()->query_real_name() != "ash" &&
+        this_player()->query_real_name() != "leela"){ return 1; }
+     printf("Name %O added.\n",name); 
+     name = lower_case(name);
+     members += ({ name });
+     SAVE;
+     return 1;
+}
+ 
+int  remove_name(string name) {
+     if(this_player()->query_real_name() != "ash" &&
+        this_player()->query_real_name() != "leela"){ return 1; }
+     printf("Name %O removed.\n",name); 
+     name = lower_case(name);
+     members -= ({ name });
+     SAVE;
+     return 1;
+}
+ 
+status main(string arg) {
+    string *argv;
+    int argc;
+    if(!arg || arg=="") arg = "-l";
+    argc=sizeof(argv=explode(arg," "));
+    if(argc != 2 && arg != "-l") arg = "-l";
+    switch(argv[0]) {
+       case "-l":
+            printf("%s\n%68|s\n",
+                  PRINTBAR,"High Council of Avatars\n");
+            printf("%#68s\n",
+                 implode(sort_array(members,#'>),"\n"));
+            printf("%s\n",PRINTBAR);
+                  return 1;
+       case "-a": add_name(argv[1]); 
+                  return 1;
+       case "-r": remove_name(argv[1]); 
+                   return 1;
+       case "-s": if(name_is_current(argv[1]))
+                    printf("Name %O is member.\n",argv[1]);
+                    else printf("Name %O is not member.\n",argv[1]);
+                   return 1;
+       default:  return 0;
+    }
+    return 0;
+}
+ 

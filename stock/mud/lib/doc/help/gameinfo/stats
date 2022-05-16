@@ -1,0 +1,18 @@
+
+   Stats are the single most important characteristic of a player.
+   They are listed on the score and stats command, you can type
+   "score" to see your basic stats or to see a more detailed
+   list of your stats type "stats".
+
+   There are eight total stats, they are strength, wisdom, dexterity,
+   intellect, focus, agility, primal and stamina. To see an
+   explanation of what stats do type "help stats info"
+
+   Your stats will start fairly low, however with each level you are
+   allowed to increase your stats however you choose by praying
+   for them at the church. "help church"
+
+   All of your skill and spell abililities are based on the stats that
+   they require, for information type "help skills".
+
+   See 'help levels','help stats info','help maxstats'

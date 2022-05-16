@@ -1,0 +1,43 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    add_object("EARTH_OB","d/town/obj/EARTH_OB");
+    set_name("ebony");
+    set_alt_name("female");
+    set_short(BROWN_F+"brown robed female"+NORM);
+   set_long(
+      "Ebony inspects you with her cool, detached gaze.  Her brown\n"+
+      "eyes hold you frozen in their deep pools.  Dark, gleaming,\n"+
+     "curling masses of hair tumble around her body in a wild\n"+
+     "tangle.  Ebony wears a skin tight robe of dark brown that\n"+
+     "displays her lush curves.  A tight leather belt encircles her\n"+
+     "small waist holding a sheath for her deadly dagger.  Soft \n"+
+     "leather, thigh-high boots with spiked heels encase her feet \n"+
+     "and legs.  You can't help but notice that she appears ruthless.\n"+
+   "");
+    set_race("human");
+    set_helpers(({ "", ({ "ragmi", }), }));   
+    set_gender(2);
+    load_chat(2,({
+	"Ebony chants in an unknown tongue.\n",
+	"Ebony says: You wish to learn the power of the elements?\n"
+      }));
+    load_spells(10,({
+      "earthlance","earthwave","heal","blast",
+      }));
+    set_train_level(9); 
+    set_stat_int(35); 
+    set_stat_str("intelligence"); 
+    set_class_list(({
+	"skills", ({ "casting tactics", }),
+	"spells", ({
+	}),
+      }));
+    set_level(90);
+    set_half_exp(1);
+    set_magic_resist(50);
+}

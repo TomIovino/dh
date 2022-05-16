@@ -1,0 +1,23 @@
+
+Before you submit an area for QC, please do the following.
+
+- Take a walk through it one last time to check that mobs/eq load properly.
+- Check rooms from all directions to make sure they link properly.
+- Look at things mentioned in your room description to be sure they have
+  set_items. (Remember sky/ceiling and floor/ground.)
+
+Please watch for the following common usage errors:
+
+it's/its
+it's - contraction of 'it is': It's a big dragon....
+its - possessive: ...and its claws are sharp.
+
+there/their/they're
+there - a place: The beer is over there.
+their - possessive: Their beer is nice and cold.
+they're - contraction of 'they are': Hey, they're drinking all my beer!
+
+then/than
+then - a time: I'll see you then.
+than - comparative: My axe is sharper than yours.
+

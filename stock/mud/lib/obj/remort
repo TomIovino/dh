@@ -1,0 +1,50 @@
+#include <ansi.h>
+ 
+varargs mixed   query_remort(string var);
+        mapping remorts      = ([ ]);
+        status  set_remort(string var, mixed setting);
+        status  adj_remort(string var, mixed setting);
+        status  unset_remort(string var);
+
+status set_remort(string var, mixed setting) {
+       remorts[var] = setting;
+       return 1;
+}
+status adj_remort(string var, mixed setting) {
+       remorts[var] += setting;
+       return 1;
+}
+
+
+int query_total_remorts(){ 
+    int x;
+    x = query_remort("earth");
+    x += query_remort("fire");
+    x += query_remort("water");
+    x += query_remort("death");
+    x += query_remort("life");
+    x += query_remort("chaos");
+    x += query_remort("order");
+    x += query_remort("air");
+    return x;
+ }
+
+status unset_all_remorts() { remorts = ([]); }
+status unset_remort(string var) {
+    remorts = m_delete(remorts,var);
+    return 1;
+}
+ 
+varargs mixed query_remort(string var) {
+    mixed ret;
+    if(!var) return copy_mapping(remorts);
+    ret = remorts[var];
+    return ret;
+}
+
+
+int update_remort(){
+  return 1;
+}
+
+

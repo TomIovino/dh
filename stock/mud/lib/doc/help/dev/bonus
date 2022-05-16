@@ -1,0 +1,17 @@
+
+BONUS.ASH.1.12.98
+
+The following are all considered "bonuses" :
+
+* set_no_steal_flag(1);   makes an item theft proof, very handy.
+* set_light(1);           this item will (glow) lighting up a room.
+* adj_enchant(x);         maximum +5 with or w/o with enchant spell
+* set_opb(x);             bonus to offense
+* set_dpb(x);             bonus to defense
+* set_spb(x);             bonus to stealth 
+* set_cpb(x);             bonus to casting
+* set_protection(spell)   immunity to a spell (needs ash's approval)
+
+
+
+

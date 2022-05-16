@@ -1,0 +1,514 @@
+#include <ansi_filter.h>
+#include <cstrlen.h>
+#define TP this_player()
+
+// channeld.c : General purpose channel daemon. Bubbs@Timewarp (3.2@66)
+// The UDP package utilized by this daemon has been written
+// by Nostradamus@Zebedee and is available by anonymous FTP
+// from rszircon.swan.ac.uk (137.44.102.2) 7021.
+ 
+// Revision history
+// v1.0 :    Jul/93 : Original coding.
+// v1.1 :    Aug/93 : Various fixes.
+// v1.2 : 14/Sep/93 : Restricted, and INET channels.
+// v1.3 : 29/Nov/93 : Various tidy-ups, and more security.
+// v1.4 :  3/Feb/94 : Various patches.
+// v1.41: 21/Apr/94 : Compatibility upgrades for inetd 0.6.
+// v1.42: 24/Apr/94 : Fixed bug in inet channel distribution.
+// v1.5 : 27/Apr/94 : Inet channels now have privacy.
+// v1.51: 12/Aug/94 : Lambda's now only created once: More efficient.
+// v1.52:  2/Sep/94 : Restrictions now more flexible.
+// v1.53: 24/Sep/94 : Made more inter-mudlib portable.
+// v1.54: 22/Oct/94 : SUP_CHAN can now exclude certain channels.
+// v1.55: 25/Nov/94 : "channels <chan> list all" now possible.
+ 
+#include <channeld.h>        // Channeld defines.
+#include <udp.h>             // UDP/INETD defines.
+#include <channels.h>        // Channeld config.
+
+// Febuary 98 added ansi features.
+#include <ansi.h> // gonna try.. =) ash
+
+#define TIMEWARP
+
+/////////////
+//// In the future: When you add a this_player()->blah() call 
+///  anywhere in the base mudlib you *have* to use:
+///      this_player() && this_player()->blah()
+/////////////
+
+ 
+ 
+private closure listen_filter,            // Who is listening to a channel.
+                hosts_filter,             // Which muds to send to.
+                list_filter,              // How to create the listen list.
+                names_map;                // Get the names of people listing.
+ 
+private mapping history       = ([ ]),    // Channel histories.
+                restricted    = ([ ]),    // Restricted channels.
+                inetchans     = ([ ]),    // Intermud channels.
+                abbreviations = ([ ]);    // Channel abbreviations.
+ 
+
+// Function prototypes.
+varargs status  check_restricted(string chan, object user);
+static  string *get_listening_muds(string chan);
+
+
+private mapping silenced = ([ ]);
+
+// void tg(string m) {
+//    if(find_player("geewhiz"))
+//      tell_object(find_player("geewhiz"),sprintf("%-75s\n",m));
+// }
+
+ 
+int list_filter_fn(object user, string chan, int tp_lev) {
+    int lev, vis, chanon, restricted, res;
+    lev = (int) call_other(user, Q_LEVEL);
+    if(user->query_invis())
+      vis = tp_lev >= W_LEVEL && lev <= tp_lev;
+    else
+      vis = 1;
+    chanon = ((int) user->query_channel(chan)) == 1;
+    restricted = check_restricted(chan,user);
+    res = vis && chanon && restricted;
+//tg(sprintf("%O | %O | vis = %O, chanon = %O, restricted = %O, res = %O, lev = %O, tp_lev = %O",
+//            user, this_player(), vis,chanon,restricted,res,lev,tp_lev));
+    return res;
+}
+
+
+string names_map_fn(object user) {
+    string name;
+    name = capitalize((string)user->query_real_name());
+    if(this_player()->query_security_level())
+    name = query_idle(user) > 300 ? sprintf("%s*",name) : name;
+    return name;
+}
+ 
+ 
+#if defined(COMPAT_FLAG)
+void reset(status arg) {
+  if (arg) return;
+#else
+void create() {
+#endif   // COMPAT_FLAG
+  restricted    = RESTRICTED;
+  inetchans     = INETCHANS;
+  abbreviations = ABBREVIATIONS;
+ 
+
+  listen_filter = lambda(({ 'user, 'chan }),
+   ({ #'&&,
+     ({ #'living, 'user }),
+     ({ #'||,
+       ({ #'&&,
+         ({ #'==, ({ #'call_other, 'user, "query_channel", 'chan }), 1 }),
+         ({ #'check_restricted, 'chan, 'user })
+       }),
+       ({ #'&&,
+         ({ #'==, ({ #'call_other, 'user, "query_channel", SUP_CHAN }), 1 }),
+         ({ #'check_restricted, SUP_CHAN, 'user }),
+         ({ #'!, ({ #'check_sup_chan_exclude, 'user, 'chan }) })
+       })
+     })
+   }));
+
+  hosts_filter = lambda(({ 'mud, 'hosts }),
+   ({ #',,
+     ({ #'=, 'cmds, ({ #'[, ({ #'[, 'hosts, 'mud }), HOST_COMMANDS }) }),
+     ({ #'||,
+       ({ #'!=, -1, ({ #'member_array, "*",       'cmds }) }),
+       ({ #'!=, -1, ({ #'member_array, "channel", 'cmds }) }),
+     }),
+   }));
+
+   list_filter = #'list_filter_fn;
+   names_map = #'names_map_fn;
+
+
+  }
+ 
+ 
+// Allowing shadows to this object could be a potential death trap. ;-)
+status query_prevent_shadow() { return 1; }
+ 
+ 
+// Check whether we'll allowed this channel.
+varargs status check_restricted(string chan, object user) {
+  mixed val;
+  if (member(restricted, chan) == 0) return 1;
+  if (!user)
+   user = this_player();
+  if (!user) return 0;
+  if (stringp(restricted[chan, RS_FNC]))
+   val = (mixed)call_other(user, restricted[chan, RS_FNC], chan);
+  else if (closurep(restricted[chan, RS_FNC]))
+   val = funcall(restricted[chan, RS_FNC], user, chan);
+  else
+   raise_error("channeld(): Bad type to restricted RS_FNC.\n");
+  return funcall(restricted[chan, RS_CMP], val, restricted[chan, RS_VAL]);
+  }
+ 
+ 
+// Expand and/or check whether we'll allowed this channel.
+string check_channel(string chan) {
+  if (abbreviations[chan])
+   chan = abbreviations[chan];
+  return (check_restricted(chan) ? chan : 0);
+  }
+ 
+ 
+// Get all muds listening to a channel.
+static  string *get_listening_muds(string chan) {
+  mapping hosts;
+  string *muds;
+  int index, size;
+  hosts = (mapping)INETD->query("hosts");
+  if (inetchans[chan, IC_MUDS] == "*") {
+    muds = filter_array(m_indices(hosts), hosts_filter, hosts);
+#if defined(INET_EXCLUDES)
+    muds -= INET_EXCLUDES;
+#endif   // INET_EXCLUDES
+    }
+  else if (stringp(inetchans[chan, IC_MUDS]))
+   muds = ({ inetchans[chan, IC_MUDS] });
+  else if (pointerp(inetchans[chan, IC_MUDS]))
+   muds = inetchans[chan, IC_MUDS];
+  else 
+   raise_error("channeld : Bad type of inetdchans.\n");
+  return muds;
+  }
+ 
+ 
+// Send a message to a local channel.
+// This is used by the udp/channel server.
+
+void tell_inet_channel(string chan, string message, string mud) {
+  string mesg;
+  mud = lower_case(mud);
+ 
+  if ((string)previous_object() != UDP_CMD_DIR"channel")
+   raise_error("channeld::tell_inet_channel(): Illegal attempt.\n");
+  if (member(inetchans, chan) == 0)
+   raise_error(sprintf(
+    "channeld::tell_inet_channel(): Bad channel %O.\n",
+     chan));
+ 
+  if (inetchans[chan, IC_MUDS] != "*" &&
+   inetchans[chan, IC_MUDS] != mud &&
+   (!pointerp(inetchans[chan, IC_MUDS]) ||
+    member_array(mud, inetchans[chan, IC_MUDS]) == -1))
+     raise_error(sprintf(
+      "channeld::tell_inet_channel(): %O from %O not allowed.\n",
+      chan, mud));
+ 
+   mesg = sprintf("[%s] %-=*s\n", chan,
+         (75 - cstrlen(chan)), message);
+ 
+  map_array(filter_array(users(), listen_filter, chan),
+   #'tell_object, mesg);
+ 
+  mesg = sprintf("[%s] %s\n",
+   ctime(time())[11..15], message);
+  if (!history[chan])
+   history[chan] = ({ mesg });
+  else
+   history[chan] += ({ mesg });
+  if (sizeof(history[chan]) > MAX_HISTORY)
+   history[chan] = history[chan][1..];
+  return;
+  }
+ 
+ 
+// Send a message to a channel.
+varargs
+void tell_channel(string chan, string name, string message, int no_history) {
+
+  string mesg;
+  status emote;
+  string str;
+  str = NORM;
+  if(chan != "intermud" && chan != "intercode" && chan != "interadmin")
+  if(this_player() && previous_object()->query_security_level()) str = BOLD;
+  if(silenced[chan]) {
+    printf("This channel is silenced temporarily.\n");
+    return;
+  }
+  chan = check_channel(chan);
+  if (!chan) return;
+  message = filter_ansi(message)+NORM;
+  if (emote = (message[0] == ':'))
+    message = message[1..];
+  mesg = sprintf(emote ? "%s %s\n" : "%s : %s\n",
+  name, message);
+
+  if(chan == "wiz" || chan == "admin")
+  mesg = sprintf("%s[%s%s%s]%s %-=*s",
+  B_MAGENTA_F,str,chan,B_MAGENTA_F,NORM,75-cstrlen(chan),mesg);
+
+  if(chan == "intermud" || chan == "interadmin" || chan == "intercode")
+  mesg = sprintf("%s{%s%s%s}%s %-=*s",
+  "",str,chan,"","",75-cstrlen(chan),mesg);
+
+  if(chan == "divinity" ||
+     chan == "mortal")
+  mesg = sprintf("%s[*%s%s%s*]%s %-=*s",
+  B_GREEN_F,str,chan,B_GREEN_F,NORM,80-cstrlen(chan),mesg);
+
+  if(chan == "announce")
+  mesg = sprintf("%s[%s%s%s]%s %-=*s",
+  B_RED_F,str,chan,NORM+B_RED_F,NORM,75-cstrlen(chan),mesg);
+
+  if(chan == "world")
+  mesg = sprintf("%s[%s%s%s]%s %-=*s",
+  BLUE_F,str,chan,NORM+BLUE_F,NORM,75-cstrlen(chan),mesg);
+
+  if(chan == "info")
+  mesg = sprintf("%s[%s%s%s]%s %-=*s",
+  B_RED_F,str,NORM+chan+B_RED_F,NORM+B_RED_F,NORM,75-cstrlen(chan),mesg);
+
+  if(chan == "monitor")
+  mesg = sprintf("%s[%s%s%s]%s %-=*s",
+  GREY_F,str,chan,NORM+GREY_F,NORM,75-cstrlen(chan),mesg);
+
+
+  if(chan != "announce"  && chan != "divinity"    && chan != "monitor"
+  && chan != "admin"     && chan != "wiz"       && chan != "info"
+  && chan != "mortal"    
+  && chan != "intermud"  && chan != "intercode" && chan != "interadmin")
+  mesg = sprintf("%s[%s%s%s]%s %-=*s",
+  YELLOW_F,str,chan,YELLOW_F,NORM,75-cstrlen(chan),mesg);
+ 
+ map_array(filter_array(users(), listen_filter, chan),
+   #'tell_object, mesg);
+  mesg = sprintf(emote ? "%s %s\n" : "%s : %s\n",
+   name, message);
+  mesg = sprintf("[%s] %-=*s",
+   ctime(time())[11..15], 70, mesg);
+if(!no_history) {
+  if (!history[chan])
+   history[chan] = ({ mesg });
+  else
+   history[chan] += ({ mesg });
+  if (sizeof(history[chan]) > MAX_HISTORY)
+   history[chan] = history[chan][1..];
+} 
+  if (member(inetchans, chan)) {
+    mapping data;
+    data = ([
+     REQUEST: "channel",
+     CHANNEL: chan,
+     SENDER : name,
+     DATA   : message,
+     ]);
+    if (emote)
+     data += ([ COMMAND : "emote" ]);
+    map_array(get_listening_muds(chan),
+     symbol_function("send_udp", INETD), data);
+    }
+  return;
+  }
+ 
+ 
+// Print out the channel history for a given channel.
+void channel_history(string chan) {
+  chan = check_channel(chan);
+  if (!chan)
+   return;
+  if (!history[chan])
+   printf("No history for %s channel.\n", chan);
+  else
+   printf("History for %s channel.\n%@s", chan, history[chan]);
+  }
+ 
+ 
+// Print a list of listeners.  Note: Protect invisible wizards.
+void channel_list(string chan) {
+  string name, *names;
+  int lev, size;
+  chan = check_channel(chan);
+  if (!chan)
+   return;
+  names = map_array(filter_array(users(), list_filter,
+   chan, (int)call_other(this_player(), Q_LEVEL)), names_map);
+  size = sizeof(names);
+  names = sort_array(names,#'>);
+  name = implode(names,"\n");
+  
+  if (!size)
+   printf("Channel %s (no listeners).\n", chan);
+  else
+   printf("Channel %s (%d listener%c).\n%-80#s\n",
+    chan, size, size == 1 ? 0  : 's', name);
+  return;
+  }
+ 
+ 
+// Send a request for a remote channel list.
+void get_inet_channel_list(string chan, string mud) {
+  string error;
+  chan = check_channel(chan);
+  if (!chan) return;
+  error = (string)INETD->send_udp(mud, ([
+   REQUEST: "channel",
+   CHANNEL: chan,
+   COMMAND: "list",
+   SENDER : (string)this_player()->query_real_name(),
+   ]), 1);
+  write(error ? error : "Request transmitted.\n");
+  return;
+  }
+ 
+ 
+// Send a list request to all muds that listen to a channel.
+void get_inet_channel_all_list(string chan) {
+  mapping errors;
+  string *muds;
+  chan = check_channel(chan);
+  if (!chan) return;
+  muds = get_listening_muds(chan) + ({ LOCAL_NAME });
+  errors = mkmapping(muds,
+   map_array(muds, symbol_function("send_udp", INETD), ([
+    REQUEST: "channel",
+    CHANNEL: chan,
+    COMMAND: "list",
+    SENDER : (string)this_player()->query_real_name(),
+    ]), 1));
+  walk_mapping(errors, lambda(({ 'mud, 'error }),
+   ({ #'?, 'error,
+     ({ #'printf, "%s: %s", ({ #'capitalize, 'mud }), 'error })
+   })));
+  return;
+  }
+ 
+ 
+// Send a request for a remote channel history.
+void get_inet_channel_history(string chan, string mud) {
+  string error;
+  chan = check_channel(chan);
+  if (!chan) return;
+  error = (string)INETD->send_udp(mud, ([
+   REQUEST: "channel",
+   CHANNEL: chan,
+   COMMAND: "history",
+   SENDER : (string)this_player()->query_real_name(),
+   ]), 1);
+  write(error ? error : "Request transmitted.\n");
+  return;
+  }
+ 
+ 
+// Service a remote channel list request.
+string inet_channel_list(string chan, string mud) {
+  string *names;
+  int size;
+  mud = lower_case(mud);
+  if (abbreviations[chan])
+   chan = abbreviations[chan];
+  if (member(inetchans, chan) == 0 ||
+   inetchans[chan, IC_PRIVACY] == IC_PRIVATE ||
+   (inetchans[chan, IC_PRIVACY] == IC_RESTRICT &&
+    (inetchans[chan, IC_MUDS] != "*" &&
+     inetchans[chan, IC_MUDS] != mud &&
+     (!pointerp(inetchans[chan, IC_MUDS]) ||
+      member_array(mud, inetchans[chan, IC_MUDS]) == -1))))
+   return LOCAL_NAME": No such channel.\n";
+  names = map_array(filter_array(users(), list_filter, chan, 0),
+   names_map);
+  size = sizeof(names);
+  if (size)
+   return
+    sprintf(LOCAL_NAME": Channel %s (%d listener%c).\n%-16@s\n",
+     chan, size, size == 1 ? 0 : 's', names);
+  return
+   sprintf(LOCAL_NAME": Channel %s (no listeners).\n", chan);
+  }
+ 
+ 
+// Service a remote channel history request.
+string inet_channel_history(string chan, string mud) {
+  mud = lower_case(mud);
+  if (abbreviations[chan])
+   chan = abbreviations[chan];
+  if (abbreviations[chan])
+   chan = abbreviations[chan];
+  if (member(inetchans, chan) == 0 ||
+   inetchans[chan, IC_PRIVACY] == IC_PRIVATE ||
+   (inetchans[chan, IC_PRIVACY] == IC_RESTRICT &&
+    (inetchans[chan, IC_MUDS] != "*" &&
+     inetchans[chan, IC_MUDS] != mud &&
+     (!pointerp(inetchans[chan, IC_MUDS]) ||
+      member_array(mud, inetchans[chan, IC_MUDS]) == -1))))
+   return LOCAL_NAME": No such channel.\n";
+  if (!history[chan])
+   return sprintf(LOCAL_NAME": No history for %s channel.\n", chan);
+  else
+   return
+    sprintf(LOCAL_NAME": History for %s channel.\n%@s", chan, history[chan]);
+  return "";
+  }
+ 
+ 
+// Remove the history recorded for a channel.
+status clear_history(string chan) {
+  chan = check_channel(chan);
+  if (!chan) return 0;
+  if (member(history, chan) == 0) return 0;
+  m_delete(history, chan);
+  return 1;
+  }
+ 
+ 
+string *query_channels() { return m_indices(history); }
+ 
+
+#define ADMIN_LEVEL 100
+ 
+// Timewarp: Allow the soul object to get who's listening
+//           to a channel.
+object *soul_channel_list(string chan) {
+  int level;
+  if ((string)previous_object() != "/secure/soul/emote_d")
+   raise_error("channeld::soul_channel_list(): Illegal call.\n");
+  chan = check_channel(chan);
+  if (!chan) return 0;
+  level = (int)call_other(this_player(), Q_LEVEL);
+  if (level >= ADMIN_LEVEL) level *= 20;
+  return filter_array(users(), list_filter, chan, level);
+}
+
+
+varargs
+int silence_channel(string chan, int seconds) {
+    if(!chan)
+        return 0;
+    if(member(query_channels(),chan) == -1)
+        return 0;
+
+    if(!seconds)
+        seconds = 300;
+    
+    tell_channel(chan, "Notice", "This channel is being suspended for " + seconds + " seconds.");
+    silenced[chan] = 1;
+    call_out("unsilence_channel",seconds,chan);
+    return 1;
+}
+
+
+int unsilence_channel(string chan) {
+    if(!chan)
+        return 0;
+    if(member(query_channels(),chan) == -1)
+        return 0;
+    if(!silenced[chan])
+        return 0;
+    silenced[chan] = 0;
+    silenced = m_delete(silenced, chan);
+    tell_channel(chan, "Notice", "This channel is reopened.");
+    return 1;
+}
+
+
+

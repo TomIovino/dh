@@ -1,0 +1,55 @@
+
+ROOM.ASH.1.12.98
+
+This file has two parts:
+  1: QC
+  2: functions
+
+PART 1: QC
+
+This part describes some of the quality control expectations. 
+
+Short descriptions:
+           a. a few words describing the area.
+           b. refrain from using "a" or "an" to start a description.
+           c. Example: set_short("densely forested hills");
+
+Long descriptions:
+           a. No rooms connected should have the same room desc
+           b. No area should have more then 50% descriptions
+              that are used more than once.
+
+           c. Proper capitalization and punctation required, for muds
+              this means only 1 space after periods.
+           d. The shortest long description should be 2 FULL lines.
+              the average long description for an area will be 3 or
+              more lines, please dont make descriptions longer then
+              6 lines unless it is extremly special.
+           e. Avoid ALL use of third person speech when creating a
+              object/npc/room description.
+           f. Avoid choppy looking format.
+           g. Avoid 'YoU FaLl DoWn A bIg HoLe', etc.
+
+
+PART: 2 functions
+
+rooms inherit all functions listed in /doc/mudlib/base
+
+a. set_smell  (can be 3rd person)
+b. set_listen (can be 3rd person)
+d. set_items  (can be 3rd person)
+                      (all important items must be described, plus)
+                      (floor ceiling, sky, ground must be included)    
+e. set_light  ( 0 for darkness, 1 for day/night, 2 for always light)
+
+
+extra functions:
+
+a. set_door_path (where the door leads too)
+b. set_door_name (what the name of the door is)
+c. add_object (see 'add_object' file)
+d. set_no_clean (room will NOT unload, this is a special function to be
+             used with permission from the admin only for special rooms.)
+
+Please, if you wish to comment upon any of this, feel VERY free to mail QC.
+

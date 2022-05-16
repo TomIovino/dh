@@ -1,0 +1,38 @@
+#include <mudlib.h>
+#include <ansi.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    set_name("lars");
+    set_alt_name("hero");
+    set_alias("man");
+    set_short(CYAN_F+"heroic man"+NORM);
+    set_long(
+      "This is Lars, an old warrior from ages ago, and thus a living legend\n"+
+      "of sorts. Although the signs of middle age are beginning to show in\n"+
+      "his once mighty physique, to misjudge his skill in battle would be\n"+
+      "a fatal mistake. He bears a warm smile on his face, a face torn by\n"+
+      "a long scar across the right cheek, and the far away look in his cold\n"+
+      "blue eyes eerily does not match the smile on his lips.\n");
+    set_race("human");
+    set_helpers(({ "", ({ "tomax", "harry", }), }));
+    set_gender(1);
+    load_chat(1, ({ "Lars says: Hello stranger.\n",
+      }));
+    set_train_level(9);
+    set_stat_int(35);
+    set_stat_str("dexterity");
+    set_class_list(({
+	"skills", ({
+          "bolt","jolt","spike",
+	}),
+      }));
+    load_spells(10, ({ "heal", }));
+    set_level(100);
+    set_half_exp(1);
+    set_magic_resist(50);
+
+
+}

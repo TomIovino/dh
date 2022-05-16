@@ -1,0 +1,10 @@
+
+Spell    : purify
+Type     : wis
+Mana     : 50
+
+Purify allows the caster to remove poison, blindness, disease, curse, slow,
+and weaken. It also removes all scars from the target of the spell.
+Purify can be used on portals and fog to remove them as well.
+
+

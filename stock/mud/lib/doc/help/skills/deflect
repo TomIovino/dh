@@ -1,0 +1,9 @@
+
+Spell    : deflect
+Type     : int
+Mana     : 50
+
+Deflect is a powerfull spell that tries to void any spells
+cast at you, besides the ones you cast on yourself.
+
+

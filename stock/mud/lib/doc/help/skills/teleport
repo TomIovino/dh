@@ -1,0 +1,9 @@
+
+Spell    : teleport
+Type     : int
+Mana     : 60
+
+Teleport is a spell that allows you to travel from anywhere in the realm
+to another preselected destination. Some areas however, are not accessible
+through magical means. 
+

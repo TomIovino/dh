@@ -1,0 +1,36 @@
+#This file stores trees from /skills/obj/tree
+#made by 'plant growth' spell and used by 'plant door'
+d/forest/h/10
+d/forest/h/20
+d/forest/r/20
+d/forest/r/10
+d/forest/m/15
+w/ash/workroom
+d/wizard/inner
+w/eurale/forest/c7
+secure/void
+w/sunmoonstar/workroom
+w/eurale/workroom
+d/good/mainsqr
+d/base/l/14
+d/base/n/14
+d/base/n/16
+d/base/l/16
+d/base/m/14
+d/base/m/16
+d/base/n/15
+d/base/l/15
+w/robyn/fortress/13
+d/world/n/13
+d/world/l/12
+d/world/l/14
+d/world/n/14
+d/world/n/12
+g/env/air/m/13
+g/env/life/m/13
+g/env/fire/m/13
+g/env/order/m/13
+g/env/death/m/13
+g/env/earth/m/13
+g/env/water/m/13
+g/env/chaos/m/13

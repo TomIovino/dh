@@ -1,0 +1,11 @@
+          dur, cost, dam 
+   flash    1    10, x/7 
+   grasp    1    20, x/6
+   jolt     1    30, x/5
+   bolt     2    35, x/4
+   spike    2    45, x/3
+   lance    2    55, x/2
+   burst    3    40, x/5, AE
+   blast    3    50, x/4, AE
+   storm    3    60, x/3, AE
+

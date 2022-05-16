@@ -1,0 +1,13 @@
+
+Spell    : explorer
+Type     : int
+Mana     : 50
+
+Explorer spell creates a magical eye that will do the bidding of
+its caster. When brought into being the caster can control the
+eye moving it into different directions. 
+
+command: eye <direction>
+command: eye <look>  
+command: eye <dispel>   (if you nolonger need your magic explorer)
+

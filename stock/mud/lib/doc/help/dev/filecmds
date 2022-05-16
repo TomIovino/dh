@@ -1,0 +1,11 @@
+
+
+ls                : list files in directory
+cd <arg>          : move up/down in the directory tree
+more <file>       : look at file with pauses for each page
+cat <file>        : like the more command, only quicker.
+cp <f1> <f2>      : copy file <f1> to file <f2>
+mv <f1> <f2>      : move file <f1> to file <f2>
+ed <file>         : edit a file, used to make changes to files.
+rm <file>         : used to delete a file
+room              : this command allows many things, type "room" for help

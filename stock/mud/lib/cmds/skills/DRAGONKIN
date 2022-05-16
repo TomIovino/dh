@@ -1,0 +1,64 @@
+#define TP this_player()
+#define TPQN this_player()->query_name()
+
+int time;
+int bonus;
+object victim;
+
+
+status main(mixed targ, mixed alt_type) {
+  int i,x;
+  string file;
+
+  file = file_name(this_object());
+  sscanf(file, "%s#%d", file, i);
+  this_player()->load_spell(({
+  "target",            targ,
+  "name",              "dragonkin",
+  "type",              "primal",
+  "stat",              "intellect",
+  "cost",              90,
+  "damage",            0,
+  "level",             90,
+  "cast time",         3,
+  "spell object",      file,
+  "passive", 1,
+  }));
+  return 1;
+}
+
+status cast_spell(object caster,object target,object prev,int time) {
+  int skill;
+  victim = target;
+  tell_object(target,"You become a dragonkin!\n");
+  if(target != caster) {
+    tell_object(caster,"You cast a dragonkin spell on "+target->query_name() 
+                      +".\n");
+  }
+  say(caster->query_name() +" casts a dragonkin spell on "+
+      target->query_name()+".\n"+
+      target->query_name() +" becomes a dragonkin!\n");
+      target->set_var("dragonkin",100);
+      target->set_var("dragonkin_time",600);
+      target->set_var("wings",100);
+      target->set_var("wings_time",600);
+      target->set_var("claws",100);
+      target->set_var("claws_time",600);
+      target->set_var("fangs",100);
+      target->set_var("fangs_time",600);
+      target->set_var("scales",100);
+      target->set_var("scales_time",600);
+      target->set_var("sight",100);
+      target->set_var("sight_time",600);
+  destruct(this_object());
+  return 1; 
+} 
+
+
+status id(string str) {
+  return str == "spell"
+      || str == "external";
+}
+
+
+

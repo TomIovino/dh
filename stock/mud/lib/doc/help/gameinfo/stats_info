@@ -1,0 +1,30 @@
+These are the stats which govern a players makeup.
+
+ 1.[STRENGTH]     "strength is the ability to wield, wear and carry items
+                   of high weight. strength also helps increase your damage
+                   and keep your encumbrance high enough to use good armour"
+ 2.[STAMINA]      "stamina is generally looked at as how healthy your
+                   character is physically.. it determines how many
+                   hitpoints you have, and also affects how well you
+                   overcome poison and disease.."
+ 3.[AGILITY]      "agility is a general estimate of your overall physical
+                   ability to complete complicated fighting techniques,
+                   which aids in avoiding hits, and landing special attacks"
+ 4.[DEXTERITY]    "dexterity is a measure of how accurate your aim is, how
+                   well you avoid physical attack, how fast you respond..
+                   it also helps you avoid damage or lessen an attack, and
+                   it determines your movement points.."
+ 5.[PRIMAL]       "your ability to go beyond,  it affects your ego,
+                   various skills, and casting abilities."
+ 6.[FOCUS]        "focus is a measure of how strong you are mentally,
+                   this also determines how much mana you have and helps
+                   avoid spell failure.."
+ 7.[INTELLECT]    "intellect is the ability to gain understanding of
+                   the logical..  highly intelligent beings often practice
+                   sorcery, magic based on the highest form of logic.."
+ 8.[WISDOM]       "wisdom is the ability to gain understanding of the 
+                   inner workings of the universe, the higher your wisdom
+                   the better your wisdom based spells will work"
+
+related, "help church", "help skills"
+

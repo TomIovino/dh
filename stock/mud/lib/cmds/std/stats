@@ -1,0 +1,105 @@
+// Ash (duh)
+
+#include <bar.h>
+#include <mudlib.h>
+#include <ansi.h>
+string *query_cmd_aliases() { return ({"statis", }); }
+
+
+string FIX(int what){
+           if(what > 999) return    ""+what;
+           if(what >  99) return   " "+what;
+           if(what >   9) return  "  "+what;
+           return                "   "+what;
+          }
+
+#define LM NORM+MAGENTA_F+"("
+#define RM NORM+MAGENTA_F+")"
+#define LG NORM+GREEN_F+"("
+#define RG NORM+GREEN_F+")"
+#define NG NORM+GREEN_F
+#define NM NORM+MAGENTA_F
+#define BM B_MAGENTA_F
+#define BR B_RED_F
+#define R  NORM+RED_F
+#define BG B_GREEN_F
+
+#define TP find_player(arg)
+
+
+status main(string arg){
+  if(!arg) arg = this_player()->query_real_name();
+  if(!this_player()->query_security_level()) 
+      arg = this_player()->query_real_name();
+  if(!find_player(arg)){ write("No.\n"); return 1; }
+
+write("\n"+PRINTBAR+"\n");
+
+printf("%s\
+-------Stats-------%scurrent%s----spells/items/wishes-----maximum------\n\
+     Primal       :[%s            (+%2d/+%2d/+%2d)          %s%3d ]:\n\
+     Focus        :[%s            (+%2d/+%2d/+%2d)          %s%3d ]:\n\
+     Wisdom       :[%s            (+%2d/+%2d/+%2d)          %s%3d ]:\n\
+     Intellect    :[%s            (+%2d/+%2d/+%2d)          %s%3d ]:\n\
+     Agility      :[%s            (+%2d/+%2d/+%2d)          %s%3d ]:\n\
+     Dexterity    :[%s            (+%2d/+%2d/+%2d)          %s%3d ]:\n\
+     Stamina      :[%s            (+%2d/+%2d/+%2d)          %s%3d ]:\n\
+     Strength     :[%s            (+%2d/+%2d/+%2d)          %s%3d ]:\n\
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n",
+NG,BG,NG,
+FIX(TP->query_stat("primal")),
+TP->query_temp_stat("primal"),
+TP->query_bonus_stat("primal"),
+TP->query_extra_stat("primal"),
+NG"/",TP->query_max_stat("primal"),
+
+FIX(TP->query_stat("focus")),
+TP->query_temp_stat("focus"),
+TP->query_bonus_stat("focus"),
+TP->query_extra_stat("focus"),
+NG"/",TP->query_max_stat("focus"),
+
+FIX(TP->query_stat("wisdom")),
+TP->query_temp_stat("wisdom"),
+TP->query_bonus_stat("wisdom"),
+TP->query_extra_stat("wisdom"),
+NG"/",TP->query_max_stat("wisdom"),
+
+FIX(TP->query_stat("intellect")),
+TP->query_temp_stat("intellect"),
+TP->query_bonus_stat("intellect"),
+TP->query_extra_stat("intellect"),
+NG"/",TP->query_max_stat("intellect"),
+
+FIX(TP->query_stat("agility")),
+TP->query_temp_stat("agility"),
+TP->query_bonus_stat("agility"),
+TP->query_extra_stat("agility"),
+NG"/",TP->query_max_stat("agility"),
+
+FIX(TP->query_stat("dexterity")),
+TP->query_temp_stat("dexterity"),
+TP->query_bonus_stat("dexterity"),
+TP->query_extra_stat("dexterity"),
+NG"/",TP->query_max_stat("dexterity"),
+
+FIX(TP->query_stat("stamina")),
+TP->query_temp_stat("stamina"),
+TP->query_bonus_stat("stamina"),
+TP->query_extra_stat("stamina"),
+NG"/",TP->query_max_stat("stamina"),
+
+FIX(TP->query_stat("strength")),
+TP->query_temp_stat("strength"),
+TP->query_bonus_stat("strength"),
+TP->query_extra_stat("strength"),
+NG"/",TP->query_max_stat("strength"),
+NORM+NM);
+
+write(" You may pray "+TP->shouldpray()+" times.\n");
+
+write(PRINTBAR+"\n");
+
+return 1;
+  }
+

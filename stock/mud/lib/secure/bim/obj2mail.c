@@ -1,0 +1,34 @@
+// Object -> Mail Interface
+
+#include <bim.h>
+
+varargs void CO_send_mail(string from,string to, string *cc, string subject, string msg, string sig) {
+    closure send_mail;
+    int i;
+    mapping mesg;
+    if(!sig) sig = "";
+    mesg = ([ 
+                SNDR : from,
+                RCPT : to,
+                CCOPY: implode(cc - ({ from }),", "),
+                SUBJ : subject,
+                MESSAGE : sprintf("%-=78s\n%s\n",msg,sig),
+                DATE : time(),
+                COMPLETE: 1
+           ]);
+    send_mail = symbol_function("send_mail",find_object(BIM_DIR "bimd"));
+    cc = cc - ({ to });
+    i = sizeof(cc = ({ to }) + cc);
+    while(i--) {
+        funcall(send_mail,cc[i],mesg,SF_QUIETLY);
+    }
+}
+
+void send_mail(string from, string to, string *cc, string subject, string mesg, string sig) {
+    if(!from
+    || !to
+    || !mesg) return;
+    if(!cc || !pointerp(cc)) cc = ({ });
+    call_out("CO_send_mail",0,from,to,cc,subject,mesg,sig);
+}
+

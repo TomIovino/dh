@@ -1,0 +1,7 @@
+
+Spell    : bolt
+Type     : int
+Mana     : 35
+
+Bolt is a single attack combat spell.
+

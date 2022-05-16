@@ -1,0 +1,9 @@
+  LV |CASH|MAJ_OB|MIN_OB|EXAMPLE     |#|    LV |CASH|MAJ_OB|MIN_OB|EXAMPLE
+   1+|   1|   6  |   2  |child       |#|    10+| 100|   8  |   3  |youth
+  20+| 400|  10  |   4  |citizen     |#|    30+| 900|  12  |   5  |fighter
+  40+|1600|  14  |   6  |vetran      |#|    50+|2500|  16  |   7  |elite
+  60+|3600|  18  |   8  |captain     |#|    70+|4900|  20  |  10  |leader
+  80+|6400|  22  |  12  |hero        |#|    90+|8100|  24  |  14  |avatar
+
+  For npcs over level 100 and over refer to "/doc/mudlib/npcboss"
+  PLEASE REFER TO "/doc/mudlib/guidelines" FOR MORE DETAILED BALANCE INFO.

@@ -1,0 +1,26 @@
+#include <ansi.h>
+
+#define PATH    "/d/air/"
+#define ELEMENT "air"
+#define RACE    "hawkling"
+#define COLOR   B_CYAN_F
+#define TOWN    "Airina"
+#define TOTEM   "wing icon"
+#define METAL   "meteoric"
+#define GEM     "topaz"
+#define TEMPLE  "Cloud Palace Temple"
+#define SHOP    "Meteoric Swords and Armours"
+#define BANK    "Airina Savings Bank"
+#define MEET    "Airina Public Information"
+#define MSHOP   "Topaz Ornamental Jewelry"
+#define PUB     "Flyhigh Pub and Grill"
+#define PROF_A  "Sentry Training Hall"
+#define PROF_B  "Sorcerer Training Hall"
+#define UP      "Clouds of silver and skies of the deepest blue."
+#define DOWN    "The roads are made of a strange mist."
+#define WALLS   "The walls are made of a strange mist."
+#define SMELL   "You dont smell anything but "+ELEMENT+"."
+#define SOUND   "You dont hear anything but silence."
+#define OUT     "Beyond the cloud city are clear and beautiful skies."
+#define IN      "The entire city is laced with clouds and mist."
+ 

@@ -1,0 +1,20 @@
+**** Races: choose your innate form.
+                        [Advantage]             {Affiliation}
+   ------------(size)---[Mental/Physical]-------{Element/Faith}--
+   gremlin     (10)     [Intellect/Strength]    {Chaos/Air}       
+   dwarf       (11)     [Wisdom/Stamina]        {Order/Earth}   
+   hawkling    (12)     [Primal/Agility]        {Life/Air}    
+   darkelf     (13)     [Primal/Dexterity]      {Death/Earth}
+   greyelf     (14)     [Intellect/Dexterity]   {Life/Earth}     
+   lich        (15)     [Intellect/Stamina]     {Death/Air} 
+   suntiger    (16)     [Focus/Strength]        {Order/Fire} 
+   vampire     (17)     [Primal/Stamina]        {Death/Fire} 
+   drake       (19)     [Intellect/Agility]     {Order/Air}         
+   icewolf     (20)     [Wisdom/Agility]        {Chaos/Water}     
+   minotaur    (21)     [Focus/Dexterity]       {Chaos/Fire}    
+   troll       (22)     [Primal/Strength]       {Death/Water}     
+   angel       (23)     [Wisdom/Dexterity]      {Life/Water}  
+   ogre        (24)     [Focus/Stamina]         {Chaos/Earth}    
+   giant       (25)     [Focus/Agility]         {Order/Water}    
+   titan       (26)     [Wisdom/Strength]       {Life/Fire}
+

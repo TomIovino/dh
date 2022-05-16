@@ -1,0 +1,10 @@
+
+Spell    : summon
+Type     : int
+Mana     : 50
+
+Summon allows you to bring another being to your location. 
+In order for this spell to work the person you would summon
+must be configured "summon on".
+
+

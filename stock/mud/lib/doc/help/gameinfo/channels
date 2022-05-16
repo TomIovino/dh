@@ -1,0 +1,16 @@
+
+<chan> <message>	-say <message> on <chan>
+<chan> ;<action>	-perform <action> on <chan>
+<chan> :<emote>		-perform customized <emote> on <chan>
+<chan> -h		-show last 20 comments made on <chan>
+<chan>			-show who is listening to <chan>
+
+'channels'		-list channels
+'channels' <chan>	-list details about <chan>
+'channels' <chan> on	(y)	-turn channel on.
+'channels' <chan> off	(n)	-turn channel off
+
+NO ALIASES ARE PERMITTED ON CHANNELS!
+NO CURSING OR OFFENSIVE LANGUAGE (AS DETERMINED BY ADMINS) ON MORTAL CHANNEL!
+EVERYTHING IN 'help rules' GOES FOR CHANNELS!
+

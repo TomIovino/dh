@@ -1,0 +1,10 @@
+
+Command: scan <direction>
+
+This command will show you the description of a room,
+exits from the room, as well as what is in the room, 
+in the direction that you look. This is very helpful
+in avoiding traps.
+
+
+

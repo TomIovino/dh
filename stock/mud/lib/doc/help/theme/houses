@@ -1,0 +1,14 @@
+
+  Houses are created and organized by players.
+   -A house must have (3) people WITH warpoints to be valid.
+   -A house must have a REGENT to be valid. 
+  Houses with out (3) people with warpoints, and a REGENT are deleted. 
+ 
+  Houses can have upto 10 members of any level.
+
+  See also 'help house cmds', 'help house ranks', 'help house ally', 
+           'help theme', 'help house list', 'help castles',
+           'help castle rules'
+
+
+

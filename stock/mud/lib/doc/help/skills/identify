@@ -1,0 +1,7 @@
+
+Spell    : identify
+Type     : int
+Mana     : 50
+
+Identify accurately reveals certain information about the target.
+

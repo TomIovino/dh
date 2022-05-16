@@ -1,0 +1,34 @@
+
+The following are some things you can enable with the 'set' command.
+To disable them use the 'unset' command.
+
+Color Options:
+    ANSI            turn on colors =)
+    NO_BLACK        use this you have a bad terminal that doesn't have
+                    bold black (aka gray).
+
+Auto Settings:
+    AUTOLOOT        loot corpses of all items
+    AUTOGOLD        loot corpses of all money
+    AUTOBURY        bury corpses
+
+Other Settings:
+    BRIEF           when you look you only get a brief description of the room
+    NO_GIVE         makes it so that NO items can be handed to you
+    tell_block      see 'help tell block'
+
+    no_build        turn off build prompt (when a '\' is last character on line)
+
+Pager Options:
+
+    Default:
+        set pg_length xx       // Sets default page length for everything
+                               //   to xx lines, 0 (zero) turns off paging
+    Specific overrides:
+        set ml_length xx       // Sets page length for mail messages
+        set bd_length xx       // Sets page length for bulletin board posts
+        set fl_length xx       // Sets page length for feelings list
+        set who_length xx      // Sets page length for who list
+        set more_length xx     // Sets page length for more'ing files 
+                               //   (i.e. help documents)
+

@@ -1,0 +1,25 @@
+This is the easiest way to transform a room submission into code:
+If you mail it this way to me It will be easy to turn into a room.
+
+description:
+
+"This is the private meeting room of the High Council of Avatars. The "
+"chamber is dominated by a large round table surrounded by a number of"
+"chairs, at which the Council conducts its business. The glowing runes"
+"on the walls keep the room brightly lit.                             "
+
+items:
+
+ "table","A dark mahogany table polished to a high shine.",
+ "chair#chairs","Highbacked chairs comfortably padded with leather cushions.",
+ "walls","light marble walls covered with glowing carvings.",
+ "carvings","engraved runes that glow with a magical light.",
+ "down","A dark marble floor.",
+ "up", "A crossbeamed wooden ceiling.",
+
+extra:
+  
+  set_smell   "The scent of polished wood and old leather"
+  set_listen  "The muted sounds of a bustling city"
+
+

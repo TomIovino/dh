@@ -1,0 +1,11 @@
+# Load these files at startup - the rest can load in game 
+/secure/bin_d.c
+/obj/wizard.c
+/inherit/room.c
+/inherit/monster.c
+/inherit/weapon.c
+/inherit/armour.c
+/secure/inet/inetd.c
+/secure/loadlogger
+/secure/usage_d
+/obj/mudtime

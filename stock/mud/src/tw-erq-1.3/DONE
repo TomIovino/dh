@@ -1,0 +1,25 @@
+Version 1.1
+~~~~~~~~~~~
+Bug fixes.
+Added ERQ_LOOKUP, hostname => ipnumber resolving (opposite of ERQ_RLOOKUP)
+Added an lpc socket daemon
+
+Version 1.2
+~~~~~~~~~~~
+Fixed DETACH
+Fixed small problem with ifinger
+Added random interval for sequential part of erq tickets.
+Added socket_transfer and socket_address to socketd
+Changed socketd to bind sockets to object the callback closure is bound to.
+Added some docs for the socketd.
+
+Version 1.2a
+~~~~~~~~~~~~
+Fixed crasher and wrong return value in remove_child()
+
+Version 1.3
+~~~~~~~~~~~
+Fixed driver -> erq socket blocking.
+Increased driver -> erq buffer size. (optional driver diff)
+Rewrote lpc ifinger and telnet.
+Fixed error reply from socketd.

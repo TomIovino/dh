@@ -1,0 +1,13 @@
+#!/bin/bash
+
+BASE=/home/dh/mud
+
+NO_REBOOT=$BASE/lib/NO_REBOOT
+
+until [ -e $NO_REBOOT ]
+do
+    $BASE/bin/livemud
+done
+
+rm -f $NO_REBOOT
+

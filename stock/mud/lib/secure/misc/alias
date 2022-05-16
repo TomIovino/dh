@@ -1,0 +1,22 @@
+varargs
+void input_to(string func,int flag,mixed a,mixed b,mixed c,mixed d,
+              mixed e,mixed f,mixed g,mixed h,mixed i,mixed j,mixed k) {
+
+    closure callback;
+    call_back = unbound_lambda( ({ 'ob, 'func, 'inpt, 'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k }),
+                                ({ #'call_other, 'ob, 'inpt, 'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k }) );
+
+    efun::input_to("_input_to",flag,callback,previous_object(),func,({ a,b,c,d,e,f,g,h,i,j,k }));
+}
+
+void _input_to(string input,closure cb, object ob, string function, mixed *args) {
+    cb = bind_lambda(cb,ob);
+    set_this_object(ob);
+    apply(cb,ob,function,input,args);
+}
+
+
+
+alias snoopers lpc -s mapping *snoopers; object *u, who; int i; i = sizeof(u = users()); snoopers = ([ ]); while(i--) if(who = query_snoop(u[i])) snoopers[who] = u[i]; u = m_indices(snoopers); i = sizeof(u); if(!i) { write("No snoopers.\n"); return; } printf("snooper -> snoopee\n"); while(i--) printf("%O -> %O\n",u[i],snoopers[u[i]]); return;
+alias pwho2 lpc -s mapping parties; int i,j; string *p, party; object *u; i = sizeof(u = users()); parties = ([ ]); while(i--) if(party = (string) u[i]->query_party()) { if(!parties[party]) parties[party] = ({ }); parties[party] += ({ (string) u[i]->short() }); } i = sizeof(p = m_indices(parties)); if(!i) { write("No parties.\n"); return; } while(i--) { printf(B_RED_F "%s:" NORM "\n",(string)"/secure/party_d"->get_party_display_name()); j = sizeof(parties[p[i]]); while(j--) printf("\t" B_GREEN_F "%s" NORM "\n",parties[p[i]][j]); } return;
+

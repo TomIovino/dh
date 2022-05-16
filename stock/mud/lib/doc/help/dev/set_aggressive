@@ -1,0 +1,9 @@
+
+
+ set_aggressive(0) not aggressive = default
+ set_aggressive(1) always aggressive
+ set_aggressive(2) aggressive to smaller players
+ set_aggressive(3) aggressive to other races.
+
+
+

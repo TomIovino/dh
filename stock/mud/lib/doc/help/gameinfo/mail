@@ -1,0 +1,14 @@
+
+                                MAIL
+
+  DH's internal mail system can be accessed from anywhere on the mud and
+  does not require the presence of a post office.
+
+  To read mail, simply type 'mail' to enter the program. Then type the
+  number of the message you wish to read. You can mark a message for
+  deletion by typing 'd', and 'q' quits the program. For further command
+  options, type 'h' (help).
+
+  To send mail to another player, type 'mail <playername>'. The form is
+  self-explanatory from there.
+

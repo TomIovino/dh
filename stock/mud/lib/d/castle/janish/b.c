@@ -1,0 +1,47 @@
+#define TP this_player()
+#include <ansi.h>
+#include <mudlib.h>
+#include "hdefs.h"     
+inherit CHURCH;
+
+void reset(status arg) {
+
+    object obj;
+    ::reset(arg);
+    if(arg) return;
+    set_short(CASTLE+" chapel");
+    set_long(GREY_F+
+    "The highly polished marble walls of the "CASTLE" chapel rise to a\n"+
+    "domed ceiling far overhead. Large white candles in tall stands are\n"+
+    "placed around the room, shedding a soft, warm light that is conducive\n"+
+    "to prayer and meditation. A strange glowing crystal is embedded in the\n"+
+    "marble.\n"+
+    NORM);
+    set_no_fight(1);
+    set_no_magic(1);
+    set_no_steal(1);
+    set_items(({
+    "up#u#ceiling",
+    "The high domed ceiling is lost in shadows as it arches high overhead.\n",
+    "down#d#floor",
+    "The stone floor has been worn smooth by the traffic of booted feet.\n",
+    "walls#wall",
+    "The light from the candles reflects off of the polished marble walls.\n",
+    "candles#candle#stands#stand",
+    "The room is lit by large thick candles that are mounted in tall iron\n"+
+    "stands.\n",
+    "chapel",
+    "This peaceful room gives the members of House "CASTLE" a place to pray\n"+
+    "and meditate.\n",
+    "crystal","A throbbing multicolored crystal.\n",
+    }));
+    set_smell("The scent of incense hangs in the air.\n");
+    set_listen("Faint whispers seems to echo around the room.\n");
+    set_pk_only(1);    
+    set_exits(({
+    PATH+HOUSE+"/e","south",
+    PATH+HOUSE+"/i","north",
+      }));
+   set_light(5);
+
+}

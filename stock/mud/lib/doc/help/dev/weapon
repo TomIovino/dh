@@ -1,0 +1,80 @@
+WEAPON.ASH.1.12.98
+
+This file has two parts:
+  1: QC
+  2: functions
+
+PART 1: QC
+
+Weapons must meet all qc comments listed in 'help item'. 
+  
+
+PART 2: functions
+
+Weapons have all functions listed in 'help base' /doc/mudlib/base
+Weapons have all functions listed in 'help bonus' /doc/mudlib/bonus
+
+a. set_type(x);    
+   types of weapons are: 'thrust', 'crush', 'slash', 'cleave'
+   Be sure its one of those otherwise problems might occur for codes which
+   check for one of those types should always be set to one of the above ,
+   default is slash, "special items" are set to 'artifact'(wands etc.)
+b. set_wc(x);
+   this defines the strength of an weapon it can be from 1-25 be 
+   sure to read /doc/help/balance for correct wc.
+c. set_length(x);
+   the length of the weapon. This is what is used for when seeing if
+   someone can doublewield weapons. If you have a weapon you dont wish
+   to be double wielded, give it a high length (100) should always be set,
+   default is 35, most longswords in the game are length 35.
+
+
+advanced functions:
+
+a. set_attack_msg (string *msg);
+   allows you to customize your attack messages instead of the default ones.
+   example:
+   set_attack_msg(({
+    "missed", "",
+    "barely cut", "doing little damage",
+    "slashed out at", "doing severe damage",
+    "stabbed", "drawing vast amounts of blood",
+    "mauled", "scarring it for life",
+    "decapitated", "into tiny bits and pieces",
+     }));
+b. set_bonus_<stat>(x) 
+   can be -> str,dex,fig,con,cha,wis,int,wil
+   example: set_bonus_str(5);
+   for more info on how many +stat may be given to any one object 
+   (it depends on the npc's level) type: 'balance'
+
+
+
+c. set_hit_func(object ob);
+    example of a special hit: (place below configurations of a weapon)
+
+     int weapon_hit(object victim) {
+      if(!victim) return 0;
+      if(random(100) <= 5) {
+        tell_object(victim,this_player()->query_name()+" guides the morgul "+
+          "knife deep into you.\n");
+        tell_object(this_player(),"You guide the morgul knife deep into "+
+          victim->query_name()+".\n");
+        tell_room(environment(victim),this_player()->query_name()+" guides "+
+          "the morgul knife deep into "+victim->query_name()+".\n",
+          ({this_player(),victim}));
+        return 5;
+    }
+  }
+ 
+
+
+
+d. set_wield_string(string);
+   This will replace the normal "You weild item in your hand" message.
+d. set_room_wield_string(string);
+   This will replace the normal "weild item in hand" message.
+ 
+
+more functions listed in "/doc/mudlib/bonus"
+  

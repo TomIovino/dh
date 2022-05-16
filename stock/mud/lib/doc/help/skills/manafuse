@@ -1,0 +1,9 @@
+
+Spell    : manafuse
+Type     : int
+Mana     : 75
+
+ Manafuse increases spell regen.
+ Manafuse increases maximum spell points.
+ Manafuse protects against magic based 'feeble'.
+

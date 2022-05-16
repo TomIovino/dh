@@ -1,0 +1,18 @@
+Some races start with innate abilities/spells when they begin.
+When using innate abilities do not type an argument. For instance for
+wings, just type 'wings'. If you want to use the spell version of
+this command type "wings <who>".
+
+             F--E--W--A--O--L--C--D
+unarmed      x  x  x  x  x  x  x  x
+return       x  x  x  x  x  x  x  x
+sight        x  x  x        x  x  x
+wings                 x     x  x  
+fangs        x     x              x
+claws        x     x  x           
+exoskin         x        x  x     x
+tame            x        x     
+strike       x        x  x
+absorb          x  x  x  x  x  x  x
+enchant      x  x     x     x  x
+stun               x     x     x  x

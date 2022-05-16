@@ -1,0 +1,7 @@
+
+Spell    : flash
+Type     : int
+Mana     : 10
+
+Flash is a single attack combat spell.
+

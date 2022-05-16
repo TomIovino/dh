@@ -1,0 +1,38 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    set_name("ragmi");
+    set_alt_name("male");
+    set_short(BOLD+BLUE_F+"blue robed male"+NORM);
+    set_long(
+"Before you stands, Ragmi, master of elemental magic.\n"+
+"He wears a robe of blue which accents his station as the\n"+
+"master mage.\n"+
+    NORM);
+    set_race("human");
+    set_gender(1);
+    load_chat(2,({
+	"Ragmi says: I miss my brother, Imgar.\n",
+	"Ragmi says: Imgar left to a forein land many years ago.\n",
+	"Ragmi chants a simple prayer in a foreign tongue.\n",
+	"Ragmi looks up, noticing your presence, then returns to his chant.\n",
+      }));
+    load_spells(10,({
+        "dispel","purify",
+      }));
+    set_train_level(9); 
+    set_stat_int(35); 
+    set_stat_str("intelligence"); 
+    set_class_list(({
+	"skills", ({ "casting tactics", }),
+	"spells", ({
+        "storm",
+	}),
+      }));
+    set_level(100);
+    set_magic_resist(100);
+}

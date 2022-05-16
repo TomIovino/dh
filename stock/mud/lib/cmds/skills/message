@@ -1,0 +1,66 @@
+#include <ansi.h>
+
+string who, msg;
+
+status main(string targ) {
+    int i;
+    string file;
+    object ob;
+    who = msg = 0;
+      if(this_player()->query_attrib("silenced")) return 1;
+   if(!this_player()->query_wp())
+   { write("You must have a warpoint to use this skill.\n");
+     return 1; 
+   }
+    if(this_player()->query_stat("wisdom") < 50){
+      notify_fail("You're not wise enough for this spell.\n");
+         return 0;
+      }
+    if(!this_player()->query_skill("message")){
+       write("You don't know this incantation.\n");
+       return 1;
+    }
+    if(!targ) {
+	notify_fail("message who with what?\n");
+	return 0;
+    }
+    sscanf(targ, "%s with %s", who, msg);
+    if(!who || !msg){
+	notify_fail("message who with what?\n");
+	return 0;
+    }
+
+    write("Send Message To: "+who+"\n");
+    write("Message Is: "+msg+"\n");
+
+    if(this_player()->query_sp() < 100){
+           write("You can't seem to gather the energy.\n");
+         return 1;
+     }
+    this_player()->adj_sp(-100);
+    this_player()->checkskill("message","intellect",1);
+    ob=find_player(who);
+    
+    if(!ob) {
+	write("You cannot locate that.\n");
+	return 1;
+    }
+    if(ob->query_security_level() > 0) {
+	write("You cannot locate that.\n");  
+	return 1;
+    }
+    if(ob->query_npc()) {
+	write("You can only message players.\n");
+	return 1;
+    }
+
+    tell_object(ob,B_GREEN_F+"A voice whispers "+msg+".\n");
+    log_file("MSG",this_player()->query_real_name()+" told "+
+              ob->query_real_name()+" "+msg+"\n");     
+    
+   return 1;
+}
+
+status id(string str) { return str == "spell"; }
+query_no_save(){ return 1; }
+

@@ -1,0 +1,60 @@
+QUALITY-ASH-5.12.97
+
+This document describes some of the quality control expectations. 
+(additional information located in /doc/mudlib/description)
+
+General - code should be written neatly. 
+
+Make sure to include the mud.lib and the proper inherits for every item.
+	ie: #include <mudlib.h>
+	inherit ROOM;
+	etc
+	
+Use the add_object function for adding npcs, weapons, etc.
+
+Don't use any ascii art in your areas such as stuff like 
+'YoU FaLl DoWn A bIg HoLe', etc. 
+
+Also, when doing your longs, use only one space after periods and
+commas. And, when doing objects refrain from using capital letters on 
+each word unless it is _absolutely_ necessary. 
+ - In general room desc ...
+    * The desc should include at least 3 lines of text. 
+    * Usage of "makes you feel strange" and other such blunt feelings
+      should be used VERY rarely. Instead use the text to convey feeling.
+      ie - (calmness) The grass sways gently below your feet ...
+           (fear) The rocks wobble upon the ledge above, threatening to
+                  fall at any moment ...
+A lot of wizards are using 3rd person speech when creating room longs. 
+This is a very poor way to create rooms descriptions. Everyone is guilty 
+of this error, so we shall have to work on this together. From now the 
+word 'you' should not be used in more then 1:10 rooms. Other 'bad' word
+are feel, think and sense. (etc).
+
+Every important noun and action listed in the room description needs  
+to be defined in some way. Atleast 50% of the nouns in your room 
+must be described, also set_listen and set_smell should be in every room.
+
+Things you should have in every description:
+	sky or ceiling#u#up -> This should be for looking at whatever is 
+	overhead
+	ground or floor#d#down -> This is for whatever is the below the 
+        player's feet
+      
+    * Room must fit the area. 
+      ie - No trees in desert. No shop under rocks.
+    * For short descriptions finish sentence : "You are in..."
+      ie : a swamp : a cave : a river
+    * As for exits use north, ne, east, se, south, sw, west, nw, down or up.
+    * No death traps. Please, no cliffs to fall off or pits to fall into
+      unless there is a VERY good reason to.
+      - cliffs and pits should use climb stat, perhaps some falling damage.
+        climbing/falling can be set for up/down movements.
+    * Traps, should be able to be detected, and disarmed by thieves.
+      - there is generic trap code for doors, and chests.
+    * Remember to use the set_smell and set_listens in all your rooms.
+ 
+
+
+Please, if you wish to comment upon any of this, feel VERY free to mail Admin.
+

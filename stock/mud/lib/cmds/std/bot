@@ -1,0 +1,30 @@
+int main(string arg) {
+     int old_val;
+    if(!arg) return 0;
+    old_val = (int) this_player()->query_attrib("BOTdetector");
+    this_player()->set_tmp_attrib("BOTdetector",old_val = old_val+1);
+
+    printf("=========================================\n");
+    printf("=== We think you are botting. One of  ===\n");
+    printf("=== your commands has been replaced   ===\n");
+    printf("=== with an alias to 'bot'. When the  ===\n");
+    printf("=== counter below reaches 5  you will ===\n");
+    printf("=== be *ZAPPED* and logged off.       ===\n");
+    printf("=========================================\n");
+    printf("=== Send a tell to an admin/manager   ===\n");
+    printf("=========================================\n");
+    printf("=== The command aliased is: %-10O  ===\n",arg);
+    printf("=========================================\n");
+    printf(" Counter = %O\n",old_val);
+
+    say("*");
+        
+    if(old_val >= 5) {
+        printf("Well ... you asked for it!\n\n");
+        catch("/secure/channeld/channeld"->tell_channel("Announce!","DragonHeart's Enforcer",this_player()->query_name() + " has been punished by death for botting while not being present."));
+        this_player()->death();
+        this_player()->quit_2();
+    }
+    return 1;
+}
+

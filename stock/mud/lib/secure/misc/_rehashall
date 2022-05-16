@@ -1,0 +1,50 @@
+#include <defns.h>
+
+static closure level_filter;
+
+void reset(status arg)
+{
+  if (!arg)
+   level_filter = lambda(({ 'user, 'level }),
+    ({ #'>=,
+      ({ #'call_other, 'user, "query_wiz_level" }),
+      'level
+    }));
+}
+
+status main(string str)
+{
+    object *us;
+    int size;
+    us=users();
+    switch(str) {
+      case 0:
+      case "all":
+	break;
+      case "wiz":
+      case "wizard":
+      case "wizards":
+        us=filter_array(us, level_filter, WIZ_LEVEL);
+	break;
+      case "adm":
+      case "admin":
+	us=filter_array(us, level_filter, ADMIN_LEVEL);
+	break;
+      default:
+	return notify_fail("Usage: rehashall [all|wiz|adm]\n");
+    }
+    size=sizeof(map_objects(us, "update_commands"));
+    tell_object(this_interactive(),
+      sprintf("Attempted update on %d user%c.\n",
+	size,
+	size == 1 ? 0 : 's'));
+    return 1;
+}
+
+void help()
+{
+    write("Usage: rehashall [all|wiz|adm]\n"
+          "Make all, or a category of users rehash their command paths.\n");
+}
+
+int clean_up(int arg) { destruct(this_object()); }

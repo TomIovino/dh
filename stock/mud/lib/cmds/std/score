@@ -1,0 +1,130 @@
+// Ash (duh)
+
+#include <bar.h>
+#include <mudlib.h>
+#include <ansi.h>
+string *query_cmd_aliases() { return ({"scrr", }); }
+
+
+string FIX(int what){
+           if(what > 999) return    ""+what;
+           if(what >  99) return   " "+what;
+           if(what >   9) return  "  "+what;
+           return                "   "+what;
+          }
+
+#define LM NORM+MAGENTA_F+"("
+#define RM NORM+MAGENTA_F+")"
+#define LG NORM+GREEN_F+"("
+#define RG NORM+GREEN_F+")"
+#define NG NORM+GREEN_F
+#define NM NORM+MAGENTA_F
+#define BM B_MAGENTA_F
+#define BR B_RED_F
+#define R  NORM+RED_F
+#define BG B_GREEN_F
+#define TP find_player(arg)
+
+
+status main(string arg){
+  if(!arg) arg = this_player()->query_real_name();
+  if(!this_player()->query_security_level())
+      arg = this_player()->query_real_name();
+  if(!find_player(arg)){ write("No.\n"); return 1; }
+
+TP->query_wp();
+TP->clear_static_info();
+
+write("\n"+PRINTBAR+"\n");
+printf("\
+%s%s",
+TP->query_player_info(),TP->query_level_string());
+
+printf("%s\
+Health       :[%4s%4s%s%4s%s%% ]:     Mana         :[%4s%4s%4s%s%s%% ]:\n\
+Carry        :[%4s%4s%s%4s%s%% ]:     Move         :[%4s%4s%s%4s%s%% ]:\n",
+NM,NM+FIX(TP->query_hp())+
+LM,FIX(TP->query_max_hp())+RM,
+BM,FIX(TP->query_hp_percent()),NM,
+NM+FIX(TP->query_sp())+
+LM,FIX(TP->query_max_sp())+RM,
+BM,FIX(TP->query_sp_percent()),NM,
+FIX(TP->query_cp()),
+LM+FIX(TP->query_max_cp())+RM,
+BM,FIX(TP->query_cp_percent()),NM,
+FIX(TP->query_mp()),
+LM+FIX(TP->query_max_mp())+RM,
+BM,FIX(TP->query_mp_percent()),NM);
+
+if(TP->query_race() == "avatar")
+printf("%s\
+Warrior      :[ %s %|11d  %s ]:     Magician     :[ %s %|11d %s  ]:\n\
+Rogue        :[ %s %|11d  %s ]:     Cleric       :[ %s %|11d %s  ]:\n\%s",
+GREY_F,
+NORM,TP->query_class("warrior"),GREY_F,
+NORM,TP->query_class("magician"),GREY_F,
+NORM,TP->query_class("rogue"),GREY_F,
+NORM,TP->query_class("cleric"),GREY_F,
+NORM);
+
+if(TP->query_race() == "dragon")
+printf("%s\
+Dragon       :[ %s %|11d %s  ]:\n\%s",
+GREY_F,
+NORM,TP->query_class("dragon"),GREY_F,
+NORM);
+
+printf("%s\
+Attack       :[ %s%-=11s+%-=2d%s ]:     Defensive    :[ %s%-=11s+%-=2d%s ]:\n\
+Stealth      :[ %s%-=11s+%-=2d%s ]:     Casting      :[ %s%-=11s+%-=2d%s ]:\n",
+B_RED_F,
+NORM+RED_F,TP->query_offensive_rating(),TP->query_apb(),B_RED_F,
+NORM+RED_F,TP->query_defensive_rating(),TP->query_dpb(),B_RED_F,
+NORM+RED_F,TP->query_stealth_rating(),TP->query_spb(),B_RED_F,
+NORM+RED_F,TP->query_casting_rating(),TP->query_cpb(),B_RED_F);
+
+
+
+
+
+
+printf("%s\
+Primal       :[%s%s       %s%3d ]:     Stamina      :[%s%s       %s%3d ]:\n\
+Focus        :[%s%s       %s%3d ]:     Agility      :[%s%s       %s%3d ]:\n\
+Intellect    :[%s%s       %s%3d ]:     Dexterity    :[%s%s       %s%3d ]:\n\
+Wisdom       :[%s%s       %s%3d ]:     Strength     :[%s%s       %s%3d ]:\n",
+NG,
+BG,FIX(TP->query_stat("primal"))+NG,
+NG"/",TP->query_max_stat("primal"),
+BG,FIX(TP->query_stat("stamina"))+NG,
+NG"/",TP->query_max_stat("stamina"),
+BG,FIX(TP->query_stat("focus"))+NG,
+NG"/",TP->query_max_stat("focus"),
+BG,FIX(TP->query_stat("agility"))+NG,
+NG"/",TP->query_max_stat("agility"),
+BG,FIX(TP->query_stat("intellect"))+NG,
+NG"/",TP->query_max_stat("intellect"),
+BG,FIX(TP->query_stat("dexterity"))+NG,
+NG"/",TP->query_max_stat("dexterity"),
+BG,FIX(TP->query_stat("wisdom"))+NG,
+NG"/",TP->query_max_stat("wisdom"),
+BG,FIX(TP->query_stat("strength"))+NG,
+NG"/",TP->query_max_stat("strength"),
+NORM+NM);
+
+
+
+
+
+printf("\
+%s%s%s%s%s\n",
+NORM,
+TP->query_status_string(),
+TP->query_hunger_string(),
+TP->query_money_string(),
+TP->query_age_string());
+
+write(PRINTBAR+"\n");
+
+return 1;
+}

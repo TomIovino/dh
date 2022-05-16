@@ -1,0 +1,2691 @@
+
+
+Room: d/town/road/mainsqr  Time: Tue Jan 16 19:25:39 2001
+Player: Daniel
+Error: Bad argument 2 to tell_object()
+  Program: obj/living.c (ansi_tell_object.h)
+Object: d/town/npc/daniel#296
+Line: 14
+
+
+Room: w/myria/keep/keepc  Time: Wed Feb 14 23:55:15 2001
+Player: Bracht
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/eurale/forest/c13  Time: Thu Feb 15 00:33:47 2001
+Player: Centaur
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/eurale/forest/c10  Time: Thu Feb 15 00:33:49 2001
+Player: Andor
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/eurale/forest/c10  Time: Thu Feb 15 00:33:57 2001
+Player: Andor
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/russkie/fortress/rooms/f1  Time: Thu Feb 15 00:58:16 2001
+Player: Barret
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/russkie/fortress/rooms/f1  Time: Thu Feb 15 00:58:18 2001
+Player: Nof
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/vhorilen/ska/s23  Time: Thu Feb 15 01:23:30 2001
+Player: Antrinal
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/vhorilen/ska/s23  Time: Thu Feb 15 01:23:32 2001
+Player: Nilgo
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/vhorilen/ska/s23  Time: Thu Feb 15 01:23:34 2001
+Player: Nilgo
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/vhorilen/ska/s23  Time: Thu Feb 15 01:23:48 2001
+Player: Nilgo
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/jada/htown/htown04  Time: Thu Feb 15 02:55:57 2001
+Player: Citizen
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/jada/htown/htown05  Time: Thu Feb 15 02:55:59 2001
+Player: Ramza
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 64
+
+Room: w/ash/shadow/ai2  Time: Thu Feb 15 04:16:02 2001
+Player: Nilgo
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 66
+
+Room: w/ash/shadow/ea2  Time: Thu Feb 15 04:16:04 2001
+Player: Ramza
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 66
+
+Room: w/eurale/udark/u12  Time: Thu Feb 15 04:20:04 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#3467
+Line: 110
+
+Room: w/jada/glade/glade6  Time: Thu Feb 15 05:28:47 2001
+Player: Snake
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 66
+
+Room: w/jada/glade/glade43  Time: Thu Feb 15 14:36:36 2001
+Player: Soldier
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 66
+
+Room: w/jada/glade/glade40  Time: Thu Feb 15 14:36:38 2001
+Player: Callista
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 66
+
+Room: w/myria/newbie/new07  Time: Thu Feb 15 16:39:06 2001
+Player: Beetle
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 66
+
+Room: w/eurale/udark/u12  Time: Thu Feb 15 17:58:11 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#11627
+Line: 110
+
+Room: w/trent/town/town20  Time: Fri Feb 16 02:33:40 2001
+Player: Hapxmandios
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/trent/town/town12  Time: Fri Feb 16 02:33:42 2001
+Player: Samael
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/eurale/udark/u12  Time: Fri Feb 16 02:56:23 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#2083
+Line: 110
+
+Room: w/eurale/udark/u12  Time: Fri Feb 16 02:56:59 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#2083
+Line: 110
+
+Room: w/eurale/udark/u12  Time: Fri Feb 16 02:58:17 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#2083
+Line: 110
+
+Room: d/world/etc/m4  Time: Fri Feb 16 04:46:56 2001
+Player: Harry
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/etc/m4  Time: Fri Feb 16 13:39:23 2001
+Player: Harry
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/m/4  Time: Fri Feb 16 13:39:25 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/m/7  Time: Fri Feb 16 13:39:37 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/m/12  Time: Fri Feb 16 13:39:51 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/nina  Time: Fri Feb 16 14:56:44 2001
+Player: Wruke
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/roada  Time: Fri Feb 16 14:56:46 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/roada  Time: Fri Feb 16 14:56:48 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/roada  Time: Fri Feb 16 14:56:50 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/roada  Time: Fri Feb 16 14:56:54 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/pub  Time: Fri Feb 16 14:57:20 2001
+Player: Grendell
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/pub  Time: Fri Feb 16 14:57:22 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/pub  Time: Fri Feb 16 14:57:28 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/town/pub  Time: Fri Feb 16 14:57:30 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/yumi/wood/woodo  Time: Fri Feb 16 15:03:11 2001
+Player: Muligan
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/myria/newbie/new28  Time: Fri Feb 16 15:16:47 2001
+Player: Warrior
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/ash/base/earth/cave  Time: Sat Feb 17 11:16:18 2001
+Player: Crawler
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/ash/base/earth/cave  Time: Sat Feb 17 11:16:20 2001
+Player: Milf
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/zklomen/area51/rooms/ar20  Time: Sat Feb 17 16:59:08 2001
+Player: Zkdasan
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/zklomen/area51/rooms/ar19  Time: Sat Feb 17 16:59:10 2001
+Player: Tritian
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/zklomen/area51/rooms/ar19  Time: Sat Feb 17 16:59:12 2001
+Player: Tritian
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/etc/m4  Time: Sun Feb 18 16:22:06 2001
+Player: Harry
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/m/4  Time: Sun Feb 18 16:22:08 2001
+Player: Tristam
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/m/4  Time: Sun Feb 18 16:22:16 2001
+Player: Tristam
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/vhorilen/plains/pln88  Time: Sun Feb 18 19:03:46 2001
+Player: Ryus
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/vhorilen/plains/pln88  Time: Sun Feb 18 19:03:48 2001
+Player: Khaos
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/town/road/mainsqr  Time: Sun Feb 18 21:23:49 2001
+Player: Daniel
+Error: Bad argument 2 to tell_object()
+  Program: obj/living.c (ansi_tell_object.h)
+Object: d/town/npc/daniel#254
+Line: 14
+
+Room: w/myria/keep/squar  Time: Mon Feb 19 03:21:57 2001
+Player: Soldier
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/vhorilen/ska/s1  Time: Mon Feb 19 04:12:39 2001
+Player: Bindox
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/p/9  Time: Mon Feb 19 04:12:41 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/u/21  Time: Mon Feb 19 04:12:47 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/w/24  Time: Mon Feb 19 04:12:57 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/w/24  Time: Mon Feb 19 04:12:59 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/w/24  Time: Mon Feb 19 04:13:09 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/w/24  Time: Mon Feb 19 04:13:15 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/f/19  Time: Mon Feb 19 04:13:45 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/a/19  Time: Mon Feb 19 04:14:19 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/a/14  Time: Mon Feb 19 04:14:29 2001
+Player: Valrick
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/ash/workroom  Time: Mon Feb 19 05:04:13 2001
+Player: Balthazar
+Error: Bad argument 1 to destruct()
+  Program: w/trent/mountain/npc/king.c
+Object: w/trent/mountain/npc/king#1091
+Line: 65
+
+Room: w/ash/workroom  Time: Mon Feb 19 05:05:03 2001
+Player: Balthazar
+Error: Bad argument 1 to destruct()
+  Program: w/trent/mountain/npc/king.c
+Object: w/trent/mountain/npc/king#1104
+Line: 66
+
+Room: w/trent/mountain/mt18  Time: Mon Feb 19 05:13:51 2001
+Player: Balthazar
+Error: Bad argument 1 to destruct()
+  Program: w/trent/mountain/npc/king.c
+Object: w/trent/mountain/npc/king#1331
+Line: 67
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:20:53 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:20:55 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:20:57 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:20:59 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:01 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:21 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:23 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:39 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:41 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:43 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:45 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:47 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:49 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:51 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:53 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:55 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:57 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:21:59 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:01 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:03 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:05 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:07 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:09 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:13 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:15 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:17 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:19 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:21 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:23 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:25 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:27 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:29 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:31 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:33 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:35 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:37 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:39 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:41 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:43 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:45 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:47 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:49 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:51 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:53 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:55 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:57 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:22:59 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:01 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:03 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:05 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:07 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:09 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:11 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:13 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:15 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:17 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:19 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:21 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:23 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:25 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:29 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:31 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:33 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:35 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:37 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:39 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:45 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:47 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:49 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:51 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:23:53 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:03 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:05 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:07 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:09 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:11 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:13 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:15 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:17 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:19 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:21 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:23 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:25 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:27 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:29 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:31 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:33 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:35 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:37 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:39 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:41 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:43 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:47 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:49 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:51 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:53 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:57 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:24:59 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:01 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:03 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:05 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:07 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:09 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:11 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:17 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:20 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:22 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:24 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:26 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:28 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:30 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:32 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:34 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:36 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:38 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:40 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:42 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:44 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:46 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:48 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:50 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:52 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:54 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:56 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:25:58 2001
+Player: Bindox
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#3
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:00 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:02 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:04 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:08 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:10 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:12 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:14 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:16 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:18 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:22 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:24 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:26 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:28 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:36 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:38 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:40 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:42 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:44 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:46 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:48 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:52 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:54 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:56 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:26:59 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:01 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:03 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:05 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:07 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:09 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:11 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:13 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:15 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:17 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:19 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:21 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:23 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:25 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/living.c (ansi_write.h)
+Object: w/myria/keep/mon/spook#1445
+Line: 13
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:27 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:29 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:31 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:33 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:35 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:37 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:39 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:41 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:43 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:45 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:47 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:49 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:51 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/living.c (ansi_write.h)
+Object: w/myria/keep/mon/spook#1445
+Line: 13
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:53 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:55 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:57 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#0
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:27:59 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:01 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:03 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:05 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:07 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:11 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:13 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:15 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:17 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:19 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:21 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:23 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:25 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:27 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:29 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:31 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:33 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:35 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:37 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:43 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/living.c (ansi_write.h)
+Object: w/myria/keep/mon/spook#1445
+Line: 13
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:45 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:47 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:49 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:51 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:53 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:55 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:57 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:28:59 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:01 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:03 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:05 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:07 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:09 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:11 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:13 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:15 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#6
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:17 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:21 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#5
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:23 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#31
+Line: 492
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:25 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/living.c (ansi_write.h)
+Object: w/myria/keep/mon/spook#1445
+Line: 13
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:29:27 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#1445
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:14 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#99
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:16 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:18 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/living.c (ansi_write.h)
+Object: w/myria/keep/mon/spook#787
+Line: 13
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:20 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:26 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:28 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:30 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:32 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:40 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:42:42 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:00 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:02 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:14 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#91
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:16 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:20 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#91
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:22 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:24 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#91
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:26 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:34 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#92
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:36 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:40 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#99
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:42 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:44 2001
+Player: Shane
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#92
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:46 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:48 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:50 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:52 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:43:54 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:08 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/living.c (ansi_write.h)
+Object: w/myria/keep/mon/spook#787
+Line: 13
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:10 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:22 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:24 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:26 2001
+Player: Nyvram
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#99
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:28 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:30 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:32 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:34 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:36 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:42 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:44 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:50 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:52 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:56 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:44:58 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:45:00 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:45:02 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:45:04 2001
+Player: Grendell
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#2
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:45:06 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:45:08 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:45:16 2001
+Player: Nilgo
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/player#91
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:45:18 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:47:22 2001
+Player: Ash
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/wizard#50
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:47:24 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:47:34 2001
+Player: Ash
+Error: Too deep recursion.
+  Program: obj/player.c
+Object: obj/wizard#50
+Line: 493
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 05:47:36 2001
+Player: Spectre
+Error: Too deep recursion.
+  Program: inherit/monster.c
+Object: w/myria/keep/mon/spook#787
+Line: 568
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:14:10 2001
+Player: 
+Error: Bad argument 1 to lower_case()
+  Program: obj/living.c
+Object: inherit/test#1662
+Line: 276
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:15:48 2001
+Player: Guard
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:15:52 2001
+Player: Ash
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:15:54 2001
+Player: Guard
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:15:56 2001
+Player: Ash
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:15:58 2001
+Player: Guard
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:16:00 2001
+Player: Ash
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:16:02 2001
+Player: Guard
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:16:06 2001
+Player: Ash
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/myria/keep/haunb  Time: Mon Feb 19 06:16:08 2001
+Player: Guard
+Error: Bad argument 1 to capitalize()
+  Program: inherit/test.c
+Object: w/ash/misc/guard#1699
+Line: 575
+
+Room: w/ash/workroom  Time: Mon Feb 19 06:27:13 2001
+Player: Guard
+Error: Too deep recursion.
+  Program: inherit/test.c
+Object: w/ash/misc/guard#2159
+Line: 571
+
+Room: w/ash/workroom  Time: Mon Feb 19 06:28:07 2001
+Player: 
+Error: Bad argument 1 to lower_case()
+  Program: obj/living.c
+Object: inherit/test#2218
+Line: 276
+
+Room: w/myria/forest/fa17  Time: Mon Feb 19 06:29:51 2001
+Player: Coleburn
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/myria/forest/mon/orc#2328
+Line: 573
+
+Room: w/myria/forest/fa17  Time: Mon Feb 19 06:29:53 2001
+Player: Ancient warrior
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/myria/forest/mon/orc#2328
+Line: 573
+
+Room: w/vhorilen/plains/pln48  Time: Mon Feb 19 06:32:05 2001
+Player: Nyvram
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/vhorilen/plains/npc/eel#2359
+Line: 573
+
+Room: w/vhorilen/plains/pln48  Time: Mon Feb 19 06:32:07 2001
+Player: Elemental
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/vhorilen/plains/npc/eel#2359
+Line: 573
+
+Room: w/vhorilen/plains/pln15  Time: Mon Feb 19 06:32:33 2001
+Player: Nyvram
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/vhorilen/plains/npc/eel#2364
+Line: 573
+
+Room: w/vhorilen/plains/pln15  Time: Mon Feb 19 06:32:35 2001
+Player: Elemental
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/vhorilen/plains/npc/eel#2364
+Line: 573
+
+Room: w/vhorilen/plains/pln48  Time: Mon Feb 19 06:35:20 2001
+Player: Nyvram
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/vhorilen/plains/npc/eel#183
+Line: 573
+
+Room: w/vhorilen/plains/pln48  Time: Mon Feb 19 06:35:22 2001
+Player: Elemental
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/vhorilen/plains/npc/eel#183
+Line: 573
+
+Room: w/trent/dwarf/d04  Time: Mon Feb 19 06:35:30 2001
+Player: Taishar
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/trent/dwarf/npc/ydwarf#214
+Line: 573
+
+Room: w/trent/dwarf/d04  Time: Mon Feb 19 06:35:32 2001
+Player: Dwarf
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/trent/dwarf/npc/ydwarf#214
+Line: 573
+
+Room: w/trent/dwarf/d06  Time: Mon Feb 19 06:36:15 2001
+Player: Taishar
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/trent/dwarf/npc/ydwarf#249
+Line: 573
+
+Room: w/trent/dwarf/d06  Time: Mon Feb 19 06:36:17 2001
+Player: Dwarf
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/trent/dwarf/npc/ydwarf#249
+Line: 573
+
+Room: w/vhorilen/plains/pln48  Time: Mon Feb 19 06:37:01 2001
+Player: Elemental
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/vhorilen/plains/npc/eel#183
+Line: 573
+
+Room: w/vhorilen/plains/pln48  Time: Mon Feb 19 06:37:53 2001
+Player: Elemental
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/vhorilen/plains/npc/eel#183
+Line: 573
+
+Room: w/myria/lands/assa/trap1  Time: Mon Feb 19 06:37:57 2001
+Player: Coleburn
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/myria/lands/mon/zombi#315
+Line: 573
+
+Room: w/myria/lands/assa/trap1  Time: Mon Feb 19 06:37:59 2001
+Player: Zombie
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/myria/lands/mon/zombi#315
+Line: 573
+
+Room: w/myria/lands/assa/trap1  Time: Mon Feb 19 06:38:03 2001
+Player: Coleburn
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/myria/lands/mon/skele#318
+Line: 573
+
+Room: w/myria/lands/assa/trap1  Time: Mon Feb 19 06:38:05 2001
+Player: Skeleton
+Error: Bad argument 1 to call_other()
+  Program: inherit/monster.c
+Object: w/myria/lands/mon/skele#318
+Line: 573
+
+Room: d/world/n/7  Time: Mon Feb 19 23:37:02 2001
+Player: Harpy
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/n/7  Time: Mon Feb 19 23:37:04 2001
+Player: Pellaeon
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/k/7  Time: Mon Feb 19 23:37:08 2001
+Player: Pellaeon
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: d/world/k/7  Time: Mon Feb 19 23:37:10 2001
+Player: Pellaeon
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/vhorilen/temple/t17  Time: Mon Feb 19 23:58:42 2001
+Player: Bouncer
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/jada/forest/for15  Time: Tue Feb 20 00:29:06 2001
+Player: Gremlin
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/jada/forest/for11  Time: Tue Feb 20 00:29:08 2001
+Player: Vargas
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/eurale/udark/u12  Time: Tue Feb 20 02:17:40 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#27723
+Line: 108
+
+Room: w/eurale/udark/u12  Time: Tue Feb 20 02:19:29 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#27723
+Line: 108
+
+Room: w/eurale/udark/u12  Time: Tue Feb 20 03:53:20 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#33482
+Line: 108
+
+Room: w/eurale/udark/u12  Time: Tue Feb 20 06:09:59 2001
+Player: Aboleth
+Error: Index out of bounds
+  Program: inherit/monster.c
+Object: w/eurale/udark/NPC/aboleth#2467
+Line: 108
+
+Room: w/jada/glade/glade49  Time: Tue Feb 20 12:35:09 2001
+Player: Frog
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+
+Room: w/jada/glade/glade55  Time: Tue Feb 20 12:35:11 2001
+Player: Siyka
+Error: move_object: Bad arg 1.
+  Program: secure/sim_ef_1.c
+Object: secure/sim_ef_1
+Line: 73
+

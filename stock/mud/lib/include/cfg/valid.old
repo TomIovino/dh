@@ -1,0 +1,69 @@
+mapping valid_race;
+mapping valid_alignment;
+mapping valid_skill;
+mapping valid_spell;
+mapping valid_faith;
+mapping valid_kingdom;
+mapping test_site_wiz;
+mapping live_site_wiz;
+
+static mapping valid_race = ([
+   "gremlin":1, "greyelf":3, "drake":4, "lich":2,
+   "angel":7, "dwarf":3, "titan":8, "icewolf":6,
+   "ogre":7, "minotaur":5, "giant":8, "suntiger":4,
+   "troll":6, "hawkling":2, "vampire":5, "darkelf":1 ]);
+static mapping valid_alignment = ([
+   "gehen":1, "hiera":1, "ceyera":1, "misten":1, "oren":1, "jahh":1,
+   "aighar":1, "beila":1, "earia":1, "kagen":1, "prosti":1, "lather":1,
+   "iaelen":1, "nomen":1, "dihgar":1, "fthen":1, ]);
+static mapping valid_faith = ([
+    "divinity":1, "life":1,"death":1,"chaos":1,"order":1,
+    "earth":1,"fire":1,"air":1,"water":1, ]);
+static mapping valid_profession = ([
+    "warrior":1,"rogue":1,"cleric":1,"magician":1, ]);
+static mapping valid_stat = ([
+    "strength":1,"dexterity":1,"agility":1,"stamina":1,
+    "intellect":1,"wisdom":1,"awareness":1,"willpower":1, ]);
+
+mapping valid_skill = ([  "quantum cast":1,"flurry":1,
+ "taunt":1, "tear":1,"shred":1, "endurance":1,"track":1, "block":1, 
+ "cleave":1, "strike":1,"circle":1,"dual wield":1,"defensive tactics":1,
+ "thrust":1,"crush":1,"block":1,"pierce":1,"pound":1,"vanquish":1,
+ "slash":1,"artifact":1,"critical hit":1,"parry":1,"kick":1,"punch":1,
+ "peek":1,"sneak":1,"hide":1,"dodge":1,"steal":1,"sidestep":1,
+ "stealth tactics":1, "multi opponents":1,"multi attack":1,
+ "offensive tactics":1, "enhanced damage":1,"shield block":1,
+ "shield crush":1, "casting tactics":1, "meditate":1, "fast healing":1, 
+ "research":1,"quick cast":1,"quiet cast":1, 
+]);
+
+mapping valid_spell = ([ "feeble":1,"movement rune":1,
+  "intellect":1, "wisdom":1, "focus":1, "primal":1, "cure":1,
+  "weaken":1, "curse":1, "disease":1, "calm":1, "blind":1, 
+  "expose":1, "fear":1, "drain":1, "stun":1, "dispel":1,"bane":1,
+  "diminish":1, "poison":1, "tame":1, "turn":1, "cripple":1, 
+  "cancel":1, "slow":1,"fortitude":1,"manafuse":1,
+  "mend":1, "bless":1, "refresh":1, "agility":1, "dexterity":1,
+  "strength":1, "stamina":1, "heroism":1, "regenerate":1, 
+  "heal":1, "purify":1, "psychic rune":1, "invigor":1, 
+  "message":1, "prayer":1, "health rune":1, "mana rune":1, 
+  "flash":1, "grasp":1, "burst":1, "scales":1, "claws":1, 
+  "fangs":1, "wings":1, "bolt":1, "jolt":1, "blast":1, 
+  "absorb":1, "enchant":1, "identify":1, "frenzy":1, 
+  "spike":1, "lance":1, "storm":1, "feedback":1,"dragonkin":1,
+  "return":1, "sight":1, "awareness":1, "avenger":1, "gate":1, 
+  "explorer":1, "invisibility":1, "privacy seal":1, "summon":1, 
+  "defender":1, "deflect":1, "teleport":1, "barrier seal":1, 
+  "reflect":1, "visit":1, "magic seal":1, "scry":1, ]);
+
+mapping live_site_wiz = ([ "ash":111, "leela":100, ]);
+mapping test_site_wiz = ([ 
+     "geewhiz":60,  "milenko":30,   "sunmoonstar":40,
+     "bubbs":60,    "unknown":30,      "amylaar":60,
+     "eaton":40,    "jada":40,      "myria":40,   
+     "milenko":30,  "zort":30,      "russkie":40, 
+     "kelal":30,    "omen":30,      "trent":40,   
+     "eaton":40,    "vhorilen":40,  "omen":40, 
+     "monger":40,   "geffen":30,    "lohk":40,    
+     "shaidar":40,  "carbunkle":30, "elric":30,
+     "zklomen":40, ]);

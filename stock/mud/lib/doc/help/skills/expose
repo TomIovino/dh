@@ -1,0 +1,9 @@
+
+Spell    : expose
+Type     : wis
+Mana     : 50
+
+When this spell is successfully cast all creatures and players
+in the room will lose their invisibility, hidden and sneak status.
+
+

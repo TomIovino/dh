@@ -1,0 +1,7 @@
+
+
+session <message>
+
+This command will show other players whatever you have set as your
+<message> when they type 'session' with out a <message>.
+

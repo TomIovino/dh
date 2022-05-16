@@ -1,0 +1,37 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    add_object("AIR_OB","d/town/obj/AIR_OB");
+    set_name("zanax");
+    set_alt_name("male");
+    set_short(B_WHITE_F+"white robed male"+NORM);
+   set_long(
+    "Zanax is dressed in the white robes of the air elementalist,\n"+
+    "his long grey hair seems to contridict his strong figure.\n"+
+     NORM);
+    set_race("human");
+    set_helpers(({ "", ({ "wendy", }), }));   
+    set_gender(1);
+    load_chat(2,({
+	"Zanax chants in an unknown tongue.\n",
+	"Zanax says: You wish to learn the power of the magic?\n"
+      }));
+    load_spells(10,({
+      "heal",
+      }));
+    set_train_level(9); 
+    set_stat_int(35); 
+    set_stat_str("wisdom"); 
+    set_class_list(({
+	"skills", ({ }),
+	"spells", ({
+	}),
+      }));
+    set_level(90);
+    set_half_exp(1);
+    set_magic_resist(50);
+}

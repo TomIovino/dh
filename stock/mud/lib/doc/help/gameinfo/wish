@@ -1,0 +1,20 @@
+:::WISH:::
+At level 100 a player may sacrifice 100 million experience and
+10 thousand gold to summon the power of a wish. In so doing the
+player will raise one stat/maxstat by one point permanently. 
+
+syntax: wish <stat>
+
+:::WISH REMORT:::
+A second option at level 100 is a wish remort. At the time the
+player wishes for a remort, they are set to level 1, have no skills,
+minimum stats and no experience. However they gain the advantage
+of having a maximum permanent +10 stat/maxstat.
+
+syntax: wish remort <stat>
+
+Players can wish any stat up to +10 using either method.
+
+
+
+

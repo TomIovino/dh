@@ -1,0 +1,52 @@
+#include <ansi.h>
+#ifndef PROMPT_H
+#define PROMPT_H
+
+#define TP this_object()
+
+string convert_prompt();
+
+int prompt;
+
+string print_prompt() {
+ if(prompt)
+ return    
+ NORM+convert_prompt()+NORM+"\n> ";
+ return "> ";
+}
+
+string convert_prompt() {
+  string msg;
+  object enemy;
+  msg = "";
+  if(TP->query_hp_percent() < 25)       msg += B_RED_F;
+  else if(TP->query_hp_percent() < 50)  msg += YELLOW_F;
+  else if(TP->query_hp_percent() < 75)  msg += B_GREEN_F;
+  else                                  msg += B_BLUE_F;
+  msg +=  "HP:"+TP->query_hp_percent();
+  msg +=  "% SP:"+TP->query_sp_percent();
+  msg +=  "% MP:"+TP->query_mp_percent();
+  msg +=  "% CP:"+TP->query_cp_percent();
+  msg +=  "% XP:"+TP->query_earned_percent()+"% ";
+  if(enemy = TP->query_attack()) 
+            msg += NORM+"(EC: " +(string)enemy->query_short_condition()+")";
+  return msg;
+}
+
+int set_prompt(string arg) {
+  string rest, remove;
+  if(prompt) {
+    prompt = 0;
+    printf("Prompt reset to\n> "),1;
+    return 1;
+  }
+    prompt = 1;
+    printf("Prompt set to\n%s",print_prompt());
+    return 1;
+}
+
+void init_prompt() {
+   efun::set_prompt(#'print_prompt,this_object());
+}
+ 
+#endif

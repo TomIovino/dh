@@ -1,0 +1,107 @@
+#include <bar.h>
+#include <ansi.h>
+#include <mudlib.h>
+#define TP this_player()
+
+string *query_cmd_aliases() { return ({"profession","classes", });}
+
+int extra(); 
+
+int main(string what){
+  string class, disc;
+        int w,m,c,r;
+         w = TP->query_class("warrior");
+         m = TP->query_class("magician");
+         c = TP->query_class("cleric");
+         r = TP->query_class("rogue");
+       if(m > 50){
+             TP->set_profession("magician"); }
+       if(w > 50){
+             TP->set_profession("warrior");  }
+       if(c > 50){
+             TP->set_profession("cleric");  }
+       if(r > 50){
+             TP->set_profession("rogue");  }
+
+
+  if(!what){
+     write("\n"+PRINTBAR+"\n");
+     write(NORM        +" Warrior         :"+TP->query_class("warrior"));
+     write("\n");
+     write(NORM        +" Rogue           :"+TP->query_class("rogue"));
+     write("\n");
+     write(NORM        +" Cleric          :"+TP->query_class("cleric"));
+     write("\n");
+     write(NORM        +" Magician        :"+TP->query_class("magician"));
+     write("\n");
+     write("\n"+PRINTBAR+"\n");
+     return 1;
+
+  }
+
+/*
+  if(sscanf(what, "%s %s", class,disc) != 2) {
+      write("You must pick a valid class and discipline.\n");
+      return 1;
+  }
+*/
+  class = what;
+  if(class != "warrior" &&  class != "rogue" &&
+     class != "magician" &&  class != "cleric"){
+      write("That is not a valid class choice.\n");
+      return 1;
+  }
+/*
+  if(disc != "offense" && disc != "defense" && disc != "luck" &&
+     disc != "stealth" && disc != "fire" && disc != "earth" &&
+     disc != "water" && disc != "air" &&  disc != "chaos" &&
+     disc != "order" && disc != "shadow" && disc != "light"){
+     write("That is not a valid discipline choice.\n");
+     return 1;
+  }
+
+  if(class == "warrior")
+      if(disc != "defense" && disc != "offense"){
+        write("That is not a valid class and disicipline choice.\n");
+        return 1;
+  }   
+  if(class == "rogue")
+      if(disc != "stealth" && disc != "luck"){
+        write("That is not a valid class and disicipline choice.\n");
+        return 1;
+  }   
+  if(class == "magician")
+      if(disc != "air"  && disc != "earth" &&
+         disc != "fire" && disc != "water"){
+        write("That is not a valid class and disicipline choice.\n");
+        return 1;
+  }   
+  if(class == "cleric")
+      if(disc != "chaos" && disc != "order"
+      && disc != "light" && disc != "shadow"){
+        write("That is not a valid class and disicipline choice.\n");
+        return 1;
+  }   
+*/
+
+  if(this_player()->query_total_classes()
+     >= this_player()->query_level()){
+     write("You can study classes only up to your level.\n");
+   return 1;
+  }
+
+  if(this_player()->query_total_disciplines()
+     >= this_player()->query_level()){
+     write("You can study disciplines only up to your level.\n");
+   return 1;
+  }
+
+     TP->adj_class(class,1);
+//     TP->adj_class(disc,1);
+     return 1;
+  }
+
+
+
+
+

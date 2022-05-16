@@ -1,0 +1,85 @@
+I am now accepting new emote requests.  Below is the format I expect the
+emotes to be in.  If they aren't then they probably will *not* be added.
+ 
+Geewhiz
+-----------------------------------------------------------------------
+ 
+The 'smile' emote example.
+verb
+no argument, actor
+no argument, room
+living argument, actor
+living argument, room
+living argument, target
+non-living argument, actor
+non-living argument, room
+self argument, actor
+self argument, room
+ 
+   |   |   |   |   |   |   |   |
+   | B | E | C | O | M | E | S |
+   |   |   |   |   |   |   |   |
+   v   v   v   v   v   v   v   v
+--------------------------------------------------------------------+ T H I S
+smile                                                               |   I S 
+You smile happily.                                                  |  T H E 
+ACTOR smiles happily.                                               | P A R T
+You smile at TARGET.                                                | T H A T
+ACTOR smiles at TARGET.                                             |    I   
+ACTOR smiles at you.                                                | W A N T
+You smile EXTRA                                                     |  GIVEN
+ACTOR smiles EXTRA                                                  |   T O
+You attempt to smile at yourself but realize the foolishness of it. |   M E
+ACTOR foolishly tries to smile at HIMSELF.                          |  THANX
+--------------------------------------------------------------------+ GEEWHIZ
+   |   |   |   |   |   |   |   |
+   |   | W | H | I | C | H |   |
+   | B | E | C | O | M | E | S |
+   |   |   |   |   |   |   |   |
+   v   v   v   v   v   v   v   v
+ 
+smile
+You smile happily.
+@@name@@ smiles happily.
+You smile at @@other@@.
+@@name@@ smiles at @@other@@.
+@@name@@ smiles at you.
+You smile @@extra@@
+@@name@@ smiles @@extra@@
+You attempt to smile at yourself but realize the foolishness of it.
+@@name@@ foolishly tries to smile at @@tpobjself@@.
+ 
+   |   |   |   |   |   |   |   |
+   | I | N |   |   | T | H | E |
+   |   |   | E | N | D |   |   |
+   | B | E | C | O | M | E | S |
+   |   |   |   |   |   |   |   |
+   v   v   v   v   v   v   v   v
+ 
+> smile
+You smile happily.
+Name smiles happily.
+ 
+> smile target
+You smile at Target.
+Name smiles at Target.
+Name smiles at you.
+ 
+> smile widely
+You smile widely.
+Name smiles widely.
+ 
+> smile name
+You attempt to smile at yourself but realize the foolishness of it.
+Name foolishly tries to smile at himself.
+ 
+ 
+    \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+    < A N   E M O T E   I S   B O R N !  >
+    /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+ 
+ 
+===========================
+him her    HIM
+he  she    HE
+his her    HIS

@@ -1,0 +1,28 @@
+/       search forward for pattern
+?       search backward for a pattern
+=       show current line number
+a       append text starting after this line
+A       like 'a' but with inverse autoindent mode
+c       change current line, query for replacement text
+d       delete line(s)
+e       replace this file with another file
+E       same as 'e' but works if file has been modified
+f       show/change current file name
+g       Search and execute command on any matching line.
+h       help file (display this message)
+i       insert text starting before this line
+I       indent the entire file (from DGD ed v0.1)
+/       search forward for pattern
+?       search backward for a pattern
+=       show current line number
+a       append text starting after this line
+A       like 'a' but with inverse autoindent mode
+c       change current line, query for replacement text
+d       delete line(s)
+e       replace this file with another file
+E       same as 'e' but works if file has been modified
+f       show/change current file name
+g       Search and execute command on any matching line.
+h       help file (display this message)
+i       insert text starting before this line
+I       indent the entire file (from DGD ed v0.1)

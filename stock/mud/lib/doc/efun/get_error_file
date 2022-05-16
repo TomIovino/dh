@@ -1,0 +1,16 @@
+SYNOPSIS
+	mixed get_error_file(string name, int flag)
+
+DESCRIPTION
+	Return the name of the file where a compilation error occured.
+	
+	If there is an error associated to the wizard given by name
+	name, then an array of 4 elements is returned. They are the
+	filename where the error occured, the line number where it
+	occurs, the error message and the forget flag respectively. If
+	no error was found, 0 is returned.
+
+	If the flag is set, the error will be forgotten.
+
+SEE ALSO
+	ed(E), valid_read(M)

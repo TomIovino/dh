@@ -1,0 +1,7 @@
+
+Spell    : burst
+Type     : int
+Mana     : 40
+
+Burst is an area combat spell.
+

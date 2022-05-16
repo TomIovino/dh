@@ -1,0 +1,196 @@
+#include <mudlib.h>
+#include <ansi.h>
+#define COLOR  ({  BROWN_F,MAGENTA_F,BLUE_F,RED_F,GREEN_F,YELLOW_F,CYAN_F, })
+/** gate spell **/
+ 
+#include <ansi.h>
+object exit_gate;
+string creator;
+int level;
+
+ 
+#define NAME "@@query_name:$this_player()$@@"  /* gives greater flexibilty */
+ 
+status gate(mixed targ, mixed alt_type) {
+  int dam, i;
+  string file;
+  int x;
+  int y;
+  x = this_player()->query_skill("gate");
+  file = file_name(this_object());
+  sscanf(file, "%s#%d", file, i);
+  if(sscanf(this_player()->query_current_room(), "%s/castle/%s", x,y) == 2) {
+    write("Not to castle rooms.\n");
+    return 1;
+   }
+ 
+   x = this_player()->query_skill("gate");
+  this_player()->load_spell(({
+  "target",            environment(this_player()),
+  "name",              "gate",
+        "stat",        "intellect",
+        "type",        "focus",
+  "cost",              80,
+  "level",             80,
+  "cast time",         2,
+  "spell object",      file,
+  "casting msg",      "You push tremendous energies to weaken the fabric of "+
+                      "space.\n",
+  "casting msg room", NAME +" starts playing with some interdimensional "+
+                      "energies.\n",
+  "passive",
+  }));
+  return 1;
+}
+ 
+ 
+ 
+status cast_spell(object caster, object target, object previous, int dmg) {
+  int i;
+  string file;
+  int x,y;
+ 
+     if(sscanf(this_player()->query_current_room(), "%s/castle/%s", x,y) == 2) {
+    write("Not to castle rooms.\n");
+    destruct(this_object());
+    return 1;
+   }
+  if(environment(caster)->query_no_summon()
+  || environment(caster)->query_modified()
+ || environment(caster)->query_no_magic()
+  || environment(caster)->query_no_teleport()
+  || clonep(environment(caster))) {
+    write("The magical instability of the area prevents the gate forming.\n");
+    destruct(this_object());
+    return 1;
+  }
+ 
+  environment()->set_modified(1);
+ 
+  file = file_name(this_object());
+  sscanf(file, "%s#%d", file, i);
+ 
+  exit_gate = clone_object(file);
+  exit_gate->set_exit_gate(this_object());
+  move_object(exit_gate, caster);
+  creator = (string)caster->query_name();
+  exit_gate->set_creator_name(creator);
+  write("You have anchored one gate exit to this area.\n"+
+        "Go to proposed next gate exit area, and type 'anchor' to "+
+         "link the two gate on your gate.\n");
+}
+ 
+void set_exit_gate(object ob)   { exit_gate = ob; }
+void set_creator_name(string n) { creator = n;    }
+ 
+object query_exit_gate()        { return exit_gate; }
+string query_creator_name()     { return creator;   }
+ 
+int x;
+ 
+void init() {
+  add_action("portal", "gate");
+  add_action("portal", "enter");
+  add_action("anchor", "anchor");
+   while(remove_call_out("time_out") != -1) /* nothing */ ;
+  if(x == 0){ x = 1; 
+  call_out("time_limit", 300);
+   }
+}
+ 
+status portal(string str) {
+  object ob;
+ 
+  remove_call_out("time_limit");
+  if(!query_exit_gate()) {
+    write("The portal dissipates.\n");
+    destruct(this_object());
+    return 1;
+  }
+  if(living(environment()) || living(environment(query_exit_gate()))) {
+    return 0;
+  }
+  if(str) {
+    if(ob = present("gate "+ str, environment(this_player()))) {
+      if(ob != this_object()) return 0;
+    }
+    else {
+      notify_fail("There is no gate "+ str +" here.\n");
+      return 0;
+    }
+  }  
+  this_player()->move_player("gate",environment(exit_gate), 0);
+  return 1;
+}
+ 
+status anchor() {
+  int x,y;
+  remove_call_out("time_limit");
+  if(!living(environment())) return 0;
+     if(sscanf(this_player()->query_current_room(), "%s/castle/%s", x,y) == 2) {
+    write("Not to castle rooms.\n");
+    return 1;
+   }
+  if(environment(this_player())->query_no_summon()
+  || environment(this_player())->query_no_magic()
+  || environment(this_player())->query_modified()
+  || clonep(environment(this_player()))) {
+    write("The magical instability of the area prevents the gate forming.\n"+
+          "You should try another anchor point.\n");
+    return 1;
+  }
+  environment()->set_no_summon(1);
+  move_object(this_object(), environment(this_player()));
+  tell_room(environment(), "An ethereal gate forms in front of you.\n");
+  return 1;
+}
+ 
+ 
+status id(string str) {
+  return str == "spell"
+      || str == "gate"
+      || str == "gateway";
+}
+void short(string short) {
+  int c;
+  string color;
+  if(!query_exit_gate()) {
+    call_out("dispel_magic",0);
+    return;
+  }
+  if(living(environment()) || living(environment(query_exit_gate()))) {
+    return;
+  }
+  c             = random(sizeof(COLOR));
+  color = COLOR[c];
+  write(color+"ethereal gate\n"+NORM);
+}
+ 
+void long() {
+  if(!query_exit_gate()) return;
+  if(living(environment()) || living(environment(query_exit_gate()))) {
+    return;
+  }
+  write("The swirling gate is an ethereal gate to some unknown dimension.\n");
+write("It has magical runes on it that indicate "+creator+" is the creator.\n");
+}
+ 
+void dispel_magic() {
+  tell_room(environment(),"The gate closes.\n");
+  if(exit_gate) destruct(exit_gate);
+  destruct(this_object());
+   return;
+}
+void time_limit(){
+  if(living(environment()) ){
+  write("The gate fades away.\n");
+   
+   destruct(this_object());
+   return;
+  }
+
+  remove_call_out("time_limit");
+      }
+ 
+status query_domain_safe() { return 1; }
+ 

@@ -1,0 +1,15 @@
+
+BASE.ASH.1.12.97
+
+* set_name(name);
+  see 'help set_name' or /doc/mudlib/set_name for details!
+* set_long(long);
+  what you see when you 'look at' an item.
+* set_short(short);
+  what you see when you type 'look' in a room or 'inv' or 'eq'
+* set_weight(weight);
+  how much the item weighs.     'help set_weight'
+* set_value(value);
+  how much value the item has.  'help set_value' 
+
+

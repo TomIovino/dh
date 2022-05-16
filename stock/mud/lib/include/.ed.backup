@@ -1,0 +1,200 @@
+
+
+/*  Mudlib Configuration File */
+
+#ifndef MUDLIB_H
+#define MUDLIB_H
+
+#define PRINTD(X) printf("X = %-=*O\n",75 - strlen("X"),X)
+
+#define MUD_NAME        "+Dragonheart+"
+#define MUD_VERSION     "v1.12"
+#define INTERMUD_NAME   MUD_NAME
+#define UID_ROOT     1
+#define UID_TYPE     int
+
+
+#ifdef __VERSION__
+
+#if __VERSION__ > "03.02.1@0" && __VERSION__ < "03.02.1@999"
+#define AMYLAAR321
+#endif
+
+#if __VERSION__ > "03.02@0" && __VERSION__ < "03.02@999"
+#define AMYLAAR
+#endif
+
+#ifdef AMYLAAR321
+#define AMYLAAR
+#endif
+
+#endif
+
+
+#undef VERSION
+#define DEBUG_LOG   "/"__HOST_NAME__".debug.log"
+
+
+    /********************************/
+    /* configure for Amylaar Driver */
+    /********************************/
+    
+#if defined(AMYLAAR)
+
+#if defined(AMYLAAR321) || __VERSION__ > "03.02@156"
+#define HAVE_WIZLIST 0
+#else
+#define HAVE_WIZLIST 1
+#endif 
+
+#ifdef NATIVE_MODE
+#define VERSION "Amylaar "+ __VERSION__ +" Native"
+#else
+#define VERSION "Amylaar "+ __VERSION__ +" Compat"
+#endif
+#endif /* AMYLAAR */
+
+/*****************************************************************/
+
+#ifndef DEAD_ED
+#define DEAD_ED      ".dead_ed_files"
+#endif
+
+#ifndef ED_SAVE
+#define ED_SAVE      ".edrc"
+#endif
+
+
+/**********************************************************************/
+/* Main Mudlib Files  */
+
+#define SIMUL_EFUN             "secure/sim_ef_1"
+#define SPARE_SIMUL_EFUN_FILE  "secure/sim_ef_2"  /* Not used in MUDos */
+#define BASE                   "obj/base_obj"
+#define ACTIONS                "obj/actions"
+#define PLAYER                 "obj/player"
+#define WIZARD                 "obj/wizard"
+#define MASTER                 __MASTER_OBJECT__
+#define DOMAIN_DIR             "/d/"
+#define WIZARD_DIR             "/w/"
+
+
+/****************************************************************/
+/* Intermud */
+
+#if defined(AMYLAAR) && !defined(MSDOS)
+#define INTERMUD       1
+#define INETD          "/secure/inet/inetd"
+#define UDP_CMD_DIR    "/secure/inet/udp/"
+#endif
+
+/***********************************************************************/
+/* General Mudlib  */
+
+#define ARMOUR            "/inherit/armour"
+#define BARKEEP           "/inherit/barkeep"
+#define SHOPKEEP          "/inherit/shopkeep"
+#define MONSTER           "/inherit/monster"
+#define NPC               "/inherit/monster"
+#define PAGER             "/obj/pager"
+#define TEACHER           "/inherit/teacher"
+#define ROOM              "/inherit/room"
+#define ENV               "/inherit/room"
+#define ROOM              "/inherit/room"
+#define TIMER             "/inherit/timer"
+#define INNROOM           "/d/inn/code/INNROOM"
+#define WORLD             "/secure/world"
+#define UNDER             "/secure/under"
+#define TREASURE          "/inherit/treasure"
+#define MONEY             "/obj/money"
+#define WEAPON            "/inherit/weapon"
+#define CONTAINER         "/inherit/contain"
+#define BANKKEEP          "/inherit/bankkeep"
+#define WAREHOUSE         "/inherit/warehouse"
+#define VOID              "/secure/obj/void"
+#define FREEZER           "/secure/obj/freezer"
+#define RIFT              "/secure/obj/rift"
+#define TOWNHALL          "/inherit/townhall"
+#define ARENA             "/d/arena/ARENA"
+#define CHURCH            "/inherit/church"
+#define INNER             "/d/over/inner"
+#define PASTE_DIR         "/open/paste"
+#define BOARD             "/inherit/board"
+#define SIGN              "/inherit/sign"
+#define WAND              "/inherit/wand"
+#define SHUTD             "/secure/shutdown_d"
+#define CONTAIN           "/inherit/contain"
+#define FOOD              "/inherit/food"
+#define DRINK             "/inherit/drink"
+
+
+/* EXP LEVEL COST */
+#define EXP ({\
+          0,        500,       1000,       2000,       4000, \
+       8000,      12000,      15000,      18000,      21000, \
+      24000,      28000,      32000,      34000,      36000, \
+      40000,      50000,      60000,      70000,      80000, \
+      90000,     100000,     110000,     120000,     130000, \
+     150000,     180000,     210000,     240000,     270000, \
+     300000,     330000,     360000,     390000,     420000, \
+     450000,     500000,     600000,     800000,    1000000, \
+    1200000,    1400000,    1600000,    1800000,    2000000, \
+    2200000,    2400000,    2600000,    2800000,    3000000, \
+    3500000,    4000000,    4500000,    5000000,    5500000, \
+    5700000,    5900000,    6100000,    6300000,    6500000, \
+    6700000,    6900000,    7100000,    7300000,    7500000, \
+    7700000,    7900000,    8100000,    8300000,    8500000, \
+    9000000,    9500000,   10500000,   11500000,   12500000, \
+   13000000,   13500000,   14000000,   14500000,   15000000, \
+   15500000,   16000000,   16500000,   17000000,   17500000, \
+   18000000,   18500000,   19000000,   19500000,   20000000, \
+   20500000,   21000000,   21500000,   22000000,   22500000, \
+   23000000,   23500000,   24000000,   24500000,   25000000, \
+   99999999,  })
+
+
+
+/**********************************************************/
+/* template files used by create_wizard() ('promote' cmd) */
+
+#define INIT_ACCESS            "/doc/template/access.c"
+#define INIT_WORKROOM          "/doc/template/workroom.c"
+#define INIT_FILE              "/secure/init_file"
+
+/*****************************************************************/
+/* If the following are not defined, the relavent object will be */
+/* removed from usuage in player objects.                        */   
+
+#define PARTY_DAEMON      "/secure/party_d"
+#define CASTLEDIR "/secure/castles/"
+#define HOUSE_DAEMON      "/secure/house_d"
+
+#define MAILD             "/secure/bim/bimd"
+#define EDITOR            "/obj/editor"
+#define PAGER             "/obj/pager"
+
+#undef DEBUG
+#define DEBUG             "/obj/debug"
+#define SOUL              "/secure/soul/npcsoul"
+#define SOUL_FUNC_FILE    "/obj/soul_fcn.c"
+#define QUEST_ROOM       "d/quest/quest_room"
+
+#if 0
+#define USE_DEBUG /* force use of obj/debug as interactive object */
+#endif
+
+/******************************************************************/
+/* a shorter time string */
+
+#define DATE(T) ctime(T)[4..10]+((ctime(T)[20..23] == ctime(time())[20..23])\
+ ? ctime(T)[11..15] : ctime(T)[20..23])
+
+
+#define NOTIFYD "/secure/notify_d"
+#define PLAYERD "/secure/player_d"
+#define REALMD  "/secure/realm_d"
+#define NPCSOUL "/inherit/npcsoul"
+#define SN_D    "/secure/sn_d"
+
+#endif /* MUDLIB_H */
+

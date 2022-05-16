@@ -1,0 +1,23 @@
+ 
+   i
+   |
+ a b c |A| regent's room - yo, just like caesar
+ | | | |B| church room / board room (safe room)
+ d-e-f |C| ambassador's room - second in command isn't so bad.
+   |   |D| west corridor
+   g   |E| great hall - pub, second line of defense
+   |   |F| east corridor
+   h   |G| gate room - first line of defense
+       |H| sentry room - warns intruders AND warns house channel.
+       |I| treasure room (no clean)
+
+ Cost: 10,000,000 coins/year (100k gold)
+
+ Customization: Room descriptions can be customized to a certain extent.
+ Leela is willing to work with the house regent on this as time permits.
+ 
+ House members can use the command 'castle' to cast a return to their
+ castle church. This command is not available to allies at this time.
+ Death will still return you to Twilite.
+ see also: 'help invasion'
+  

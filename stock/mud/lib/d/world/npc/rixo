@@ -1,0 +1,34 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    set_name("ivory");
+    set_alt_name("female");
+    set_short(BOLD+B_WHITE_F+"white robed angel"+NORM);
+    set_long(
+"Before you stands a female angel in a white robe adorned with various\n"+
+"religious markings. She seems interested in your curiousity.\n");
+    set_race("angel");
+    set_gender(2);
+    load_chat(2,({
+	"Rixo says: You wish to learn the power of the heal?\n"
+        "*blush","*innocent",
+      }));
+    load_spells(10,({
+         "heal"
+      }));
+    set_train_level(9); 
+    set_stat_int(35); 
+    set_stat_str("wisdom"); 
+    set_class_list(({
+	"skills", ({ }),
+	"spells", ({
+     "heal",
+	}),
+      }));
+    set_level(100);
+    set_magic_resist(10);
+}

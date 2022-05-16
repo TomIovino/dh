@@ -1,0 +1,39 @@
+varargs void set_wander(int chance, int time, string *dirs, mixed limit);
+
+All arguments are optional.
+
+
+Examples:
+
+    o Disable Wandering
+        set_wander();
+        set_wander(0);
+
+    o Basic Random wandering, with 'chance' percent every heart_beat
+        set_wander(chance);
+            e.g.  set_wander(10)     10% chance of wandering
+          
+    o Random wandering attempt every 'time' heart_beats, with 'chance'
+      percent each attempt:
+        set_wander(chance,time);
+            e.g.  set_wander(50,5)   50% chance of moving every five
+              heart_beats
+
+    o Wandering attempt every 'time' heart_beats, with 'chance' percent each
+      attempt walking a set path 'path':
+        set_wander(chance,time,path);
+            e.g.  set_wander(50,5,({ "n", "e", "s", "w" })) 
+                50% chance of moving every 5 heart_beats with the first
+                move being 'north', second 'east', third 'south', and
+                lastly 'west'. The function patrol_end() is called in
+                the monster (so you can change the patrol randomly maybe
+                (with a new set_wander()). If not changed, the path just
+                resets and repeats.
+
+    o Random wandering attempt every 'time' heart_beats, with 'chance' percent
+      each time, no set path, but limit wandering mob to your area:
+        set_wander(chance,time,0,1);
+            e.g.  set_wander(50,5,0,1) 
+
+
+

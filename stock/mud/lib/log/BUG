@@ -1,0 +1,93 @@
+
+Tassadar (d/castle/diesirae/a)(Fri Dec  7 14:26:23 2001):
+barrier seal
+
+Frick (w/trent/mountain/mt17)(Thu Dec 13 10:12:38 2001):
+i tried to donate the harp and the halberd went poof on me
+
+Marah (d/castle/diesirae/i)(Sun Dec 16 01:29:35 2001):
+explorer - i cast it, and nothing happens.. a couple of times i got the 'You have no heart beat!' message, and then it left me 'focus and quick cast' -ing forever without ending.. if i try to cast another spell, it doesnt work, i keep focus and quickcasting.. and then if i cast explorer again it stops the loop, BUT starts it all over again.
+
+Ozzy (w/jada/water/water1)(Sun Jan 27 11:58:28 2002):
+dunno if this is a bug but its a problem, if u cast while invis u go vis, but if u hit invis, u can stay invis??? sup with that
+
+Ozzy (d/castle/auragamii/i)(Thu Feb  7 15:32:54 2002):
+when i enchant it enchants things on the ground above chanting the things i'm wearing...
+
+Etoh (d/castle/diesirae/i)(Sat Feb  9 18:10:33 2002):
+cpb wont pass +30. godly casting gives me +30cpb, diving casting tactics gives me +30 still, it should be more.
+
+Matthew (w/vhorilen/plains/pln11)(Tue Feb 19 13:12:33 2002):
+defensive lists me as bad even though i'm armour
+
+Matthew (d/town/road/e4)(Wed Feb 20 16:22:05 2002):
+barrier seal isn't working
+
+Nyarlthotep (w/vhorilen/port/p16)(Thu Feb 28 02:35:32 2002):
+help alias suggestions don't work
+
+Dhavid (w/vhorilen/plains/pln31)(Tue Mar  5 22:25:39 2002):
+I'm not completely sure...  but in the room I'm in...  Air Elemental Guardian (usually), there hasn't been a guardian all night.  I haven't seen it rift...  but it seems strange, because elementals have been empty cept me...  and this mob won't pop.
+
+Matthew (w/vhorilen/plains/pln35)(Sat Mar  9 21:40:51 2002):
+i cast storm and it said my skill in spell increased
+
+Ozzy (d/castle/deathscythe/i)(Mon Mar 11 13:43:16 2002):
+whenever i stat, every spell is successful except agility which fails about 2 times, it's way too much of a coincidence cause it happens every time i stat (probably about 500 times by now)
+
+Meris (w/monger/temple/newtown/back)(Sat Mar 16 04:27:38 2002):
+when you type hide after your hidden, instead of saying, you step out, it just says you hide again
+
+Vilya (d/town/road/e4)(Wed Mar 27 16:06:36 2002):
+I keep getting the message: Your skill in spell has improved. When I type <prac> I see an entry for spell(REMOVED)
+
+Ganan (d/castle/diesirae/i)(Mon Apr  1 12:18:38 2002):
+total score
+
+Endymion (w/ash/shadow/fi_e)(Tue Apr  9 10:06:04 2002):
+Backstab at east ruby golem doesn't go off, but allows notch.
+
+Lachdanan (d/castle/janish/c)(Thu Apr 18 20:50:38 2002):
+when you type 'get item 2' you cant get it, it says there is no 2 here
+
+Moxin (d/town/church/wchurch)(Sun May  5 09:46:35 2002):
+when youre dual wielding, and you remove the weapon in your right hand, it says "You remove <right hand weapon> in your right hand and wield your <same weapon> in your right hand.
+
+Hobbes (w/ash/shadow/fi_e)(Mon May  6 17:12:56 2002):
+i cant strike the golem here
+
+Hobbes (w/ash/shadow/fi_w)(Mon May  6 17:13:12 2002):
+same thing here too, unable to strike golem
+
+Lachdanan (d/castle/adredus/i)(Thu May 16 22:20:58 2002):
+psychic runes are unpurifyable and undispelable
+
+Sakura (w/ash/shadow/fi_e)(Wed May 22 16:01:50 2002):
+every time I try to strike a ruby golem, it tells me i begin to sneak up and never goes through. it works on all of the other golems fine, so that's a bit strange.
+
+Tskrang (d/town/church/church)(Thu May 23 23:33:40 2002):
+if you only have gold coies and no silver or copper is says '
+
+Tskrang (d/town/church/church)(Thu May 23 23:34:04 2002):
+if you only have gold coies and no silver or copper is says 'you are carrying X gold and'
+
+Lachdanan (d/castle/auragamii/i)(Sat May 25 15:45:04 2002):
+make frenzy get rid of slow, i have slow and frenzy on at the same time, doesnt seem right...
+
+Lachdanan (d/castle/adredus/i)(Sun May 26 09:39:57 2002):
+following a suicider causes you to suicide also...might want to change it
+
+Allison (d/castle/adredus/i)(Sun May 26 09:40:09 2002):
+ou can follow people into suicide
+
+Allison (d/castle/adredus/i)(Sun May 26 09:40:21 2002):
+you can follow people into suicide (typo on first one)
+
+Lachdanan (d/world/l/13)(Mon May 27 08:00:55 2002):
+track is buggy, i type track, and it doesnt even give me any results, nothing happens, this happens about 50% of the time
+
+Lachdanan (w/shaidar/licit/ce4)(Tue May 28 13:03:27 2002):
+hmm, one thing i notice that i think needs to get fixed/changed is that whenever you are fighting someone, and you run away, you're in the other room and you are still in combat w/ enemy condition showing, and you can get your exit blocked from the block skill of the person/npc that is not in the room, combat should end the instant you successfully run away
+
+Lefend (d/castle/adredus/i)(Wed May 29 22:39:52 2002):
+With Privacy Seal, when you cast it. You can purify it and the effects of the privacy still remain leacing you free to cast barrier seals and such

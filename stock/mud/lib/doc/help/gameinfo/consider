@@ -1,0 +1,9 @@
+
+command: consider <what>
+
+This command will tell you how your size compares to <what>.
+
+Note: This compares relative level, and does not take into account
+anything else (i.e. high level NPCs *are* tougher than players of
+the same level).
+

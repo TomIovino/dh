@@ -1,0 +1,2 @@
+#define RELEASE_DATE "Sat Oct 19 23:25:05 MET 1996"
+#define PATCH_LEVEL	".1@134"

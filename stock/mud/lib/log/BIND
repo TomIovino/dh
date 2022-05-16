@@ -1,0 +1,203 @@
+Wed Jun 26 15:01:30 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 15:01:30 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 15:01:30 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 15:01:30 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 15:16:05 2002 WARNING: Cmd "form" Err "*party_d:  party_shout():  Bad argument 2
+"
+Wed Jun 26 15:24:02 2002 INFO   : Command Table Rehashed
+Wed Jun 26 15:24:02 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 15:24:02 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 15:24:02 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 15:24:02 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 15:33:15 2002 WARNING: Cmd "form" Err "*party_d:  party_shout():  Bad argument 2
+"
+Wed Jun 26 15:54:05 2002 INFO   : Command Table Rehashed
+Wed Jun 26 15:54:05 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 15:54:05 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 15:54:05 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 15:54:05 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 15:54:48 2002 WARNING: Cmd "gate" Err "*add_action from object that was not present.
+"
+Wed Jun 26 16:16:37 2002 INFO   : Command Table Rehashed
+Wed Jun 26 16:16:37 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 16:16:37 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 16:16:37 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 16:16:37 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 16:37:15 2002 WARNING: Cmd "gate" Err "*add_action from object that was not present.
+"
+Wed Jun 26 16:46:39 2002 INFO   : Command Table Rehashed
+Wed Jun 26 16:46:39 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 16:46:39 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 16:46:39 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 16:46:39 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 17:09:11 2002 INFO   : Command Table Rehashed
+Wed Jun 26 17:09:11 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 17:09:11 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 17:09:11 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 17:09:11 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 17:19:12 2002 WARNING: Cmd "form" Err "*party_d:  party_shout():  Bad argument 2
+"
+Wed Jun 26 17:22:44 2002 WARNING: Cmd "link" Err "*(value)Indexing on illegal type.
+"
+Wed Jun 26 17:31:43 2002 INFO   : Command Table Rehashed
+Wed Jun 26 17:31:43 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 17:31:43 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 17:31:43 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 17:31:43 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 18:01:46 2002 INFO   : Command Table Rehashed
+Wed Jun 26 18:01:46 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 18:01:46 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 18:01:46 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 18:01:46 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 18:31:48 2002 INFO   : Command Table Rehashed
+Wed Jun 26 18:31:48 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 18:31:48 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 18:31:48 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 18:31:48 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 19:01:50 2002 INFO   : Command Table Rehashed
+Wed Jun 26 19:01:50 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 19:01:50 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 19:01:50 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 19:01:50 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 19:28:09 2002 WARNING: Cmd "form" Err "*party_d:  party_shout():  Bad argument 2
+"
+Wed Jun 26 19:31:53 2002 INFO   : Command Table Rehashed
+Wed Jun 26 19:31:53 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 19:31:53 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 19:31:53 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 19:31:53 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 19:54:26 2002 INFO   : Command Table Rehashed
+Wed Jun 26 19:54:26 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 19:54:26 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 19:54:26 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 19:54:26 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 20:09:39 2002 WARNING: Cmd "junk" Err "*Bad argument 1 to call_other()
+"
+Wed Jun 26 20:16:56 2002 INFO   : Command Table Rehashed
+Wed Jun 26 20:16:56 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 20:16:56 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 20:16:56 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 20:16:56 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 20:19:31 2002 WARNING: Cmd "junk" Err "*Bad argument 1 to call_other()
+"
+Wed Jun 26 20:32:25 2002 WARNING: Cmd "junk" Err "*Bad argument 1 to call_other()
+"
+Wed Jun 26 20:39:26 2002 INFO   : Command Table Rehashed
+Wed Jun 26 20:39:26 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 20:39:26 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 20:39:26 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 20:39:26 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 20:48:22 2002 INFO   : Command Table Rehashed
+Wed Jun 26 20:48:22 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 20:48:22 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 20:48:22 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 20:48:22 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 20:48:22 2002 INFO   : Bin_D Loaded
+Wed Jun 26 20:48:29 2002 INFO   : Command Table Rehashed
+Wed Jun 26 20:48:29 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 20:48:29 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 20:48:29 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 20:48:29 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 21:10:58 2002 INFO   : Command Table Rehashed
+Wed Jun 26 21:10:58 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 21:10:58 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 21:10:58 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 21:10:58 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 21:40:59 2002 INFO   : Command Table Rehashed
+Wed Jun 26 21:40:59 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 21:40:59 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 21:40:59 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 21:40:59 2002 FAILURE: File /cmds/std/ff.c would not load!
+Wed Jun 26 23:08:25 2002 WARNING: Auto Rehashed "/cmds/std/mail.c"
+Wed Jun 26 23:08:25 2002 WARNING: Cmd "mail" Err "*Object the closure was bound to has been destructed
+"
+Wed Jun 26 23:10:59 2002 INFO   : Command Table Rehashed
+Wed Jun 26 23:10:59 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Wed Jun 26 23:10:59 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Wed Jun 26 23:10:59 2002 FAILURE: File /cmds/std/top.c would not load!
+Wed Jun 26 23:10:59 2002 FAILURE: File /cmds/std/ff.c would not load!
+Thu Jun 27 06:33:23 2002 INFO   : Command Table Rehashed
+Thu Jun 27 06:33:23 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Thu Jun 27 06:33:23 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Thu Jun 27 06:33:23 2002 FAILURE: File /cmds/std/top.c would not load!
+Thu Jun 27 06:33:23 2002 FAILURE: File /cmds/std/ff.c would not load!
+Thu Jun 27 06:33:23 2002 INFO   : Bin_D Loaded
+Thu Jun 27 06:33:31 2002 INFO   : Command Table Rehashed
+Thu Jun 27 06:33:31 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Thu Jun 27 06:33:31 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Thu Jun 27 06:33:31 2002 FAILURE: File /cmds/std/top.c would not load!
+Thu Jun 27 06:33:31 2002 FAILURE: File /cmds/std/ff.c would not load!
+Thu Jun 27 06:55:59 2002 INFO   : Command Table Rehashed
+Thu Jun 27 06:55:59 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Thu Jun 27 06:55:59 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Thu Jun 27 06:55:59 2002 FAILURE: File /cmds/std/top.c would not load!
+Thu Jun 27 06:55:59 2002 FAILURE: File /cmds/std/ff.c would not load!
+Thu Jun 27 13:19:55 2002 WARNING: Auto Rehashed "/cmds/wiz/ls.c"
+Thu Jun 27 13:19:55 2002 WARNING: Cmd "ls" Err "*Object the closure was bound to has been destructed
+"
+Thu Jun 27 13:25:59 2002 INFO   : Command Table Rehashed
+Thu Jun 27 13:25:59 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Thu Jun 27 13:25:59 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Thu Jun 27 13:25:59 2002 FAILURE: File /cmds/std/top.c would not load!
+Thu Jun 27 13:25:59 2002 FAILURE: File /cmds/std/ff.c would not load!
+Thu Jun 27 13:55:59 2002 INFO   : Command Table Rehashed
+Thu Jun 27 13:55:59 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Thu Jun 27 13:55:59 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Thu Jun 27 13:55:59 2002 FAILURE: File /cmds/std/top.c would not load!
+Thu Jun 27 13:55:59 2002 FAILURE: File /cmds/std/ff.c would not load!
+Thu Jun 27 16:18:24 2002 INFO   : Command Table Rehashed
+Thu Jun 27 16:18:24 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Thu Jun 27 16:18:24 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Thu Jun 27 16:18:24 2002 FAILURE: File /cmds/std/top.c would not load!
+Thu Jun 27 16:18:24 2002 FAILURE: File /cmds/std/ff.c would not load!
+Thu Jun 27 16:18:24 2002 INFO   : Bin_D Loaded
+Thu Jun 27 16:18:31 2002 INFO   : Command Table Rehashed
+Thu Jun 27 16:18:31 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Thu Jun 27 16:18:31 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Thu Jun 27 16:18:31 2002 FAILURE: File /cmds/std/top.c would not load!
+Thu Jun 27 16:18:31 2002 FAILURE: File /cmds/std/ff.c would not load!
+Thu Jun 27 16:40:59 2002 INFO   : Command Table Rehashed
+Thu Jun 27 16:40:59 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Thu Jun 27 16:40:59 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Thu Jun 27 16:40:59 2002 FAILURE: File /cmds/std/top.c would not load!
+Thu Jun 27 16:40:59 2002 FAILURE: File /cmds/std/ff.c would not load!
+Fri Jun 28 02:03:26 2002 INFO   : Command Table Rehashed
+Fri Jun 28 02:03:26 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Fri Jun 28 02:03:26 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Fri Jun 28 02:03:26 2002 FAILURE: File /cmds/std/top.c would not load!
+Fri Jun 28 02:03:26 2002 FAILURE: File /cmds/std/ff.c would not load!
+Fri Jun 28 02:03:26 2002 INFO   : Bin_D Loaded
+Fri Jun 28 02:03:33 2002 INFO   : Command Table Rehashed
+Fri Jun 28 02:03:33 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Fri Jun 28 02:03:33 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Fri Jun 28 02:03:33 2002 FAILURE: File /cmds/std/top.c would not load!
+Fri Jun 28 02:03:33 2002 FAILURE: File /cmds/std/ff.c would not load!
+Fri Jun 28 02:33:31 2002 INFO   : Command Table Rehashed
+Fri Jun 28 02:33:31 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Fri Jun 28 02:33:31 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Fri Jun 28 02:33:31 2002 FAILURE: File /cmds/std/top.c would not load!
+Fri Jun 28 02:33:31 2002 FAILURE: File /cmds/std/ff.c would not load!
+Fri Jun 28 11:48:27 2002 INFO   : Command Table Rehashed
+Fri Jun 28 11:48:27 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Fri Jun 28 11:48:27 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Fri Jun 28 11:48:27 2002 FAILURE: File /cmds/std/top.c would not load!
+Fri Jun 28 11:48:27 2002 FAILURE: File /cmds/std/ff.c would not load!
+Fri Jun 28 11:48:27 2002 INFO   : Bin_D Loaded
+Fri Jun 28 11:48:34 2002 INFO   : Command Table Rehashed
+Fri Jun 28 11:48:34 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Fri Jun 28 11:48:34 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Fri Jun 28 11:48:34 2002 FAILURE: File /cmds/std/top.c would not load!
+Fri Jun 28 11:48:34 2002 FAILURE: File /cmds/std/ff.c would not load!
+Fri Jun 28 12:11:02 2002 INFO   : Command Table Rehashed
+Fri Jun 28 12:11:02 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Fri Jun 28 12:11:02 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Fri Jun 28 12:11:02 2002 FAILURE: File /cmds/std/top.c would not load!
+Fri Jun 28 12:11:02 2002 FAILURE: File /cmds/std/ff.c would not load!
+Fri Jun 28 14:58:40 2002 WARNING: Auto Rehashed "/cmds/std/mail.c"
+Fri Jun 28 14:58:40 2002 WARNING: Cmd "mail" Err "*Object the closure was bound to has been destructed
+"
+Fri Jun 28 15:03:32 2002 INFO   : Command Table Rehashed
+Fri Jun 28 15:03:32 2002 FAILURE: File /cmds/wiz/where.c.save would not load!
+Fri Jun 28 15:03:32 2002 FAILURE: File /cmds/wiz/where.c would not load!
+Fri Jun 28 15:03:32 2002 FAILURE: File /cmds/std/top.c would not load!
+Fri Jun 28 15:03:32 2002 FAILURE: File /cmds/std/ff.c would not load!

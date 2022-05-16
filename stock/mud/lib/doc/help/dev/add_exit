@@ -1,0 +1,19 @@
+init(){
+ ::init();
+ add_action("close","close");
+ add_action("open","open");
+}
+
+close(string what){
+      if(what != "door") return 0;
+      remove_exit("door");
+      write("The door snaps shut!\n");
+      return 1;
+}
+
+open(string what){ 
+      if(what != "door") return 0;
+      add_exit("w/wiz/area/x1","door"); 
+      write("You opened the door!\n"); 
+      return 1; 
+}

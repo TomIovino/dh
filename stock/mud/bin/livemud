@@ -1,0 +1,27 @@
+#!/bin/sh
+# this script is called every time to reboot the driver
+
+BASE=/home/dh/mud
+
+DRIVER=$BASE/bin/parse
+LOG=$BASE/lib/log/sys
+LOGFILE=$LOG/stderr
+DEBUG=$LOG/debug
+STDOUT=$LOG/stdout
+CORE=/dev/null
+
+umask 007
+ulimit -c unlimited
+#ulimit -d 16384
+
+if ! ps x | grep live_ftpd.py | grep -vq grep
+then
+    python $BASE/ftpd/live_ftpd.py
+fi
+
+mv -f $CORE $CORE.parse >& /dev/null
+mv -f $LOGFILE $LOGFILE.old >& /dev/null
+mv -f $DEBUG $DEBUG.old >& /dev/null
+mv -f $STDOUT $STDOUT.old >& /dev/null
+exec $DRIVER 8888 -c --debug_file $DEBUG $* 2> $LOGFILE > $STDOUT
+

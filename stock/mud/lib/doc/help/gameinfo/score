@@ -1,0 +1,15 @@
+
+command: score
+
+Score shows your personal information. 
+
+
+notes:
+offensive rating = offensive tactics +  "opb" or offensive power bonus.
+defensive rating = defensive tactics +  "dpb" or defensive power bonus.
+stealth rating = stealth tactics + "spb" or stealth power bonus.
+casting rating = casting tactics + "cpb" or casting power bonus.
+
+related files, "help encumbrance","help stats".
+
+

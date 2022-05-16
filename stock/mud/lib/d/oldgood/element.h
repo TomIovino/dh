@@ -1,0 +1,24 @@
+#include <ansi.h>
+
+#define PATH    "/d/oldgood/"
+#define ELEMENT "good"
+#define RACE    "avatar"
+#define COLOR   B_WHITE_F
+#define TOWN    "Dawn"
+#define TOTEM   "winged ankh"
+#define METAL   "whitesteel"
+#define GEM     "sapphire"
+#define TEMPLE  "Dawns Temple"
+#define SHOP    "Dawns Swords and Armours"
+#define BANK    "Dawns Savings Bank"
+#define MEET    "Dawns Public Information"
+#define MSHOP   "Dawns Ornamental Jewelry"
+#define PUB     "Dawns Pub and Grill"
+#define UP      "Clouds of silver and skies of the deepest blue."
+#define DOWN    "The roads are made of masterly worked cobblestones."
+#define WALLS   "The walls are made of masterly worked castlerocks."
+#define SMELL   "You dont smell anything but air."
+#define SOUND   "You dont hear anything but silence."
+#define OUT     "Beyond the cloud city are clear and beautiful skies."
+#define IN      "The entire city is laced with clouds and mist."
+ 

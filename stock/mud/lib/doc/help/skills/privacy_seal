@@ -1,0 +1,8 @@
+
+Spell    : privacy seal
+Type     : int
+Mana     : 50
+
+Privacy seal stops the area in which it is cast 
+from being seen via magical means, aka scry.
+

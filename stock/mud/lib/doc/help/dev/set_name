@@ -1,0 +1,27 @@
+FUNCTION set_name() in base_obj (players,npcs,weapons,armour)
+
+Please make sure the following things are true for
+the set_name function on objects and npcs:
+
+In general all set_name's should be only a single word.
+   good = set_name("bob");
+   bad = set_name("bob marley");
+
+Also make sure set_name is always _lowercase_!!
+
+!NEVER USE ANSI IN SET_NAME!
+
+Also in both items and monsters set_name should  be as descriptive as
+possible. The more specific you the name the better:
+
+All level 80+ items, npcs, gear.. 
+   need to have UNIQUE set_name 's 
+
+In otherwords 
+   good = set_name("bladestar") 
+   bad = set_name("blade");
+   good = set_name("cinder");
+   bad = set_name("dragon");
+
+Thanks! 
+  Ash

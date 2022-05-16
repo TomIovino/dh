@@ -1,0 +1,4 @@
+==============================================================================
+  /skills -- The files below this directory contain both skills and spells.
+    note: these commands are called by call_other in player.c and monster.c
+==============================================================================

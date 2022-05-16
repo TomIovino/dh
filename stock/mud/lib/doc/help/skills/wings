@@ -1,0 +1,8 @@
+
+Spell    : wings
+Type     : int
+Mana     : 25
+
+Wings is a spell which will create magical wings to aid the target. 
+Players with wings use fewer movement points when traveling.
+

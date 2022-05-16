@@ -1,0 +1,29 @@
+==--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--==
+  Feelings are emotes that are already written for you.  That is, to smile
+  you need only type 'smile'.  You can get the current list of what is
+  available by typing 'feelings'.  There are four different types of
+  feelings:
+      * standard -- This is when you type just the feeling by itself
+                    like:  'smile', 'laugh', 'ack', etc.  Usually that
+                    will say:  'So-and-so smiles.', 'So-and-so laughs.',
+                    etc.
+ 
+      * targeted (also called directed) -- This is when you type the feeling
+                    followed by the name of who you are directing the action
+                    at, such as:  'smile billy', 'kick billy', etc.  That
+                    will usually say:  'So-and-so smiles at Billy', 
+                    'So-and-so kicks Billy', etc.
+ 
+      * modified -- This is when you type the feeling followed by something
+                    extra that isn't a living target such as:  'smile blah',
+                    'kick the bucket', 'offer apple', etc.  Most of the time
+                    they will say something like:  'So-and-so smiles blah', 
+                    'So-and-so kicks the bucket', etc.
+ 
+      * self-directed -- This is the same as targeted above except it's when
+                    you specify yourself as the argument such as:
+                    'smile so-and-so'
+ 
+  'whocoded <feeling>' can be used to show who wrote a certain emote.
+ 
+==--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--==

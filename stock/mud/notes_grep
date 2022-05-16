@@ -1,0 +1,3 @@
+
+grep email `find` | awk '{print $2}' > email_list 
+

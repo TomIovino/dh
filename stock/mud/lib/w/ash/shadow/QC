@@ -1,0 +1,264 @@
+I went through the Golem Caves that Ash made and wrote down all the errors I
+saw. It took me about 45 minutes (a lot longer than i expected). Im sure this
+check isn't perfect and I am sure I have made some errors too, but the purpose
+of it was to point out the most obvious ones. I am also sure that if I was to
+look at the code for it I would see a lot more errors than just these.
+
+
+I was going to mail it to Ash directly but I decided to post it here
+instead...
+
+
+GOLEM CAVES, FIRST LEVEL
+
+First room:
+"The mouth of a tunnel leads" <- tunnel needs a description
+
+"into the darkness" <- darkness needs a description
+
+"At your feet small pebbles cover the harder surface of the ancient stone all
+around you." <- 2nd person usage of "your" is bad in a room desc. This doesn't
+even seem to make sense, first we are looking at the pebbles on the floor; but
+they cover the stone all around you?
+
+
+"Apparently.. from a bigger rock at one time." <- poor grammar to use two
+periods trailing a word, 3 is the norm. 
+
+
+"echo echo echo echo echo echo echo echo echo echo." <- is this meant to be
+funny?
+
+
+Second room (down):
+"Stairs against the wall" <- stairs need a desc
+
+"a circular tunnel" <- tunnel needs a desc
+
+"echo echo echo echo echo echo echo echo echo echo." <- same as first room
+
+"You look more closely and you notice the following:" <- description of the
+circle. Overuse of "you" is not recommended, consider "You look closer and
+notice the following:".
+
+
+This room mentions stairs which descent (go down) but there is no down exit.
+Perhaps you mean ascend (go up) which would explain the up exit.
+
+
+Third room (d, 1n):
+"This tunnel consits" <- You mean "consists"
+
+"same stone" <- need description for stone
+
+"as before" <- this is bad because it assumes that the user has been in the
+other rooms.
+
+
+"into the wall" <- wall REALLY needs a desc, it should mention the red
+triangles.
+
+
+"with the red triangles" <- consider removing the word "the", also triangles
+need a desc.
+
+
+"the walls have been marked with the yellow pentagons that have been engraved
+into the wall."
+
+
+Have they been marked? Or engraved? There is an overuse of the word "wall"
+here which is sounds very clumsy.
+
+
+Fourth room (d, 2n):
+"This tunnel consits" <- you mean "consists"
+
+"another level of the tunnel" <- end of desc needs a period
+
+"Smooth stone steps" <- steps need a desc
+This room seems to be the same as room 3 with a sentence added. Two rooms with
+almost identical description right next to each other should be avoided at all
+cost.
+
+
+The rooms d, 2n, e and d, 2n, w and d, 2n, u have identical room descriptions.
+The typing error with "consits" is present in all 4 rooms with identical
+descriptions in the northern part of the cave. No extra descriptions for the
+floor, walls, triangles, steps etc were found. 
+
+
+The room in the east wing of the caves (d, 2e) does not explain the up exit.
+
+The other areas of the cave are all identical with different colour shapes in
+each part, all with the same errors. *2* lines long descriptions are generally
+unacceptable and there is nothing in this area which builds atmosphere, which
+is understandable when the room descriptions are only 1 sentence long and only
+describe what kind of stone is in the walls.
+
+
+EQ:
+The eq in this area all has exactly the same long description of 6 words long.
+It does not describe the equipment in anyway, and its value is not reflected
+by the description "Made with the finest of gems."
+
+
+Monsters:
+The monsters in the area all have the same description except for one word. It
+does not say what the monster looks like or even what a golem is. It does not
+describe any physical attributes of the monster other than the substance of
+which it is made. The descriptions for the monsters are very poor.
+
+The 55k monsters also have a massive amount of money for their size, and,
+considering the gems they hold are also worth 5 silver they are very
+unbalanced.
+
+
+LISTEN AND SMELL:
+Are the same for every room. The echo is not explained and nor is the smell of
+sulphur, sulphur usually comes from a fire-breathing dragon and there is no
+such thing in this area or the area connected. "Sulphur and gasses" <- this is
+bad because sulphur IS a gas, so well, you figure it out.
+
+
+GOLEM CAVES SECOND LEVEL:
+
+First room:
+"You feel your self moving.. with out moving.." <- Yourself is one word, so is
+without. Three periods trailing a word is the norm, not two.
+
+
+"Standing on the drawbridge" <- Who is? I am? It doesn't seem to say, this
+would normally be accepted if it was:
+
+ "Standing on the drawbridge between the large cloud to the south and the
+enormous cloud castle that is directly to the north you cant help but notice
+the gates are closed."
+
+
+But then you would be making use of the 2nd person, which is not acceptable in
+a room description. As it is at the moment the description for this room
+contains very bad grammar. Also, there is only one item for it (the castle),
+no drawbridge, no cloud, no gates.
+
+
+"A giant stone fortress.. its gates are closed." <- "its" should possible have
+a capital letter as it follows a period. There should be three periods not
+two. In the long desc it says it is a cloud castle, is this a castle in the
+clouds or a castle made from clouds?
+
+
+"You cant help" <- "cant" needs an apostrophe to make it become "can't"
+
+And if the gates are closed, then why can I go north? The large cloud to the
+south would seem to suggest I can walk on it or something, but there is no
+south exit.
+
+
+Room two (n):
+This has exactly the same description as the room south, which is very bad. It
+has all the same mistakes and the same bad grammar.
+
+
+Inside the keep is generally good compared to the upper level with use of
+add_item in all of the rooms, however there are a few things; there are only 3
+significantly different room descriptions in 13 different rooms and you should
+decide whether you want the brief descriptions to start with a capital or not:
+
+
+"Masterly crafted keep walls form a well lit hallway
+with the wall banners of a silver and cyan crest."
+
+The way this is written suggests the wall banners somehow light the hallway.
+The word "wall" is used twice in one sentence which makes reading it clumsy,
+consider changing "wall banners" to "banners" and then writing about them in
+more detail in their long description. Also, the wrap on this room is perhaps
+too short, the sentence here could almost fit on one line yet it occupies a
+full two.
+
+
+"This appears to be a chamber of one of the castle nobles. There
+is a large table sits which in the rooms center with a velvet bed on
+one wall and a large dressing curtain and oak shelf on the other.
+A single wooden framed window shows the view of outside."
+
+Window, curtain and shelf all have the same very poor description, which is
+bad because a window doesn't look like a curtain and nor does it look like a
+shelf.
+
+
+I can't look outside and I can't look at the table.
+
+"Silky smooth, just how nobles like it." <- description of bed.
+Well, in a roleplaying context I myself am a noble and I can tell you now I
+don't like it silky or smooth. I like it hard, very hard. I like to feel pain.
+I want to feel 6 inch nails digging into my back and causing me to bleed...
+get my drift? Not all nobles like it silky smooth.
+
+
+"Masterly crafted stone walls from the north and west come
+together to form the corner of this keep. A hallway runs both
+east and south of here decorated on the outside walls with
+large banners of a silver and cyan crest."
+
+The hallway is decorated on the outside? How can we see it then because I
+thought we were inside this keep. Or is it the walls that are decorated? From
+the way this is written I just get confused.
+
+
+The description for the banners needs to start with a capital.
+
+MONSTERS:
+The descriptions for the monsters are all the same, which is bad when the king
+in the centre of the keep is much much bigger than the rest of the guards. The
+monsters all block the north exit whether there is one or not.
+
+
+"Like all of his kind he is a creation of powerful magic.
+He stands like a human but slightly taller and stronger.
+He dosnt have skin like must humanoids either but rather
+is covered with glistening silver scales."
+
+"dosnt" needs to be changed to "doesn't" or "does not"
+
+"must" to "most"
+
+I think you also need to remove the word "either" in this description.
+
+EQ
+The equipment in this area is far too good for the size of the monsters. The
+armour which is available is the same armour class as cuirass, which is a lot
+harder to get and only a little better considering it has an ego of +25 more
+than the ebony plate.
+
+
+The katanas are also very good (arguably third best weapon in game,
+stormbringer being best, and dragon weapons being second). The EQ should
+either be downgraded or the monsters upgraded.
+
+
+The equipment on the king is balanced by its heaviness.
+
+LISTEN/SMELL
+
+"The silence is disturbing." <- well maybe it's disturbing for you, but not
+for me matey. This assumes things about the PC.
+
+
+
+OVERALL SUMMARY
+
+This whole area is riddled with mistakes, and although the EQ is very pretty
+it is far too easy to get. There is no sense of atmosphere and I feel that it
+probably took you all of five minutes. It is areas like these that really let
+this place down, and it looks to me like you have made your equipment very
+good and very easy to get on purpose so that a lot of people will use it. I
+think it is sad when an area like this makes it into the game, after many
+wizzes on here have spent hours trying to make their areas really FEEL
+realistic. The bottom line is, if you aren't prepared to put any effort into
+making an area then don't do it - leave it to the people who can and spend
+your time doing something you are good at such as making new spells or
+improving combat. Oh and if you do insist on making an area, you might like to
+spell check it first.
+
+

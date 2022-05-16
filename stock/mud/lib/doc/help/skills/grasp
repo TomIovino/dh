@@ -1,0 +1,10 @@
+
+Spell    : grasp
+Type     : int
+Mana     : 20
+
+Grasp is a single attack combat spell that is very quick 
+to cast and low in mana cost. It's the most basic and
+cheapest attack spell.
+
+

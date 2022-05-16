@@ -1,0 +1,8 @@
+
+Spell    : barrier seal
+Type     : int
+Mana     : 50
+
+With this spell a caster call call forth an object that can block
+any cardinal direction (north, east, south, west) out of an area.
+

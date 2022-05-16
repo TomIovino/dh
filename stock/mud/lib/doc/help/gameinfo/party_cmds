@@ -1,0 +1,17 @@
+
+    form              Start a party!
+    pwho              List the active party members and some stats.
+    pchat             Send a message to all members of the party.
+    leave party       Leave the party.
+    follow	      Toggle the following of the party leader in room.
+    join <party>      Join another party after you get an invitation.
+
+The following, additional commands are available to the party leader:
+
+    recruit <who>     Recruit someone to your party.
+    dismiss <who>     Dismiss someone from the party.
+    disband party     Disband the party.
+    delegate <member>  Makes member the leader of the party for the time being.
+
+Please mail bug reports directly to 'mail gods'
+

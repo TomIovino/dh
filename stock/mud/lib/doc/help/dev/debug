@@ -1,0 +1,18 @@
+The biggest help in fixing an item that wont load is the debug logs.
+
+command: log <logfile>
+command: rlog <logfile>
+
+Log command allows wizards to veiw logs located in /log directory 
+
+Your personal log file is   /log/yourname 
+ -This file is where bugs are reported in your area..
+Your personal typo file is /log/yourname.rep
+ -This file is where typos are reported in your area..
+
+"log" will show your personal log
+"log yourname.rep" for your rep log, this contains your typo reports.
+"log <what>" what being whatever log you want to look at.
+
+"rlog" will remove your personal log
+"rlog <whatever>" to remove another log. 

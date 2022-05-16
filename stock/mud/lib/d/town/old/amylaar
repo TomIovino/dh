@@ -1,0 +1,44 @@
+#include <mudlib.h>
+#include <ansi.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    add_object("FIRE_OB","d/town/obj/FIRE_OB");
+    set_name("amylaar");
+    set_alias("male");
+    set_short(B_RED_F+"red robed male"+NORM);
+    set_long(
+      "Before you stands the ancient firemage, Amylaar, who is said\n"+
+      "to be older the the land itself. Most of the greatest of all\n"+
+      "mages were at one time his students. Even now many of the great\n"+
+      "spellcasters of the realm seek him out for the wisdom only he\n"+
+      "can truely provide.\n");
+    set_race("human");
+    set_gender(1);
+    load_chat(2,({
+        "Amylaar studies his spellbook intently.\n",
+   "Amylaar looks up, noticing your presence, then returns to his studies.\n",
+        "Amylaar says: The greatest power is the power of light.\n",
+        "Amylaar says: You wish to learn the mysteries of light?\n"
+        "Amylaar advises you not to go down under the tower.\n",
+        "*chuckle",
+      }));
+    set_helpers(({ "", ({ "mehredar", }), }));
+    set_gender(1);
+    load_spells(10,({
+       "heal","blast",
+      }));
+    set_train_level(9);
+    set_stat_int(35);
+    set_stat_str("intelligence");
+    set_class_list(({
+	"spells", ({
+	}),
+      }));
+    set_level(90);
+    set_half_exp(1);
+    set_magic_resist(50);
+
+}

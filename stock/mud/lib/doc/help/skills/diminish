@@ -1,0 +1,8 @@
+
+Spell    : diminish
+Type     : int
+Mana     : 35
+
+ This spell will steal a players stamina and give it to the caster.
+
+

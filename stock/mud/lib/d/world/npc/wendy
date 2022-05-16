@@ -1,0 +1,41 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    add_object("AIR_OB","d/town/obj/AIR_OB");
+    set_name("wendy");
+    set_alt_name("female");
+    set_short(B_WHITE_F+"white robed female"+NORM);
+   set_long(
+  "Ivory's hair is like spun gold and you lose yourself in the depths\n"+
+  "of her light blue eyes.  She wears a flowing gown of the white\n"+
+  "and a crown of wildflowers atop her head.\n");
+    set_race("elf");
+    set_helpers(({ "", ({ "zanax", }), }));   
+    set_gender(2);
+    load_chat(2,({
+	"Wendy chants in an unknown tongue.\n",
+	"Wendy says: You wish to learn the power of the elements?\n"
+        "Wendy says: dont go down into the caves, its dangerous!\n",
+        "*flutter",
+      }));
+    load_spells(10,({
+      "airlance","airwave","heal","blast","storm",
+      }));
+    set_train_level(9); 
+    set_stat_int(35); 
+    set_stat_str("intelligence"); 
+    set_class_list(({
+	"skills", ({ "casting tactics", }),
+	"spells", ({
+    "airlance","airwave","teleport","invisibility",
+        "scrying eye",
+	}),
+      }));
+    set_level(90);
+    set_half_exp(1);
+    set_magic_resist(50);
+}

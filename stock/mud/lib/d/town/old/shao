@@ -1,0 +1,39 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    add_object("EARTH_OB","d/town/obj/EARTH_OB");
+    set_name("shao");
+    set_alt_name("male");
+    set_short(BROWN_F+"brown robed male"+NORM);
+   set_long(
+     "Shao is the foremost teacher of the divine earth magics.\n"+
+     "He wears a dark brown robe around his youthful figure.\n"+
+     NORM);
+    set_race("dwarf");
+    set_helpers(({ "", ({ "ebony", }), }));   
+    set_gender(1);
+    load_chat(2,({
+	"Shao chants in an unknown tongue.\n",
+	"Shao says: You wish to learn the power of the magic?\n",
+        "Shao says: I would not venture under the towers of the elements.\n",
+      }));
+    load_spells(10,({
+      }));
+    set_train_level(9); 
+    set_stat_int(35); 
+    set_stat_str("wisdom"); 
+    set_class_list(({
+	"skills", ({ }),
+	"spells", ({
+    "stonewall",
+    "entangle","stoneskin","stun","blind",
+	}),
+      }));
+    set_level(90);
+    set_half_exp(1);
+    set_magic_resist(50);
+}

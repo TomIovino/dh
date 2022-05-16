@@ -1,0 +1,10 @@
+Spell     : sight
+Type      : int
+Mana      : 25
+
+Sight allows you to see in complete darkness and can
+allow you to see when normal vision may not be possible.
+Sight spell removes blindness.
+
+
+

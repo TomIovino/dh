@@ -1,0 +1,14 @@
+
+
+  Command: train <skill|spell>
+
+  This will let you train a skill/spell upto your skill/spell
+  level of 90% of current player level.
+
+  Trains get significantly more expensive with increased skill.
+
+  Note: This command does not prevent you from raising your
+  skill above what would be allowed by notching. Players
+  are responsible for managing until further notice.
+
+

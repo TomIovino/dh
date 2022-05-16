@@ -1,0 +1,18 @@
+command: patch 
+wiz level: 30
+
+Patch is a command that essentially acts as a gopher between YOU and
+the OBJECT you would like to INTERFACE. Patch calls FUNCTIONS in the
+object with something called CALL_OTHER.
+
+All the "patch" function needs is an OBJECT and a FUNCTION but also 
+sometimes uses an ARGUMENT.
+
+Example: patch me::set_title::the NEW WIZ!
+
+ESSENTIALLY that means CALL_OTHER, OBJECT, FUNCTION, ARGUMENT! =)
+
+note: always patch set_house, set_spouse, set_race lowercase!!!!
+note: yes this is logged, and abuse means torture. -Ash =)
+
+

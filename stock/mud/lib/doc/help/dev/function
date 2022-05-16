@@ -1,0 +1,55 @@
+//  A generic defintion of function calls and an explantion of how they
+//  are named and how the function names relate to what they do.
+//  because this is actually code,  comments will have the double slash
+//  marks before them.
+
+int number;
+
+void set_number(int arg) {  number = arg;  }
+void adj_number(int arg) {  number += arg;  }
+void unset_number() { number = 0; }
+int query_number() { return (int)number; }
+
+// "set" means that nomatter what number was before, number now will equal
+// "arg" 
+// "adj" means that we want to remember what number was before,  then
+// adjust it by "arg"
+// "unset" means we now want number to equal 0.
+// "query" means we want to know what number equals.
+
+string word;  
+
+void set_string(int arg) {  word = arg; }
+void unset_string() { word = ""; return word; }
+int query_string() { return (string)word; }
+
+// This works exactly how it worked when we talked about number functions.
+// althought you could "adj" a string, its usually on great deal more
+// complex level.
+// The next thing to be discussed is "array functions" which are
+// intermediate
+// in complexity. Something you might not understand the first day..
+
+string *array;
+
+void string *set_member(string *arr) { return arrary = (arr) ? arr : ({});
+}
+string *query_group() { return arrary;  }
+status query_member(string str) {
+    if(!arrary) arrary = ({});
+    return (member_array(str, arrary == -1) ? 0 : 1;
+}
+void add_member(string str){
+    if(!query_member(str) && str) arrary += ({ str, });
+}
+void remove_member(string str){
+    int i;
+    if((i = member_array(str, array)) != -1) {
+        array = array[0..i-1]+array[i+1..sizeof(array)-1];
+    }
+}
+
+
+
+
+

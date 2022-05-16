@@ -1,0 +1,1220 @@
+hsa 1, KLR:silanios, CRE:town
+, LOC:d/town/castle/cd, POB:obj/player#12054
+hsa 1, KLR:silanios, CRE:town
+, LOC:d/town/castle/cd, POB:obj/player#12054
+cyberdramon 1, KLR:rosartis, CRE:town
+, LOC:d/town/road/e3, POB:obj/player#346
+cyberdramon 1, KLR:guard, CRE:town
+, LOC:d/town/castle/ce, POB:obj/player#346
+jim 43, KLR:bouncer, CRE:vhorilen
+, LOC:w/vhorilen/temple/t17, POB:obj/player#1047
+jim 42, KLR:azontin, CRE:myria
+, LOC:w/myria/lands/elf/elf25, POB:obj/player#1047
+armando 22, KLR:golem, CRE:ash
+, LOC:w/ash/shadow/ea_n, POB:obj/player#14178
+nomekop 49, KLR:balthazar, CRE:trent
+, LOC:w/trent/mountain/mt18, POB:obj/player#17263
+noldorin 2, KLR:mouse, CRE:myria
+, LOC:w/myria/newbie/new02, POB:obj/player#20531
+felyne 26, KLR:golem, CRE:ash
+, LOC:w/ash/shadow/pit, POB:obj/player#23789
+nebacanezer 47, KLR:ryus, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln88, POB:obj/player#15428
+johni 91, KLR:allison, CRE:MASTER
+, LOC:w/jada/glade/glade18, POB:obj/player#14217
+quinlin 68, KLR:allison, CRE:MASTER
+, LOC:d/castle/omega/i, POB:obj/player#18274
+kentrunks 41, KLR:manticore, CRE:myria
+, LOC:w/myria/lands/assa/trap2, POB:obj/player#33
+kelevandros 49, KLR:spawn, CRE:ash
+, LOC:w/ash/base/chaos/cave, POB:obj/player#33318
+kelevandros 48, KLR:spawn, CRE:ash
+, LOC:w/ash/base/chaos/cave, POB:obj/player#36426
+harris 19, KLR:sentry, CRE:myria
+, LOC:w/myria/newbie/sgate, POB:obj/player#12066
+grandal 27, KLR:slaver, CRE:vhorilen
+, LOC:w/vhorilen/gully/c25, POB:obj/player#12920
+inasad 72, KLR:guard, CRE:town
+, LOC:d/town/castle/cb, POB:obj/player#20675
+zephid 73, KLR:boromir, CRE:MASTER
+, LOC:d/castle/deathscythe/e, POB:obj/player#23995
+caerin 48, KLR:elemental, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln80, POB:obj/player#3601
+traj 91, KLR:jotto, CRE:MASTER
+, LOC:d/world/c/4, POB:obj/player#3160
+nof 50, KLR:khaos, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#8280
+verdilith 60, KLR:hover, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#11010
+allison 61, KLR:alpha, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#12944
+nof 49, KLR:etoh, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#8280
+everlon 100, KLR:boromir, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#9679
+khaos 67, KLR:boromir, CRE:MASTER
+, LOC:d/castle/janish/g, POB:obj/player#16986
+erluk 7, KLR:thief, CRE:myria
+, LOC:w/myria/newbie/mines/minei, POB:obj/player#19883
+moltar 51, KLR:xangroth, CRE:MASTER
+, LOC:d/castle/diesirae/i, POB:obj/player#23975
+moltar 50, KLR:guardian, CRE:castle
+, LOC:d/castle/diesirae/i, POB:obj/player#25346
+randy 44, KLR:guard, CRE:town
+, LOC:d/town/castle/ch, POB:obj/player#56
+nyarlthotep 83, KLR:lefend, CRE:MASTER
+, LOC:d/castle/nelgetha/h, POB:obj/player#1052
+morgoth 69, KLR:deckon, CRE:MASTER
+, LOC:d/world/e/20, POB:obj/player#462
+neiko 85, KLR:spawn, CRE:ash
+, LOC:w/ash/base/chaos/cave, POB:obj/player#12964
+merwin 87, KLR:boromir, CRE:MASTER
+, LOC:w/ash/base/fire/up, POB:obj/player#5411
+terrell 58, KLR:deckon, CRE:MASTER
+, LOC:w/ash/base/desert/2c, POB:obj/player#3928
+khayman 99, KLR:lefend, CRE:MASTER
+, LOC:w/ash/base/desert/2c, POB:obj/player#4871
+merwin 86, KLR:esuom, CRE:MASTER
+, LOC:w/eaton/swamp/rooms/z10, POB:obj/player#5411
+brody 81, KLR:esuom, CRE:MASTER
+, LOC:w/eaton/swamp/rooms/z10, POB:obj/player#8419
+khayman 98, KLR:zurog, CRE:eaton
+, LOC:w/eaton/swamp/rooms/z12, POB:obj/player#8901
+randy 43, KLR:foust, CRE:lohk
+, LOC:w/lohk/cit/rooms/church1, POB:obj/player#14274
+johni 90, KLR:esuom, CRE:MASTER
+, LOC:w/ash/base/alliance/sw, POB:obj/player#23234
+randy 43, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#22193
+randy 42, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#22193
+nebacanezer 49, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#14343
+nebacanezer 48, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#25685
+nebacanezer 47, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#26043
+nebacanezer 46, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#26364
+nebacanezer 45, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#26472
+xian 26, KLR:elemental, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln7, POB:obj/player#27348
+xangroth 50, KLR:kenshiro, CRE:MASTER
+, LOC:d/castle/janish/i, POB:obj/player#3232
+erluk 19, KLR:slaver, CRE:vhorilen
+, LOC:w/vhorilen/gully/c25, POB:obj/player#303
+faustus 11, KLR:serpent, CRE:monger
+, LOC:w/monger/temple/cave/down, POB:obj/player#11606
+fila 49, KLR:glareck, CRE:MASTER
+, LOC:d/town/road/e4, POB:obj/player#15278
+fila 45, KLR:allison, CRE:MASTER
+, LOC:d/town/road/e4, POB:obj/player#21597
+fila 44, KLR:morgoth, CRE:MASTER
+, LOC:d/town/road/e4, POB:obj/player#21597
+tarwin 35, KLR:tarantula, CRE:leela
+, LOC:w/leela/web/rooms/rm24, POB:obj/player#5196
+leymir 8, KLR:goblin, CRE:myria
+, LOC:w/myria/newbie/new43, POB:obj/player#3260
+matthew 86, KLR:tritian, CRE:MASTER
+, LOC:d/castle/deathscythe/e, POB:obj/player#15763
+nof 53, KLR:zephid, CRE:MASTER
+, LOC:w/ash/base/cliff/2b, POB:obj/player#15662
+derek 50, KLR:hover, CRE:MASTER
+, LOC:w/jada/fire/fire29, POB:obj/player#10978
+drakonis 5, KLR:guard, CRE:town
+, LOC:d/town/castle/ci, POB:obj/player#2210
+nof 52, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#6697
+allison 64, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#1517
+catherine 50, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#3732
+nof 51, KLR:knight, CRE:castle
+, LOC:d/castle/nelgetha/e, POB:obj/player#6697
+aeacus 60, KLR:boromir, CRE:MASTER
+, LOC:d/castle/nelgetha/e, POB:obj/player#68
+allison 63, KLR:knight, CRE:castle
+, LOC:d/castle/nelgetha/e, POB:obj/player#1517
+nof 50, KLR:sentry, CRE:castle
+, LOC:d/castle/nelgetha/h, POB:obj/player#6697
+jezzabelle 1, KLR:tarlydstead, CRE:town
+, LOC:d/town/road/nfd, POB:obj/player#11875
+drakonis 5, KLR:scribe, CRE:myria
+, LOC:w/myria/keep/court, POB:obj/player#3358
+drakonis 5, KLR:golem, CRE:ash
+, LOC:w/ash/shadow/ai3, POB:obj/player#3358
+drakonis 5, KLR:golem, CRE:ash
+, LOC:w/ash/shadow/wa3, POB:obj/player#3358
+azrhei 58, KLR:kaija, CRE:MASTER
+, LOC:w/shaidar/undead/u9, POB:obj/player#85
+drakonis 6, KLR:elias, CRE:russkie
+, LOC:w/russkie/fortress/rooms/g3, POB:obj/player#8700
+etoh 94, KLR:allison, CRE:MASTER
+, LOC:d/world/b/14, POB:obj/player#10920
+tritian 100, KLR:jaral, CRE:MASTER
+, LOC:d/castle/nelgetha/e, POB:obj/player#14157
+jotto 100, KLR:braith, CRE:MASTER
+, LOC:d/world/b/14, POB:obj/player#20006
+trish 21, KLR:sentry, CRE:myria
+, LOC:w/myria/newbie/mines/minea, POB:obj/player#27681
+esuom 100, KLR:zephid, CRE:MASTER
+, LOC:w/ash/base/dutchy/se, POB:obj/player#0
+catherine 50, KLR:zkbrak, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar2, POB:obj/player#7021
+morgoth 69, KLR:chad, CRE:MASTER
+, LOC:w/ash/base/horde/3b, POB:obj/player#11620
+tabal 25, KLR:mehredar, CRE:ash
+, LOC:w/ash/base/death/cave, POB:obj/player#10880
+tarwin 40, KLR:forge, CRE:trent
+, LOC:w/trent/dwarf/d21, POB:obj/player#13661
+chaoz 98, KLR:allison, CRE:MASTER
+, LOC:d/castle/dolomite/i, POB:obj/player#14847
+flik 71, KLR:jaral, CRE:MASTER
+, LOC:w/jada/water/water32, POB:obj/player#2138
+zortheus 1, KLR:ebony, CRE:world
+, LOC:d/world/y/13, POB:obj/player#4834
+esuom 99, KLR:fyrtunge, CRE:myria
+, LOC:w/myria/lands/hway/draco, POB:obj/player#4438
+rurounix 16, KLR:grapler, CRE:ash
+, LOC:w/ash/base/air/cave, POB:obj/player#957
+rurounix 18, KLR:grandal, CRE:MASTER
+, LOC:w/vhorilen/plains/pln44, POB:obj/player#957
+aria 2, KLR:golem, CRE:ash
+, LOC:w/ash/shadow/pit, POB:obj/player#4992
+draggnaut 1, KLR:bran, CRE:trent
+, LOC:w/trent/town/town10, POB:obj/player#7796
+allison 64, KLR:kenshiro, CRE:MASTER
+, LOC:w/ash/base/alliance/enter, POB:obj/player#2019
+shakira 66, KLR:jaral, CRE:MASTER
+, LOC:w/ash/base/alliance/enter, POB:obj/player#8367
+shakira 65, KLR:chad, CRE:MASTER
+, LOC:w/ash/base/alliance/enter, POB:obj/player#9969
+johni 89, KLR:nof, CRE:MASTER
+, LOC:w/jada/glade/glade52, POB:obj/player#10356
+nof 51, KLR:zurog, CRE:eaton
+, LOC:w/eaton/swamp/rooms/z12, POB:obj/player#9281
+devus 67, KLR:allison, CRE:MASTER
+, LOC:w/jada/htown/htown12, POB:obj/player#16452
+parabola 57, KLR:arein, CRE:MASTER
+, LOC:w/jada/htown/htown12, POB:obj/player#12459
+harris 18, KLR:peasant, CRE:shaidar
+, LOC:w/shaidar/licit/cg1, POB:obj/player#24837
+jotto 100, KLR:nof, CRE:MASTER
+, LOC:d/world/x/22, POB:obj/player#26652
+traj 91, KLR:zephid, CRE:MASTER
+, LOC:d/world/i/4, POB:obj/player#15575
+rufus 49, KLR:wyrindren, CRE:vhorilen
+, LOC:w/vhorilen/port/roof/r21, POB:obj/player#2762
+sakura 46, KLR:wyrindren, CRE:vhorilen
+, LOC:w/vhorilen/port/roof/r21, POB:obj/player#3192
+lefend 85, KLR:guardian, CRE:castle
+, LOC:d/castle/deathscythe/i, POB:obj/player#4311
+chaoz 97, KLR:hover, CRE:MASTER
+, LOC:d/world/w/23, POB:obj/player#10080
+rurounix 17, KLR:lemure, CRE:leela
+, LOC:d/world/b/21, POB:obj/player#15443
+merwin 85, KLR:nof, CRE:MASTER
+, LOC:d/world/i/2, POB:obj/player#17492
+harris 18, KLR:peasant, CRE:shaidar
+, LOC:w/shaidar/licit/cg1, POB:obj/player#20439
+harris 17, KLR:harris, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20439
+nyarlthotep 82, KLR:nyarlthotep, CRE:MASTER
+, LOC:d/castle/deathscythe/i, POB:obj/player#28154
+kentrunks 42, KLR:mystic, CRE:sunmoonstar
+, LOC:w/sunmoonstar/quest/rooms/tow1_2_16, POB:obj/player#26266
+sal 23, KLR:guard, CRE:town
+, LOC:d/town/castle/cc, POB:obj/player#3933
+jim 48, KLR:guard, CRE:town
+, LOC:d/town/castle/cc, POB:obj/player#231
+sal 22, KLR:guard, CRE:town
+, LOC:d/town/castle/cc, POB:obj/player#3933
+randy 43, KLR:guard, CRE:town
+, LOC:d/town/castle/ce, POB:obj/player#4321
+grandal 44, KLR:grandal, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#7592
+randy 43, KLR:guard, CRE:town
+, LOC:d/town/castle/ca, POB:obj/player#10127
+terra 50, KLR:deckon, CRE:MASTER
+, LOC:w/eurale/forest/c6, POB:obj/player#18324
+morgoth 69, KLR:necriphax, CRE:trent
+, LOC:w/trent/mountain/mt19, POB:obj/player#12459
+kelevandros 49, KLR:mehredar, CRE:ash
+, LOC:w/ash/base/death/cave, POB:obj/player#21012
+khayman 98, KLR:slither, CRE:ash
+, LOC:w/ash/base/water/cave, POB:obj/player#20098
+khayman 97, KLR:blix, CRE:ash
+, LOC:w/ash/base/order/cave, POB:obj/player#146
+randy 42, KLR:guard, CRE:town
+, LOC:d/town/castle/cj, POB:obj/player#4447
+lefend 84, KLR:johni, CRE:MASTER
+, LOC:w/ash/base/federation/enter, POB:obj/player#8041
+azrhei 62, KLR:deckon, CRE:MASTER
+, LOC:d/castle/deathscythe/i, POB:obj/player#10886
+tib 86, KLR:zephid, CRE:MASTER
+, LOC:d/town/road/egates, POB:obj/player#21012
+allison 68, KLR:kenshiro, CRE:MASTER
+, LOC:d/town/road/egates, POB:obj/player#20300
+randy 42, KLR:freya, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln90, POB:obj/player#3379
+jotto 100, KLR:apoc, CRE:MASTER
+, LOC:w/ash/base/federation/2a, POB:obj/player#3021
+orlandu 50, KLR:stilgar, CRE:MASTER
+, LOC:d/castle/diesirae/e, POB:obj/player#10662
+orlandu 49, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#10662
+orlandu 48, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#10662
+orlandu 47, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#10662
+orlandu 46, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#10662
+orlandu 45, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#10662
+orlandu 44, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#10662
+malkin 51, KLR:malkin, CRE:MASTER
+, LOC:d/inn/malkin, POB:obj/player#4703
+malkin 50, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#4703
+boromir 100, KLR:grendell, CRE:MASTER
+, LOC:d/world/v/18, POB:obj/player#13129
+randy 41, KLR:solerus, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln93, POB:obj/player#18720
+boromir 100, KLR:hover, CRE:MASTER
+, LOC:d/castle/avalon/i, POB:obj/player#18644
+kenshiro 76, KLR:nof, CRE:MASTER
+, LOC:w/ash/base/federation/2a, POB:obj/player#18264
+aria 27, KLR:slaver, CRE:vhorilen
+, LOC:w/vhorilen/gully/c2, POB:obj/player#21575
+nilgo 100, KLR:fearin, CRE:MASTER
+, LOC:w/ash/base/dutchy/enter, POB:obj/player#30130
+allison 67, KLR:greed, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar28, POB:obj/player#335
+catherine 51, KLR:zkbrak, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar2, POB:obj/player#3841
+nebacanezer 49, KLR:solerus, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln93, POB:obj/player#10271
+boromir 40, KLR:guardian, CRE:castle
+, LOC:d/castle/deathscythe/i, POB:obj/player#892
+allison 67, KLR:deckon, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#6324
+allison 66, KLR:hover, CRE:MASTER
+, LOC:d/castle/adredus/i, POB:obj/player#6324
+allison 65, KLR:haities, CRE:MASTER
+, LOC:d/castle/adredus/i, POB:obj/player#6324
+allison 64, KLR:neiko, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#6324
+allison 63, KLR:hover, CRE:MASTER
+, LOC:d/castle/adredus/i, POB:obj/player#6324
+allison 62, KLR:apoc, CRE:MASTER
+, LOC:d/castle/adredus/i, POB:obj/player#6324
+allison 61, KLR:haities, CRE:MASTER
+, LOC:d/castle/adredus/g, POB:obj/player#6324
+allison 60, KLR:devus, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#6324
+allison 59, KLR:alpha, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#6324
+allison 58, KLR:parabola, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#6324
+allison 57, KLR:devus, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#6324
+allison 56, KLR:parabola, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#6324
+allison 55, KLR:deckon, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#6324
+allison 54, KLR:jotto, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#6324
+allison 53, KLR:jotto, CRE:MASTER
+, LOC:d/castle/adredus/e, POB:obj/player#6324
+allison 52, KLR:piccolo, CRE:MASTER
+, LOC:d/castle/adredus/e, POB:obj/player#6324
+allison 51, KLR:jotto, CRE:MASTER
+, LOC:d/castle/adredus/e, POB:obj/player#6324
+allison 50, KLR:khaos, CRE:MASTER
+, LOC:d/castle/adredus/e, POB:obj/player#6324
+wolfhunter 1, KLR:dwarf, CRE:vhorilen
+, LOC:w/vhorilen/gully/c29, POB:obj/player#7358
+jotto 100, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#6389
+jotto 100, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#6389
+erluk 22, KLR:kibbi, CRE:myria
+, LOC:w/myria/keep/pub, POB:obj/player#16013
+randy 41, KLR:kibbi, CRE:myria
+, LOC:w/myria/keep/pub, POB:obj/player#14250
+randy 40, KLR:kibbi, CRE:myria
+, LOC:w/myria/keep/pub, POB:obj/player#14250
+arella 2, KLR:cat, CRE:myria
+, LOC:w/myria/newbie/new03, POB:obj/player#21726
+nebacanezer 48, KLR:eraingar, CRE:eurale
+, LOC:w/eurale/cave/c21, POB:obj/player#5930
+randy 40, KLR:elite, CRE:eurale
+, LOC:w/eurale/cave/c18, POB:obj/player#1931
+hover 100, KLR:kenshiro, CRE:MASTER
+, LOC:w/jada/glade/glade47, POB:obj/player#81
+jericho 1, KLR:guard, CRE:town
+, LOC:d/town/road/sgates, POB:obj/player#7082
+jericho 1, KLR:guard, CRE:town
+, LOC:d/town/road/sgates, POB:obj/player#7082
+tarwin 40, KLR:citizen, CRE:vhorilen
+, LOC:w/vhorilen/port/p11, POB:obj/player#5934
+aria 27, KLR:gremlin, CRE:myria
+, LOC:w/myria/newbie/new41, POB:obj/player#18335
+xet 1, KLR:rosacyera, CRE:town
+, LOC:d/town/road/n1, POB:obj/player#25725
+zet 20, KLR:golem, CRE:ash
+, LOC:w/ash/shadow/enter, POB:obj/player#1042
+thrakadan 46, KLR:pastor, CRE:russkie
+, LOC:w/russkie/village/church/c3, POB:obj/player#3449
+khaos 67, KLR:apoc, CRE:MASTER
+, LOC:d/castle/deathscythe/h, POB:obj/player#16658
+azrhei 65, KLR:jaral, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#205
+alpha 75, KLR:wittaker, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#3569
+napa 45, KLR:threeteeth, CRE:world
+, LOC:d/world/etc/w12, POB:obj/player#10217
+verdilith 61, KLR:draiknor, CRE:jada
+, LOC:w/jada/fire/fire34, POB:obj/player#12248
+nebacanezer 48, KLR:azontin, CRE:myria
+, LOC:w/myria/lands/elf/elf25, POB:obj/player#15968
+derrick 91, KLR:nyarlthotep, CRE:MASTER
+, LOC:d/castle/deathscythe/i, POB:obj/player#17257
+grandal 45, KLR:elemental, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln63, POB:obj/player#14455
+xet 4, KLR:spider, CRE:leela
+, LOC:w/leela/web/rooms/rm7, POB:obj/player#24478
+xet 4, KLR:spider, CRE:leela
+, LOC:w/leela/web/rooms/rm7, POB:obj/player#24478
+derrick 90, KLR:ogre, CRE:jada
+, LOC:w/jada/lair/3lair25, POB:obj/player#1
+derrick 89, KLR:calasorn, CRE:eurale
+, LOC:w/eurale/udark/u33, POB:obj/player#1
+derrick 80, KLR:eraingar, CRE:eurale
+, LOC:w/eurale/cave/c21, POB:obj/player#12347
+zet 22, KLR:mage, CRE:sunmoonstar
+, LOC:w/sunmoonstar/quest/rooms/tow1_2_17, POB:obj/player#18534
+zet 21, KLR:mage, CRE:sunmoonstar
+, LOC:w/sunmoonstar/quest/rooms/tow1_2_17, POB:obj/player#18534
+merwin 84, KLR:khayman, CRE:MASTER
+, LOC:d/castle/moonstone/i, POB:obj/player#15664
+kaija 84, KLR:deckon, CRE:MASTER
+, LOC:w/jada/lair/cave5, POB:obj/player#2303
+boromir 50, KLR:ogre, CRE:jada
+, LOC:w/jada/lair/cave5, POB:obj/player#15073
+etoh 93, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#23898
+kelevandros 49, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#25704
+armando 46, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#26167
+alpha 74, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#21957
+kelevandros 48, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#25704
+armando 45, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#26167
+rufus 50, KLR:rufus, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#26724
+boromir 50, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#15073
+xangroth 51, KLR:hover, CRE:MASTER
+, LOC:w/vhorilen/ska/s2, POB:obj/player#445
+omdula 32, KLR:hover, CRE:MASTER
+, LOC:w/vhorilen/ska/s2, POB:obj/player#185
+tarwin 39, KLR:noble, CRE:vhorilen
+, LOC:w/vhorilen/port/p10, POB:obj/player#2384
+tarwin 38, KLR:guard, CRE:lohk
+, LOC:w/lohk/port/pal/m16, POB:obj/player#2384
+aurican 2, KLR:cat, CRE:myria
+, LOC:w/myria/newbie/new03, POB:obj/player#5729
+dann 2, KLR:golem, CRE:ash
+, LOC:w/ash/shadow/pit, POB:obj/player#8386
+dann 1, KLR:daniel, CRE:town
+, LOC:d/town/road/mainsqr, POB:obj/player#8386
+dann 1, KLR:daniel, CRE:town
+, LOC:d/town/road/mainsqr, POB:obj/player#8386
+dann 1, KLR:daniel, CRE:town
+, LOC:d/town/road/mainsqr, POB:obj/player#8386
+dann 1, KLR:daniel, CRE:town
+, LOC:d/town/road/mainsqr, POB:obj/player#8386
+dann 1, KLR:daniel, CRE:town
+, LOC:d/town/road/mainsqr, POB:obj/player#8386
+dann 1, KLR:daniel, CRE:town
+, LOC:d/town/road/mainsqr, POB:obj/player#8386
+faustus 42, KLR:elemental, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln83, POB:obj/player#6001
+lefend 86, KLR:slither, CRE:ash
+, LOC:w/ash/base/water/cave, POB:obj/player#5115
+aurican 2, KLR:miner, CRE:myria
+, LOC:w/myria/newbie/new24, POB:obj/player#5729
+aurican 2, KLR:miner, CRE:myria
+, LOC:w/myria/newbie/new24, POB:obj/player#5729
+boromir 51, KLR:chaoz, CRE:MASTER
+, LOC:w/monger/temple/temp13, POB:obj/player#10214
+boromir 50, KLR:jotto, CRE:MASTER
+, LOC:w/myria/yumi/maze/maz16, POB:obj/player#10214
+zephid 75, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#14504
+posideon 54, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#19982
+balinor 1, KLR:boar, CRE:leela
+, LOC:d/world/n/12, POB:obj/player#20724
+grendell 44, KLR:azrhei, CRE:MASTER
+, LOC:d/castle/sheol/e, POB:obj/player#14339
+tarwin 38, KLR:bewfurd, CRE:russkie
+, LOC:w/russkie/village/rooms/21, POB:obj/player#26761
+khaos 67, KLR:apoc, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#17974
+derrick 79, KLR:pellaeon, CRE:MASTER
+, LOC:d/world/w/23, POB:obj/player#33961
+apoc 67, KLR:vangelis, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#33467
+enilffo 2, KLR:mouse, CRE:myria
+, LOC:w/myria/newbie/new02, POB:obj/player#12
+jotto 100, KLR:grapler, CRE:ash
+, LOC:w/ash/base/air/cave, POB:obj/player#0
+orlandu 44, KLR:grapler, CRE:ash
+, LOC:w/ash/base/air/cave, POB:obj/player#1
+orlandu 43, KLR:orlandu, CRE:MASTER
+, LOC:w/ash/base/fire/up, POB:obj/player#1
+utlaim 1, KLR:vardrik, CRE:town
+, LOC:d/town/road/ewb, POB:obj/player#6056
+orlandu 44, KLR:guard, CRE:vhorilen
+, LOC:w/vhorilen/ska/s2, POB:obj/player#1
+lefend 85, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#15727
+cronos 2, KLR:cronos, CRE:MASTER
+, LOC:d/town/church/wchurch, POB:obj/player#1331
+pellaeon 79, KLR:zihweeg, CRE:world
+, LOC:d/world/etc/c9_2, POB:obj/player#3075
+lefend 84, KLR:jaral, CRE:MASTER
+, LOC:w/ash/base/federation/se, POB:obj/player#10107
+tritian 3, KLR:zkdasan, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar20, POB:obj/player#8008
+tritian 2, KLR:zkrichter, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar17, POB:obj/player#8008
+tritian 2, KLR:esuom, CRE:MASTER
+, LOC:w/zklomen/area51/rooms/ar17, POB:obj/player#8008
+aria 27, KLR:tarantula, CRE:leela
+, LOC:w/leela/web/rooms/rm24, POB:obj/player#11821
+xangroth 50, KLR:chaoz, CRE:MASTER
+, LOC:d/world/etc/g13, POB:obj/player#13712
+derek 51, KLR:haities, CRE:MASTER
+, LOC:w/russkie/village/rooms/20, POB:obj/player#5293
+balinor 4, KLR:badger, CRE:myria
+, LOC:w/myria/forest/fa10, POB:obj/player#166
+chaoz 97, KLR:fearin, CRE:MASTER
+, LOC:w/jada/water/water24, POB:obj/player#163
+verdilith 62, KLR:hover, CRE:MASTER
+, LOC:w/jada/water/water1, POB:obj/player#3417
+orlandu 46, KLR:stovek, CRE:myria
+, LOC:w/myria/newbie/shop, POB:obj/player#2130
+axel 1, KLR:baern, CRE:town
+, LOC:d/town/road/e3, POB:obj/player#9915
+xangroth 50, KLR:hover, CRE:MASTER
+, LOC:w/trent/town/town09, POB:obj/player#13698
+zephid 75, KLR:goom, CRE:MASTER
+, LOC:w/ash/base/alliance/2a, POB:obj/player#14194
+malkin 49, KLR:khaos, CRE:MASTER
+, LOC:d/town/road/e3, POB:obj/player#20583
+malkin 48, KLR:khaos, CRE:MASTER
+, LOC:d/town/road/e3, POB:obj/player#20583
+malkin 47, KLR:tritian, CRE:MASTER
+, LOC:d/town/road/e3, POB:obj/player#20583
+malkin 46, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 45, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 44, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 43, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 42, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 41, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 40, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 39, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 38, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 37, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 36, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 35, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 34, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 33, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 32, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 31, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 30, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 29, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 28, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 27, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 26, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 25, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 24, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 23, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 22, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 21, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 20, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 19, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 18, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 17, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 16, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 15, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 14, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 13, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 12, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 11, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 10, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 9, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 8, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 7, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 6, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 5, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 4, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 3, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 2, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 30, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 29, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 28, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 27, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 26, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 25, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 24, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 23, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 22, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 21, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 20, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 19, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 18, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 17, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 16, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 15, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 14, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 13, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 12, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 11, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 10, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 9, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 8, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 7, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 6, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 5, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 4, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 3, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 2, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 11, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 10, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 9, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 8, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 7, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 6, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 5, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 4, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 3, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 2, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 6, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 5, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 4, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 3, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 2, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 5, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 4, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 3, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 2, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 3, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 2, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 2, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+malkin 2, KLR:malkin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#20583
+octavian 52, KLR:nof, CRE:MASTER
+, LOC:w/zort/forest/cabin, POB:obj/player#24885
+octavian 51, KLR:nof, CRE:MASTER
+, LOC:d/town/castle/ca, POB:obj/player#24885
+homer 37, KLR:rufus, CRE:MASTER
+, LOC:d/town/road/e4, POB:obj/player#2
+armando 44, KLR:hover, CRE:MASTER
+, LOC:w/myria/newbie/vill3, POB:obj/player#1
+armando 43, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#1
+angelus 52, KLR:posideon, CRE:MASTER
+, LOC:d/town/road/e4, POB:obj/player#1449
+brody 82, KLR:zurog, CRE:eaton
+, LOC:w/eaton/swamp/rooms/z12, POB:obj/player#1483
+posideon 53, KLR:balthazar, CRE:trent
+, LOC:w/trent/mountain/mt18, POB:obj/player#2503
+cronos 12, KLR:tarantula, CRE:leela
+, LOC:w/leela/web/rooms/rm24, POB:obj/player#2964
+cronos 11, KLR:sentry, CRE:myria
+, LOC:w/myria/newbie/sgate, POB:obj/player#2964
+gohan 2, KLR:mouse, CRE:myria
+, LOC:w/myria/newbie/new02, POB:obj/player#14253
+tskrang 52, KLR:etoh, CRE:MASTER
+, LOC:w/vhorilen/plains/pln55, POB:obj/player#242
+inasad 71, KLR:etoh, CRE:MASTER
+, LOC:w/monger/temple/temp1, POB:obj/player#548
+chad 69, KLR:azrhei, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#2315
+theoden 67, KLR:hover, CRE:MASTER
+, LOC:d/world/f/7, POB:obj/player#3193
+parabola 58, KLR:azrhei, CRE:MASTER
+, LOC:d/world/h/6, POB:obj/player#6977
+alagorn 11, KLR:serpent, CRE:monger
+, LOC:w/monger/temple/cave/down, POB:obj/player#2639
+felyne 42, KLR:serpent, CRE:monger
+, LOC:w/monger/temple/cave/down, POB:obj/player#10330
+yodel 27, KLR:solerus, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln93, POB:obj/player#13802
+gojron 23, KLR:solerus, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln93, POB:obj/player#15691
+delcara 33, KLR:solerus, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln93, POB:obj/player#16260
+felyne 41, KLR:solerus, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln93, POB:obj/player#17259
+xangroth 49, KLR:solerus, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln93, POB:obj/player#17216
+ariel 50, KLR:chad, CRE:MASTER
+, LOC:w/russkie/village/rooms/12, POB:obj/player#22613
+tarwin 41, KLR:merlin, CRE:world
+, LOC:d/world/etc/g13, POB:obj/player#21160
+gojron 24, KLR:merlin, CRE:world
+, LOC:d/world/etc/g13, POB:obj/player#20716
+tarwin 41, KLR:merlin, CRE:world
+, LOC:d/world/etc/g13, POB:obj/player#21160
+xangroth 49, KLR:merlin, CRE:world
+, LOC:d/world/etc/g13, POB:obj/player#22989
+xangroth 48, KLR:merlin, CRE:world
+, LOC:d/world/etc/g13, POB:obj/player#22989
+shakira 65, KLR:balthazar, CRE:trent
+, LOC:w/trent/mountain/mt18, POB:obj/player#25964
+scotty 42, KLR:vines, CRE:jada
+, LOC:w/jada/glade/glade42, POB:obj/player#25531
+orlandu 45, KLR:haities, CRE:MASTER
+, LOC:d/world/r/18, POB:obj/player#215
+orlandu 44, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 43, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 42, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 41, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 40, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 39, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 38, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 37, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 36, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 35, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 34, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 33, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 32, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 31, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 30, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 29, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 28, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 27, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 26, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 25, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 24, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 23, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 22, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 21, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 20, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 19, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 18, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 17, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 16, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 15, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 14, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 13, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 12, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 11, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 10, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 9, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 8, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 7, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 6, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 5, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 4, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 3, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+orlandu 2, KLR:orlandu, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#215
+armando 42, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 41, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 40, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 39, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 38, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 37, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 36, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 35, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 34, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 33, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 32, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 31, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 30, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 29, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 28, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 27, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 26, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 25, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 24, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 23, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 22, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 21, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 20, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 19, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 18, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 17, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 16, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 15, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 14, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 13, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 12, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 11, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 10, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 9, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 8, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 7, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 6, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 5, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 4, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 3, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+armando 2, KLR:armando, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#3967
+arudius 46, KLR:mayor, CRE:jada
+, LOC:w/jada/htown/htown13, POB:obj/player#7207
+xai 57, KLR:knight, CRE:castle
+, LOC:d/castle/sheol/e, POB:obj/player#3977
+octavian 50, KLR:chaoz, CRE:MASTER
+, LOC:d/castle/sheol/i, POB:obj/player#7687
+octavian 50, KLR:aeacus, CRE:MASTER
+, LOC:w/trent/dwarf/d03, POB:obj/player#7687
+chaoz 97, KLR:haities, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#6469
+flinnt 1, KLR:tocierawar, CRE:town
+, LOC:d/town/road/n4, POB:obj/player#17659
+rufus 50, KLR:orn, CRE:trent
+, LOC:w/trent/town/town09, POB:obj/player#2708
+rufus 49, KLR:izzigi, CRE:monger
+, LOC:w/monger/serpent/castle/serp24, POB:obj/player#2708
+morgoth 70, KLR:nof, CRE:MASTER
+, LOC:d/world/e/20, POB:obj/player#17809
+xangroth 47, KLR:izzigi, CRE:monger
+, LOC:w/monger/serpent/castle/serp24, POB:obj/player#19020
+derek 51, KLR:nechochwyn, CRE:MASTER
+, LOC:d/castle/deathscythe/i, POB:obj/player#11732
+lurik 1, KLR:guard, CRE:town
+, LOC:d/town/road/egates, POB:obj/player#23068
+posideon 53, KLR:nof, CRE:MASTER
+, LOC:d/castle/adredus/h, POB:obj/player#20921
+azrhei 67, KLR:neiko, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#13721
+posideon 52, KLR:kapoacinth, CRE:eurale
+, LOC:w/eurale/udark/u20, POB:obj/player#102
+lanken 72, KLR:tritian, CRE:MASTER
+, LOC:d/castle/adredus/a, POB:obj/player#617
+nof 59, KLR:chaoz, CRE:MASTER
+, LOC:d/world/r/25, POB:obj/player#155
+nof 58, KLR:tritian, CRE:MASTER
+, LOC:d/castle/adredus/g, POB:obj/player#155
+nof 57, KLR:tritian, CRE:MASTER
+, LOC:d/town/road/e3, POB:obj/player#155
+omdula 41, KLR:myrilel, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln89, POB:obj/player#3619
+gojron 29, KLR:tarantula, CRE:leela
+, LOC:w/leela/web/rooms/rm24, POB:obj/player#14986
+nof 56, KLR:zephid, CRE:MASTER
+, LOC:d/world/r/23, POB:obj/player#18394
+haities 88, KLR:zephid, CRE:MASTER
+, LOC:d/castle/adredus/g, POB:obj/player#18589
+hover 100, KLR:verdilith, CRE:MASTER
+, LOC:w/zklomen/area51/rooms/ar28, POB:obj/player#18342
+felyne 43, KLR:foust, CRE:lohk
+, LOC:w/lohk/cit/rooms/church1, POB:obj/player#21243
+khayman 97, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#3774
+derrick 78, KLR:hover, CRE:MASTER
+, LOC:w/ash/base/life/up, POB:obj/player#3457
+merwin 83, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#5818
+scotty 43, KLR:elemental, CRE:vhorilen
+, LOC:w/vhorilen/plains/pln39, POB:obj/player#545
+yodel 34, KLR:xaagoth, CRE:monger
+, LOC:w/monger/temple/templend, POB:obj/player#2076
+nechochwyn 52, KLR:guard, CRE:jada
+, LOC:w/jada/water/water32, POB:obj/player#6550
+lefend 84, KLR:zurog, CRE:eaton
+, LOC:w/eaton/swamp/rooms/z12, POB:obj/player#18874
+randy 43, KLR:serpent, CRE:monger
+, LOC:w/monger/temple/cave/down, POB:obj/player#18575
+randy 42, KLR:serpent, CRE:monger
+, LOC:w/monger/temple/cave/down, POB:obj/player#18575
+syros 2, KLR:mouse, CRE:myria
+, LOC:w/myria/newbie/new02, POB:obj/player#19592
+lews 45, KLR:necriphax, CRE:trent
+, LOC:w/trent/mountain/mt19, POB:obj/player#13774
+tarwin 46, KLR:disease, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar30, POB:obj/player#18876
+derrick 77, KLR:adley, CRE:eaton
+, LOC:w/eaton/swamp/rooms/z11, POB:obj/player#29341
+azrhei 68, KLR:guard, CRE:town
+, LOC:d/town/castle/cb, POB:obj/player#27
+nebacanezer 51, KLR:calasorn, CRE:eurale
+, LOC:w/eurale/udark/u33, POB:obj/player#43684
+xian 29, KLR:ebony, CRE:world
+, LOC:d/world/y/13, POB:obj/player#39191
+tarwin 45, KLR:azontin, CRE:myria
+, LOC:w/myria/lands/elf/elf25, POB:obj/player#18876
+tarwin 44, KLR:azontin, CRE:myria
+, LOC:w/myria/lands/elf/elf25, POB:obj/player#18876
+xian 35, KLR:bear, CRE:jada
+, LOC:w/jada/lair/3lair21, POB:obj/player#51777
+leymir 27, KLR:tarantula, CRE:leela
+, LOC:w/leela/web/rooms/rm24, POB:obj/player#16813
+zoso 51, KLR:zkluna, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar29, POB:obj/player#24832
+xangroth 49, KLR:merlin, CRE:world
+, LOC:d/world/etc/g13, POB:obj/player#39396
+devus 72, KLR:starayne, CRE:eurale
+, LOC:w/eurale/dungeon/q3, POB:obj/player#60
+arudius 50, KLR:sarge, CRE:myria
+, LOC:w/myria/keep/court, POB:obj/player#702
+erluk 33, KLR:traveler, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#13888
+pellaeon 79, KLR:necriphax, CRE:trent
+, LOC:w/trent/mountain/mt19, POB:obj/player#23815
+fellwar 34, KLR:fellwar, CRE:MASTER
+, LOC:w/trent/dwarf/d06, POB:obj/player#21865
+nof 52, KLR:nof, CRE:MASTER
+, LOC:w/myria/yumi/pala/halla, POB:obj/player#24945
+kilimar 89, KLR:zihweeg, CRE:world
+, LOC:d/world/etc/c9_2, POB:obj/player#32863
+felyne 44, KLR:weed, CRE:jada
+, LOC:w/jada/water/water6, POB:obj/player#30656
+inasad 74, KLR:inasad, CRE:MASTER
+, LOC:w/vhorilen/port/roof/r20, POB:obj/player#35202
+aeacus 63, KLR:carlyn, CRE:myria
+, LOC:w/myria/lands/ruins/r02, POB:obj/player#47365
+tarwin 45, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#53784
+josiah 16, KLR:famine, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar22, POB:obj/player#59827
+haities 91, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#52456
+xangroth 49, KLR:balthazar, CRE:trent
+, LOC:w/trent/mountain/mt18, POB:obj/player#1612
+felyne 44, KLR:balthazar, CRE:trent
+, LOC:w/trent/mountain/mt18, POB:obj/player#627
+catherine 51, KLR:bouncer, CRE:vhorilen
+, LOC:w/vhorilen/temple/t17, POB:obj/player#30
+goom 84, KLR:cook, CRE:castle
+, LOC:d/castle/avalon/e, POB:obj/player#278
+xet 14, KLR:golem, CRE:ash
+, LOC:w/ash/shadow/ai_n, POB:obj/player#676
+trisha 54, KLR:guard, CRE:shaidar
+, LOC:w/shaidar/licit/gate, POB:obj/player#16352
+kayla 85, KLR:marorn, CRE:eurale
+, LOC:w/eurale/pyramid/p32, POB:obj/player#51439
+derek 56, KLR:silanios, CRE:town
+, LOC:d/town/castle/cd, POB:obj/player#53801
+vino 40, KLR:necriphax, CRE:trent
+, LOC:w/trent/mountain/mt19, POB:obj/player#57660
+atreides 90, KLR:guard, CRE:jada
+, LOC:w/jada/fire/fire1, POB:obj/player#547
+grendell 69, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#41
+catherine 53, KLR:elite, CRE:vhorilen
+, LOC:w/vhorilen/ska/s7, POB:obj/player#1585
+nyarlthotep 83, KLR:calvhere, CRE:lohk
+, LOC:w/lohk/port/pal/m26, POB:obj/player#9606
+esuom 73, KLR:knight, CRE:castle
+, LOC:d/castle/dolomite/e, POB:obj/player#14167
+karnak 3, KLR:karnak, CRE:MASTER
+, LOC:d/town/church/aboard, POB:obj/player#25285
+handin 15, KLR:musician, CRE:vhorilen
+, LOC:w/vhorilen/temple/t17, POB:obj/player#19505
+morgoth 72, KLR:kapoacinth, CRE:eurale
+, LOC:w/eurale/udark/u20, POB:obj/player#39242
+inasad 76, KLR:minotaur, CRE:eurale
+, LOC:w/eurale/udark/u9, POB:obj/player#26155
+inasad 75, KLR:minotaur, CRE:eurale
+, LOC:w/eurale/udark/u9, POB:obj/player#26155
+xian 37, KLR:spawn, CRE:ash
+, LOC:w/ash/base/chaos/cave, POB:obj/player#39976
+ricerocket 1, KLR:mouse, CRE:myria
+, LOC:w/myria/newbie/new02, POB:obj/player#46150
+vino 39, KLR:watcher, CRE:vhorilen
+, LOC:w/vhorilen/port/p1, POB:obj/player#283
+boromir 61, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#0
+haities 92, KLR:zkbrak, CRE:zklomen
+, LOC:w/zklomen/area51/rooms/ar2, POB:obj/player#8870
+azrhei 71, KLR:necriphax, CRE:trent
+, LOC:w/trent/mountain/mt19, POB:obj/player#15325
+xangroth 48, KLR:guard, CRE:town
+, LOC:d/town/castle/ca, POB:obj/player#43405
+darien 1, KLR:brownie, CRE:myria
+, LOC:w/myria/newbie/new05, POB:obj/player#21031
+xet 33, KLR:tarantula, CRE:leela
+, LOC:w/leela/web/rooms/rm24, POB:obj/player#24134
+jottto 1, KLR:jottto, CRE:MASTER
+, LOC:w/ash/base/air/cave, POB:obj/player#28108
+morgoth 74, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#46593
+xet 41, KLR:horse, CRE:myria
+, LOC:w/myria/keep/stabe, POB:obj/player#52681
+silvex 97, KLR:zihweeg, CRE:world
+, LOC:d/world/etc/c9_2, POB:obj/player#18195
+morgoth 74, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#21836
+xangroth 48, KLR:eraingar, CRE:eurale
+, LOC:w/eurale/cave/c21, POB:obj/player#7190
+xangroth 47, KLR:elite, CRE:eurale
+, LOC:w/eurale/cave/c20, POB:obj/player#7190
+omdula 43, KLR:wyrindren, CRE:vhorilen
+, LOC:w/vhorilen/port/roof/r21, POB:obj/player#14499
+roger 48, KLR:wyrindren, CRE:vhorilen
+, LOC:w/vhorilen/port/roof/r21, POB:obj/player#7455
+haities 92, KLR:knight, CRE:shaidar
+, LOC:w/shaidar/licit/cg17, POB:obj/player#16875
+tybalt 34, KLR:cinder, CRE:ash
+, LOC:w/ash/base/fire/cave, POB:obj/player#18437
+adonovan 10, KLR:crawler, CRE:myria
+, LOC:w/myria/newbie/new62, POB:obj/player#22360
+bocho 46, KLR:bracht, CRE:myria
+, LOC:w/myria/keep/keepc, POB:obj/player#31924
+piccolo 100, KLR:cinder, CRE:ash
+, LOC:w/ash/base/fire/cave, POB:obj/player#36356
+nechochwyn 66, KLR:hydra, CRE:jada
+, LOC:w/jada/lair/3lair22, POB:obj/player#48447
+octavian 54, KLR:harry, CRE:world
+, LOC:d/world/etc/m4, POB:obj/player#7907
+xian 39, KLR:xuma, CRE:inn
+, LOC:d/inn/code/UPSTAIRS, POB:obj/player#9286
+nilgo 100, KLR:blix, CRE:ash
+, LOC:w/ash/base/order/cave, POB:obj/player#36197
+morgoth 76, KLR:draiknor, CRE:jada
+, LOC:w/jada/fire/fire34, POB:obj/player#4325
+boromir 67, KLR:necriphax, CRE:trent
+, LOC:w/trent/mountain/mt19, POB:obj/player#7127
+gojron 34, KLR:foust, CRE:lohk
+, LOC:w/lohk/cit/rooms/church1, POB:obj/player#7845
+silvex 100, KLR:mehredar, CRE:ash
+, LOC:w/ash/base/death/cave, POB:obj/player#43427
+kilimar 95, KLR:mehredar, CRE:ash
+, LOC:w/ash/base/death/cave, POB:obj/player#17577
+jottto 10, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#21348
+jottto 9, KLR:zanax, CRE:ash
+, LOC:w/ash/base/life/cave, POB:obj/player#21348
+khaos 74, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#26230
+devus 78, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#26912
+driox 52, KLR:elena, CRE:russkie
+, LOC:w/russkie/village/rooms/cafe, POB:obj/player#34820
+glareck 77, KLR:spectre, CRE:myria
+, LOC:w/myria/keep/haunb, POB:obj/player#36012
+dermon 1, KLR:guard, CRE:town
+, LOC:d/town/castle/ca, POB:obj/player#6476
+wittaker 77, KLR:balthazar, CRE:trent
+, LOC:w/trent/mountain/mt18, POB:obj/player#25052
+felyne 47, KLR:mugger, CRE:myria
+, LOC:w/myria/keep/alley, POB:obj/player#1
+nechochwyn 68, KLR:zurog, CRE:eaton
+, LOC:w/eaton/swamp/rooms/z12, POB:obj/player#0
+esuom 92, KLR:blix, CRE:ash
+, LOC:w/ash/base/order/cave, POB:obj/player#2026
+kayla 84, KLR:giant, CRE:jada
+, LOC:w/jada/lair/3lair6, POB:obj/player#27355
+azrhei 80, KLR:derhavrei, CRE:vhorilen
+, LOC:w/vhorilen/temple/t27, POB:obj/player#30089
+aeacus 68, KLR:necriphax, CRE:trent
+, LOC:w/trent/mountain/mt19, POB:obj/player#38629
+tarwin 53, KLR:kenshiro, CRE:MASTER
+, LOC:d/world/g/25, POB:obj/player#1460
+vino 43, KLR:vino, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#519
+tarwin 52, KLR:tarwin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#1905
+tarwin 51, KLR:tarwin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#1905
+tarwin 50, KLR:tarwin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#1905
+tarwin 49, KLR:tarwin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#1905
+tarwin 48, KLR:tarwin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#1905
+tarwin 47, KLR:tarwin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#1905
+tarwin 46, KLR:tarwin, CRE:MASTER
+, LOC:d/town/church/church, POB:obj/player#1905

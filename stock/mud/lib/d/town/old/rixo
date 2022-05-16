@@ -1,0 +1,38 @@
+#include <ansi.h>
+#include <mudlib.h>
+inherit TEACHER;
+
+reset(arg) {
+    ::reset(arg);
+    if(arg) return;
+    add_object("WATER_OB","d/town/obj/WATER_OB");
+    set_name("rixo");
+    set_alt_name("female");
+    set_short(BOLD+BLUE_F+"blue robed female"+NORM);
+    set_long(
+"Before you stands a drow female in a blue robe adorned with various\n"+
+"religious artifacts. She seems interested in your curiousity.\n");
+    set_race("drow");
+    set_helpers(({ "", ({ "ragmi", }), }));   
+    set_gender(2);
+    load_chat(2,({
+	"Rixo chants a simple prayer in a foreign tongue.\n",
+	"Rixo looks up, noticing your presence, then returns to her prayer.\n",
+	"Rixo says: You wish to learn the power of the elements?\n"
+        "Rixo says: adventures below the city are so often fatal..\n",
+        "*blush",
+      }));
+    load_spells(10,({
+      "waterlance","waterwave","heal","blast",
+      }));
+    set_train_level(9); 
+    set_stat_int(35); 
+    set_stat_str("wisdom"); 
+    set_class_list(({
+	"skills", ({ }),
+	"spells", ({ }),
+      }));
+    set_level(90);
+    set_half_exp(1);
+    set_magic_resist(50);
+}

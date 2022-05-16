@@ -1,0 +1,8 @@
+
+    1 : squire             (A new member of a house)
+    2 : knight             (A full member of a house)    
+    3 : ambassador         (Can recruit/dismiss/promote knights and squires)
+    4 : regent             (The leader has full access to commands)
+
+
+

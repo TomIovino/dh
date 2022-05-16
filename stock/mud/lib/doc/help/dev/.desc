@@ -1,0 +1,30 @@
+DESCRIPTION-ASH-5.12.97
+
+descriptions: 
+     [1] ***short***
+         [I] ITEMS.
+           a. always use lowercase.
+           b. always have atleast 2 adjectives.
+           c. refrain from using "a" or "an" to start a description.
+           d. Example: set_short("fancy black cape");
+         [II] NPCS.
+           a. always use lowercase.
+           b. always have atleast 1 adjective.
+           c. refrain from using "a" or "an" to start a description.
+           d. NO NAMES ARE ALLOWED IN SHORT DESCS ANYMORE.
+           e. Example: set_short("elven sentry"); 
+         [III] ROOMS.
+           a. a few words of describing the area.
+           b. refrain from using "a" or "an" to start a description.
+           c. Example: set_short("densely forested hills");    
+     [2] ***long***
+         [1] GENERAL
+           a. the shortest long description should be 2 FULL lines.
+              the average long description for an area will be 3 or
+              more lines, please dont make descriptions longer then
+              6 lines unless it is extremly special.
+           b. avoid ALL use of third person speech when creating a 
+              object/npc/room description.
+                 NONOS "You feel", "You see", <- BAD
+           c. refer to /doc/mudlib/quality for more help on longs.
+           

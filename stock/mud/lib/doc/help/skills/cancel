@@ -1,0 +1,11 @@
+
+Spell    : cancel
+Type     : int
+Mana     : 60
+
+When this spell is successfully cast on its victim it will remove
+spell effects of defender, avenger, reflect, and absorb.
+
+
+
+

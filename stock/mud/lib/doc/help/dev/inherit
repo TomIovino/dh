@@ -1,0 +1,16 @@
+INHERIT.ASH.1.12.98 
+                               "a small peek at the big picture"
+                     BASE
+                     |___________________________________
+                     |                                  |
+                     |                        __________|__________
+                     |                       |          |          |
+                     LIVING               CONSUME    TREASURE    ROOM
+     ________________|__________             |          |          |
+    |                           |        ____|___       |          |
+    |                           |       |        |      |          |
+  PLAYER                     MONSTER   FOOD    DRINK    |        CHURCH     
+    |                           |                       |          
+    |          _________________|_______________        |_______
+    |         |          |            |         |       |       |
+  WIZARD    BANKEEP  SHOPKEEP       BARKEEP  TEACHER    WEAPON  ARMOUR

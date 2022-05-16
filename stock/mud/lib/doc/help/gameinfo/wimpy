@@ -1,0 +1,8 @@
+
+command: wimpy <#>
+
+Wimpy sets the number of hit points at which you will attempt to flee  
+from battle. It is a very good idea to use this command when you are first
+starting out. Your maximum wimpy is based off your Sense stat.
+
+see also: "consider"
