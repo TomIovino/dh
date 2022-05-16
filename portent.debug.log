@@ -1,0 +1,141 @@
+2015.04.07 06:10:49 LDMud 3.3.720 (Build 3011) (stable)
+2015.04.07 06:10:49 Attempting to start erq '/home/mud/nof/mud/bin/erq'.
+2015.04.07 06:10:49 Hostname 'portent.digital-genesis.com' address '216.136.9.8'
+2015.04.07 06:10:49 UDP recv-socket requested for port: 25001
+2015.04.07 06:10:50 LDMud ready for users.
+2015.04.07 06:52:40 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 06:52:40 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 06:52:40 Error in process_objects().
+2015.04.07 06:52:40 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 06:52:40 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 06:52:40 Error in process_objects().
+2015.04.07 07:22:42 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 07:22:42 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 07:22:42 Error in process_objects().
+2015.04.07 07:22:42 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 07:22:42 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 07:22:42 Error in process_objects().
+2015.04.07 07:52:44 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 07:52:44 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 07:52:44 Error in process_objects().
+2015.04.07 07:52:44 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 07:52:44 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 07:52:44 Error in process_objects().
+2015.04.07 08:22:46 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 08:22:46 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 08:22:46 Error in process_objects().
+2015.04.07 08:22:46 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 08:22:46 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 08:22:46 Error in process_objects().
+2015.04.07 08:52:48 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 08:52:48 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 08:52:48 Error in process_objects().
+2015.04.07 08:52:48 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 08:52:48 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 08:52:48 Error in process_objects().
+2015.04.07 09:22:50 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 09:22:50 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 09:22:50 Error in process_objects().
+2015.04.07 09:22:50 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 09:22:50 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 09:22:50 Error in process_objects().
+2015.04.07 09:52:52 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 09:52:52 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 09:52:52 Error in process_objects().
+2015.04.07 09:52:52 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 09:52:52 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 09:52:52 Error in process_objects().
+2015.04.07 10:22:54 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 10:22:54 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 10:22:54 Error in process_objects().
+2015.04.07 10:22:54 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 10:22:54 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 10:22:54 Error in process_objects().
+2015.04.07 10:52:56 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 10:52:56 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 10:52:56 Error in process_objects().
+2015.04.07 10:52:56 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 10:52:56 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 10:52:56 Error in process_objects().
+2015.04.07 11:22:58 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 11:22:58 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 11:22:58 Error in process_objects().
+2015.04.07 11:22:58 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 11:22:58 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 11:22:58 Error in process_objects().
+2015.04.07 11:53:00 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 11:53:00 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 11:53:00 Error in process_objects().
+2015.04.07 11:53:00 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 11:53:00 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 11:53:00 Error in process_objects().
+2015.04.07 12:23:02 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 12:23:02 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 12:23:02 Error in process_objects().
+2015.04.07 12:23:02 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 12:23:02 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 12:23:02 Error in process_objects().
+2015.04.07 12:53:04 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 12:53:04 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 12:53:04 Error in process_objects().
+2015.04.07 12:53:04 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 12:53:04 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 12:53:04 Error in process_objects().
+2015.04.07 13:23:06 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 13:23:06 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 13:23:06 Error in process_objects().
+2015.04.07 13:23:06 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 13:23:06 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 13:23:06 Error in process_objects().
+2015.04.07 13:53:08 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 13:53:08 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 13:53:08 Error in process_objects().
+2015.04.07 13:53:08 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 13:53:08 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 13:53:08 Error in process_objects().
+2015.04.07 14:23:10 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 14:23:10 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 14:23:10 Error in process_objects().
+2015.04.07 14:23:10 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 14:23:10 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 14:23:10 Error in process_objects().
+2015.04.07 14:53:12 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 14:53:12 program: cmds/skills/backstab.c, object: cmds/skills/backstab line 18
+'       clean_up' in 'cmds/skills/backstab.c' ('cmds/skills/backstab') line 18
+2015.04.07 14:53:12 Error in process_objects().
+2015.04.07 14:53:12 Bad arg 1 to call_other(): got 'number', expected 'string/array/object'.
+2015.04.07 14:53:12 program: cmds/skills/circle.c, object: cmds/skills/circle line 21
+'       clean_up' in 'cmds/skills/circle.c' ('  cmds/skills/circle') line 21
+2015.04.07 14:53:12 Error in process_objects().
